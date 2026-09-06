@@ -35,7 +35,6 @@ from poetry.analytics import (
     structure_breakdown_counts,
     structure_type_counts,
     summarize,
-    title_counts,
     word_counts,
 )
 from poetry.json_repository import JsonPoemRepository
@@ -1037,46 +1036,25 @@ with explorer_tab:
 
 with quality_tab:
     duplicates = duplicate_text_groups(filtered_poems)
-    repeated_titles = [
-        (title, count)
-        for title, count in title_counts(filtered_poems)
-        if count > 1
-    ]
-    quality_metrics = st.columns(2)
-    quality_metrics[0].metric("完全相同正文组", len(duplicates))
-    quality_metrics[1].metric("重复题目", len(repeated_titles))
-
-    duplicate_column, title_column = st.columns(2)
-    with duplicate_column:
-        st.subheader("完全相同正文")
-        if duplicates:
-            duplicate_rows = [
-                {
-                    "作品数": len(group),
-                    "作品": "；".join(
-                        f"{poem.title}（{poem.author}）" for poem in group
-                    ),
-                }
-                for group in duplicates
-            ]
-            st.dataframe(
-                pd.DataFrame(duplicate_rows),
-                hide_index=True,
-                width="stretch",
-            )
-        else:
-            st.success("没有发现完全相同的正文。")
-
-    with title_column:
-        st.subheader("重复题目")
-        if repeated_titles:
-            st.dataframe(
-                pd.DataFrame(repeated_titles, columns=["题目", "作品数"]),
-                hide_index=True,
-                width="stretch",
-            )
-        else:
-            st.success("没有重复题目。")
+    st.metric("完全相同正文组", len(duplicates))
+    st.subheader("完全相同正文")
+    if duplicates:
+        duplicate_rows = [
+            {
+                "作品数": len(group),
+                "作品": "；".join(
+                    f"{poem.title}（{poem.author}）" for poem in group
+                ),
+            }
+            for group in duplicates
+        ]
+        st.dataframe(
+            pd.DataFrame(duplicate_rows),
+            hide_index=True,
+            width="stretch",
+        )
+    else:
+        st.success("没有发现完全相同的正文。")
 
 active_drilldown = st.session_state.get("active_drilldown")
 if active_drilldown:

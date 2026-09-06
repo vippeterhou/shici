@@ -14,7 +14,7 @@ datasets.
 - Dedicated format-distribution tab
 - Clickable chart drill-downs that open matching poems in a modal
 - Interactive poem catalog and reader
-- Duplicate-text and repeated-title quality checks
+- Duplicate-text quality checks
 
 ## Run locally
 
