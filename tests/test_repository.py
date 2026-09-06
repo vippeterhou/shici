@@ -3,7 +3,7 @@ from pathlib import Path
 from poetry.json_repository import JsonPoemRepository
 
 
-DATA_PATH = Path(__file__).parents[1] / "data" / "唐诗三百首.json"
+DATA_PATH = Path(__file__).parents[1] / "data" / "tangshisanbaishou.json"
 
 
 def test_repository_loads_all_poems() -> None:

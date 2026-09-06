@@ -24,7 +24,7 @@ from poetry.analytics import (
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
 
-DATA_PATH = Path(__file__).parent / "data" / "唐诗三百首.json"
+DATA_PATH = Path(__file__).parent / "data" / "tangshisanbaishou.json"
 
 st.set_page_config(
     page_title="唐詩三百首資料儀表板",

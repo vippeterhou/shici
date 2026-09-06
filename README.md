@@ -30,7 +30,7 @@ pytest -q
 
 ## Architecture
 
-`JsonPoemRepository` loads `data/唐诗三百首.json`, while
+`JsonPoemRepository` loads `data/tangshisanbaishou.json`, while
 `poetry/analytics.py` contains framework-independent filtering and aggregation
 logic. A future Supabase repository can replace JSON storage without coupling
 the dashboard to a specific data source.
