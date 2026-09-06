@@ -1,5 +1,6 @@
 from poetry.analytics import (
     author_counts,
+    bigram_counts,
     character_counts,
     duplicate_text_groups,
     filter_poems,
@@ -10,6 +11,7 @@ from poetry.analytics import (
     line_length_type,
     line_length_type_counts,
     poem_character_count,
+    poems_containing_bigram,
     poems_containing_character,
     poems_in_length_bucket,
     poems_containing_word,
@@ -148,6 +150,23 @@ def test_word_counts_exclude_single_characters_and_non_han_tokens() -> None:
     assert word_counts((poem,)) == [("明月", 2)]
 
 
+def test_bigram_counts_include_overlaps_without_crossing_punctuation() -> None:
+    poem = Poem(
+        id="bigrams",
+        title="二字组合",
+        author="作者",
+        paragraphs=("明月明月，月光。",),
+        format=FIVE_CHARACTER_FORMAT,
+    )
+
+    assert bigram_counts((poem,)) == [
+        ("明月", 2),
+        ("月明", 1),
+        ("月光", 1),
+    ]
+    assert poems_containing_bigram((poem,), "月明") == [poem]
+
+
 def test_format_analytics_and_drilldowns() -> None:
     assert sentence_count_distribution(POEMS) == [(1, 1), (2, 2)]
     assert line_length_type_counts(POEMS) == [("五言", 2), ("七言", 1)]
@@ -156,10 +175,10 @@ def test_format_analytics_and_drilldowns() -> None:
         (2, "五言", 2),
     ]
     assert line_length_type(POEMS[0]) == "七言"
-    assert structure_type(POEMS[1]) == "其他五言"
+    assert structure_type(POEMS[1]) == "五言其他"
     assert structure_type_counts(POEMS) == [
-        ("其他五言", 2),
-        ("其他七言", 1),
+        ("五言其他", 2),
+        ("七言其他", 1),
     ]
     assert structure_breakdown_counts(POEMS) == [
         ("五言", "其他句数", 2),
@@ -168,7 +187,7 @@ def test_format_analytics_and_drilldowns() -> None:
     assert poems_with_sentence_count(POEMS, 2) == list(POEMS[1:])
     assert poems_with_line_length_type(POEMS, "七言") == [POEMS[0]]
     assert poems_with_format_combination(POEMS, 2, "五言") == list(POEMS[1:])
-    assert poems_with_structure_type(POEMS, "其他五言") == list(POEMS[1:])
+    assert poems_with_structure_type(POEMS, "五言其他") == list(POEMS[1:])
     assert poems_with_structure_breakdown(
         POEMS,
         "五言",
@@ -264,6 +283,12 @@ def test_labels_other_uniform_line_lengths_with_specific_number() -> None:
     assert line_length_type(twenty_eight_character_poem) == "二十八言"
     assert line_length_type_counts(poems) == [("四言", 1), ("二十八言", 1)]
     assert structure_type_counts(poems) == [("四言", 1), ("二十八言", 1)]
+    assert structure_type_counts((*poems, *POEMS)) == [
+        ("四言", 1),
+        ("五言其他", 2),
+        ("七言其他", 1),
+        ("二十八言", 1),
+    ]
 
 
 def test_finds_exact_duplicate_text() -> None:

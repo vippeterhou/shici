@@ -1,4 +1,4 @@
-# 唐诗三百首数据仪表板
+# 唐诗数据概览
 
 A Streamlit dashboard for exploring the bundled 唐诗三百首 and 全唐诗
 datasets.

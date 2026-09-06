@@ -12,14 +12,6 @@ from opencc import OpenCC
 from .models import Poem
 from .text import is_han_character
 
-BASE_STRUCTURE_TYPE_ORDER = [
-    "五言四句",
-    "五言八句",
-    "其他五言",
-    "七言四句",
-    "七言八句",
-    "其他七言",
-]
 SENTENCE_COUNT_GROUP_ORDER = ["四句", "八句", "其他句数"]
 SENTENCE_COUNT_EXACT_LIMIT = 32
 SENTENCE_COUNT_RANGES = (
@@ -227,28 +219,36 @@ def structure_type(poem: Poem) -> str:
         sentence_name = {4: "四", 8: "八"}[poem.format.sentence_count]
         return f"{length_type}{sentence_name}句"
     if length_type in {"五言", "七言"}:
-        return f"其他{length_type}"
+        return f"{length_type}其他"
     return length_type
 
 
 def structure_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     counts = Counter(structure_type(poem) for poem in poems)
-    result = [
-        (structure_name, counts[structure_name])
-        for structure_name in BASE_STRUCTURE_TYPE_ORDER
-        if counts[structure_name]
-    ]
-    other_lengths = sorted(
+    line_lengths = sorted(
         {
             poem.format.uniform_sentence_length
             for poem in poems
-            if poem.format.uniform_sentence_length not in {None, 5, 7}
+            if poem.format.uniform_sentence_length is not None
         }
     )
-    result.extend(
-        (line_length_label(length), counts[line_length_label(length)])
-        for length in other_lengths
-    )
+    result: list[tuple[str, int]] = []
+    for length in line_lengths:
+        length_type = line_length_label(length)
+        structure_names = (
+            [
+                f"{length_type}四句",
+                f"{length_type}八句",
+                f"{length_type}其他",
+            ]
+            if length in {5, 7}
+            else [length_type]
+        )
+        result.extend(
+            (structure_name, counts[structure_name])
+            for structure_name in structure_names
+            if counts[structure_name]
+        )
     if counts["杂言"]:
         result.append(("杂言", counts["杂言"]))
     return result
@@ -365,6 +365,21 @@ def character_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     return counter.most_common()
 
 
+def bigram_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    counter: Counter[str] = Counter()
+    for poem in poems:
+        for paragraph in poem.paragraphs:
+            counter.update(
+                paragraph[index : index + 2]
+                for index in range(len(paragraph) - 1)
+                if all(
+                    is_han_character(character)
+                    for character in paragraph[index : index + 2]
+                )
+            )
+    return counter.most_common()
+
+
 def poem_words(poem: Poem) -> list[str]:
     original_text = poem_text(poem)
     segmentation_text = TRADITIONAL_TO_SIMPLIFIED.convert(original_text)
@@ -396,6 +411,21 @@ def poems_containing_word(
     if len(word) < 2 or not all(is_han_character(character) for character in word):
         raise ValueError("word must contain at least two Han characters")
     return [poem for poem in poems if word in poem_text(poem)]
+
+
+def poems_containing_bigram(
+    poems: Sequence[Poem],
+    bigram: str,
+) -> list[Poem]:
+    if len(bigram) != 2 or not all(
+        is_han_character(character) for character in bigram
+    ):
+        raise ValueError("bigram must contain exactly two Han characters")
+    return [
+        poem
+        for poem in poems
+        if any(bigram in paragraph for paragraph in poem.paragraphs)
+    ]
 
 
 def length_distribution(

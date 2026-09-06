@@ -11,6 +11,7 @@ import streamlit as st
 
 from poetry.analytics import (
     author_counts,
+    bigram_counts,
     character_counts,
     duplicate_text_groups,
     filter_poems,
@@ -18,6 +19,7 @@ from poetry.analytics import (
     format_combination_counts,
     line_length_type_counts,
     poem_character_count,
+    poems_containing_bigram,
     poems_containing_character,
     poems_containing_word,
     poems_with_format_bucket_combination,
@@ -59,16 +61,14 @@ CORPORA = {
 }
 DEFAULT_CORPORA = ["唐诗三百首"]
 DATA_SCHEMA_VERSION = 3
-AUTHOR_PREVIEW_LIMIT = 20
+AUTHOR_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
 FREQUENCY_BAR_HEIGHT = 22
-FREQUENCY_TABLE_ROW_HEIGHT = 21
-DATAFRAME_HEADER_HEIGHT = 38
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
 
 st.set_page_config(
-    page_title="唐诗三百首数据仪表板",
+    page_title="唐诗数据概览",
     page_icon="诗",
     layout="wide",
 )
@@ -90,6 +90,15 @@ def cached_word_counts(
 ) -> list[tuple[str, int]]:
     _ = cache_key
     return word_counts(_selected_poems)
+
+
+@st.cache_data(show_spinner=False, max_entries=8)
+def cached_bigram_counts(
+    cache_key: tuple[object, ...],
+    _selected_poems: tuple[Poem, ...],
+) -> list[tuple[str, int]]:
+    _ = cache_key
+    return bigram_counts(_selected_poems)
 
 
 def corpus_modified_time_ns(path: Path) -> int:
@@ -328,21 +337,18 @@ filtered_poems = filter_poems(
 )
 summary = summarize(filtered_poems)
 
-st.title("唐诗数据仪表板")
-st.caption(f"当前数据集：{'、'.join(selected_corpora)}")
-st.caption("探索作者、格式、常用字与数据质量")
+st.markdown("## 唐诗数据概览")
+st.markdown(
+    f"**{'、'.join(selected_corpora)}**　·　"
+    f"**{summary.poem_count:,}** 首诗　·　"
+    f"**{summary.author_count:,}** 位作者　·　"
+    f"**{summary.character_count:,}** 字"
+)
 if len(selected_corpora) > 1:
     st.info(
-        "合并统计按原始作者名精确匹配，作者异名不会自动合并；"
-        "两个数据集中的相同诗作也不会自动去重，因此可能重复计数。"
-        "仅有异体字、繁简或标点差异的诗作也会被视为不同记录。"
+        "合并时作者按原名统计，异名不合并；重复诗作不去重，"
+        "异体字、繁简或标点差异也视为不同记录。"
     )
-
-metric_columns = st.columns(3)
-metric_columns[0].metric("诗作", f"{summary.poem_count:,}")
-metric_columns[1].metric("作者", f"{summary.author_count:,}")
-metric_columns[2].metric("总字数", f"{summary.character_count:,}")
-
 if not filtered_poems:
     st.warning("目前的筛选条件没有符合的诗作。")
     st.stop()
@@ -542,53 +548,52 @@ with format_tab:
             selection_mode="combination_selection",
         )
     st.divider()
-    line_type_column, structure_type_column = st.columns(2)
-
-    with line_type_column:
-        st.subheader("每句字数类型")
-        line_type_data = with_percentage(
-            pd.DataFrame(
-                line_length_type_counts(filtered_poems),
-                columns=["类型", "诗作数"],
+    st.subheader("每句字数类型")
+    line_type_data = with_percentage(
+        pd.DataFrame(
+            line_length_type_counts(filtered_poems),
+            columns=["类型", "诗作数"],
+        ),
+        "诗作数",
+        len(filtered_poems),
+    )
+    line_type_selection = alt.selection_point(
+        name="line_type_selection",
+        fields=["类型"],
+        clear="dblclick",
+    )
+    line_type_chart = (
+        alt.Chart(line_type_data)
+        .mark_bar(color=BAR_COLOR)
+        .encode(
+            x=alt.X(
+                "诗作数:Q",
+                title="诗作数",
+                scale=alt.Scale(domainMin=0, nice=True),
             ),
-            "诗作数",
-            len(filtered_poems),
+            y=alt.Y(
+                "类型:N",
+                title=None,
+                sort=format_line_type_order,
+                axis=alt.Axis(labelOverlap=False),
+            ),
+            tooltip=[
+                "类型:N",
+                "诗作数:Q",
+                alt.Tooltip("占比:Q", format=".1%"),
+            ],
+            opacity=alt.condition(
+                line_type_selection,
+                alt.value(1),
+                alt.value(0.55),
+            ),
         )
-        line_type_selection = alt.selection_point(
-            name="line_type_selection",
-            fields=["类型"],
-            clear="dblclick",
-        )
-        line_type_chart = (
-            alt.Chart(line_type_data)
-            .mark_bar(color=BAR_COLOR)
-            .encode(
-                x=alt.X(
-                    "诗作数:Q",
-                    title="诗作数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                ),
-                y=alt.Y(
-                    "类型:N",
-                    title=None,
-                    sort=format_line_type_order,
-                    axis=alt.Axis(labelOverlap=False),
-                ),
-                tooltip=[
-                    "类型:N",
-                    "诗作数:Q",
-                    alt.Tooltip("占比:Q", format=".1%"),
-                ],
-                opacity=alt.condition(
-                    line_type_selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
-            )
-            .add_params(line_type_selection)
-            .properties(height=330)
-        )
-        line_type_chart_key = chart_widget_key("line-type-chart")
+        .add_params(line_type_selection)
+        .properties(height=330)
+    )
+    line_type_chart_key = chart_widget_key("line-type-chart")
+    line_type_chart_column, line_type_table_column = st.columns([17, 3])
+    with line_type_chart_column:
         st.altair_chart(
             line_type_chart,
             use_container_width=True,
@@ -601,52 +606,66 @@ with format_tab:
             ),
             selection_mode="line_type_selection",
         )
+    with line_type_table_column:
+        line_type_table = line_type_data.copy()
+        line_type_table["占比"] = line_type_table["占比"].map("{:.1%}".format)
+        st.dataframe(
+            line_type_table[["类型", "诗作数", "占比"]],
+            hide_index=True,
+            width="stretch",
+        )
 
-    with structure_type_column:
-        st.subheader("结构类型")
-        structure_type_data = with_percentage(
-            pd.DataFrame(
-                structure_type_counts(filtered_poems),
-                columns=["结构类型", "诗作数"],
+    st.divider()
+    st.subheader("结构类型")
+    structure_type_data = with_percentage(
+        pd.DataFrame(
+            structure_type_counts(filtered_poems),
+            columns=["结构类型", "诗作数"],
+        ),
+        "诗作数",
+        len(filtered_poems),
+    )
+    structure_type_order = structure_type_data["结构类型"].tolist()
+    structure_type_selection = alt.selection_point(
+        name="structure_type_selection",
+        fields=["结构类型"],
+        clear="dblclick",
+    )
+    structure_type_chart = (
+        alt.Chart(structure_type_data)
+        .mark_bar(color=BAR_COLOR)
+        .encode(
+            x=alt.X(
+                "诗作数:Q",
+                title="诗作数",
+                scale=alt.Scale(domainMin=0, nice=True),
             ),
-            "诗作数",
-            len(filtered_poems),
-        )
-        structure_type_order = structure_type_data["结构类型"].tolist()
-        structure_type_selection = alt.selection_point(
-            name="structure_type_selection",
-            fields=["结构类型"],
-            clear="dblclick",
-        )
-        structure_type_chart = (
-            alt.Chart(structure_type_data)
-            .mark_bar(color=BAR_COLOR)
-            .encode(
-                x=alt.X(
-                    "诗作数:Q",
-                    title="诗作数",
-                    scale=alt.Scale(domainMin=0, nice=True),
+            y=alt.Y(
+                "结构类型:N",
+                title=None,
+                sort=structure_type_order,
+                axis=alt.Axis(
+                    labelAlign="left",
+                    labelPadding=64,
                 ),
-                y=alt.Y(
-                    "结构类型:N",
-                    title=None,
-                    sort=structure_type_order,
-                ),
-                tooltip=[
-                    "结构类型:N",
-                    "诗作数:Q",
-                    alt.Tooltip("占比:Q", format=".1%"),
-                ],
-                opacity=alt.condition(
-                    structure_type_selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
-            )
-            .add_params(structure_type_selection)
-            .properties(height=330)
+            ),
+            tooltip=[
+                "结构类型:N",
+                "诗作数:Q",
+                alt.Tooltip("占比:Q", format=".1%"),
+            ],
+            opacity=alt.condition(
+                structure_type_selection,
+                alt.value(1),
+                alt.value(0.55),
+            ),
         )
-        structure_type_chart_key = chart_widget_key("structure-type-chart")
+        .add_params(structure_type_selection)
+        .properties(height=330)
+    )
+    structure_type_chart_key = chart_widget_key("structure-type-chart")
+    structure_chart_column, structure_table_column = st.columns([17, 3])
+    with structure_chart_column:
         st.altair_chart(
             structure_type_chart,
             use_container_width=True,
@@ -658,6 +677,16 @@ with format_tab:
                 "structure_type",
             ),
             selection_mode="structure_type_selection",
+        )
+    with structure_table_column:
+        structure_type_table = structure_type_data.copy()
+        structure_type_table["占比"] = structure_type_table["占比"].map(
+            "{:.1%}".format
+        )
+        st.dataframe(
+            structure_type_table[["结构类型", "诗作数", "占比"]],
+            hide_index=True,
+            width="stretch",
         )
 
 with overview_tab:
@@ -830,12 +859,12 @@ with overview_tab:
 with characters_tab:
     frequency_type = st.radio(
         "统计类型",
-        ["常用字", "常用词语"],
+        ["字频", "二字组合", "常用词语"],
         horizontal=True,
     )
 
-    if frequency_type == "常用字":
-        st.subheader("正文常用字")
+    if frequency_type == "字频":
+        st.subheader("正文字频")
         frequency_counts = character_counts(filtered_poems)
         frequency_data = with_percentage(
             pd.DataFrame(
@@ -855,6 +884,38 @@ with characters_tab:
         drilldown_kind = "character"
         chart_base_key = "character-chart"
         caption = "只统计汉字，排除标点、空格、数字及其他非汉字。"
+    elif frequency_type == "二字组合":
+        st.subheader("正文常用二字组合")
+        bigram_count_cache_key = (
+            DATA_SCHEMA_VERSION,
+            tuple(selected_corpus_versions.items()),
+            tuple(poem.id for poem in filtered_poems),
+        )
+        frequency_counts = cached_bigram_counts(
+            bigram_count_cache_key,
+            tuple(filtered_poems),
+        )
+        frequency_data = with_percentage(
+            pd.DataFrame(
+                frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
+                columns=["组合", "出现次数"],
+            ),
+            "出现次数",
+            sum(count for _, count in frequency_counts),
+        )
+        selection = alt.selection_point(
+            name="bigram_selection",
+            fields=["组合"],
+            clear="dblclick",
+        )
+        category_field = "组合"
+        selection_name = "bigram_selection"
+        drilldown_kind = "bigram"
+        chart_base_key = "bigram-chart"
+        caption = (
+            "统计正文中相邻且均为汉字的二字组合；"
+            "标点和段落边界不会连接。"
+        )
     else:
         st.subheader("正文常用词语")
         with st.spinner("正在进行中文分词统计……"):
@@ -889,70 +950,56 @@ with characters_tab:
     frequency_chart_height = (
         max(1, len(frequency_data)) * FREQUENCY_BAR_HEIGHT
     )
-    frequency_table_height = (
-        max(1, len(frequency_data)) * FREQUENCY_TABLE_ROW_HEIGHT
-        + DATAFRAME_HEADER_HEIGHT
-    )
-    chart_column, table_column = st.columns(
-        [3, 2],
-        vertical_alignment="top",
-    )
-    with chart_column:
-        frequency_chart = (
-            alt.Chart(frequency_data)
-            .mark_bar(color=BAR_COLOR)
-            .encode(
-                x=alt.X(
-                    "出现次数:Q",
-                    title="出现次数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                ),
-                y=alt.Y(
-                    f"{category_field}:N",
-                    title=None,
-                    sort="-x",
-                    axis=alt.Axis(labelOverlap=False),
-                ),
-                tooltip=[
-                    f"{category_field}:N",
-                    "出现次数:Q",
-                    alt.Tooltip("占比:Q", format=".1%"),
-                ],
-                opacity=alt.condition(
-                    selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
-            )
-            .add_params(selection)
-            .properties(
-                height=frequency_chart_height,
-                padding={"top": DATAFRAME_HEADER_HEIGHT},
-            )
+    frequency_data["显示标签"] = [
+        f"{count:,} · {percentage:.1%} · {category}"
+        for category, count, percentage in zip(
+            frequency_data[category_field],
+            frequency_data["出现次数"],
+            frequency_data["占比"],
         )
-        chart_key = chart_widget_key(chart_base_key)
-        st.altair_chart(
-            frequency_chart,
-            use_container_width=True,
-            key=chart_key,
-            on_select=partial(
-                activate_chart_drilldown,
-                chart_key,
-                selection_name,
-                drilldown_kind,
+    ]
+    frequency_chart = (
+        alt.Chart(frequency_data)
+        .mark_bar(color=BAR_COLOR)
+        .encode(
+            x=alt.X(
+                "出现次数:Q",
+                title="出现次数",
+                scale=alt.Scale(domainMin=0, nice=True),
             ),
-            selection_mode=selection_name,
+            y=alt.Y(
+                "显示标签:N",
+                title=None,
+                sort="-x",
+                axis=alt.Axis(labelOverlap=False),
+            ),
+            tooltip=[
+                f"{category_field}:N",
+                "出现次数:Q",
+                alt.Tooltip("占比:Q", format=".1%"),
+            ],
+            opacity=alt.condition(
+                selection,
+                alt.value(1),
+                alt.value(0.55),
+            ),
         )
-    with table_column:
-        frequency_table = frequency_data.copy()
-        frequency_table["占比"] = frequency_table["占比"].map("{:.1%}".format)
-        st.dataframe(
-            frequency_table[[category_field, "出现次数", "占比"]],
-            hide_index=True,
-            width="stretch",
-            height=frequency_table_height,
-            row_height=FREQUENCY_TABLE_ROW_HEIGHT,
-        )
+        .add_params(selection)
+        .properties(height=frequency_chart_height)
+    )
+    chart_key = chart_widget_key(chart_base_key)
+    st.altair_chart(
+        frequency_chart,
+        use_container_width=True,
+        key=chart_key,
+        on_select=partial(
+            activate_chart_drilldown,
+            chart_key,
+            selection_name,
+            drilldown_kind,
+        ),
+        selection_mode=selection_name,
+    )
     st.caption(caption)
 
 with explorer_tab:
@@ -1056,6 +1103,14 @@ if active_drilldown:
         drilldown_heading = f"包含「{drilldown_value}」"
         highlight_text = drilldown_value
         drilldown_poems = poems_containing_word(
+            filtered_poems,
+            drilldown_value,
+        )
+    elif drilldown_kind == "bigram":
+        drilldown_value = str(drilldown_selection["组合"])
+        drilldown_heading = f"包含「{drilldown_value}」"
+        highlight_text = drilldown_value
+        drilldown_poems = poems_containing_bigram(
             filtered_poems,
             drilldown_value,
         )
