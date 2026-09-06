@@ -15,8 +15,10 @@ from poetry.analytics import (
     poems_with_format_combination,
     poems_with_line_length_type,
     poems_with_sentence_count,
+    poems_with_structure_breakdown,
     poems_with_structure_type,
     sentence_count_distribution,
+    structure_breakdown_counts,
     structure_type,
     structure_type_counts,
     summarize,
@@ -154,10 +156,56 @@ def test_format_analytics_and_drilldowns() -> None:
         ("其他五言", 2),
         ("其他七言", 1),
     ]
+    assert structure_breakdown_counts(POEMS) == [
+        ("五言", "其他句数", 2),
+        ("七言", "其他句数", 1),
+    ]
     assert poems_with_sentence_count(POEMS, 2) == list(POEMS[1:])
     assert poems_with_line_length_type(POEMS, "七言") == [POEMS[0]]
     assert poems_with_format_combination(POEMS, 2, "五言") == list(POEMS[1:])
     assert poems_with_structure_type(POEMS, "其他五言") == list(POEMS[1:])
+    assert poems_with_structure_breakdown(
+        POEMS,
+        "五言",
+        "其他句数",
+    ) == list(POEMS[1:])
+
+
+def test_groups_structure_breakdown_by_sentence_count() -> None:
+    four_line_poem = Poem(
+        id="four-lines",
+        title="四句",
+        author="作者",
+        paragraphs=("天地玄黃。",),
+        format=PoemFormat(
+            sentence_count=4,
+            sentence_lengths=(5, 5, 5, 5),
+            uniform_sentence_length=5,
+        ),
+    )
+    eight_line_poem = Poem(
+        id="eight-lines",
+        title="八句",
+        author="作者",
+        paragraphs=("宇宙洪荒。",),
+        format=PoemFormat(
+            sentence_count=8,
+            sentence_lengths=(7, 7, 7, 7, 7, 7, 7, 7),
+            uniform_sentence_length=7,
+        ),
+    )
+    poems = (four_line_poem, eight_line_poem)
+
+    assert structure_breakdown_counts(poems) == [
+        ("五言", "四句", 1),
+        ("七言", "八句", 1),
+    ]
+    assert poems_with_structure_breakdown(poems, "五言", "四句") == [
+        four_line_poem
+    ]
+    assert poems_with_structure_breakdown(poems, "七言", "八句") == [
+        eight_line_poem
+    ]
 
 
 def test_labels_other_uniform_line_lengths_with_specific_number() -> None:

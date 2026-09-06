@@ -21,9 +21,11 @@ from poetry.analytics import (
     poems_with_format_combination,
     poems_with_line_length_type,
     poems_with_sentence_count,
+    poems_with_structure_breakdown,
     poems_with_structure_type,
     poem_text,
     sentence_count_distribution,
+    structure_breakdown_counts,
     structure_type_counts,
     summarize,
     title_counts,
@@ -39,6 +41,7 @@ CORPUS_PATHS = {
 }
 DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 20
+BAR_COLOR = "#3F7C73"
 
 st.set_page_config(
     page_title="唐诗三百首数据仪表板",
@@ -316,7 +319,7 @@ with format_tab:
         )
         sentence_chart = (
             alt.Chart(sentence_data)
-            .mark_bar()
+            .mark_bar(color=BAR_COLOR)
             .encode(
                 x=alt.X("句数:O", title="句数", sort="ascending"),
                 y=alt.Y(
@@ -404,8 +407,8 @@ with format_tab:
             selection_mode="combination_selection",
         )
 
-with overview_tab:
-    line_type_column, structure_column = st.columns(2)
+    st.divider()
+    line_type_column, structure_type_column = st.columns(2)
 
     with line_type_column:
         st.subheader("每句字数类型")
@@ -424,7 +427,7 @@ with overview_tab:
         )
         line_type_chart = (
             alt.Chart(line_type_data)
-            .mark_bar()
+            .mark_bar(color=BAR_COLOR)
             .encode(
                 x=alt.X(
                     "诗作数:Q",
@@ -460,9 +463,9 @@ with overview_tab:
             selection_mode="line_type_selection",
         )
 
-    with structure_column:
+    with structure_type_column:
         st.subheader("结构类型")
-        structure_data = with_percentage(
+        structure_type_data = with_percentage(
             pd.DataFrame(
                 structure_type_counts(filtered_poems),
                 columns=["结构类型", "诗作数"],
@@ -470,15 +473,15 @@ with overview_tab:
             "诗作数",
             len(filtered_poems),
         )
-        structure_order = structure_data["结构类型"].tolist()
-        structure_selection = alt.selection_point(
-            name="structure_selection",
+        structure_type_order = structure_type_data["结构类型"].tolist()
+        structure_type_selection = alt.selection_point(
+            name="structure_type_selection",
             fields=["结构类型"],
             clear="dblclick",
         )
-        structure_chart = (
-            alt.Chart(structure_data)
-            .mark_bar()
+        structure_type_chart = (
+            alt.Chart(structure_type_data)
+            .mark_bar(color=BAR_COLOR)
             .encode(
                 x=alt.X(
                     "诗作数:Q",
@@ -488,7 +491,7 @@ with overview_tab:
                 y=alt.Y(
                     "结构类型:N",
                     title=None,
-                    sort=structure_order,
+                    sort=structure_type_order,
                 ),
                 tooltip=[
                     "结构类型:N",
@@ -496,27 +499,112 @@ with overview_tab:
                     alt.Tooltip("占比:Q", format=".1%"),
                 ],
                 opacity=alt.condition(
-                    structure_selection,
+                    structure_type_selection,
                     alt.value(1),
                     alt.value(0.55),
                 ),
             )
-            .add_params(structure_selection)
+            .add_params(structure_type_selection)
             .properties(height=330)
         )
-        structure_chart_key = chart_widget_key("structure-chart")
+        structure_type_chart_key = chart_widget_key("structure-type-chart")
         st.altair_chart(
-            structure_chart,
+            structure_type_chart,
             use_container_width=True,
-            key=structure_chart_key,
+            key=structure_type_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                structure_chart_key,
-                "structure_selection",
-                "structure",
+                structure_type_chart_key,
+                "structure_type_selection",
+                "structure_type",
             ),
-            selection_mode="structure_selection",
+            selection_mode="structure_type_selection",
         )
+
+with overview_tab:
+    st.subheader("诗体结构")
+    st.caption("每根柱形表示每句字数类型，颜色区分四句、八句和其他句数。")
+    structure_data = with_percentage(
+        pd.DataFrame(
+            structure_breakdown_counts(filtered_poems),
+            columns=["类型", "句数类别", "诗作数"],
+        ),
+        "诗作数",
+        len(filtered_poems),
+    )
+    line_type_order = list(dict.fromkeys(structure_data["类型"]))
+    sentence_group_order = ["四句", "八句", "其他句数"]
+    sentence_group_rank = {
+        group: index for index, group in enumerate(sentence_group_order)
+    }
+    structure_data["句数顺序"] = structure_data["句数类别"].map(
+        sentence_group_rank
+    )
+    structure_selection = alt.selection_point(
+        name="structure_selection",
+        fields=["类型", "句数类别"],
+        clear="dblclick",
+    )
+    structure_chart = (
+        alt.Chart(structure_data)
+        .mark_bar()
+        .encode(
+            x=alt.X(
+                "诗作数:Q",
+                title="诗作数",
+                stack="zero",
+                scale=alt.Scale(domainMin=0, nice=True),
+            ),
+            y=alt.Y(
+                "类型:N",
+                title=None,
+                sort=line_type_order,
+            ),
+            color=alt.Color(
+                "句数类别:N",
+                title="句数",
+                sort=sentence_group_order,
+                scale=alt.Scale(
+                    domain=sentence_group_order,
+                    range=["#2F5D8A", "#C6533C", "#C89B3C"],
+                ),
+                legend=alt.Legend(
+                    orient="top",
+                    direction="horizontal",
+                ),
+            ),
+            order=alt.Order(
+                "句数顺序:Q",
+                sort="ascending",
+            ),
+            tooltip=[
+                "类型:N",
+                "句数类别:N",
+                "诗作数:Q",
+                alt.Tooltip("占比:Q", format=".1%"),
+            ],
+            opacity=alt.condition(
+                structure_selection,
+                alt.value(1),
+                alt.value(0.55),
+            ),
+        )
+        .add_params(structure_selection)
+        .properties(height=max(280, len(line_type_order) * 38))
+    )
+    structure_chart_key = chart_widget_key("structure-chart")
+    st.altair_chart(
+        structure_chart,
+        use_container_width=True,
+        key=structure_chart_key,
+        on_select=partial(
+            activate_chart_drilldown,
+            structure_chart_key,
+            "structure_selection",
+            "structure_breakdown",
+        ),
+        selection_mode="structure_selection",
+    )
 
     st.divider()
     st.subheader("作者诗词数量")
@@ -545,7 +633,7 @@ with overview_tab:
     )
     author_chart = (
         alt.Chart(author_data)
-        .mark_bar()
+        .mark_bar(color=BAR_COLOR)
         .encode(
             x=alt.X(
                 "诗作数:Q",
@@ -663,7 +751,7 @@ with characters_tab:
     with chart_column:
         frequency_chart = (
             alt.Chart(frequency_data)
-            .mark_bar()
+            .mark_bar(color=BAR_COLOR)
             .encode(
                 x=alt.X(
                     "出现次数:Q",
@@ -840,7 +928,16 @@ if active_drilldown:
             sentence_count,
             line_type,
         )
-    elif drilldown_kind == "structure":
+    elif drilldown_kind == "structure_breakdown":
+        line_type = str(drilldown_selection["类型"])
+        sentence_group = str(drilldown_selection["句数类别"])
+        drilldown_heading = f"{line_type} · {sentence_group}"
+        drilldown_poems = poems_with_structure_breakdown(
+            filtered_poems,
+            line_type,
+            sentence_group,
+        )
+    elif drilldown_kind == "structure_type":
         selected_structure_type = str(drilldown_selection["结构类型"])
         drilldown_heading = selected_structure_type
         drilldown_poems = poems_with_structure_type(

@@ -20,6 +20,7 @@ BASE_STRUCTURE_TYPE_ORDER = [
     "七言八句",
     "其他七言",
 ]
+SENTENCE_COUNT_GROUP_ORDER = ["四句", "八句", "其他句数"]
 WORD_TOKENIZER = jieba.Tokenizer()
 TRADITIONAL_TO_SIMPLIFIED = OpenCC("t2s")
 
@@ -191,6 +192,29 @@ def structure_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     return result
 
 
+def sentence_count_group(poem: Poem) -> str:
+    if poem.format.sentence_count == 4:
+        return "四句"
+    if poem.format.sentence_count == 8:
+        return "八句"
+    return "其他句数"
+
+
+def structure_breakdown_counts(
+    poems: Sequence[Poem],
+) -> list[tuple[str, str, int]]:
+    counts = Counter(
+        (line_length_type(poem), sentence_count_group(poem)) for poem in poems
+    )
+    line_type_order = [name for name, _ in line_length_type_counts(poems)]
+    return [
+        (line_type, sentence_group, counts[line_type, sentence_group])
+        for line_type in line_type_order
+        for sentence_group in SENTENCE_COUNT_GROUP_ORDER
+        if counts[line_type, sentence_group]
+    ]
+
+
 def poems_with_sentence_count(
     poems: Sequence[Poem],
     sentence_count: int,
@@ -228,6 +252,19 @@ def poems_with_structure_type(
         poem
         for poem in poems
         if structure_type(poem) == selected_structure_type
+    ]
+
+
+def poems_with_structure_breakdown(
+    poems: Sequence[Poem],
+    length_type: str,
+    sentence_group: str,
+) -> list[Poem]:
+    return [
+        poem
+        for poem in poems
+        if line_length_type(poem) == length_type
+        and sentence_count_group(poem) == sentence_group
     ]
 
 
