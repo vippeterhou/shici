@@ -6,6 +6,9 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass
 from typing import Iterable, Sequence
 
+import jieba
+from opencc import OpenCC
+
 from .models import Poem
 from .text import is_han_character
 
@@ -19,6 +22,8 @@ STRUCTURE_TYPE_ORDER = [
     "杂言",
     "其他齐言",
 ]
+WORD_TOKENIZER = jieba.Tokenizer()
+TRADITIONAL_TO_SIMPLIFIED = OpenCC("t2s")
 
 
 @dataclass(frozen=True)
@@ -206,6 +211,39 @@ def character_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
             if is_han_character(character)
         )
     return counter.most_common()
+
+
+def poem_words(poem: Poem) -> list[str]:
+    original_text = poem_text(poem)
+    segmentation_text = TRADITIONAL_TO_SIMPLIFIED.convert(original_text)
+    words: list[str] = []
+    offset = 0
+
+    for segmented_word in WORD_TOKENIZER.cut(segmentation_text):
+        original_word = original_text[offset : offset + len(segmented_word)]
+        offset += len(segmented_word)
+        if len(original_word) >= 2 and all(
+            is_han_character(character) for character in original_word
+        ):
+            words.append(original_word)
+
+    return words
+
+
+def word_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    counter: Counter[str] = Counter()
+    for poem in poems:
+        counter.update(poem_words(poem))
+    return counter.most_common()
+
+
+def poems_containing_word(
+    poems: Sequence[Poem],
+    word: str,
+) -> list[Poem]:
+    if len(word) < 2 or not all(is_han_character(character) for character in word):
+        raise ValueError("word must contain at least two Han characters")
+    return [poem for poem in poems if word in poem_text(poem)]
 
 
 def length_distribution(

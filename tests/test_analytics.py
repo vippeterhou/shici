@@ -11,6 +11,7 @@ from poetry.analytics import (
     poem_character_count,
     poems_containing_character,
     poems_in_length_bucket,
+    poems_containing_word,
     poems_with_format_combination,
     poems_with_line_length_type,
     poems_with_sentence_count,
@@ -19,6 +20,7 @@ from poetry.analytics import (
     structure_type,
     structure_type_counts,
     summarize,
+    word_counts,
 )
 from poetry.models import Poem, PoemFormat
 
@@ -114,6 +116,7 @@ def test_filters_across_dashboard_dimensions() -> None:
 def test_analytics_counts_and_distribution() -> None:
     assert author_counts(POEMS)[0][1] == 1
     assert character_counts(POEMS)[0][1] >= 2
+    assert ("黃河", 3) in word_counts(POEMS)
     assert sum(count for _, count in length_distribution(POEMS)) == 3
 
 
@@ -123,6 +126,19 @@ def test_selects_poems_for_chart_drilldowns() -> None:
 
     assert poems_in_length_bucket(POEMS, bucket)
     assert len(poems_containing_character(POEMS, "黃")) == 3
+    assert poems_containing_word(POEMS, "黃河") == list(POEMS)
+
+
+def test_word_counts_exclude_single_characters_and_non_han_tokens() -> None:
+    poem = Poem(
+        id="words",
+        title="詞語",
+        author="作者",
+        paragraphs=("明月 ABC，明月！山。",),
+        format=FIVE_CHARACTER_FORMAT,
+    )
+
+    assert word_counts((poem,)) == [("明月", 2)]
 
 
 def test_format_analytics_and_drilldowns() -> None:

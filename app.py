@@ -18,6 +18,7 @@ from poetry.analytics import (
     line_length_type_counts,
     poem_character_count,
     poems_containing_character,
+    poems_containing_word,
     poems_with_format_combination,
     poems_with_line_length_type,
     poems_with_sentence_count,
@@ -27,6 +28,7 @@ from poetry.analytics import (
     structure_type_counts,
     summarize,
     title_counts,
+    word_counts,
 )
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
@@ -92,8 +94,27 @@ def activate_chart_drilldown(
         st.session_state.pop("active_drilldown", None)
 
 
+def chart_widget_key(base_key: str) -> str:
+    reset_version = st.session_state.get("chart_reset_version", 0)
+    return f"{base_key}-{reset_version}"
+
+
 def clear_active_drilldown() -> None:
     st.session_state.pop("active_drilldown", None)
+    st.session_state["chart_reset_version"] = (
+        st.session_state.get("chart_reset_version", 0) + 1
+    )
+
+
+def poem_text_html(poem: Poem, highlight_text: str | None = None) -> str:
+    text = poem_text(poem)
+    if not highlight_text:
+        return html.escape(text)
+
+    highlighted = (
+        f'<span class="poem-grid-highlight">{html.escape(highlight_text)}</span>'
+    )
+    return highlighted.join(html.escape(part) for part in text.split(highlight_text))
 
 
 @st.dialog(
@@ -105,6 +126,7 @@ def clear_active_drilldown() -> None:
 def render_poem_collection(
     heading: str,
     selected_poems: list[Poem],
+    highlight_text: str | None = None,
 ) -> None:
     if not selected_poems:
         return
@@ -118,7 +140,7 @@ def render_poem_collection(
             f"<div>{poem.format.uniform_sentence_length or '杂'}</div>"
             f"<div>{poem.format.sentence_count}</div>"
             f"<div>{poem_character_count(poem)}</div>"
-            f'<div class="poem-grid-text">{html.escape(poem_text(poem))}</div>'
+            f'<div class="poem-grid-text">{poem_text_html(poem, highlight_text)}</div>'
             "</div>"
         )
         for poem in selected_poems
@@ -160,6 +182,14 @@ def render_poem_collection(
         .poem-grid-text {{
           white-space: normal;
           word-break: break-word;
+        }}
+        .poem-grid .poem-grid-highlight {{
+          background: #ffe066 !important;
+          border-bottom: 2px solid #d98e00;
+          border-radius: 0.15rem;
+          color: #1f2328 !important;
+          font-weight: 700;
+          padding: 0.02rem 0.12rem;
         }}
         </style>
         <div class="poem-grid">
@@ -207,7 +237,7 @@ if not filtered_poems:
     st.stop()
 
 overview_tab, format_tab, characters_tab, explorer_tab, quality_tab = st.tabs(
-    ["总览", "格式分布", "常用字", "诗作浏览", "数据质量"]
+    ["总览", "格式分布", "常用字词", "诗作浏览", "数据质量"]
 )
 
 with format_tab:
@@ -247,13 +277,14 @@ with format_tab:
             .add_params(sentence_selection)
             .properties(height=330)
         )
+        sentence_chart_key = chart_widget_key("sentence-chart")
         st.altair_chart(
             sentence_chart,
             use_container_width=True,
-            key="sentence-chart",
+            key=sentence_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                "sentence-chart",
+                sentence_chart_key,
                 "sentence_selection",
                 "sentence_count",
             ),
@@ -298,13 +329,14 @@ with format_tab:
             .add_params(combination_selection)
             .properties(height=420)
         )
+        combination_chart_key = chart_widget_key("combination-chart")
         st.altair_chart(
             combination_chart,
             use_container_width=True,
-            key="combination-chart",
+            key=combination_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                "combination-chart",
+                combination_chart_key,
                 "combination_selection",
                 "combination",
             ),
@@ -345,13 +377,14 @@ with overview_tab:
             .add_params(line_type_selection)
             .properties(height=330)
         )
+        line_type_chart_key = chart_widget_key("line-type-chart")
         st.altair_chart(
             line_type_chart,
             use_container_width=True,
-            key="line-type-chart",
+            key=line_type_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                "line-type-chart",
+                line_type_chart_key,
                 "line_type_selection",
                 "line_type",
             ),
@@ -393,13 +426,14 @@ with overview_tab:
             .add_params(structure_selection)
             .properties(height=330)
         )
+        structure_chart_key = chart_widget_key("structure-chart")
         st.altair_chart(
             structure_chart,
             use_container_width=True,
-            key="structure-chart",
+            key=structure_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                "structure-chart",
+                structure_chart_key,
                 "structure_selection",
                 "structure",
             ),
@@ -448,13 +482,14 @@ with overview_tab:
         .add_params(author_selection)
         .properties(height=max(430, len(author_data) * 22))
     )
+    author_chart_key = chart_widget_key("author-chart")
     st.altair_chart(
         author_chart,
         use_container_width=True,
-        key="author-chart",
+        key=author_chart_key,
         on_select=partial(
             activate_chart_drilldown,
-            "author-chart",
+            author_chart_key,
             "author_selection",
             "author",
         ),
@@ -465,7 +500,14 @@ with overview_tab:
 
 with characters_tab:
     st.subheader("正文常用字")
-    character_limit = st.slider("显示数量", 10, 100, 30, 5)
+    character_limit = st.slider(
+        "显示数量",
+        10,
+        100,
+        30,
+        5,
+        key="character-limit",
+    )
     character_data = pd.DataFrame(
         character_counts(filtered_poems)[:character_limit],
         columns=["字", "出现次数"],
@@ -502,13 +544,14 @@ with characters_tab:
             .add_params(character_selection)
             .properties(height=max(400, character_limit * 22))
         )
+        character_chart_key = chart_widget_key("character-chart")
         st.altair_chart(
             character_chart,
             use_container_width=True,
-            key="character-chart",
+            key=character_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                "character-chart",
+                character_chart_key,
                 "character_selection",
                 "character",
             ),
@@ -517,6 +560,69 @@ with characters_tab:
     with table_column:
         st.dataframe(character_data, hide_index=True, width="stretch")
     st.caption("只统计汉字，排除标点、空格、数字及其他非汉字。")
+
+    st.divider()
+    st.subheader("正文常用词语")
+    word_limit = st.slider(
+        "显示数量",
+        10,
+        100,
+        30,
+        5,
+        key="word-limit",
+    )
+    word_data = pd.DataFrame(
+        word_counts(filtered_poems)[:word_limit],
+        columns=["词语", "出现次数"],
+    )
+    word_chart_column, word_table_column = st.columns([3, 2])
+    with word_chart_column:
+        word_selection = alt.selection_point(
+            name="word_selection",
+            fields=["词语"],
+            clear="dblclick",
+        )
+        word_chart = (
+            alt.Chart(word_data)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "出现次数:Q",
+                    title="出现次数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                y=alt.Y(
+                    "词语:N",
+                    title=None,
+                    sort="-x",
+                    axis=alt.Axis(labelOverlap=False),
+                ),
+                tooltip=["词语:N", "出现次数:Q"],
+                opacity=alt.condition(
+                    word_selection,
+                    alt.value(1),
+                    alt.value(0.55),
+                ),
+            )
+            .add_params(word_selection)
+            .properties(height=max(400, word_limit * 22))
+        )
+        word_chart_key = chart_widget_key("word-chart")
+        st.altair_chart(
+            word_chart,
+            use_container_width=True,
+            key=word_chart_key,
+            on_select=partial(
+                activate_chart_drilldown,
+                word_chart_key,
+                "word_selection",
+                "word",
+            ),
+            selection_mode="word_selection",
+        )
+    with word_table_column:
+        st.dataframe(word_data, hide_index=True, width="stretch")
+    st.caption("使用中文分词统计，只保留由至少两个汉字组成的词语。")
 
 with explorer_tab:
     st.subheader("诗作目录")
@@ -598,6 +704,7 @@ active_drilldown = st.session_state.get("active_drilldown")
 if active_drilldown:
     drilldown_kind = active_drilldown["kind"]
     drilldown_selection = active_drilldown["selection"]
+    highlight_text = None
 
     if drilldown_kind == "author":
         drilldown_value = str(drilldown_selection["作者"])
@@ -608,7 +715,16 @@ if active_drilldown:
     elif drilldown_kind == "character":
         drilldown_value = str(drilldown_selection["字"])
         drilldown_heading = f"包含「{drilldown_value}」"
+        highlight_text = drilldown_value
         drilldown_poems = poems_containing_character(
+            filtered_poems,
+            drilldown_value,
+        )
+    elif drilldown_kind == "word":
+        drilldown_value = str(drilldown_selection["词语"])
+        drilldown_heading = f"包含「{drilldown_value}」"
+        highlight_text = drilldown_value
+        drilldown_poems = poems_containing_word(
             filtered_poems,
             drilldown_value,
         )
@@ -650,6 +766,7 @@ if active_drilldown:
         render_poem_collection(
             drilldown_heading,
             drilldown_poems,
+            highlight_text=highlight_text,
         )
     else:
         clear_active_drilldown()
