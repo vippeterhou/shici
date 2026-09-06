@@ -3,11 +3,21 @@ from poetry.analytics import (
     character_counts,
     duplicate_text_groups,
     filter_poems,
+    format_combination_counts,
     is_han_character,
     length_distribution,
+    line_length_type,
+    line_length_type_counts,
     poem_character_count,
     poems_containing_character,
     poems_in_length_bucket,
+    poems_with_format_combination,
+    poems_with_line_length_type,
+    poems_with_sentence_count,
+    poems_with_structure_type,
+    sentence_count_distribution,
+    structure_type,
+    structure_type_counts,
     summarize,
 )
 from poetry.models import Poem, PoemFormat
@@ -106,6 +116,22 @@ def test_selects_poems_for_chart_drilldowns() -> None:
 
     assert poems_in_length_bucket(POEMS, bucket)
     assert len(poems_containing_character(POEMS, "黃")) == 3
+
+
+def test_format_analytics_and_drilldowns() -> None:
+    assert sentence_count_distribution(POEMS) == [(1, 1), (2, 2)]
+    assert line_length_type_counts(POEMS) == [("五言", 2), ("七言", 1)]
+    assert format_combination_counts(POEMS) == [
+        (1, "七言", 1),
+        (2, "五言", 2),
+    ]
+    assert line_length_type(POEMS[0]) == "七言"
+    assert structure_type(POEMS[1]) == "其他五言"
+    assert structure_type_counts(POEMS)[0] == ("其他五言", 2)
+    assert poems_with_sentence_count(POEMS, 2) == list(POEMS[1:])
+    assert poems_with_line_length_type(POEMS, "七言") == [POEMS[0]]
+    assert poems_with_format_combination(POEMS, 2, "五言") == list(POEMS[1:])
+    assert poems_with_structure_type(POEMS, "其他五言") == list(POEMS[1:])
 
 
 def test_finds_exact_duplicate_text() -> None:

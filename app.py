@@ -12,11 +12,19 @@ from poetry.analytics import (
     character_counts,
     duplicate_text_groups,
     filter_poems,
+    format_combination_counts,
     length_distribution,
+    line_length_type_counts,
     poem_character_count,
     poems_containing_character,
     poems_in_length_bucket,
+    poems_with_format_combination,
+    poems_with_line_length_type,
+    poems_with_sentence_count,
+    poems_with_structure_type,
     poem_text,
+    sentence_count_distribution,
+    structure_type_counts,
     summarize,
     tag_counts,
     title_counts,
@@ -25,6 +33,7 @@ from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
 
 DATA_PATH = Path(__file__).parent / "data" / "tangshisanbaishou.json"
+DATA_SCHEMA_VERSION = 2
 
 st.set_page_config(
     page_title="唐诗三百首数据仪表板",
@@ -32,43 +41,52 @@ st.set_page_config(
     layout="wide",
 )
 
-@st.cache_resource
-def load_repository() -> JsonPoemRepository:
-    return JsonPoemRepository(DATA_PATH)
+@st.cache_data(show_spinner=False)
+def load_poems(
+    data_path: str,
+    modified_time_ns: int,
+    schema_version: int,
+) -> tuple[Poem, ...]:
+    _ = modified_time_ns, schema_version
+    return JsonPoemRepository(data_path).list_poems()
 
 
-repository = load_repository()
-poems = repository.list_poems()
+poems = load_poems(
+    str(DATA_PATH),
+    DATA_PATH.stat().st_mtime_ns,
+    DATA_SCHEMA_VERSION,
+)
 all_lengths = [poem_character_count(poem) for poem in poems]
 all_authors = sorted({poem.author for poem in poems})
 all_tags = sorted({tag for poem in poems for tag in poem.tags})
 
 
-def selected_chart_value(event: object, selection_name: str, field: str) -> str | None:
+def selected_chart_record(
+    event: object,
+    selection_name: str,
+) -> dict[str, object] | None:
     if event is None:
         return None
     selection = getattr(event, "selection", {})
     selected_points = selection.get(selection_name, [])
     if not selected_points:
         return None
-    return selected_points[0].get(field)
+    return dict(selected_points[0])
 
 
 def activate_chart_drilldown(
     chart_key: str,
     selection_name: str,
-    field: str,
     kind: str,
 ) -> None:
-    value = selected_chart_value(
+    selected_record = selected_chart_record(
         st.session_state.get(chart_key),
         selection_name,
-        field,
     )
-    if value:
+    if selected_record:
         st.session_state["active_drilldown"] = {
             "kind": kind,
-            "value": value,
+            "selection": selected_record,
         }
     elif st.session_state.get("active_drilldown", {}).get("kind") == kind:
         st.session_state.pop("active_drilldown", None)
@@ -195,7 +213,6 @@ with overview_tab:
                 activate_chart_drilldown,
                 "author-chart",
                 "author_selection",
-                "作者",
                 "author",
             ),
             selection_mode="author_selection",
@@ -236,7 +253,6 @@ with overview_tab:
                 activate_chart_drilldown,
                 "length-chart",
                 "length_selection",
-                "字数范围",
                 "length",
             ),
             selection_mode="length_selection",
@@ -276,11 +292,201 @@ with overview_tab:
             activate_chart_drilldown,
             "tag-chart",
             "tag_selection",
-            "标签",
             "tag",
         ),
         selection_mode="tag_selection",
     )
+
+    st.divider()
+    st.subheader("格式分析")
+    st.caption("点击柱形或热力图单元格查看对应的全部诗作。")
+
+    sentence_column, line_type_column = st.columns(2)
+
+    with sentence_column:
+        st.markdown("#### 句数分布")
+        sentence_data = pd.DataFrame(
+            sentence_count_distribution(filtered_poems),
+            columns=["句数", "诗作数"],
+        )
+        sentence_selection = alt.selection_point(
+            name="sentence_selection",
+            fields=["句数"],
+            clear="dblclick",
+        )
+        sentence_chart = (
+            alt.Chart(sentence_data)
+            .mark_bar()
+            .encode(
+                x=alt.X("句数:O", title="句数", sort="ascending"),
+                y=alt.Y(
+                    "诗作数:Q",
+                    title="诗作数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                tooltip=["句数:O", "诗作数:Q"],
+                opacity=alt.condition(
+                    sentence_selection,
+                    alt.value(1),
+                    alt.value(0.55),
+                ),
+            )
+            .add_params(sentence_selection)
+            .properties(height=330)
+        )
+        st.altair_chart(
+            sentence_chart,
+            use_container_width=True,
+            key="sentence-chart",
+            on_select=partial(
+                activate_chart_drilldown,
+                "sentence-chart",
+                "sentence_selection",
+                "sentence_count",
+            ),
+            selection_mode="sentence_selection",
+        )
+
+    with line_type_column:
+        st.markdown("#### 每句字数类型")
+        line_type_data = pd.DataFrame(
+            line_length_type_counts(filtered_poems),
+            columns=["类型", "诗作数"],
+        )
+        line_type_selection = alt.selection_point(
+            name="line_type_selection",
+            fields=["类型"],
+            clear="dblclick",
+        )
+        line_type_chart = (
+            alt.Chart(line_type_data)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "诗作数:Q",
+                    title="诗作数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                y=alt.Y("类型:N", title=None, sort="-x"),
+                tooltip=["类型:N", "诗作数:Q"],
+                opacity=alt.condition(
+                    line_type_selection,
+                    alt.value(1),
+                    alt.value(0.55),
+                ),
+            )
+            .add_params(line_type_selection)
+            .properties(height=330)
+        )
+        st.altair_chart(
+            line_type_chart,
+            use_container_width=True,
+            key="line-type-chart",
+            on_select=partial(
+                activate_chart_drilldown,
+                "line-type-chart",
+                "line_type_selection",
+                "line_type",
+            ),
+            selection_mode="line_type_selection",
+        )
+
+    combination_column, structure_column = st.columns([3, 2])
+
+    with combination_column:
+        st.markdown("#### 句数 × 每句字数类型")
+        combination_data = pd.DataFrame(
+            format_combination_counts(filtered_poems),
+            columns=["句数", "类型", "诗作数"],
+        )
+        combination_selection = alt.selection_point(
+            name="combination_selection",
+            fields=["句数", "类型"],
+            clear="dblclick",
+        )
+        combination_base = alt.Chart(combination_data).encode(
+            x=alt.X("类型:N", title="每句字数类型"),
+            y=alt.Y(
+                "句数:O",
+                title="句数",
+                sort="ascending",
+                axis=alt.Axis(labelOverlap=False),
+            ),
+            tooltip=["句数:O", "类型:N", "诗作数:Q"],
+        )
+        combination_chart = (
+            combination_base.mark_rect()
+            .encode(
+            color=alt.Color(
+                "诗作数:Q",
+                title="诗作数",
+                scale=alt.Scale(scheme="reds"),
+            ),
+            opacity=alt.condition(
+                combination_selection,
+                alt.value(1),
+                alt.value(0.65),
+            ),
+            )
+            .add_params(combination_selection)
+            .properties(height=420)
+        )
+        st.altair_chart(
+            combination_chart,
+            use_container_width=True,
+            key="combination-chart",
+            on_select=partial(
+                activate_chart_drilldown,
+                "combination-chart",
+                "combination_selection",
+                "combination",
+            ),
+            selection_mode="combination_selection",
+        )
+
+    with structure_column:
+        st.markdown("#### 结构类型")
+        structure_data = pd.DataFrame(
+            structure_type_counts(filtered_poems),
+            columns=["结构类型", "诗作数"],
+        )
+        structure_selection = alt.selection_point(
+            name="structure_selection",
+            fields=["结构类型"],
+            clear="dblclick",
+        )
+        structure_chart = (
+            alt.Chart(structure_data)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "诗作数:Q",
+                    title="诗作数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                y=alt.Y("结构类型:N", title=None, sort="-x"),
+                tooltip=["结构类型:N", "诗作数:Q"],
+                opacity=alt.condition(
+                    structure_selection,
+                    alt.value(1),
+                    alt.value(0.55),
+                ),
+            )
+            .add_params(structure_selection)
+            .properties(height=420)
+        )
+        st.altair_chart(
+            structure_chart,
+            use_container_width=True,
+            key="structure-chart",
+            on_select=partial(
+                activate_chart_drilldown,
+                "structure-chart",
+                "structure_selection",
+                "structure",
+            ),
+            selection_mode="structure_selection",
+        )
 
 with characters_tab:
     st.subheader("正文常用字")
@@ -329,7 +535,6 @@ with characters_tab:
                 activate_chart_drilldown,
                 "character-chart",
                 "character_selection",
-                "字",
                 "character",
             ),
             selection_mode="character_selection",
@@ -422,26 +627,60 @@ with quality_tab:
 active_drilldown = st.session_state.get("active_drilldown")
 if active_drilldown:
     drilldown_kind = active_drilldown["kind"]
-    drilldown_value = active_drilldown["value"]
+    drilldown_selection = active_drilldown["selection"]
 
     if drilldown_kind == "author":
+        drilldown_value = str(drilldown_selection["作者"])
         drilldown_heading = drilldown_value
         drilldown_poems = [
             poem for poem in filtered_poems if poem.author == drilldown_value
         ]
     elif drilldown_kind == "length":
+        drilldown_value = str(drilldown_selection["字数范围"])
         drilldown_heading = f"{drilldown_value} 字"
         drilldown_poems = poems_in_length_bucket(filtered_poems, drilldown_value)
     elif drilldown_kind == "tag":
+        drilldown_value = str(drilldown_selection["标签"])
         drilldown_heading = drilldown_value
         drilldown_poems = [
             poem for poem in filtered_poems if drilldown_value in poem.tags
         ]
-    else:
+    elif drilldown_kind == "character":
+        drilldown_value = str(drilldown_selection["字"])
         drilldown_heading = f"包含「{drilldown_value}」"
         drilldown_poems = poems_containing_character(
             filtered_poems,
             drilldown_value,
+        )
+    elif drilldown_kind == "sentence_count":
+        sentence_count = int(drilldown_selection["句数"])
+        drilldown_heading = f"{sentence_count} 句"
+        drilldown_poems = poems_with_sentence_count(
+            filtered_poems,
+            sentence_count,
+        )
+    elif drilldown_kind == "line_type":
+        line_type = str(drilldown_selection["类型"])
+        drilldown_heading = line_type
+        drilldown_poems = poems_with_line_length_type(
+            filtered_poems,
+            line_type,
+        )
+    elif drilldown_kind == "combination":
+        sentence_count = int(drilldown_selection["句数"])
+        line_type = str(drilldown_selection["类型"])
+        drilldown_heading = f"{sentence_count} 句 · {line_type}"
+        drilldown_poems = poems_with_format_combination(
+            filtered_poems,
+            sentence_count,
+            line_type,
+        )
+    else:
+        selected_structure_type = str(drilldown_selection["结构类型"])
+        drilldown_heading = selected_structure_type
+        drilldown_poems = poems_with_structure_type(
+            filtered_poems,
+            selected_structure_type,
         )
 
     if drilldown_poems:

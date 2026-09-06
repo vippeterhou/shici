@@ -80,6 +80,96 @@ def title_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     return Counter(poem.title for poem in poems).most_common()
 
 
+def sentence_count_distribution(poems: Sequence[Poem]) -> list[tuple[int, int]]:
+    return sorted(Counter(poem.format.sentence_count for poem in poems).items())
+
+
+def line_length_type(poem: Poem) -> str:
+    length = poem.format.uniform_sentence_length
+    if length == 5:
+        return "五言"
+    if length == 7:
+        return "七言"
+    if length is None:
+        return "杂言"
+    return "其他齐言"
+
+
+def line_length_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    order = {"五言": 0, "七言": 1, "杂言": 2, "其他齐言": 3}
+    counts = Counter(line_length_type(poem) for poem in poems)
+    return sorted(counts.items(), key=lambda item: order[item[0]])
+
+
+def format_combination_counts(
+    poems: Sequence[Poem],
+) -> list[tuple[int, str, int]]:
+    counts = Counter(
+        (poem.format.sentence_count, line_length_type(poem)) for poem in poems
+    )
+    return [
+        (sentence_count, length_type, count)
+        for (sentence_count, length_type), count in sorted(
+            counts.items(),
+            key=lambda item: (item[0][0], item[0][1]),
+        )
+    ]
+
+
+def structure_type(poem: Poem) -> str:
+    length_type = line_length_type(poem)
+    if length_type in {"五言", "七言"} and poem.format.sentence_count in {4, 8}:
+        sentence_name = {4: "四", 8: "八"}[poem.format.sentence_count]
+        return f"{length_type}{sentence_name}句"
+    if length_type in {"五言", "七言"}:
+        return f"其他{length_type}"
+    return length_type
+
+
+def structure_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    return Counter(structure_type(poem) for poem in poems).most_common()
+
+
+def poems_with_sentence_count(
+    poems: Sequence[Poem],
+    sentence_count: int,
+) -> list[Poem]:
+    return [
+        poem for poem in poems if poem.format.sentence_count == sentence_count
+    ]
+
+
+def poems_with_line_length_type(
+    poems: Sequence[Poem],
+    length_type: str,
+) -> list[Poem]:
+    return [poem for poem in poems if line_length_type(poem) == length_type]
+
+
+def poems_with_format_combination(
+    poems: Sequence[Poem],
+    sentence_count: int,
+    length_type: str,
+) -> list[Poem]:
+    return [
+        poem
+        for poem in poems
+        if poem.format.sentence_count == sentence_count
+        and line_length_type(poem) == length_type
+    ]
+
+
+def poems_with_structure_type(
+    poems: Sequence[Poem],
+    selected_structure_type: str,
+) -> list[Poem]:
+    return [
+        poem
+        for poem in poems
+        if structure_type(poem) == selected_structure_type
+    ]
+
+
 def character_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     counter: Counter[str] = Counter()
     for poem in poems:
