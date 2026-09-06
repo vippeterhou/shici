@@ -110,6 +110,16 @@ def chart_widget_key(base_key: str) -> str:
     return f"{base_key}-{reset_version}"
 
 
+def with_percentage(
+    data: pd.DataFrame,
+    count_column: str,
+    total: int,
+) -> pd.DataFrame:
+    result = data.copy()
+    result["占比"] = result[count_column] / total if total else 0
+    return result
+
+
 def clear_active_drilldown() -> None:
     st.session_state.pop("active_drilldown", None)
     st.session_state["chart_reset_version"] = (
@@ -291,9 +301,13 @@ with format_tab:
 
     with sentence_column:
         st.markdown("#### 句数分布")
-        sentence_data = pd.DataFrame(
-            sentence_count_distribution(filtered_poems),
-            columns=["句数", "诗作数"],
+        sentence_data = with_percentage(
+            pd.DataFrame(
+                sentence_count_distribution(filtered_poems),
+                columns=["句数", "诗作数"],
+            ),
+            "诗作数",
+            len(filtered_poems),
         )
         sentence_selection = alt.selection_point(
             name="sentence_selection",
@@ -310,7 +324,11 @@ with format_tab:
                     title="诗作数",
                     scale=alt.Scale(domainMin=0, nice=True),
                 ),
-                tooltip=["句数:O", "诗作数:Q"],
+                tooltip=[
+                    "句数:O",
+                    "诗作数:Q",
+                    alt.Tooltip("占比:Q", format=".1%"),
+                ],
                 opacity=alt.condition(
                     sentence_selection,
                     alt.value(1),
@@ -391,9 +409,13 @@ with overview_tab:
 
     with line_type_column:
         st.subheader("每句字数类型")
-        line_type_data = pd.DataFrame(
-            line_length_type_counts(filtered_poems),
-            columns=["类型", "诗作数"],
+        line_type_data = with_percentage(
+            pd.DataFrame(
+                line_length_type_counts(filtered_poems),
+                columns=["类型", "诗作数"],
+            ),
+            "诗作数",
+            len(filtered_poems),
         )
         line_type_selection = alt.selection_point(
             name="line_type_selection",
@@ -410,7 +432,11 @@ with overview_tab:
                     scale=alt.Scale(domainMin=0, nice=True),
                 ),
                 y=alt.Y("类型:N", title=None, sort="-x"),
-                tooltip=["类型:N", "诗作数:Q"],
+                tooltip=[
+                    "类型:N",
+                    "诗作数:Q",
+                    alt.Tooltip("占比:Q", format=".1%"),
+                ],
                 opacity=alt.condition(
                     line_type_selection,
                     alt.value(1),
@@ -436,9 +462,13 @@ with overview_tab:
 
     with structure_column:
         st.subheader("结构类型")
-        structure_data = pd.DataFrame(
-            structure_type_counts(filtered_poems),
-            columns=["结构类型", "诗作数"],
+        structure_data = with_percentage(
+            pd.DataFrame(
+                structure_type_counts(filtered_poems),
+                columns=["结构类型", "诗作数"],
+            ),
+            "诗作数",
+            len(filtered_poems),
         )
         structure_order = structure_data["结构类型"].tolist()
         structure_selection = alt.selection_point(
@@ -460,7 +490,11 @@ with overview_tab:
                     title=None,
                     sort=structure_order,
                 ),
-                tooltip=["结构类型:N", "诗作数:Q"],
+                tooltip=[
+                    "结构类型:N",
+                    "诗作数:Q",
+                    alt.Tooltip("占比:Q", format=".1%"),
+                ],
                 opacity=alt.condition(
                     structure_selection,
                     alt.value(1),
@@ -496,9 +530,13 @@ with overview_tab:
         if show_all_authors
         else all_author_counts[:AUTHOR_PREVIEW_LIMIT]
     )
-    author_data = pd.DataFrame(
-        visible_author_counts,
-        columns=["作者", "诗作数"],
+    author_data = with_percentage(
+        pd.DataFrame(
+            visible_author_counts,
+            columns=["作者", "诗作数"],
+        ),
+        "诗作数",
+        len(filtered_poems),
     )
     author_selection = alt.selection_point(
         name="author_selection",
@@ -520,7 +558,11 @@ with overview_tab:
                 sort="-x",
                 axis=alt.Axis(labelOverlap=False),
             ),
-            tooltip=["作者:N", "诗作数:Q"],
+            tooltip=[
+                "作者:N",
+                "诗作数:Q",
+                alt.Tooltip("占比:Q", format=".1%"),
+            ],
             opacity=alt.condition(author_selection, alt.value(1), alt.value(0.55)),
         )
         .add_params(author_selection)
@@ -559,9 +601,14 @@ with characters_tab:
             5,
             key="character-limit",
         )
-        frequency_data = pd.DataFrame(
-            character_counts(filtered_poems)[:frequency_limit],
-            columns=["字", "出现次数"],
+        frequency_counts = character_counts(filtered_poems)
+        frequency_data = with_percentage(
+            pd.DataFrame(
+                frequency_counts[:frequency_limit],
+                columns=["字", "出现次数"],
+            ),
+            "出现次数",
+            sum(count for _, count in frequency_counts),
         )
         selection = alt.selection_point(
             name="character_selection",
@@ -589,12 +636,17 @@ with characters_tab:
                 tuple(selected_corpus_versions.items()),
                 tuple(poem.id for poem in filtered_poems),
             )
-            frequency_data = pd.DataFrame(
-                cached_word_counts(
-                    word_count_cache_key,
-                    tuple(filtered_poems),
-                )[:frequency_limit],
-                columns=["词语", "出现次数"],
+            frequency_counts = cached_word_counts(
+                word_count_cache_key,
+                tuple(filtered_poems),
+            )
+            frequency_data = with_percentage(
+                pd.DataFrame(
+                    frequency_counts[:frequency_limit],
+                    columns=["词语", "出现次数"],
+                ),
+                "出现次数",
+                sum(count for _, count in frequency_counts),
             )
         selection = alt.selection_point(
             name="word_selection",
@@ -624,7 +676,11 @@ with characters_tab:
                     sort="-x",
                     axis=alt.Axis(labelOverlap=False),
                 ),
-                tooltip=[f"{category_field}:N", "出现次数:Q"],
+                tooltip=[
+                    f"{category_field}:N",
+                    "出现次数:Q",
+                    alt.Tooltip("占比:Q", format=".1%"),
+                ],
                 opacity=alt.condition(
                     selection,
                     alt.value(1),
@@ -648,7 +704,13 @@ with characters_tab:
             selection_mode=selection_name,
         )
     with table_column:
-        st.dataframe(frequency_data, hide_index=True, width="stretch")
+        frequency_table = frequency_data.copy()
+        frequency_table["占比"] = frequency_table["占比"].map("{:.1%}".format)
+        st.dataframe(
+            frequency_table[[category_field, "出现次数", "占比"]],
+            hide_index=True,
+            width="stretch",
+        )
     st.caption(caption)
 
 with explorer_tab:
