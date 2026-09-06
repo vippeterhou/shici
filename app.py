@@ -315,7 +315,7 @@ with st.sidebar:
             DATA_SCHEMA_VERSION,
         )
     )
-    all_authors = sorted({poem.author for poem in poems})
+    all_authors = [author for author, _ in author_counts(poems)]
     all_line_types = [name for name, _ in line_length_type_counts(poems)]
     all_sentence_counts = sorted({poem.format.sentence_count for poem in poems})
     selected_authors = st.multiselect("作者", all_authors)
