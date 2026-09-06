@@ -60,6 +60,10 @@ CORPORA = {
 DEFAULT_CORPORA = ["唐诗三百首"]
 DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 20
+FREQUENCY_DISPLAY_LIMIT = 100
+FREQUENCY_BAR_HEIGHT = 22
+FREQUENCY_TABLE_ROW_HEIGHT = 21
+DATAFRAME_HEADER_HEIGHT = 38
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
 
@@ -450,7 +454,7 @@ with format_tab:
         )
 
     with combination_column:
-        st.markdown("#### 句数 × 每句字数类型")
+        st.markdown("#### 字句组合分布")
         if group_large_sentence_counts:
             combination_counts = format_bucket_combination_counts(
                 filtered_poems
@@ -804,18 +808,10 @@ with characters_tab:
 
     if frequency_type == "常用字":
         st.subheader("正文常用字")
-        frequency_limit = st.slider(
-            "显示数量",
-            10,
-            100,
-            30,
-            5,
-            key="character-limit",
-        )
         frequency_counts = character_counts(filtered_poems)
         frequency_data = with_percentage(
             pd.DataFrame(
-                frequency_counts[:frequency_limit],
+                frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
                 columns=["字", "出现次数"],
             ),
             "出现次数",
@@ -833,14 +829,6 @@ with characters_tab:
         caption = "只统计汉字，排除标点、空格、数字及其他非汉字。"
     else:
         st.subheader("正文常用词语")
-        frequency_limit = st.slider(
-            "显示数量",
-            10,
-            100,
-            30,
-            5,
-            key="word-limit",
-        )
         with st.spinner("正在进行中文分词统计……"):
             word_count_cache_key = (
                 DATA_SCHEMA_VERSION,
@@ -853,7 +841,7 @@ with characters_tab:
             )
             frequency_data = with_percentage(
                 pd.DataFrame(
-                    frequency_counts[:frequency_limit],
+                    frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
                     columns=["词语", "出现次数"],
                 ),
                 "出现次数",
@@ -870,7 +858,17 @@ with characters_tab:
         chart_base_key = "word-chart"
         caption = "使用中文分词统计，只保留由至少两个汉字组成的词语。"
 
-    chart_column, table_column = st.columns([3, 2])
+    frequency_chart_height = (
+        max(1, len(frequency_data)) * FREQUENCY_BAR_HEIGHT
+    )
+    frequency_table_height = (
+        max(1, len(frequency_data)) * FREQUENCY_TABLE_ROW_HEIGHT
+        + DATAFRAME_HEADER_HEIGHT
+    )
+    chart_column, table_column = st.columns(
+        [3, 2],
+        vertical_alignment="top",
+    )
     with chart_column:
         frequency_chart = (
             alt.Chart(frequency_data)
@@ -899,7 +897,10 @@ with characters_tab:
                 ),
             )
             .add_params(selection)
-            .properties(height=max(400, frequency_limit * 22))
+            .properties(
+                height=frequency_chart_height,
+                padding={"top": DATAFRAME_HEADER_HEIGHT},
+            )
         )
         chart_key = chart_widget_key(chart_base_key)
         st.altair_chart(
@@ -921,6 +922,8 @@ with characters_tab:
             frequency_table[[category_field, "出现次数", "占比"]],
             hide_index=True,
             width="stretch",
+            height=frequency_table_height,
+            row_height=FREQUENCY_TABLE_ROW_HEIGHT,
         )
     st.caption(caption)
 
