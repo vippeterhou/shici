@@ -50,11 +50,11 @@ DATA_DIRECTORY = Path(__file__).parent / "data"
 CORPORA = {
     "唐诗三百首": CorpusConfig(
         query_id="ts300",
-        path=DATA_DIRECTORY / "tangshisanbaishou.json",
+        path=DATA_DIRECTORY / "ts300" / "ts300.json",
     ),
     "全唐诗": CorpusConfig(
         query_id="qts",
-        path=DATA_DIRECTORY / "quantangshi",
+        path=DATA_DIRECTORY / "qts",
     ),
 }
 DEFAULT_CORPORA = ["唐诗三百首"]

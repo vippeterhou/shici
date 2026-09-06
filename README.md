@@ -35,7 +35,7 @@ pytest -q
 
 ## Architecture
 
-`JsonPoemRepository` loads `data/tangshisanbaishou.json`, while
+`JsonPoemRepository` loads `data/ts300/ts300.json`, while
 `poetry/analytics.py` contains framework-independent filtering and aggregation
 logic. A future Supabase repository can replace JSON storage without coupling
 the dashboard to a specific data source.
@@ -55,12 +55,12 @@ Each poem includes deterministic format metadata:
 Regenerate this metadata after changing poem text:
 
 ```bash
-python -m scripts.enrich_format data/tangshisanbaishou.json
+python -m scripts.enrich_format data/ts300/ts300.json
 ```
 
 The enrichment command also accepts a directory and processes every JSON file
 directly inside it:
 
 ```bash
-python -m scripts.enrich_format data/quantangshi
+python -m scripts.enrich_format data/qts
 ```
