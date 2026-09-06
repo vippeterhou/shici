@@ -127,7 +127,10 @@ def test_format_analytics_and_drilldowns() -> None:
     ]
     assert line_length_type(POEMS[0]) == "七言"
     assert structure_type(POEMS[1]) == "其他五言"
-    assert structure_type_counts(POEMS)[0] == ("其他五言", 2)
+    assert structure_type_counts(POEMS) == [
+        ("其他五言", 2),
+        ("其他七言", 1),
+    ]
     assert poems_with_sentence_count(POEMS, 2) == list(POEMS[1:])
     assert poems_with_line_length_type(POEMS, "七言") == [POEMS[0]]
     assert poems_with_format_combination(POEMS, 2, "五言") == list(POEMS[1:])

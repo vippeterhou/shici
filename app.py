@@ -8,6 +8,7 @@ import pandas as pd
 import streamlit as st
 
 from poetry.analytics import (
+    STRUCTURE_TYPE_ORDER,
     author_counts,
     character_counts,
     duplicate_text_groups,
@@ -26,7 +27,6 @@ from poetry.analytics import (
     sentence_count_distribution,
     structure_type_counts,
     summarize,
-    tag_counts,
     title_counts,
 )
 from poetry.json_repository import JsonPoemRepository
@@ -105,8 +105,6 @@ def clear_active_drilldown() -> None:
 def render_poem_collection(
     heading: str,
     selected_poems: list[Poem],
-    *,
-    key: str,
 ) -> None:
     if not selected_poems:
         return
@@ -116,6 +114,12 @@ def render_poem_collection(
         {
             "题目": poem.title,
             "作者": poem.author,
+            "言": (
+                str(poem.format.uniform_sentence_length)
+                if poem.format.uniform_sentence_length is not None
+                else "杂"
+            ),
+            "句": poem.format.sentence_count,
             "字数": poem_character_count(poem),
             "正文": poem_text(poem),
         }
@@ -126,13 +130,6 @@ def render_poem_collection(
         hide_index=True,
         width="stretch",
         height=min(420, 38 + len(rows) * 35),
-        key=key,
-        column_config={
-            "题目": st.column_config.TextColumn(width="medium"),
-            "作者": st.column_config.TextColumn(width="small"),
-            "字数": st.column_config.NumberColumn(width="small"),
-            "正文": st.column_config.TextColumn(width="large"),
-        },
     )
 
 with st.sidebar:
@@ -257,45 +254,6 @@ with overview_tab:
             ),
             selection_mode="length_selection",
         )
-
-    st.subheader("最常见标签")
-    tag_data = pd.DataFrame(
-        tag_counts(filtered_poems)[:20],
-        columns=["标签", "诗作数"],
-    )
-    tag_selection = alt.selection_point(
-        name="tag_selection",
-        fields=["标签"],
-        clear="dblclick",
-    )
-    tag_chart = (
-        alt.Chart(tag_data)
-        .mark_bar()
-        .encode(
-            x=alt.X(
-                "诗作数:Q",
-                title="诗作数",
-                scale=alt.Scale(domainMin=0, nice=True),
-            ),
-            y=alt.Y("标签:N", title=None, sort="-x"),
-            tooltip=["标签:N", "诗作数:Q"],
-            opacity=alt.condition(tag_selection, alt.value(1), alt.value(0.55)),
-        )
-        .add_params(tag_selection)
-        .properties(height=480)
-    )
-    st.altair_chart(
-        tag_chart,
-        use_container_width=True,
-        key="tag-chart",
-        on_select=partial(
-            activate_chart_drilldown,
-            "tag-chart",
-            "tag_selection",
-            "tag",
-        ),
-        selection_mode="tag_selection",
-    )
 
     st.divider()
     st.subheader("格式分析")
@@ -464,7 +422,11 @@ with overview_tab:
                     title="诗作数",
                     scale=alt.Scale(domainMin=0, nice=True),
                 ),
-                y=alt.Y("结构类型:N", title=None, sort="-x"),
+                y=alt.Y(
+                    "结构类型:N",
+                    title=None,
+                    sort=STRUCTURE_TYPE_ORDER,
+                ),
                 tooltip=["结构类型:N", "诗作数:Q"],
                 opacity=alt.condition(
                     structure_selection,
@@ -639,12 +601,6 @@ if active_drilldown:
         drilldown_value = str(drilldown_selection["字数范围"])
         drilldown_heading = f"{drilldown_value} 字"
         drilldown_poems = poems_in_length_bucket(filtered_poems, drilldown_value)
-    elif drilldown_kind == "tag":
-        drilldown_value = str(drilldown_selection["标签"])
-        drilldown_heading = drilldown_value
-        drilldown_poems = [
-            poem for poem in filtered_poems if drilldown_value in poem.tags
-        ]
     elif drilldown_kind == "character":
         drilldown_value = str(drilldown_selection["字"])
         drilldown_heading = f"包含「{drilldown_value}」"
@@ -687,7 +643,6 @@ if active_drilldown:
         render_poem_collection(
             drilldown_heading,
             drilldown_poems,
-            key=f"{drilldown_kind}-poems-dialog",
         )
     else:
         clear_active_drilldown()

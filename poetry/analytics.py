@@ -9,6 +9,17 @@ from typing import Iterable, Sequence
 from .models import Poem
 from .text import is_han_character
 
+STRUCTURE_TYPE_ORDER = [
+    "五言四句",
+    "五言八句",
+    "其他五言",
+    "七言四句",
+    "七言八句",
+    "其他七言",
+    "杂言",
+    "其他齐言",
+]
+
 
 @dataclass(frozen=True)
 class CorpusSummary:
@@ -127,7 +138,12 @@ def structure_type(poem: Poem) -> str:
 
 
 def structure_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
-    return Counter(structure_type(poem) for poem in poems).most_common()
+    counts = Counter(structure_type(poem) for poem in poems)
+    return [
+        (structure_name, counts[structure_name])
+        for structure_name in STRUCTURE_TYPE_ORDER
+        if counts[structure_name]
+    ]
 
 
 def poems_with_sentence_count(
