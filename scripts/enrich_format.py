@@ -12,8 +12,17 @@ _SENTENCE_LENGTHS_BLOCK = re.compile(
 )
 
 
-def serialize_records(records: list[dict[str, object]]) -> str:
-    formatted = json.dumps(records, ensure_ascii=False, indent=2)
+def json_indent(source: str) -> int:
+    match = re.search(r"^\[\r?\n( +)\{", source)
+    return len(match.group(1)) if match else 2
+
+
+def serialize_records(
+    records: list[dict[str, object]],
+    *,
+    indent: int = 2,
+) -> str:
+    formatted = json.dumps(records, ensure_ascii=False, indent=indent)
 
     def compact_lengths(match: re.Match[str]) -> str:
         lengths = re.findall(r"\d+", match.group(2))
@@ -23,7 +32,8 @@ def serialize_records(records: list[dict[str, object]]) -> str:
 
 
 def enrich_file(path: Path) -> None:
-    records = json.loads(path.read_text(encoding="utf-8"))
+    source = path.read_text(encoding="utf-8")
+    records = json.loads(source)
     if not isinstance(records, list):
         raise ValueError("Poetry data must be a top-level JSON array")
 
@@ -35,14 +45,33 @@ def enrich_file(path: Path) -> None:
             raise ValueError(f"Invalid paragraphs for poem {record.get('id')}")
         record["format"] = analyze_poem_format(paragraphs).to_dict()
 
-    path.write_text(serialize_records(records), encoding="utf-8")
+    path.write_text(
+        serialize_records(records, indent=json_indent(source)),
+        encoding="utf-8",
+    )
+
+
+def enrich_path(path: Path) -> int:
+    if path.is_file():
+        enrich_file(path)
+        return 1
+    if not path.is_dir():
+        raise ValueError(f"Poetry data path does not exist: {path}")
+
+    files = sorted(path.glob("*.json"))
+    if not files:
+        raise ValueError(f"No JSON files found in: {path}")
+    for file_path in files:
+        enrich_file(file_path)
+    return len(files)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("path", type=Path)
     args = parser.parse_args()
-    enrich_file(args.path)
+    file_count = enrich_path(args.path)
+    print(f"Enriched {file_count} JSON file(s)")
 
 
 if __name__ == "__main__":

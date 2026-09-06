@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寒食宿陳公塘上",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "將去廣陵別史員外南齋",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "將過江題白沙館",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登甘露寺北望",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山路花",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "京口江際弄水",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早春旬假獨直寄江舍人",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "從駕東幸呈諸公",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重遊木蘭亭",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賦得彩燕",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送魏舍人仲甫為蘄州判官",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題殷舍人宅木芙蓉",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送史館高員外使嶺南",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日紫岩山期客不至",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿蔣帝廟，明日游山南諸寺",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賦得有所思",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈王貞素先生",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春夜月",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "愛敬寺有老僧嘗游長安言秦雍間事歷歷可聽…示同行客",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "游蔣山題辛夷花寄陳奉禮",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和殷舍人蕭員外春雪",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄蘄州高郎中",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄和州韓舍人",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "從兄龍武將軍沒于邊戍，過舊營宅作",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "景陽臺懷古",
@@ -361,7 +486,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [6, 6, 6, 6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "春分日",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄駕部郎中",
@@ -389,7 +524,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和王庶子寄題兄長建州廉使新亭",
@@ -403,7 +543,12 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "謝文靖墓下作",
@@ -417,6 +562,11 @@
             ""
         ],
         "volume": "卷七百五十一",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

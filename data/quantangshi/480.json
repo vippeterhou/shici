@@ -15,7 +15,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "趨翰苑遭誣構四十六韻",
@@ -50,7 +55,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 92,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "憶春日太液池亭候對",
@@ -64,7 +74,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶夜直金鑾殿承旨",
@@ -78,7 +93,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶春日曲江宴後許至芙蓉園",
@@ -92,7 +112,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新昌宅書堂前有藥樹一株，今已盈拱前。長慶中，於翰林院內，西軒藥樹下移得。纔長一寸，僕夫封一泥丸以歸植，今則長成，名之天上樹",
@@ -106,7 +131,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過荊門",
@@ -123,7 +153,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "涉沅瀟",
@@ -140,7 +175,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 9, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "逾嶺嶠止荒陬抵高要",
@@ -161,7 +201,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "移九江",
@@ -182,7 +227,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "泛五湖",
@@ -202,7 +252,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過鐘陵",
@@ -216,7 +271,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "溯西江",
@@ -230,7 +290,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早發",
@@ -244,7 +309,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "守滁陽深秋憶登郡城望琅琊",
@@ -258,7 +328,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "滁陽春日懷果園閑宴",
@@ -272,7 +347,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "悲善才",
@@ -292,7 +372,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞裏謠效古歌",
@@ -310,7 +395,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "轉壽春守，太和庚戌歲二月祗命壽陽，時替裴五墉終歿。因視壁題，自墉而上，或除名在邊坐殿，歿凡七子，無一存焉。壽人多寇盜，好訴訐，時謂之凶郡，獷俗特著。蒙此處之，顧余衰年甘躡前患，俾三月而寇靜，期歲而人和，虎不暴物，姦吏屏竄。三載，復遭邪佞所惡，授賓客，分司東都。或舉其目，或寄於風，亦麤繼詩人之末云",
@@ -324,7 +414,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶壽春廢虎坑，余以春二月至郡，主吏舉所職，稱霍山多虎，每歲採茶為患，擇肉於人，至春常修陷阱數十所，勒獵者採其皮睛，余悉除罷之。是歲虎不復為害，至余去郡三載",
@@ -338,7 +433,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：肥河維舟阻涷祇待敕命",
@@ -354,7 +454,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：別連理樹",
@@ -368,7 +473,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：虎不食人",
@@ -382,7 +492,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：發壽陽分司敕到又遇新正感懷書事",
@@ -396,7 +511,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：初出淝口入淮",
@@ -410,7 +530,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：入淮至盱眙",
@@ -424,7 +549,12 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽陽罷郡日有詩十首與追懷不殊今編於後兼紀瑞物：憶東湖",
@@ -438,6 +568,11 @@
             ""
         ],
         "volume": "卷四百八十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

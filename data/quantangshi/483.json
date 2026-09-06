@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉酬樂天立秋夕有懷見寄",
@@ -31,7 +36,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山出雲",
@@ -46,7 +56,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上党奏慶雲見",
@@ -61,7 +76,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "華山慶雲見",
@@ -76,7 +96,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "欲到西陵寄王行周",
@@ -90,7 +115,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "華頂",
@@ -104,7 +134,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鶯鶯歌",
@@ -118,7 +153,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈毛仙翁",
@@ -136,7 +176,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和晉公三首",
@@ -151,7 +196,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古風二首",
@@ -165,7 +215,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "柳二首",
@@ -181,7 +236,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題白樂天文集",
@@ -195,7 +255,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答章孝標",
@@ -209,7 +274,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "朱槿花",
@@ -223,7 +293,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "至潭州聞猿",
@@ -237,7 +312,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "江亭",
@@ -251,7 +331,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "紅蕉花",
@@ -265,7 +350,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶漢月",
@@ -279,7 +369,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "端州江亭得家書二首",
@@ -295,7 +390,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞猿",
@@ -309,7 +409,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈韋金吾",
@@ -323,7 +428,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "長門怨",
@@ -337,7 +447,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "龜山寺魚池",
@@ -353,7 +468,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賦月",
@@ -368,7 +488,12 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "句",
@@ -382,6 +507,11 @@
             ""
         ],
         "volume": "卷四百八十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 5, 5, 5, 8, 5, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

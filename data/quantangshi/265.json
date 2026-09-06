@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "幽居弄",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "公子行",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "古離別",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "長安道",
@@ -66,7 +86,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "龍宮操",
@@ -79,7 +104,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "梁廣畫花歌",
@@ -93,7 +123,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "送別日晚歌",
@@ -107,7 +142,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [6, 6, 5, 6, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "行路難三首",
@@ -127,7 +167,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [10, 7, 7, 7, 7, 3, 3, 5, 7, 10, 7, 7, 7, 7, 3, 3, 3, 3, 7, 8, 7, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "悲歌一",
@@ -141,7 +186,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 7, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "《悲歌二",
@@ -155,7 +205,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "《悲歌三",
@@ -169,7 +224,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "悲歌四",
@@ -183,7 +243,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "悲歌五",
@@ -196,7 +261,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [3, 3, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "悲歌六",
@@ -210,7 +280,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春草謠",
@@ -223,7 +298,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "苔蘚山歌",
@@ -237,7 +317,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "同裴觀察東湖望山歌",
@@ -251,7 +336,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "八月五日歌",
@@ -267,7 +357,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "露青竹杖歌",
@@ -287,7 +382,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "金璫玉佩歌",
@@ -301,7 +401,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [9, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "瑤草春",
@@ -316,7 +421,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 7, 5, 7, 7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蕭鄲草書歌",
@@ -330,7 +440,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "範山人畫山水歌",
@@ -344,7 +459,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 6, 4, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵇山道芬上人畫山水歌",
@@ -357,7 +477,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "杜秀才畫立走水牛歌",
@@ -371,7 +496,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "梁司馬畫馬歌",
@@ -385,7 +515,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "丘小府小鼓歌",
@@ -399,7 +534,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宜城放琴客歌",
@@ -415,7 +555,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 6, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "李供奉彈箜篌歌",
@@ -436,7 +581,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 5, 5, 3, 3, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "劉禪奴彈琵琶歌",
@@ -450,7 +600,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "李湖州孺人彈箏歌",
@@ -464,7 +619,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄭女彈箏歌",
@@ -477,7 +637,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "諒公洞庭孤橘歌",
@@ -492,7 +657,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "送行歌",
@@ -505,7 +675,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "險竿歌",
@@ -521,7 +696,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "洛陽行送洛陽韋七明府",
@@ -534,7 +714,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "黃鵠樓歌送獨孤助",
@@ -548,7 +733,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "廬山瀑布歌送李顧",
@@ -562,7 +752,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "朝上清歌",
@@ -579,7 +774,12 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 7, 7, 10, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "剡紙歌",
@@ -593,6 +793,11 @@
             ""
         ],
         "volume": "卷二百六十五",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

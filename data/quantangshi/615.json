@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋江曉望",
@@ -23,7 +28,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閑夜酒醒",
@@ -36,7 +46,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和魯望風人詩三首",
@@ -51,7 +66,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古函關",
@@ -64,7 +84,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聰明泉",
@@ -77,7 +102,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "史處士",
@@ -90,7 +120,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "芳草渡",
@@ -103,7 +138,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古宮詞三首",
@@ -118,7 +158,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日陪崔諫議櫻桃園宴",
@@ -132,7 +177,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "松江早春",
@@ -146,7 +196,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "女墳湖",
@@ -160,7 +215,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "泰伯廟",
@@ -174,7 +234,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿木蘭院",
@@ -188,7 +253,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重題薔薇",
@@ -202,7 +272,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春夕酒醒",
@@ -216,7 +291,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "青門閑泛",
@@ -230,7 +310,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "木蘭後池三詠：重台蓮花",
@@ -244,7 +329,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "木蘭後池三詠：浮萍",
@@ -258,7 +348,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "木蘭後池三詠：白蓮",
@@ -272,7 +367,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重題後池",
@@ -286,7 +386,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "庭中初植松桂，魯望偶題，奉和次韻",
@@ -300,7 +405,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "魯望戲題書印囊奉和次韻",
@@ -314,7 +424,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "館娃宮懷古五絕",
@@ -335,7 +450,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "虎丘寺西小溪閑泛三絕",
@@ -353,7 +473,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "天竺寺八月十五日夜桂子",
@@ -367,7 +492,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "釣侶二章",
@@ -383,7 +513,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄同年韋校書",
@@ -397,7 +532,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "初冬偶作",
@@ -411,7 +551,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "醉中寄魯望一壺並一絕",
@@ -425,7 +570,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "更次來韻寄魯望",
@@ -439,7 +589,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重玄寺雙矮檜",
@@ -453,7 +608,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉酬魯望醉中戲贈",
@@ -467,7 +627,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "皋橋",
@@ -481,7 +646,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "軍事院霜菊盛開，因書一絕寄上諫議",
@@ -495,7 +665,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "悼鶴",
@@ -509,7 +684,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "醉中先起李縠戲贈走筆奉酬",
@@ -523,7 +703,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和魯望招潤卿博士辭以道侶將至之作",
@@ -537,7 +722,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和再招",
@@ -551,7 +741,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酒病偶作",
@@ -565,7 +760,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "潤卿魯望寒夜見訪，各惜其志，遂成一絕",
@@ -579,7 +779,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和魯望玩金鸂鶒戲贈",
@@ -593,7 +798,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "友人許惠酒以詩征之",
@@ -607,7 +817,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寒夜文宴潤卿有期不至",
@@ -621,7 +836,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "汴河懷古二首",
@@ -637,7 +857,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄題天臺國清寺齊梁體",
@@ -651,7 +876,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "詠蟹",
@@ -665,7 +895,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "金錢花",
@@ -679,7 +914,12 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "惠山聽松庵",
@@ -693,6 +933,11 @@
             ""
         ],
         "volume": "卷六百一十五",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

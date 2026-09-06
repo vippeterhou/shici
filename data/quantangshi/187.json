@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聽嘉陵江水聲，寄深上人",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高陵書情，寄三原盧少府",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "假中對雨，呈縣中僚友",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈蕭河南",
@@ -71,7 +91,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "示從子河南尉班",
@@ -85,7 +110,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "趨府候曉，呈兩縣僚友",
@@ -99,7 +129,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈李儋",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈盧嵩",
@@ -130,7 +170,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄馮著",
@@ -146,7 +191,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早春對雪，寄前殿中元侍禦",
@@ -160,7 +210,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈王侍禦",
@@ -174,7 +229,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "將往江淮，寄李十九儋",
@@ -189,7 +249,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "自鞏洛舟行入黃河即事，寄府縣僚友",
@@ -203,7 +268,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄盧庾",
@@ -219,7 +289,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "發廣陵留上家兄兼寄上長沙",
@@ -236,7 +311,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初發揚子，寄元大校書",
@@ -250,7 +330,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "淮上即事，寄廣陵親故",
@@ -264,7 +349,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄洪州幕府盧二十一侍禦",
@@ -278,7 +368,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "經少林精舍，寄都邑親友",
@@ -293,7 +388,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同長源歸南徐，寄子西、子烈、有道",
@@ -309,7 +409,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雪中聞李儋過門不訪，聊以寄贈",
@@ -323,7 +428,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同德精舍養疾，寄河南兵曹東廳掾",
@@ -339,7 +449,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同德寺雨後，寄元侍禦、李博士",
@@ -354,7 +469,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同德閣期元侍禦、李博士不至，各投贈二首",
@@ -368,7 +488,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "使雲陽寄府曹",
@@ -385,7 +510,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過扶風精舍舊居，簡朝宗、巨川兄弟",
@@ -401,7 +531,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈令狐士曹",
@@ -415,7 +550,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈馮著",
@@ -431,7 +571,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "對雨寄韓庫部協",
@@ -445,7 +590,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄子西",
@@ -460,7 +610,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "縣內閒居贈溫公",
@@ -474,7 +629,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "對雪贈徐秀才",
@@ -488,7 +648,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西郊遊宴，寄贈邑僚李巽",
@@ -504,7 +669,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "對雨贈李主簿、高秀才",
@@ -518,7 +688,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "休沐東還胄貴裏示端",
@@ -535,7 +710,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "朝請後還邑，寄諸友生",
@@ -552,7 +732,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "灃上西齋寄諸友",
@@ -568,7 +753,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "獨遊西齋，寄崔主簿",
@@ -582,7 +772,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紫閣東林居士叔緘賜松英丸捧對忻喜蓋非塵侶之所當服輙獻詩代啓",
@@ -596,7 +791,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋集罷還途中作，謹獻壽春公、黎公",
@@ -614,7 +814,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閒居贈友",
@@ -630,7 +835,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "四禪精舍登覽悲舊，寄朝宗、巨川兄弟",
@@ -647,7 +857,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "善福閣對雨，寄李儋幼遐",
@@ -665,7 +880,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寺居獨夜，寄崔主簿",
@@ -679,7 +899,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日灃上作，寄崔主簿倬二李端系",
@@ -695,7 +920,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西郊養疾聞暢校書有新什見贈久佇不至先寄此詩",
@@ -710,7 +940,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "灃上寄幼遐",
@@ -727,7 +962,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "善福精舍示諸生",
@@ -742,7 +982,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚出灃上，贈崔都水",
@@ -757,7 +1002,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寓居灃上精舍，寄于、張二舍人",
@@ -771,7 +1021,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "開元觀懷舊寄李二、韓二、裴四兼呈崔郎中、嚴家令",
@@ -785,7 +1040,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日郊居寄萬年吉少府中孚、三原少府偉、夏侯校書審",
@@ -799,7 +1059,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "灃上醉題寄滌武",
@@ -812,7 +1077,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西郊期滌武不至，書示",
@@ -825,7 +1095,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "灃上對月，寄孔諫議",
@@ -838,7 +1113,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "將往滁城戀新竹，簡崔都水示端",
@@ -852,7 +1132,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "還闕首途，寄精舍親友",
@@ -867,7 +1152,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋夜南宮，寄灃上弟及諸生",
@@ -881,7 +1171,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "途中書情，寄灃上兩弟，因送二甥卻還",
@@ -895,7 +1190,12 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雪夜下朝，呈省中一絕",
@@ -909,6 +1209,11 @@
             ""
         ],
         "volume": "卷一百八十七",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

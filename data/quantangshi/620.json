@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：罩",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：罱",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：釣筒",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：釣車",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：魚梁",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：叉魚",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：射魚",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：鳴桹",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：滬",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：qF",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：種魚",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：藥魚",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：舴艋",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁具詩：笭箵",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美添漁具五篇：漁庵",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美添漁具五篇：釣磯",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美添漁具五篇：蓑衣",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美添漁具五篇：箬笠",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美添漁具五篇：背蓬",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵溪",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵家",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵叟",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵子",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵徑",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵斧",
@@ -361,7 +486,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵擔",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵風",
@@ -389,7 +524,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵火",
@@ -403,7 +543,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樵人十詠：樵歌",
@@ -417,7 +562,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒星",
@@ -431,7 +581,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒泉",
@@ -445,7 +600,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒篘",
@@ -459,7 +619,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒床",
@@ -473,7 +638,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒壚",
@@ -487,7 +657,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒樓",
@@ -501,7 +676,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒旗",
@@ -515,7 +695,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒尊",
@@ -529,7 +714,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒城",
@@ -543,7 +733,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酒中十詠：酒鄉",
@@ -557,7 +752,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "添酒中六詠：酒池",
@@ -571,7 +771,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "添酒中六詠：酒龍",
@@ -585,7 +790,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "添酒中六詠：酒甕",
@@ -599,7 +809,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "添酒中六詠：酒船",
@@ -613,7 +828,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "添酒中六詠：酒槍",
@@ -627,7 +847,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "添酒中六詠：酒杯",
@@ -641,7 +866,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶塢",
@@ -655,7 +885,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶人",
@@ -669,7 +904,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶筍",
@@ -683,7 +923,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶籝",
@@ -697,7 +942,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶舍",
@@ -711,7 +961,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《奉和襲美茶具十詠：茶灶",
@@ -725,7 +980,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶焙",
@@ -739,7 +999,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶鼎",
@@ -753,7 +1018,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：茶甌",
@@ -767,7 +1037,12 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美茶具十詠：煮茶",
@@ -781,6 +1056,11 @@
             ""
         ],
         "volume": "卷六百二十",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

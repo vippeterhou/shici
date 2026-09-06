@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "擬古",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西征軍行遇風",
@@ -45,7 +55,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "塞垣行",
@@ -63,7 +78,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登東陽沈隱侯八詠樓",
@@ -80,7 +100,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "從軍行",
@@ -95,7 +120,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和宋之問寒食題黃梅臨江驛",
@@ -109,7 +139,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "留別杜審言並呈洛中舊游",
@@ -123,7 +158,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠寶劍",
@@ -137,7 +177,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "吳中好風景",
@@ -151,7 +196,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "則天皇後挽歌二首",
@@ -167,7 +217,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "戶部尚書崔公挽歌",
@@ -181,7 +236,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "韋長史挽詞",
@@ -195,7 +255,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和梁王眾傳張光祿是王子晉後身",
@@ -212,7 +277,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "哭蔣詹事儼",
@@ -234,7 +304,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嵩山石淙侍宴應制",
@@ -248,7 +323,12 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "塞上寄內",
@@ -261,6 +341,11 @@
             ""
         ],
         "volume": "卷六十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋夜小洞庭離宴詩",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "閨情",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古意",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "情人玉清歌",
@@ -68,7 +88,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 5, 7, 7, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "《贈獨孤常州",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制次瓊岳應制",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "成都為客作",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和苑舍人宿直曉玩新池寄南省友",
@@ -127,7 +167,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "變律",
@@ -149,7 +194,12 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 38,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《贈零陵僧",
@@ -166,6 +216,11 @@
             ""
         ],
         "volume": "卷二百五十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

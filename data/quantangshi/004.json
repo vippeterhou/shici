@@ -15,7 +15,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "賜梨李泌與諸王聯句",
@@ -31,7 +36,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 2, 5, 5, 2, 5, 5, 2, 5, 5, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "中和節日宴百僚賜詩",
@@ -46,7 +56,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "中和節賜百官燕集因示所懷",
@@ -61,7 +76,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "重陽日賜宴曲江亭，賦六韻詩用清字",
@@ -76,7 +96,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九月十八賜百僚追賞因書所懷",
@@ -91,7 +116,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送徐州張建封還鎮",
@@ -107,7 +137,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "麟德殿宴百僚",
@@ -122,7 +157,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "元日退朝觀軍仗歸營",
@@ -138,7 +178,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "中和節賜群臣宴賦七韻",
@@ -154,7 +199,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "三日書懷因示百僚",
@@ -169,7 +219,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "重陽日中外同歡，以詩言志，因示群官",
@@ -185,7 +240,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "重陽日即事",
@@ -200,7 +260,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "豐年多慶，九日示懷",
@@ -215,7 +280,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "七月十五日題章敬寺",
@@ -232,7 +302,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "中春麟德殿會百僚觀新樂詩一章，章十六句",
@@ -248,7 +323,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日絕句",
@@ -262,7 +342,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "暮春喜雨詩",
@@ -277,7 +362,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題程修己竹障",
@@ -291,7 +381,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "宮中題",
@@ -304,7 +399,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上巳日賜裴度",
@@ -317,7 +417,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上元日二首",
@@ -333,7 +438,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夏日聯句",
@@ -347,7 +457,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 2, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "百丈山",
@@ -361,7 +476,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "吊白居易",
@@ -375,7 +495,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "幸華嚴寺",
@@ -389,7 +514,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重陽錫宴群臣",
@@ -402,7 +532,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題涇縣水西寺",
@@ -416,7 +551,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "瀑布聯句",
@@ -430,7 +570,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 2, 7, 7, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "句",
@@ -444,7 +589,12 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "句",
@@ -457,6 +607,11 @@
             ""
         ],
         "volume": "卷四",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

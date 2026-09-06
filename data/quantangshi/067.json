@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和宋之問下山歌",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "北使長城",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鳳台曲",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "銅雀台",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "巫山",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和宋之問下山歌",
@@ -100,7 +130,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [8, 8, 8, 8],
+            "uniform_sentence_length": 8
+        }
     },
     {
         "title": "孝和皇帝挽歌",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和春日出苑矚目應令",
@@ -128,7 +168,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "有所思",
@@ -142,7 +187,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "祭汾陰樂章",
@@ -156,7 +206,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "使至汴州喜逢宋之問",
@@ -170,7 +225,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "祭汾陰樂章",
@@ -184,7 +244,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "祭汾陰樂章",
@@ -198,7 +263,12 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "祭汾陰樂章",
@@ -212,6 +282,11 @@
             ""
         ],
         "volume": "卷六十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     }
 ]

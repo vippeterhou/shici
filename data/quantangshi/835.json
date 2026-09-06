@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蜀王登福感寺塔三首",
@@ -31,7 +36,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "少監三首",
@@ -49,7 +59,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "再到鐘陵作",
@@ -63,7 +78,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "經弟妹墳",
@@ -77,7 +97,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "到蜀與鄭中丞相遇",
@@ -91,7 +116,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別馮使君",
@@ -105,7 +135,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "上新定宋使君",
@@ -119,7 +154,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和李判官見新榜為兄下第",
@@ -133,7 +173,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送羅鄴赴許昌辟",
@@ -147,7 +192,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬韋相公見寄",
@@ -161,7 +211,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬張相公見寄",
@@ -175,7 +230,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬王相公見贈",
@@ -189,7 +249,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬周相公見贈",
@@ -203,7 +268,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "道情偈三首",
@@ -221,7 +291,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "馬上作",
@@ -235,7 +310,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "道中逢乞食老僧",
@@ -249,7 +329,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋末寄武昌一公",
@@ -263,7 +348,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "陋巷",
@@ -277,7 +367,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "終南僧",
@@ -291,7 +386,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聽僧彈琴",
@@ -305,7 +405,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "漁者",
@@ -319,7 +424,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "大蜀皇帝潛龍日述聖德詩五首",
@@ -341,7 +451,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "陳情獻蜀皇帝",
@@ -355,7 +470,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壽春節進大蜀皇帝五首",
@@ -377,7 +497,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "對雪寄新定馮使君二首",
@@ -393,7 +518,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送劉相公朝覲二首",
@@ -409,7 +539,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "避寇游成福山院",
@@ -423,7 +558,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別李常侍",
@@ -437,7 +577,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送鄭閣赴閩辟",
@@ -451,7 +596,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄信州張使君",
@@ -465,7 +615,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春末寄周璉",
@@ -479,7 +634,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "《讀吳越春秋》",
@@ -493,7 +653,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春遊靈泉寺",
@@ -507,7 +672,12 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "歸東陽臨岐上杜使君七首",
@@ -533,6 +703,11 @@
             ""
         ],
         "volume": "卷八百三十五",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

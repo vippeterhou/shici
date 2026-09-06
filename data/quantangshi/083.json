@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "感遇詩三十八首",
@@ -125,7 +130,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 398,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "觀荊玉篇",
@@ -139,7 +149,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鴛鴦篇",
@@ -158,7 +173,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與東方左史虯修竹篇",
@@ -179,7 +199,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：軒轅台",
@@ -193,7 +218,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：燕昭王",
@@ -207,7 +237,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：樂生",
@@ -221,7 +256,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：燕太子",
@@ -235,7 +275,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：田光先生",
@@ -249,7 +294,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：鄒衍",
@@ -263,7 +313,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薊丘覽古贈盧居士藏用七首：郭隗",
@@ -276,7 +331,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西還至散關答喬補闕知之",
@@ -293,7 +353,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "度峽口山贈喬補闕知之王二無競",
@@ -310,7 +375,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題居延古城贈喬十二知之",
@@ -325,7 +395,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈趙六貞固二首",
@@ -343,7 +418,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答韓使同在邊",
@@ -361,7 +441,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "征東至淇門答宋十一參軍之問",
@@ -375,7 +460,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答洛陽主人",
@@ -391,7 +481,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬暉上人秋夜山亭有贈",
@@ -405,7 +500,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬李參軍崇嗣旅館見贈",
@@ -422,7 +522,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬暉上人夏日林泉",
@@ -436,7 +541,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同宋參軍之問夢趙六贈盧陳二子之作",
@@ -458,7 +568,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送別出塞",
@@ -473,7 +588,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登薊丘樓送賈兵曹入都",
@@ -489,7 +609,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夏日暉上人房別李參軍崇嗣",
@@ -507,7 +632,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋園臥病呈暉上人",
@@ -524,7 +654,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登澤州城北樓宴",
@@ -539,7 +674,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山水粉圖",
@@ -552,7 +692,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [6, 6, 6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "彩樹歌",
@@ -566,7 +711,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 6, 6, 6, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "春台引",
@@ -585,7 +735,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [10, 6, 6, 6, 6, 6, 6, 6, 4, 4, 5, 5, 6, 3, 3, 6, 6, 6, 6, 6, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "登幽州台歌",
@@ -599,7 +754,12 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 6, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "喜馬參軍相遇醉歌",
@@ -613,6 +773,11 @@
             ""
         ],
         "volume": "卷八十三",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [7, 4, 4, 4, 4, 4, 5],
+            "uniform_sentence_length": null
+        }
     }
 ]

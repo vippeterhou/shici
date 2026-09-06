@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "渡漢江",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋晚登古城",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "途中述懷",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "郢城懷古",
@@ -79,7 +99,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚渡江津",
@@ -94,7 +119,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "王師渡漢水經襄陽",
@@ -110,7 +140,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謁漢高廟",
@@ -128,7 +163,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登葉縣故城謁沈諸梁廟",
@@ -144,7 +184,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "安德山池宴集",
@@ -159,7 +204,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和許侍郎游昆明池",
@@ -176,7 +226,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得魏都",
@@ -191,7 +246,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦禮記",
@@ -205,7 +265,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和正日臨朝應詔",
@@ -219,7 +284,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "妾薄命",
@@ -233,7 +303,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "火鳳詞二首",
@@ -249,7 +324,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和初春出遊應令",
@@ -263,7 +343,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄楊公",
@@ -277,7 +362,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "戲贈潘徐城門迎兩新婦",
@@ -291,7 +381,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送別",
@@ -305,7 +400,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雨後",
@@ -319,7 +419,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "文德皇后挽歌",
@@ -333,7 +438,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠蟬",
@@ -346,7 +456,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠螢火示情人",
@@ -359,7 +474,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春眺",
@@ -372,7 +492,12 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -385,6 +510,11 @@
             ""
         ],
         "volume": "卷四十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

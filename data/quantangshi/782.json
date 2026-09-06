@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "玉燭",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "文宣王廟古松",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "華林園早梅",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "龍池春草",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "龍池春草",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貢院樓北新栽小松",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "玉壺冰",
@@ -117,7 +152,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "潘安仁戴星看河陽花發",
@@ -132,7 +172,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "龜茲聞鶯",
@@ -147,7 +192,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "好鳥鳴高枝",
@@ -162,7 +212,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "金穀園花發懷古",
@@ -177,7 +232,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "織鳥",
@@ -192,7 +252,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "出籠鶻",
@@ -207,7 +272,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "試越裳貢白雉",
@@ -222,7 +292,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "敕賜三相馬",
@@ -237,7 +312,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "河中獻捷",
@@ -252,7 +332,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "天驥呈材",
@@ -267,7 +352,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "天驥呈材",
@@ -282,7 +372,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雪夜聽猿吟",
@@ -297,7 +392,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寒蟬樹",
@@ -312,7 +412,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "臨川羨魚",
@@ -327,7 +432,12 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "臨川羨魚",
@@ -342,6 +452,11 @@
             ""
         ],
         "volume": "卷七百八十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

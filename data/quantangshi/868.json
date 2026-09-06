@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "夢黃衣童子歌",
@@ -23,7 +28,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢揚州樂妓和詩",
@@ -37,7 +47,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中美人歌",
@@ -51,7 +66,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中詩",
@@ -64,7 +84,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "葬西施挽歌",
@@ -78,7 +103,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秦夢詩三首：挽公主",
@@ -92,7 +122,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秦夢詩三首：別穆公",
@@ -106,7 +141,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 7, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "秦夢詩三首：題宮門",
@@ -120,7 +160,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中詩",
@@ -133,7 +178,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夢為吳泰伯作勝兒歌",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中辭",
@@ -164,7 +219,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢崔嘏妻詩",
@@ -177,7 +237,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夢白衣婦人歌詞",
@@ -192,7 +257,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [7, 7, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夢舜撫琴歌",
@@ -206,7 +276,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [8, 8, 8, 8, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夢康仙示詩",
@@ -220,7 +295,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中歌",
@@ -233,7 +313,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [4, 4, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夢中歌",
@@ -252,7 +337,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [3, 5, 7, 3, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夢王尚書口授吟",
@@ -266,7 +356,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "歌",
@@ -280,7 +375,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [3, 7, 3, 3, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "題禪窟蘭若",
@@ -294,7 +394,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題潼關普通院門",
@@ -308,7 +413,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江亭晚望題書齋",
@@ -322,7 +432,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別妻",
@@ -336,7 +451,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別兄弟",
@@ -350,7 +470,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夢中句",
@@ -363,7 +488,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中和句",
@@ -376,7 +506,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢中語",
@@ -389,7 +524,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夢中詩",
@@ -402,7 +542,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夢中語",
@@ -415,7 +560,12 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紀夢句",
@@ -428,6 +578,11 @@
             ""
         ],
         "volume": "卷八百六十八",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

@@ -28,7 +28,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 76,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蟲豸詩：巴蛇",
@@ -46,7 +51,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蟲豸詩：蛒蜂",
@@ -64,7 +74,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蟲豸詩：蜘蛛",
@@ -82,7 +97,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蟲豸詩：蟻子",
@@ -100,7 +120,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蟲豸詩：蟆子",
@@ -118,7 +143,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蟲豸詩：浮塵子",
@@ -136,7 +166,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蟲豸詩：虻",
@@ -154,7 +189,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "楚歌十首",
@@ -186,7 +226,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 80,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "襄陽道",
@@ -200,7 +245,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得魚登龍門",
@@ -215,7 +265,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貞元曆",
@@ -229,7 +284,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "塞馬",
@@ -243,7 +303,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鹿角鎮",
@@ -257,7 +322,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "感事三首",
@@ -272,7 +342,12 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題翰林東閣前小松",
@@ -285,6 +360,11 @@
             ""
         ],
         "volume": "卷三百九十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "翦彩",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題僧院",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "觀廉女真葬",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閒居",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "及第後送家兄游蜀",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送人入蜀",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "游故王駙馬池亭",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "悲銅雀台",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陪新及第赴同年會",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠雁",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與碧溪上人別",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈殷山人",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠壁魚",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聽話叢台",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "失鶴",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈寫禦容李長史",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈潼關不下山僧",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過舊遊見雙鶴愴然有懷",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈友人",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈南嶽僧",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈弘文杜校書",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聽王氏話歸州昭君廟",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過馬嵬山",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "吳越懷古",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "長安即事寄友人",
@@ -361,7 +486,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞明上人逝寄友人",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈咸陽李少府",
@@ -389,7 +524,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄰人自金仙觀移竹",
@@ -403,7 +543,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "慈恩寺避暑",
@@ -416,7 +561,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "讀田光傳",
@@ -430,7 +580,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "友人下第因以贈之",
@@ -444,7 +599,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "詠鴛鴦",
@@ -457,7 +617,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈箏妓伍卿",
@@ -471,7 +636,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "黃陵廟詞",
@@ -485,7 +655,12 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -499,6 +674,11 @@
             ""
         ],
         "volume": "卷五百一十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

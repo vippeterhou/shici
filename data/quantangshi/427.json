@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "百煉鏡－辨皇王鑒也",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 5, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "青石－激忠烈也",
@@ -44,7 +54,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "兩朱閣－刺佛寺浸多也",
@@ -60,7 +75,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "西涼伎－刺封疆之臣也",
@@ -79,7 +99,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "八駿圖－戒奇物、懲佚遊也",
@@ -96,7 +121,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "澗底松－念寒俊也",
@@ -110,7 +140,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "牡丹芳－美天子憂農也",
@@ -131,7 +166,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "紅線毯－憂蠶桑之費也",
@@ -148,7 +188,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "杜陵叟－傷農夫之困也",
@@ -164,7 +209,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 9, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "繚綾－念女工之勞也",
@@ -181,7 +231,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "賣炭翁－苦官市也",
@@ -197,7 +252,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "母別子－刺新間舊也",
@@ -213,7 +273,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "陰山道－疾貪虜也",
@@ -230,7 +295,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "時世妝－儆戎也",
@@ -245,7 +315,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "李夫人－鑒嬖惑也",
@@ -266,7 +341,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [3, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 7, 9, 7, 3, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "陵園妾－憐幽閉也",
@@ -284,7 +364,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "鹽商婦－惡幸人也",
@@ -301,7 +386,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 5, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "杏為梁－刺居處僭也",
@@ -317,7 +407,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 6, 3, 7, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "井底引銀瓶－止淫奔也",
@@ -335,7 +430,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "官牛－諷執政也",
@@ -349,7 +449,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [7, 7, 3, 3, 7, 7, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "紫毫筆－譏失職也",
@@ -366,7 +471,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 7, 7, 3, 3, 7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "隋堤柳－憫亡國也",
@@ -383,7 +493,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "草茫茫－懲厚葬也",
@@ -399,7 +514,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "古塚狐－戒豔色也",
@@ -416,7 +536,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 9, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "黑潭龍－疾貪吏也",
@@ -432,7 +557,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "天可度－惡詐人也",
@@ -448,7 +578,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 11, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "秦吉了－哀冤民也",
@@ -463,7 +598,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 5, 7, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "鴉九劍－思決壅也",
@@ -478,7 +618,12 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "采詩官－監前王亂亡之由也",
@@ -496,6 +641,11 @@
             ""
         ],
         "volume": "卷四百二十七",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

@@ -17,7 +17,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答元八宗簡同遊曲江後明日見贈",
@@ -34,7 +39,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "感時",
@@ -53,7 +63,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "首夏同諸校正遊開元觀，因宿玩月",
@@ -71,7 +86,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "永崇裏觀居",
@@ -89,7 +109,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早送舉人入試",
@@ -105,7 +130,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "招王質夫",
@@ -119,7 +149,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "祗役駱口，因與王質夫同遊秋山，偶題三韻",
@@ -133,7 +168,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "見蕭侍禦憶舊山草堂詩，因以繼和",
@@ -151,7 +191,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "病假中南亭閑望",
@@ -166,7 +211,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "仙遊寺獨宿",
@@ -180,7 +230,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "前庭涼夜",
@@ -193,7 +248,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "官舍小亭閑望",
@@ -209,7 +269,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早秋獨夜",
@@ -222,7 +287,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聽彈古淥水",
@@ -236,7 +306,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "松齋自題",
@@ -253,7 +328,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬夜與錢員外同直禁中",
@@ -267,7 +347,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和錢員外禁中夙興見示",
@@ -282,7 +367,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夏日獨直，寄蕭侍禦",
@@ -300,7 +390,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "松聲",
@@ -316,7 +411,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禁中",
@@ -329,7 +429,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈吳丹",
@@ -349,7 +454,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初除戶曹，喜而言志",
@@ -369,7 +479,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋居書懷",
@@ -386,7 +501,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禁中曉臥，因懷王起居",
@@ -400,7 +520,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "養拙",
@@ -416,7 +541,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄李十一建",
@@ -437,7 +567,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "旅次華州，贈袁右丞",
@@ -454,7 +589,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬楊九弘貞長安病中見寄",
@@ -471,7 +611,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禁中寓直夢游仙遊寺",
@@ -485,7 +630,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈王山人",
@@ -501,7 +651,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋山",
@@ -517,7 +672,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈能七倫",
@@ -533,7 +693,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題楊穎士西亭",
@@ -548,7 +713,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題贈鄭秘書征君石溝溪隱居",
@@ -568,7 +738,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "及第後歸覲，留別諸同年",
@@ -583,7 +758,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "清夜琴興",
@@ -598,7 +778,12 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "郊陶潛體詩十六首",
@@ -708,6 +893,11 @@
             ""
         ],
         "volume": "卷四百二十八",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 370,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

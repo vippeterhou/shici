@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "初秋忽奉詔除浙東觀察使檢校右貂",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶至鞏縣河宿待家累追懷",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿揚州",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶被牛相留醉州中時無他賓牛公夜出真珠輩數人",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早渡揚子江",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶過潤州",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶登棲霞寺峰",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "憶萬歲樓望金山",
@@ -128,7 +168,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：上家山\r\n",
@@ -142,7 +187,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 5, 5, 5, 3, 3, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：憶東郭居",
@@ -161,7 +211,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：憶題惠山寺書堂",
@@ -175,7 +230,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：憶西湖雙鸂鶒",
@@ -190,7 +250,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：早梅橋",
@@ -204,7 +269,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：翡翠塢",
@@ -218,7 +288,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過梅裏七首家於無錫四十載今敝廬數堵猶存今列題於後：憶放鶴",
@@ -232,7 +307,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過吳門二十四韻",
@@ -256,7 +336,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "杭州天竺靈隱二寺頃歲亦布衣一遊及赴鎮會稽不敢以登臨自適竟不復到寺寺多猿猱謂之孫團彌長其類因追思為詩二首",
@@ -272,7 +357,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "渡西陵十六韻",
@@ -292,7 +382,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新樓詩二十首：新樓",
@@ -306,7 +401,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：海榴亭",
@@ -320,7 +420,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：望海亭",
@@ -334,7 +439,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：杜鵑樓",
@@ -348,7 +458,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：滿桂樓",
@@ -362,7 +477,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：東武亭",
@@ -376,7 +496,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：龍宮寺",
@@ -390,7 +515,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：禹廟",
@@ -404,7 +534,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：晏安寺",
@@ -418,7 +553,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：龜山",
@@ -432,7 +572,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：重台蓮",
@@ -446,7 +591,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：橘園",
@@ -460,7 +610,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：寒林寺",
@@ -474,7 +629,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：北樓櫻桃花",
@@ -488,7 +648,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：城上薔薇",
@@ -502,7 +667,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：南庭竹",
@@ -516,7 +686,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：琪樹",
@@ -530,7 +705,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：海棠",
@@ -544,7 +724,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：水寺",
@@ -558,7 +743,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新樓詩二十首：靈汜橋",
@@ -572,7 +762,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "若耶溪",
@@ -586,7 +781,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "登禹廟回降雪五言二十韻",
@@ -608,7 +808,12 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題法華寺五言二十韻",
@@ -630,6 +835,11 @@
             ""
         ],
         "volume": "卷四百八十一",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

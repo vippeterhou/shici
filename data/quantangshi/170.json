@@ -16,7 +16,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "在水軍宴贈幕府諸侍禦",
@@ -36,7 +41,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈武十七諤",
@@ -52,7 +62,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈閭丘宿松",
@@ -68,7 +83,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "獄中上崔相渙",
@@ -83,7 +103,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "中丞宋公以吳兵三千赴河南軍次尋陽脫余之囚參謀幕府因贈之",
@@ -99,7 +124,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "流夜郎贈辛判官",
@@ -114,7 +144,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈劉都使",
@@ -131,7 +166,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈常侍禦",
@@ -147,7 +187,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈易秀才",
@@ -162,7 +207,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "經亂離後天恩流夜郎憶舊遊書懷贈江夏韋太守良宰",
@@ -216,7 +266,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 166,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江夏使君叔席上贈史郎中",
@@ -232,7 +287,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "博平鄭太守自廬山千里相尋入江夏北市門見訪却之武陵立馬贈別",
@@ -250,7 +310,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江上贈竇長史",
@@ -264,7 +329,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈王漢陽",
@@ -280,7 +350,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈漢陽輔錄事二首",
@@ -296,7 +371,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "江夏贈韋南陵冰",
@@ -313,7 +393,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "贈盧司戶",
@@ -327,7 +412,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈從弟南平太守之遙二首",
@@ -347,7 +437,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "贈潘侍禦論錢少陽",
@@ -361,7 +456,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈柳圓",
@@ -375,7 +475,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "流夜郎半道承恩放還，兼欣克復之美書懷示息秀才",
@@ -397,7 +502,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈張相鎬二首",
@@ -431,7 +541,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 86,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聞謝楊兒吟猛虎詞，因此有贈",
@@ -444,7 +559,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿清溪主人",
@@ -458,7 +578,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "系尋陽，上崔相渙三首",
@@ -474,7 +599,12 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "巴陵贈賈舍人",
@@ -488,6 +618,11 @@
             ""
         ],
         "volume": "卷一百七十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

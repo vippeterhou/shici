@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和送金城公主適西蕃應制",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "侍宴長寧公主東莊應制",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "立春日侍宴內殿出剪綵花應制",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和人日清暉閣宴群臣遇雪應制",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和春日游苑喜雨應制",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日侍宴幸芙蓉園應制",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "甘露殿侍宴應制",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和七夕兩儀殿會宴應制",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和九月九日登慈恩寺浮圖應制",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閏九月九日幸總持寺登浮圖應制",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和驪山高頂寓目應制",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "游禁苑陪幸臨渭亭遇雪應制",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "幸白鹿觀應制",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送沙門弘景道俊玄奘還荊州應制",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬和杜五弟晴朝獨坐見贈",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同賦山居七夕",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送崔主簿赴滄州",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寒食清明日早赴王門率成",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和周記室從駕曉發合璧宮",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和杜侍禦太清台宿直旦有懷",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和杜學士江南初霽羈懷",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚景悵然簡二三子",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送李邕",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "又送別",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "餞駱四二首",
@@ -363,7 +488,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日游苑喜雨應詔",
@@ -377,7 +507,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日應制得歡字",
@@ -391,7 +526,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "二月奉教作",
@@ -405,7 +545,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "三月奉教作",
@@ -419,7 +564,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "四月奉教作",
@@ -433,7 +583,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "五月奉教作",
@@ -447,7 +602,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "六月奉教作",
@@ -461,7 +621,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 2, 5, 5, 4, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "八月奉教作",
@@ -475,7 +640,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九月奉教作",
@@ -489,7 +659,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "十月奉教作",
@@ -503,7 +678,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "十一月奉教作",
@@ -517,7 +697,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "十二月奉教作",
@@ -531,7 +716,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和麹典設扈從東郊憶弟使往安西冬至日恨不得同申拜慶",
@@ -545,7 +735,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 4, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "馬武騎挽歌二首",
@@ -561,7 +756,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "武三思挽歌",
@@ -575,7 +775,12 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "天官崔侍郎夫人吳氏挽歌",
@@ -589,6 +794,11 @@
             ""
         ],
         "volume": "卷五十八",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -30,7 +30,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 84,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "奉平淮夷雅表：方城命愬守也卒入蔡得其大醜以平淮右",
@@ -62,7 +67,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 80,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：隋亂既極唐師起晉陽平姦豪為生人義主以仁興武為晉陽武第一",
@@ -79,7 +89,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：唐既受命李密自敗來歸以開黎陽斥東土為獸之窮第二",
@@ -95,7 +110,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [3, 3, 4, 3, 3, 4, 3, 3, 4, 3, 2, 3, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：太宗師討王充竇建德助逆師奮擊武牢下擒之遂降充為戰武牢第三",
@@ -110,7 +130,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 3, 3, 2, 3, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：薛舉據涇以死子仁杲尤勇以暴師平之為涇水黃第四",
@@ -125,7 +150,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [3, 3, 3, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：輔氏憑江淮竟東海命將平之為奔鯨沛第五",
@@ -139,7 +169,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 4, 3, 4, 4, 3, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：梁之餘保荊衡巴巫窮南越良將取之不以師為苞蘗第六",
@@ -156,7 +191,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [3, 4, 4, 5, 5, 4, 4, 5, 3, 4, 3, 4, 4, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：李軌保河右師臨之不克變或執以降為河右平第七",
@@ -172,7 +212,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [4, 4, 5, 4, 4, 4, 5, 4, 4, 5, 5, 4, 4, 3, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：突厥之大古夷狄莫疆焉師大破之降其國告于廟為鐵山碎第八",
@@ -187,7 +232,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 4, 4, 5, 4, 3, 4, 3, 5, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：劉武周敗裴寂咸有晉地太宗滅之為靖本邦第九",
@@ -201,7 +251,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：李靖滅吐谷渾西海上為吐谷渾第十",
@@ -220,7 +275,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：李靖滅高昌為高昌第十一",
@@ -238,7 +298,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "唐鐃歌鼓吹曲十二篇：既克東蠻群臣請圖蠻夷狀如周書王會為東蠻第十二",
@@ -256,7 +321,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貞符",
@@ -274,7 +344,12 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 29,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "視民詩",
@@ -291,6 +366,11 @@
             ""
         ],
         "volume": "卷三百五十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     }
 ]

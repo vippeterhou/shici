@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "短歌二首",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "塞下曲",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "明妃怨",
@@ -54,7 +69,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送鄒尊師歸洞庭",
@@ -68,7 +88,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送張兵曹赴營田",
@@ -82,7 +107,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚霽登汝南大雲閣",
@@ -96,7 +126,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿香山閣",
@@ -110,7 +145,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蘇著作山池",
@@ -124,7 +164,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "王龍驤墓",
@@ -138,7 +183,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "折楊柳",
@@ -152,7 +202,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江南曲",
@@ -167,7 +222,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [3, 3, 7, 3, 3, 5, 5, 7, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "芳樹",
@@ -181,7 +241,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送楊諫議赴河西節度判官兼呈韓王二侍禦",
@@ -198,7 +263,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登巴陵開元寺西閣贈衡岳僧方外",
@@ -213,7 +283,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登瓦官寺閣",
@@ -230,7 +305,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "金陵懷古",
@@ -251,7 +331,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "詠浮漚為辛明府作",
@@ -267,7 +352,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鶯",
@@ -280,7 +370,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鸚鵡",
@@ -294,7 +389,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "馬",
@@ -308,7 +408,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鳳",
@@ -322,7 +427,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送韋員外赴朔方",
@@ -336,7 +446,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "險竿行",
@@ -352,7 +467,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 3, 3, 7, 7, 7, 9],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "琵琶行",
@@ -371,7 +491,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 4, 4, 4, 4, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "方響歌",
@@ -386,7 +511,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "經太華",
@@ -400,7 +530,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "季夏入北山",
@@ -414,7 +549,12 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "適思",
@@ -435,6 +575,11 @@
             ""
         ],
         "volume": "卷七百七十六",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

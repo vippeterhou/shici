@@ -79,7 +79,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 252,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "覽古十四首",
@@ -150,7 +155,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 222,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "步虛詞十首",
@@ -194,7 +204,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 120,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登北固山望海",
@@ -209,7 +224,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聽尹煉師彈琴",
@@ -225,7 +245,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題龔山人草堂",
@@ -241,7 +266,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遊廬山五老峰",
@@ -258,7 +288,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "登廬山東峰觀九江合彭蠡湖",
@@ -274,7 +309,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "建業懷古",
@@ -298,7 +338,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "經羊角哀墓作",
@@ -314,7 +359,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過天門山懷友",
@@ -330,7 +380,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舟中遇柳伯存歸潛山，因有此贈",
@@ -346,7 +401,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舟中夜行",
@@ -361,7 +421,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚到湖口見廬山作呈諸故人",
@@ -377,7 +442,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "苦春霖作寄友",
@@ -394,7 +464,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬葉縣劉明府避地廬山言懷詒鄭錄事昆季苟尊師兼見贈之",
@@ -414,7 +489,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：混元皇帝",
@@ -428,7 +508,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：廣成子",
@@ -442,7 +527,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：許先生",
@@ -456,7 +546,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：樊先生",
@@ -470,7 +565,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：柏成子高",
@@ -484,7 +584,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：臧丈人",
@@ -498,7 +603,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：伯夷叔齊",
@@ -512,7 +622,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：南華真人",
@@ -526,7 +641,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：沖虛真人",
@@ -540,7 +660,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：洞靈真人",
@@ -554,7 +679,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：通玄真人",
@@ -568,7 +698,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：文始真人",
@@ -582,7 +717,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：榮啟期",
@@ -596,7 +736,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：長沮桀溺",
@@ -610,7 +755,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：顏闔",
@@ -624,7 +774,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：老萊夫妻",
@@ -638,7 +793,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：楚狂接輿夫妻",
@@ -652,7 +812,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：鄭商人弦高",
@@ -666,7 +831,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：柳下惠",
@@ -680,7 +850,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：荷蓧晨門",
@@ -694,7 +869,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：漢陰丈人",
@@ -708,7 +888,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：于陵夫妻",
@@ -722,7 +907,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：項橐",
@@ -736,7 +926,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：太伯延陵",
@@ -750,7 +945,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：壺丘子",
@@ -764,7 +964,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：段幹木",
@@ -778,7 +983,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：魯仲連",
@@ -792,7 +1002,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：顏歜",
@@ -806,7 +1021,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：周豐",
@@ -820,7 +1040,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：師金",
@@ -834,7 +1059,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：南郭子綦",
@@ -848,7 +1078,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：黔婁先生",
@@ -862,7 +1097,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：原憲",
@@ -876,7 +1116,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：商山四皓",
@@ -890,7 +1135,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：河上公",
@@ -904,7 +1154,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：東方曼倩",
@@ -918,7 +1173,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：嚴君平",
@@ -932,7 +1192,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：司馬季主",
@@ -946,7 +1211,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：鄭子真張仲蔚",
@@ -960,7 +1230,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：嚴子陵",
@@ -974,7 +1249,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：向子平",
@@ -988,7 +1268,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：韓康",
@@ -1002,7 +1287,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：台佟管甯",
@@ -1016,7 +1306,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：高鳳",
@@ -1030,7 +1325,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：龐德公",
@@ -1044,7 +1344,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：玄晏先生",
@@ -1058,7 +1363,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：孫公和",
@@ -1072,7 +1382,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：董威輦",
@@ -1086,7 +1401,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：郭文舉",
@@ -1100,7 +1420,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高士詠：陶征君",
@@ -1114,7 +1439,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "元日言懷，因以自勵，詒諸同志",
@@ -1130,7 +1460,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 67
+        "no#": 67,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同劉主簿承介建昌江泛舟作",
@@ -1147,7 +1482,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 68
+        "no#": 68,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "緱山廟",
@@ -1165,7 +1505,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 69
+        "no#": 69,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "胡無人行",
@@ -1179,7 +1524,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 70
+        "no#": 70,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別章叟",
@@ -1192,7 +1542,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 71
+        "no#": 71,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題縉雲嶺永望館",
@@ -1205,7 +1560,12 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 72
+        "no#": 72,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題華山人所居",
@@ -1218,6 +1578,11 @@
             ""
         ],
         "volume": "卷八百五十三",
-        "no#": 73
+        "no#": 73,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

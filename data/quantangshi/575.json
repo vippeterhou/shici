@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "織錦詞",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夜宴謠",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蓮浦謠",
@@ -56,7 +71,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "郭處士擊甌歌",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遐水謠",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "曉仙謠",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "錦城曲",
@@ -116,7 +151,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "生禖屏風歌",
@@ -130,7 +170,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "嘲春風",
@@ -144,7 +189,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舞衣曲",
@@ -158,7 +208,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "張靜婉採蓮歌",
@@ -174,7 +229,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湘宮人歌",
@@ -188,7 +248,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "黃曇子歌",
@@ -202,7 +267,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "觱篥歌",
@@ -219,7 +289,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "照影曲",
@@ -233,7 +308,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "拂舞詞",
@@ -249,7 +329,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "雉場歌",
@@ -263,7 +348,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "雍台歌",
@@ -277,7 +367,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "吳苑行",
@@ -291,7 +386,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "常林歡歌",
@@ -305,7 +405,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "塞寒行",
@@ -319,7 +424,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湖陰詞",
@@ -334,7 +444,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蔣侯神歌",
@@ -348,7 +463,12 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "漢皇迎春詞",
@@ -363,6 +483,11 @@
             ""
         ],
         "volume": "卷五百七十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

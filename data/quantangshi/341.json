@@ -23,7 +23,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 54,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "示爽",
@@ -43,7 +48,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "人日城南登高",
@@ -60,7 +70,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "病鴟",
@@ -82,7 +97,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "華山女",
@@ -99,7 +119,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "讀皇甫湜公安園池詩書其後二首",
@@ -117,7 +142,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "路傍堠",
@@ -132,7 +162,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "食曲河驛",
@@ -147,7 +182,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過南陽",
@@ -161,7 +201,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "瀧吏",
@@ -191,7 +236,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 72,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "贈別元十八協律六首",
@@ -226,7 +276,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 88,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初南食貽元十八協律",
@@ -245,7 +300,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿曾江口示侄孫湘二首",
@@ -263,7 +323,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答柳柳州食蝦蟆",
@@ -284,7 +349,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別趙子",
@@ -305,7 +375,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "除官赴闕至江州寄鄂岳李大夫",
@@ -324,7 +399,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南山有高樹行贈李宗閔",
@@ -346,7 +426,12 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "猛虎行",
@@ -366,6 +451,11 @@
             ""
         ],
         "volume": "卷三百四十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

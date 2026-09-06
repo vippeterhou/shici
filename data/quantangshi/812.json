@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早春書情寄河南崔少府",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春遊司直城西鸕鷀溪別業",
@@ -44,7 +54,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夕次襄邑",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿嚴維宅簡章八元",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈淮西賈兵馬使",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送堅上人歸杭州天竺寺",
@@ -100,7 +130,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送贊律師歸嵩山",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上都酬章十八兄",
@@ -128,7 +168,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登樓望月寄鳳翔李少尹",
@@ -142,7 +187,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湘川懷古",
@@ -156,7 +206,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "七夕",
@@ -170,7 +225,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長安臥病",
@@ -184,7 +244,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送婆羅門",
@@ -198,7 +263,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "喜皇甫大夫同宿大樑驛",
@@ -212,7 +282,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬姚補闕南仲雲溪館中戲題隨書見寄",
@@ -226,7 +301,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "喜嚴侍禦蜀還贈嚴秘書",
@@ -240,7 +320,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送韋參軍江陵",
@@ -254,7 +339,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "月夜有懷黃端公兼簡朱孫二判官",
@@ -268,7 +358,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "精舍遇雨",
@@ -282,7 +377,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "小雪",
@@ -296,7 +396,12 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -309,6 +414,11 @@
             ""
         ],
         "volume": "卷八百一十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

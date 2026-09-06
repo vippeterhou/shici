@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紀南歌",
@@ -24,7 +29,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "視刀環歌",
@@ -37,7 +47,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "三閣辭四首",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紇那曲二首",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "淮陰行五首",
@@ -84,7 +109,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "渾侍中宅牡丹",
@@ -97,7 +127,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠紅柿子",
@@ -110,7 +145,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "呂八見寄郡內書懷因而戲和",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋風引",
@@ -136,7 +181,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "柳花詞三首",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "路傍曲",
@@ -164,7 +219,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "君山懷古",
@@ -177,7 +237,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "庭竹",
@@ -190,7 +255,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "唐郎中宅與諸公同飲酒看牡丹",
@@ -203,7 +273,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題壽安甘棠館二首",
@@ -217,7 +292,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古詞二首",
@@ -231,7 +311,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寓興二首",
@@ -245,7 +330,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠史二首",
@@ -259,7 +349,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "經檀道濟故壘",
@@ -272,7 +367,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "傷段右丞",
@@ -285,7 +385,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "傷獨孤舍人",
@@ -298,7 +403,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "再傷龐尹",
@@ -311,7 +421,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "敬酬微公見寄二首",
@@ -325,7 +440,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鄂渚留別李二十一表臣大夫",
@@ -338,7 +458,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答表臣贈別二首",
@@ -352,7 +477,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "始發鄂渚寄表臣二首",
@@ -366,7 +496,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "出鄂州界懷錶臣二首",
@@ -380,7 +515,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和游房公舊竹亭聞琴絕句",
@@ -393,7 +533,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西州李尚書知愚與元武昌有舊遠示二篇吟之泫然因以繼和二首",
@@ -407,7 +552,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別蘇州二首",
@@ -421,7 +571,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "罷和州游建康",
@@ -434,7 +589,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日登高",
@@ -447,7 +607,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答柳子厚",
@@ -460,7 +625,12 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "館娃宮在舊郡西南硯石山前瞰姑蘇臺傍有采香徑梁天監中置佛寺曰靈巖即故宮也信為絕境因賦二章",
@@ -474,6 +644,11 @@
             ""
         ],
         "volume": "卷三百六十四",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

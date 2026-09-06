@@ -21,7 +21,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 46,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美初夏遊楞伽精舍次韻",
@@ -52,7 +57,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 74,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉和襲美公齋四詠次韻：小松",
@@ -69,7 +79,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美公齋四詠次韻：小桂",
@@ -85,7 +100,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉和襲美公齋四詠次韻：新竹",
@@ -102,7 +122,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美公齋四詠次韻：鶴屏",
@@ -118,7 +143,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美酬前進士崔潞盛制見寄因贈至一百四十言",
@@ -137,7 +167,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：初入太湖",
@@ -159,7 +194,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：曉次神景宮",
@@ -178,7 +218,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：入林屋洞",
@@ -198,7 +243,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：雨中游包山精舍",
@@ -216,7 +266,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：毛公壇",
@@ -237,7 +292,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：三宿神景宮",
@@ -256,7 +316,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：以毛公泉獻大諫清河公",
@@ -274,7 +339,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：縹緲峰",
@@ -295,7 +365,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：桃花塢",
@@ -312,7 +387,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：明月灣",
@@ -332,7 +412,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：練瀆",
@@ -351,7 +436,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：投龍潭",
@@ -369,7 +459,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：孤園寺",
@@ -387,7 +482,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：上真觀",
@@ -407,7 +507,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：銷夏灣",
@@ -425,7 +530,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：包山祠",
@@ -441,7 +551,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：聖姑廟",
@@ -458,7 +573,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：太湖石",
@@ -477,7 +597,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：崦裏",
@@ -495,7 +620,12 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉和襲美太湖詩二十首：石板",
@@ -513,6 +643,11 @@
             ""
         ],
         "volume": "卷六百一十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

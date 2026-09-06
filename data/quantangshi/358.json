@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈樂天",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "到郡未浹日登西樓見樂天題詩因即事以寄",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋夕不寐寄樂天",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬日晨興寄樂天",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答樂天見憶",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和樂天誚失婢榜者",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "八月十五日夜半雲開然後玩月因書一時之景寄呈樂天",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋日書懷寄白賓客",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬樂天初冬早寒見寄",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐相公郡齋對紫薇花",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "令狐相公俯贈篇章斐然仰謝",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公早秋見寄",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐相公入潼關",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐相公尋白閣老見留小飲因贈",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公雪中游玄都見憶",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐相公以司空裴相見招南亭看雪四韻",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和鄆州令狐相公春晚對花",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公春日言懷見寄",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "途次大梁雪中奉天平令狐相公書問兼示新什因思曩歲從此拜辭形於短篇以申仰謝",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公秋懷見寄",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬太原令狐相公見寄",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公歲暮遠懷見寄",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公親仁郭家花下即事見寄",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公首夏閒居書懷見寄",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公庭前白菊花謝偶書所懷見寄",
@@ -361,7 +486,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公季冬南郊宿齋見寄",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貞元中侍郎舅氏牧華州時余再忝科第前後由華覲謁陪登伏毒寺屢焉亦曾賦詩題於梁棟今典馮翊暇日登樓南望三峰浩然生思追想昔年之事因成篇題舊寺",
@@ -389,7 +524,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公杏園花下飲有懷見寄",
@@ -403,7 +543,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "令狐相公見示題洋州崔侍郎宅雙木瓜花頃接侍郎同舍陪宴樹下吟玩來什輒成和章",
@@ -417,7 +562,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐相公春早朝回鹽鐵使院中作",
@@ -431,7 +581,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐僕射相公題龍回寺",
@@ -445,7 +600,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "令狐相公頻示新什早春南望遐想漢中因抒短章以寄情愫",
@@ -459,7 +619,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和令狐相公詠梔子花",
@@ -473,7 +638,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬令狐相公新蟬見寄",
@@ -487,7 +657,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬樂天閑臥見寄",
@@ -501,7 +676,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬樂天小亭寒夜有懷",
@@ -515,7 +695,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "將之官留辭裴令公留守",
@@ -529,7 +714,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬喜相遇同州與樂天替代",
@@ -543,7 +733,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閑坐憶樂天以詩問酒熟未",
@@ -557,7 +752,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋中暑退贈樂天",
@@ -571,7 +771,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂天池館夏景方妍白蓮初開彩舟空泊唯邀緇侶因以戲之",
@@ -585,7 +790,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬樂天感秋涼見寄",
@@ -599,7 +809,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋晚新晴夜月如練有懷樂天",
@@ -613,7 +828,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新秋對月寄樂天",
@@ -627,7 +847,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬樂天小台晚坐見憶",
@@ -641,7 +866,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早秋雨後寄樂天",
@@ -655,7 +885,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋晚病中樂天以詩見問力疾奉酬",
@@ -669,7 +904,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和樂天燒藥不成命酒獨醉",
@@ -683,7 +923,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "元日樂天見過因舉酒為賀",
@@ -697,7 +942,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬馬大夫以愚獻通草茇葜酒感通拔二字因而寄別之作",
@@ -711,7 +961,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和司空裴相公中書即事通簡舊僚之作",
@@ -725,7 +980,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "微之鎮武昌中路見寄藍橋懷舊之作淒然繼和兼寄安平",
@@ -739,7 +999,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "將赴蘇州途出洛陽留守李相公累申宴餞寵行話舊形於篇章謹抒下情以申仰謝",
@@ -753,7 +1018,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "牛相公留守見示城外新墅有溪竹秋月親情多往宿遊恨不得去因成四韻兼簡洛中親故之什兼命同作",
@@ -767,7 +1037,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "牛相公林亭雨後偶成",
@@ -781,7 +1056,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬滑州李尚書秋日見寄",
@@ -795,7 +1075,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和西川李尚書漢州微月游房太尉西湖",
@@ -809,7 +1094,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和重題",
@@ -823,7 +1113,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬李相公喜歸鄉國自鞏縣夜泛洛水見寄",
@@ -837,7 +1132,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和李相公平泉潭上喜見初月",
@@ -851,7 +1151,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和李相公初歸平泉過龍門南嶺遙望山居即事",
@@ -865,7 +1170,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和李相公以平泉新墅獲方外之名因為詩以報洛中士君子兼見寄之什",
@@ -879,7 +1189,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "發蘇州後登武丘寺望海樓",
@@ -893,7 +1208,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "松江送處州奚使君",
@@ -907,7 +1227,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題報恩寺",
@@ -921,7 +1246,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "罷郡姑蘇北歸渡揚子津",
@@ -937,7 +1267,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 67
+        "no#": 67,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "尋汪道士不遇",
@@ -951,7 +1286,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 68
+        "no#": 68,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謝柳子厚寄疊石硯",
@@ -965,7 +1305,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 69
+        "no#": 69,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "元日感懷",
@@ -979,7 +1324,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 70
+        "no#": 70,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謝宣州崔相公賜馬",
@@ -993,7 +1343,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 71
+        "no#": 71,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南中書來",
@@ -1007,7 +1362,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 72
+        "no#": 72,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題招隱寺",
@@ -1021,7 +1381,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 73
+        "no#": 73,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "思歸寄山中友人",
@@ -1035,7 +1400,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 74
+        "no#": 74,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "有感",
@@ -1049,7 +1419,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 75
+        "no#": 75,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "途次敷水驛伏睹華州舅氏昔日行縣題詩處潸然有感",
@@ -1063,7 +1438,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 76
+        "no#": 76,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和鄭相公以考功十弟山姜花俯賜篇詠",
@@ -1077,7 +1457,12 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 77
+        "no#": 77,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題淳於髡墓",
@@ -1091,6 +1476,11 @@
             ""
         ],
         "volume": "卷三百五十八",
-        "no#": 78
+        "no#": 78,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

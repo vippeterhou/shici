@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "庭前桃",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "丙辰年鄜州遇寒食城外醉吟五首",
@@ -47,7 +57,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宜君縣比卜居不遂，留題王秀才別墅二首",
@@ -63,7 +78,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄜州留別張員外",
@@ -77,7 +97,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "病中聞相府夜宴戲贈集賢盧學士",
@@ -91,7 +116,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "出關",
@@ -105,7 +135,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過樊川舊居",
@@ -119,7 +154,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "長安舊裏",
@@ -133,7 +173,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過渼陂懷舊",
@@ -147,7 +192,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "汧陽間",
@@ -161,7 +211,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "焦崖閣",
@@ -175,7 +230,12 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "雞公幘",
@@ -189,6 +249,11 @@
             ""
         ],
         "volume": "卷六百九十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

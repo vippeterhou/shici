@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洞庭湖",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雪天",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈熊士登",
@@ -52,7 +67,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別嶺南熊判官",
@@ -66,7 +86,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "水上寄樂天",
@@ -80,7 +105,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夏陽亭臨望，寄河陽侍禦堯",
@@ -93,7 +123,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "日高睡",
@@ -106,7 +141,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "輞川",
@@ -119,7 +159,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "天壇歸",
@@ -132,7 +177,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雨後",
@@ -145,7 +195,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晴日",
@@ -158,7 +213,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "直台",
@@ -171,7 +231,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "行宮",
@@ -184,7 +249,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "醉行",
@@ -197,7 +267,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "指巡胡",
@@ -210,7 +285,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "飲新酒",
@@ -223,7 +303,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "香球",
@@ -236,7 +321,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "景申秋八首",
@@ -264,7 +354,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 64,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遣行十首",
@@ -296,7 +391,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 80,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "生春二十首",
@@ -348,7 +448,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 160,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嘉陵水",
@@ -361,7 +466,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漫天嶺贈僧",
@@ -374,7 +484,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "百牢關",
@@ -387,7 +502,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "二月十九日酬王十八全素",
@@ -400,7 +520,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "滎陽鄭公以稹寓居嚴茅有池塘之勝寄詩四首因有意獻",
@@ -414,7 +539,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬樂天寄蘄州簟",
@@ -429,7 +559,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬李浙西先因從事見寄之作",
@@ -443,7 +578,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬周從事望海亭見寄",
@@ -457,7 +597,12 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "代杭民答樂天",
@@ -471,6 +616,11 @@
             ""
         ],
         "volume": "卷四百一十",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

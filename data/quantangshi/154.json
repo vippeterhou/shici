@@ -22,7 +22,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 49,
+            "sentence_lengths": [3, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "菊榮一篇五章",
@@ -39,7 +44,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "涼雨一章",
@@ -52,7 +62,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "有竹一篇七章",
@@ -73,7 +88,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 31,
+            "sentence_lengths": [4, 4, 4, 5, 4, 4, 4, 5, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "江有歸舟三章",
@@ -91,7 +111,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "過河濱，和文學張志尹",
@@ -108,7 +133,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舟中遇陸棣兄西歸數日得廣陵二三子書知遲晚次沙墊西岸作",
@@ -127,7 +157,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "重陽日陪元魯山德秀登北城，矚對新霽，因以贈別",
@@ -146,7 +181,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "留別二三子，得韻字",
@@ -160,7 +200,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "仰答韋司業垂訪五首",
@@ -189,7 +234,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 66,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答鄒象先",
@@ -203,7 +253,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蒙山作",
@@ -223,7 +278,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早春過七嶺，寄題硤石裴丞廳壁",
@@ -238,7 +298,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送張翬下第歸江東",
@@ -252,7 +317,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "越江秋曙",
@@ -267,7 +337,12 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山莊月夜作",
@@ -283,6 +358,11 @@
             ""
         ],
         "volume": "卷一百五十四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

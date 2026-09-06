@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題女道士居",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山中枉張宙員外書期訪衡門",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山中贈張正則評事",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題鏡湖野老所居",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早秋宿崔業居處",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈烏程楊蘋明府",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "徐侍郎素未相識時攜酒命饌兼命諸詩客同訪會稽山居",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日閒居三首",
@@ -127,7 +167,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題石室山王甯所居",
@@ -141,7 +186,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送王道士",
@@ -155,7 +205,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "將移耶溪舊居留贈嚴維秘書",
@@ -169,7 +224,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋日過僧惟則故院",
@@ -183,7 +243,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山中奉寄錢起員外兼簡苗發員外",
@@ -197,7 +262,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "獻薛僕射",
@@ -211,7 +281,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鮑防員外見尋因書情呈贈",
@@ -225,7 +300,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄浙東皇甫中丞",
@@ -239,7 +319,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題章野人山居",
@@ -253,7 +338,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山中枉皇甫溫大夫見招書",
@@ -267,7 +357,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題茅山李尊師山居",
@@ -281,7 +376,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "耶溪書懷寄劉長卿員外",
@@ -295,7 +395,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山中崔大夫有書相問",
@@ -311,7 +416,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "張建封大夫奏系為校書郎因寄此作",
@@ -324,7 +434,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "會稽山居寄薛播侍郎袁高給事高參舍人",
@@ -337,7 +452,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閒居覽史",
@@ -351,7 +471,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山中贈耿拾遺湋兼兩省故人",
@@ -365,7 +490,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋日送僧志幽歸山寺",
@@ -379,7 +509,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題僧明惠房",
@@ -393,7 +528,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答泉州薛播使君重陽日贈酒",
@@ -407,7 +547,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題洪道士山院",
@@ -421,7 +566,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "期王煉師不至",
@@ -435,7 +585,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題贈張道士山居",
@@ -449,7 +604,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山中書懷寄張建封大夫",
@@ -463,7 +623,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山中贈諸暨丹丘明府",
@@ -477,7 +642,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉寄晝公",
@@ -491,7 +661,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿雲門上方",
@@ -505,7 +680,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "即事奉呈郎中韋使君",
@@ -519,7 +699,12 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "曉雞",
@@ -533,6 +718,11 @@
             ""
         ],
         "volume": "卷二百六十",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

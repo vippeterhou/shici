@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [4, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：公無渡河",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 3, 3, 4, 4, 7, 7, 7, 7, 3, 3, 7, 8, 4, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：公無渡河",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：公無渡河",
@@ -55,7 +70,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：公無渡河",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [8, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -101,7 +131,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -118,7 +153,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲八首",
@@ -151,7 +191,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 67,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -165,7 +210,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -178,7 +228,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -192,7 +247,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -206,7 +266,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -220,7 +285,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -242,7 +312,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -257,7 +332,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -271,7 +351,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -286,7 +371,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：江南曲",
@@ -303,7 +393,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：度關山",
@@ -317,7 +412,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：關山曲",
@@ -333,7 +433,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：登高丘而望遠",
@@ -349,7 +454,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 5, 5, 5, 5, 7, 10, 7, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：蒿裏",
@@ -362,7 +472,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [3, 3, 6, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：挽歌",
@@ -377,7 +492,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：挽歌二首",
@@ -393,7 +513,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：挽歌",
@@ -409,7 +534,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：挽歌",
@@ -426,7 +556,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：對酒",
@@ -440,7 +575,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：對酒二首",
@@ -459,7 +599,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：陌上桑",
@@ -476,7 +621,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：陌上桑",
@@ -490,7 +640,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：陌上桑",
@@ -504,7 +659,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：采桑",
@@ -517,7 +677,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：采桑",
@@ -534,7 +699,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：采桑",
@@ -548,7 +718,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：采桑",
@@ -562,7 +737,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：日出行",
@@ -579,7 +759,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [5, 5, 5, 11, 7, 4, 9, 4, 4, 4, 4, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：日出行",
@@ -594,7 +779,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 8],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -607,7 +797,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -621,7 +816,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -635,7 +835,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -649,7 +854,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -663,7 +873,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -677,7 +892,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -691,7 +911,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -705,7 +930,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -719,7 +949,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君三首",
@@ -734,7 +969,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君三首",
@@ -749,7 +989,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -764,7 +1009,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：王昭君二首",
@@ -779,7 +1029,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -793,7 +1048,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -807,7 +1067,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：王昭君二首",
@@ -823,7 +1088,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -836,7 +1106,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -849,7 +1124,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：王昭君",
@@ -863,7 +1143,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：明妃曲",
@@ -877,7 +1162,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：昭君詞",
@@ -891,7 +1181,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：昭君詞",
@@ -905,7 +1200,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：昭君詞",
@@ -918,7 +1218,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：昭君詞",
@@ -932,7 +1237,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：楚妃歎",
@@ -946,7 +1256,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：楚妃怨",
@@ -960,7 +1275,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：王子喬",
@@ -974,7 +1294,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 3, 7, 7, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：蜀國弦",
@@ -988,7 +1313,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：長歌行",
@@ -1005,7 +1335,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 67
+        "no#": 67,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：長歌行",
@@ -1021,7 +1356,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 68
+        "no#": 68,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：短歌行",
@@ -1038,7 +1378,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 69
+        "no#": 69,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：短歌行",
@@ -1054,7 +1399,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 70
+        "no#": 70,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：短歌行六首",
@@ -1076,7 +1426,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 71
+        "no#": 71,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [3, 7, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：短歌行",
@@ -1090,7 +1445,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 72
+        "no#": 72,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 3, 3, 3, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：短歌行",
@@ -1104,7 +1464,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 73
+        "no#": 73,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：短歌行二首",
@@ -1126,7 +1491,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 74
+        "no#": 74,
+        "format": {
+            "sentence_count": 38,
+            "sentence_lengths": [7, 7, 7, 3, 3, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：短歌行",
@@ -1140,7 +1510,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 75
+        "no#": 75,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：短歌行",
@@ -1155,7 +1530,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 76
+        "no#": 76,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 7, 7, 7, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1170,7 +1550,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 77
+        "no#": 77,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1184,7 +1569,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 78
+        "no#": 78,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1199,7 +1589,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 79
+        "no#": 79,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1213,7 +1608,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 80
+        "no#": 80,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1227,7 +1627,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 81
+        "no#": 81,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1241,7 +1646,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 82
+        "no#": 82,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1254,7 +1664,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 83
+        "no#": 83,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：銅雀台",
@@ -1268,7 +1683,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 84
+        "no#": 84,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1284,7 +1704,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 85
+        "no#": 85,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1298,7 +1723,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 86
+        "no#": 86,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1312,7 +1742,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 87
+        "no#": 87,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1326,7 +1761,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 88
+        "no#": 88,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1340,7 +1780,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 89
+        "no#": 89,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1354,7 +1799,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 90
+        "no#": 90,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1372,7 +1822,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 91
+        "no#": 91,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1386,7 +1841,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 92
+        "no#": 92,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1400,7 +1860,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 93
+        "no#": 93,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1413,7 +1878,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 94
+        "no#": 94,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1426,7 +1896,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 95
+        "no#": 95,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：銅雀妓",
@@ -1440,7 +1915,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 96
+        "no#": 96,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：雀台怨",
@@ -1454,7 +1934,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 97
+        "no#": 97,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：雀台怨",
@@ -1468,7 +1953,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 98
+        "no#": 98,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：置酒行",
@@ -1484,7 +1974,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 99
+        "no#": 99,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：置酒行",
@@ -1498,7 +1993,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 100
+        "no#": 100,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：長歌續短歌",
@@ -1514,7 +2014,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 101
+        "no#": 101,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：猛虎行",
@@ -1530,7 +2035,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 102
+        "no#": 102,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：猛虎行",
@@ -1550,7 +2060,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 103
+        "no#": 103,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：猛虎行",
@@ -1570,7 +2085,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 104
+        "no#": 104,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：猛虎行",
@@ -1584,7 +2104,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 105
+        "no#": 105,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：猛虎行",
@@ -1600,7 +2125,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 106
+        "no#": 106,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：猛虎行",
@@ -1613,7 +2143,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 107
+        "no#": 107,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [3, 3, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：君子行",
@@ -1628,7 +2163,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 108
+        "no#": 108,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [4, 4, 4, 4, 7, 4, 4, 6, 6, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：燕歌行",
@@ -1646,7 +2186,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 109
+        "no#": 109,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：燕歌行",
@@ -1664,7 +2209,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 110
+        "no#": 110,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：燕歌行",
@@ -1681,7 +2231,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 111
+        "no#": 111,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行二首",
@@ -1702,7 +2257,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 112
+        "no#": 112,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1716,7 +2276,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 113
+        "no#": 113,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1733,7 +2298,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 114
+        "no#": 114,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1751,7 +2321,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 115
+        "no#": 115,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1765,7 +2340,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 116
+        "no#": 116,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：從軍行三首",
@@ -1783,7 +2363,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 117
+        "no#": 117,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1800,7 +2385,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 118
+        "no#": 118,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1814,7 +2404,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 119
+        "no#": 119,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行二首",
@@ -1830,7 +2425,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 120
+        "no#": 120,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1844,7 +2444,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 121
+        "no#": 121,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1866,7 +2471,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 122
+        "no#": 122,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1881,7 +2491,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 123
+        "no#": 123,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行六首",
@@ -1905,7 +2520,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 124
+        "no#": 124,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1921,7 +2541,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 125
+        "no#": 125,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1943,7 +2568,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 126
+        "no#": 126,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1959,7 +2589,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 127
+        "no#": 127,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行",
@@ -1973,7 +2608,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 128
+        "no#": 128,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "相和歌辭：從軍行五首",
@@ -1990,7 +2630,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 129
+        "no#": 129,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：從軍行三首",
@@ -2006,7 +2651,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 130
+        "no#": 130,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相和歌辭：從軍有苦樂行",
@@ -2027,7 +2677,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 131
+        "no#": 131,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：苦哉遠征人",
@@ -2045,7 +2700,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 132
+        "no#": 132,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：苦哉行五首",
@@ -2074,7 +2734,12 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 133
+        "no#": 133,
+        "format": {
+            "sentence_count": 68,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相和歌辭：鞠歌行",
@@ -2091,6 +2756,11 @@
             ""
         ],
         "volume": "卷一十九",
-        "no#": 134
+        "no#": 134,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     }
 ]

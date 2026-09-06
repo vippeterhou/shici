@@ -24,7 +24,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 60,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "廣溪峽",
@@ -41,7 +46,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "巫峽",
@@ -57,7 +67,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西陵峽",
@@ -74,7 +89,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "從軍行",
@@ -88,7 +108,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "劉生",
@@ -102,7 +127,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "驄馬",
@@ -116,7 +146,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "出塞",
@@ -130,7 +165,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "有所思",
@@ -144,7 +184,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "梅花落",
@@ -158,7 +203,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "折楊柳",
@@ -172,7 +222,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紫騮馬",
@@ -186,7 +241,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "戰城南",
@@ -200,7 +260,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送臨津房少府",
@@ -214,7 +279,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送豐城王少府",
@@ -228,7 +298,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送鄭州周司空",
@@ -242,7 +317,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送梓州周司功",
@@ -256,7 +336,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送楊處士反初卜居曲江",
@@ -270,7 +355,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "途中",
@@ -285,7 +375,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送劉校書從軍",
@@ -300,7 +395,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遊廢觀",
@@ -315,7 +415,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和石侍禦山莊",
@@ -330,7 +435,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送李庶子致仕還洛",
@@ -345,7 +455,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早行",
@@ -360,7 +475,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和崔司空傷姬人",
@@ -375,7 +495,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和騫右丞省中暮望",
@@ -391,7 +516,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和酬虢州李司法",
@@ -407,7 +537,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和鄭讎校內省眺矚思鄉懷友",
@@ -423,7 +558,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和旻上人傷果禪師",
@@ -439,7 +579,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和劉侍郎入隆唐觀",
@@ -456,7 +601,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和輔先入昊天觀星瞻",
@@ -474,7 +624,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和劉長史答十九兄",
@@ -499,7 +654,12 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 50,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夜送趙縱",
@@ -512,6 +672,11 @@
             ""
         ],
         "volume": "卷五十",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

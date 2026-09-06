@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "失題",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "古意",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "勖曹生",
@@ -55,7 +70,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "琴歌",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "廢長行",
@@ -88,7 +113,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "玉女詞",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "苦別",
@@ -116,7 +151,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "石城",
@@ -129,7 +169,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漢東道中",
@@ -142,7 +187,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高溪有懷",
@@ -155,7 +205,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄進士賈希",
@@ -168,7 +223,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "出塞",
@@ -182,7 +242,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "旅泊",
@@ -196,7 +261,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "次青雲驛",
@@ -210,7 +280,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "大庾驛有懷",
@@ -224,7 +299,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題商山修路僧院",
@@ -238,7 +318,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題長安僧院",
@@ -252,7 +337,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "次商於感舊寄盧中丞",
@@ -266,7 +356,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "樵翁",
@@ -280,7 +375,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "四老廟",
@@ -294,7 +394,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "昭君塚",
@@ -308,7 +413,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞歌竹枝",
@@ -322,7 +432,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重門曲",
@@ -336,7 +451,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山下水",
@@ -350,7 +470,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "逢鄰女",
@@ -364,7 +489,12 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "廢宅",
@@ -378,6 +508,11 @@
             ""
         ],
         "volume": "卷七百七十一",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

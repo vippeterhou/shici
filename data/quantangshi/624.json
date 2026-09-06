@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鵁鶄",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新秋月夕，客有自遠相尋者，作吳體二首以贈",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "閒書",
@@ -55,7 +70,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "獨夜",
@@ -69,7 +89,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄吳融",
@@ -83,7 +108,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "中秋待月",
@@ -97,7 +127,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重憶白菊",
@@ -111,7 +146,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別墅懷歸",
@@ -125,7 +165,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄淮南鄭寶書記",
@@ -139,7 +184,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "小雪後書事",
@@ -153,7 +203,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寒夜同襲美訪北禪院寂上人",
@@ -167,7 +222,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美江南道中懷茅山廣文南陽博士三首次韻",
@@ -185,7 +245,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早春雪中作吳體寄襲美",
@@ -199,7 +264,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美吳中言情見寄次韻",
@@ -213,7 +283,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美揚州看辛夷花次韻",
@@ -227,7 +302,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美行次野梅次韻",
@@ -241,7 +321,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美暇日獨處見寄",
@@ -255,7 +340,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美見訪不遇",
@@ -269,7 +359,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬襲美見寄海蟹",
@@ -283,7 +378,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美開元寺客省早景即事次韻",
@@ -297,7 +397,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "獨夜有懷因作吳體寄襲美",
@@ -311,7 +416,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "闔閭城北有賣花翁，討春之士往往造焉，因招襲美",
@@ -325,7 +435,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美病中庭際海石榴花盛發見寄次韻",
@@ -339,7 +454,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襲美以春橘見惠兼之雅篇，因次韻酬謝",
@@ -353,7 +473,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美病中書情寄上崔諫議次韻",
@@ -367,7 +492,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉酬襲美病中見寄",
@@ -381,7 +511,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美病孔雀",
@@ -395,7 +530,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "上元日道室焚修寄襲美",
@@ -409,7 +549,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "正月十五惜春寄襲美",
@@ -423,7 +568,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襲美病中聞余游顏家園見寄，次韻酬之",
@@ -437,7 +587,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春雨即事寄襲美",
@@ -451,7 +606,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美抱疾杜門見寄次韻",
@@ -465,7 +625,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "偶掇野蔬寄襲美有作",
@@ -479,7 +644,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和襲美臥疾感春見寄次韻",
@@ -493,7 +663,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "徐方平後聞赦因寄襲美",
@@ -507,7 +682,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襲美以魚箋見寄，因謝成篇",
@@ -521,7 +701,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "次和襲美病後春思",
@@ -535,7 +720,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襲美以公齋小宴見招，因代書寄之",
@@ -549,7 +739,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "京口",
@@ -563,7 +758,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "潤州送人往長洲",
@@ -577,7 +777,12 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "潤州江口送人謁池陽衛郎中",
@@ -591,6 +796,11 @@
             ""
         ],
         "volume": "卷六百二十四",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

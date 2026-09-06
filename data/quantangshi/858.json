@@ -41,7 +41,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 128,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "絕句",
@@ -117,7 +122,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 128,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "徽宗齋會",
@@ -131,7 +141,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "七夕",
@@ -147,7 +162,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈李德成",
@@ -161,7 +181,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "牧童",
@@ -175,7 +200,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "潭州鶴會",
@@ -189,7 +219,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "紹興道會",
@@ -203,7 +238,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈曹先生",
@@ -217,7 +257,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "海上相逢趙同",
@@ -231,7 +276,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題鳳翔府天慶觀",
@@ -245,7 +295,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "劍畫此詩於襄陽雪中",
@@ -259,7 +314,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "洞庭湖君山頌",
@@ -273,7 +333,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秦州北山觀留詩",
@@ -287,7 +352,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題永康酒樓",
@@ -301,7 +371,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈滕宗諒",
@@ -314,7 +389,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈江州太平觀道士",
@@ -328,7 +408,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宋朝張天覺為相之日有襤縷道人及門求施…留詩於案上雲",
@@ -342,7 +427,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈陳處士",
@@ -356,7 +446,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "哭陳先生",
@@ -370,7 +465,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "化江南簡寂觀道士侯用晦磨劍",
@@ -384,7 +484,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "熙甯元年八月十九日過湖州東林沈山用石榴…自號回山人",
@@ -398,7 +503,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "大雲寺茶詩",
@@ -412,7 +522,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別詩二首",
@@ -428,7 +543,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈羅浮道士",
@@ -442,7 +562,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿州天慶觀殿門留贈符離道士",
@@ -456,7 +581,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題黃鶴樓石照",
@@ -470,7 +600,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答僧見",
@@ -484,7 +619,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "與潭州智度寺慧覺詩",
@@ -498,7 +638,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "參黃龍機悟後呈偈",
@@ -512,7 +657,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 6, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "題僧房絕句",
@@ -525,7 +675,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "賜齊州李希遇詩",
@@ -538,7 +693,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "六言",
@@ -552,7 +712,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [6, 6, 6, 6, 6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "明胎息",
@@ -566,7 +731,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "警世",
@@ -580,7 +750,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "通道",
@@ -594,7 +769,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "為賈師雄發明古鐵鏡",
@@ -608,7 +788,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題全州道士蔣暉壁",
@@ -622,7 +807,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "謁石守道",
@@ -636,7 +826,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題廣陵妓屏二首",
@@ -652,7 +847,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題東都妓館壁",
@@ -666,7 +866,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "崔中舉進士游岳陽遇真人錄沁園春詞詰其姓名…留詩于壁",
@@ -680,7 +885,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題詩紫極宮",
@@ -693,7 +903,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閑題",
@@ -707,7 +922,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山隱",
@@ -721,7 +941,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "絕句",
@@ -739,7 +964,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "勸世",
@@ -753,7 +983,12 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "窯頭坯歌",
@@ -779,6 +1014,11 @@
             ""
         ],
         "volume": "卷八百五十八",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 52,
+            "sentence_lengths": [3, 3, 7, 7, 3, 3, 7, 7, 3, 3, 7, 7, 7, 7, 8, 8, 7, 7, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 3, 3, 7, 7, 7, 3, 3, 7, 3, 3, 7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

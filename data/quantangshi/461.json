@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "玉水記方流",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "大社觀獻捷詩",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "自誨",
@@ -60,7 +75,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 7, 7, 7, 4, 4, 4, 5, 3, 3, 3, 3, 3, 3, 3, 5, 5, 6, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "三謠：蟠木謠",
@@ -78,7 +98,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [4, 4, 4, 4, 7, 7, 10, 10, 4, 4, 4, 9, 4, 4, 7, 4, 4, 4, 7, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "三謠：素屏謠",
@@ -95,7 +120,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [4, 7, 4, 10, 5, 5, 9, 7, 7, 7, 7, 7, 7, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "三謠：朱藤謠",
@@ -111,7 +141,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [4, 4, 4, 7, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 7, 4, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "無可奈何歌",
@@ -131,7 +166,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 7, 7, 6, 6, 7, 5, 5, 6, 6, 4, 4, 4, 4, 4, 4, 4, 7, 4, 12, 8, 4, 4, 4, 6, 4, 6, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "池上篇",
@@ -146,7 +186,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "齒落辭",
@@ -165,7 +210,12 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 31,
+            "sentence_lengths": [5, 5, 6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 6, 5, 4, 5, 4, 4, 4, 7, 6, 1, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "不能忘情吟",
@@ -181,6 +231,11 @@
             ""
         ],
         "volume": "卷四百六十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [8, 7, 10, 10, 2, 6, 6, 4, 6, 8],
+            "uniform_sentence_length": null
+        }
     }
 ]

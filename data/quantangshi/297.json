@@ -15,7 +15,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "主人故亭",
@@ -34,7 +39,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古從軍",
@@ -50,7 +60,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "邯鄲主人",
@@ -66,7 +81,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "泛水曲",
@@ -81,7 +101,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江南雜體二首",
@@ -97,7 +122,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遠征歸",
@@ -111,7 +141,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "思遠人",
@@ -125,7 +160,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "傷近者不見",
@@ -139,7 +179,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "元日早朝",
@@ -159,7 +204,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聞故人自征戍回",
@@ -177,7 +227,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "七泉寺上方",
@@ -194,7 +249,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "從元太守夏宴西樓",
@@ -210,7 +270,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬柏侍禦聞與韋處士同遊靈台寺見寄",
@@ -232,7 +297,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "荊南贈別李肇著作轉韻詩",
@@ -256,7 +326,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早發金堤驛",
@@ -272,7 +347,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和裴相公道中贈別張相公",
@@ -286,7 +366,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和錢舍人水植詩",
@@ -300,7 +385,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題壽安南館",
@@ -314,7 +404,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送張籍歸江東",
@@ -335,7 +430,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "勵學",
@@ -351,7 +451,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山中寄及第故人",
@@ -370,7 +475,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "求友",
@@ -389,7 +499,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄李益少監兼送張實游幽州",
@@ -409,7 +524,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄崔列中丞",
@@ -428,7 +548,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "喻時",
@@ -444,7 +569,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈王侍禦",
@@ -463,7 +593,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宋氏五女",
@@ -480,7 +615,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送於丹移家洺州",
@@ -501,7 +641,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "留別舍弟",
@@ -519,7 +664,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "壞屋",
@@ -535,7 +685,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送薛蔓應舉",
@@ -554,7 +709,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "將歸故山留別杜侍禦",
@@ -570,7 +730,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送韋處士老舅",
@@ -589,7 +754,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送同學故人",
@@ -604,7 +774,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "幽州送申稷評事歸平盧",
@@ -619,7 +794,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "溫門山",
@@ -636,7 +816,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "代故人新姬侍疾",
@@ -650,7 +835,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "采桑",
@@ -664,7 +854,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "曉思",
@@ -678,7 +873,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早起",
@@ -692,7 +892,12 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 4, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "酬張十八病中寄詩",
@@ -706,6 +911,11 @@
             ""
         ],
         "volume": "卷二百九十七",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

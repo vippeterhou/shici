@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送玄亮師",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送李尊師玄",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同晝上人送郭秀才江南尋兄弟",
@@ -55,7 +70,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日同韋郎中使君送鄒儒立少府扶侍赴雲陽",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送從叔校書簡南歸",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送韓愈從軍",
@@ -104,7 +134,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同茅郎中使君送河南裴文學",
@@ -118,7 +153,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送李翱習之",
@@ -136,7 +176,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送丹霞子阮芳顏上人歸山",
@@ -150,7 +195,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送從舅端適楚地",
@@ -164,7 +214,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送盧汀侍禦歸天德幕",
@@ -179,7 +234,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送草書獻上人歸廬山",
@@ -195,7 +255,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "和薛先輩送獨孤秀才上都赴嘉會得青字",
@@ -209,7 +274,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送崔爽之湖南",
@@ -223,7 +293,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送超上人歸天臺",
@@ -239,7 +314,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同李益、崔放送王煉師還樓觀，兼為群公先營山居",
@@ -253,7 +333,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "張徐州席送岑秀才",
@@ -269,7 +354,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送黃構擢第後歸江南",
@@ -286,7 +376,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送道士",
@@ -300,7 +395,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送孟寂赴舉",
@@ -315,7 +415,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同溧陽宰送孫秀才",
@@ -330,7 +435,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "溧陽唐興寺觀薔薇花，同諸公餞陳明府",
@@ -344,7 +454,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送柳淳",
@@ -357,7 +472,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送殷秀才南游",
@@ -371,7 +491,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送青陽上人游越",
@@ -386,7 +511,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉同朝賢送新羅使",
@@ -403,7 +533,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "留弟郢不得送之江南",
@@ -416,7 +551,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送陸暢歸湖州，因憑題故人皎然塔、陸羽墳",
@@ -435,7 +575,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送淡公",
@@ -485,7 +630,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 138,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送魏端公入朝",
@@ -500,7 +650,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送盧郎中汀",
@@ -517,7 +672,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送鄭僕射出節山南",
@@ -533,7 +693,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別妻家",
@@ -548,7 +713,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈姚怤別",
@@ -563,7 +733,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈竟陵盧使君虔別",
@@ -578,7 +753,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與韓愈、李翱、張籍話別",
@@ -594,7 +774,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "監察十五叔東齋招李益端公會別",
@@ -608,7 +793,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "汴州留別韓愈",
@@ -623,7 +813,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈別殷山人說易後歸幽墅",
@@ -639,7 +834,12 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "壽安西渡奉別鄭相公",
@@ -663,6 +863,11 @@
             ""
         ],
         "volume": "卷三百七十九",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

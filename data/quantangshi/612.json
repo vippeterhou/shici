@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：過雲",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：雲南",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：雲北",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：鹿亭",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：樊榭",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：潺湲洞",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：青欞子",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和魯望四明山九題：鞠侯",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 4, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "五貺詩：五瀉舟",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "五貺詩：華頂杖",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "五貺詩：太湖硯",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "五貺詩：烏龍養和",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "五貺詩：訶陵樽",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早春病中書事寄魯望",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "又寄次前韻",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋晚留題魯望郊居二首",
@@ -237,7 +317,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初冬章上人院",
@@ -251,7 +336,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "臨頓為吳中偏勝之地陸魯望居之不出郛郭曠若郊墅余每相訪欸然惜去因成五言十首奉題屋壁",
@@ -283,7 +373,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 80,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遊棲霞寺",
@@ -297,7 +392,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "旅舍除夜",
@@ -311,7 +411,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "魯望示廣文先生吳門二章，情格高散，可醒俗態，因追想山中風度，次韻屬和，存於詩編，魯望之命也",
@@ -327,7 +432,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "虎丘寺殿前有古杉一本，形狀醜怪，圖之不盡，況百卉競媚，若妒若媢，唯此杉死抱奇節，髐然闖然，不知雨露之可生也，風霜之可瘁也，乃造化者方外之材乎？遂賦三百言以見志",
@@ -354,7 +464,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 60,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "新秋言懷寄魯望三十韻",
@@ -381,7 +496,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 60,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉和魯望秋日遣懷次韻",
@@ -401,7 +521,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江南書情二十韻寄秘閣韋校書貽之商洛宋先輩垂文二同年",
@@ -423,7 +548,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "憶洞庭觀步十韻",
@@ -440,7 +570,12 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "諫議以罷郡將歸以六韻賜示，因佇酬獻",
@@ -455,6 +590,11 @@
             ""
         ],
         "volume": "卷六百一十二",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

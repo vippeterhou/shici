@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送友封二首",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "放言五首",
@@ -50,7 +60,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "劉二十八以文石枕見贈仍題絕句以將厚意因持壁州鞭酬謝兼廣為四韻",
@@ -64,7 +79,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和嚴司空重陽日同崔常侍崔郎中及諸公登龍山落帽臺佳宴",
@@ -78,7 +98,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送王十一郎遊剡中",
@@ -92,7 +117,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送友封",
@@ -106,7 +136,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送致用",
@@ -120,7 +155,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早春登龍山靜勝寺時非休浣司空特許是行因贈幕中諸公",
@@ -134,7 +174,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "書樂天紙",
@@ -148,7 +193,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬孝甫見贈十首",
@@ -180,7 +230,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和樂天招錢蔚章看山絕句",
@@ -194,7 +249,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "折枝花贈行",
@@ -208,7 +268,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄劉頗二首",
@@ -224,7 +289,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "晨起送使，病不行，因過王十一館居二首",
@@ -240,7 +310,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送孫勝",
@@ -254,7 +329,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遊三寺回呈上府主嚴司空時因尋寺道出當陽縣奉命覆視縣囚牽於游行不暇詳究故以詩自誚爾",
@@ -268,7 +348,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遠望",
@@ -282,7 +367,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早春尋李校書",
@@ -296,7 +386,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過襄陽樓呈上府主嚴司空樓在江陵節度使宅北隅",
@@ -310,7 +405,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "八月六日與僧如展前松滋主簿韋戴同遊碧澗寺賦得扉字韻寺臨蜀江內有碧澗穿注兩廊又有龍女洞能興雲雨詩中噴字以平聲韻",
@@ -324,7 +424,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和竇容州",
@@ -338,7 +443,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "盧頭陀詩",
@@ -352,7 +462,12 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "醉別盧頭陀",
@@ -366,6 +481,11 @@
             ""
         ],
         "volume": "卷四百一十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

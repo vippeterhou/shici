@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [3, 7, 4, 6, 5, 5, 4, 2, 7, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：倒景台",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [4, 5, 4, 4, 4, 7, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：樾館",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [3, 5, 3, 3, 4, 7, 8, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：枕煙庭",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [4, 5, 4, 4, 4, 2, 7, 7, 7, 10, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：雲錦淙",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [4, 5, 4, 4, 4, 5, 9, 2, 7, 7, 7, 7, 7, 8],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：期仙磴",
@@ -89,7 +114,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [4, 5, 4, 4, 4, 8, 8, 7, 8, 8, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：滌煩磯",
@@ -104,7 +134,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [4, 5, 4, 4, 4, 4, 4, 5, 5, 2, 9, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：冪翠庭",
@@ -122,7 +157,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [4, 5, 4, 4, 4, 4, 5, 5, 5, 7, 8, 8, 7, 8, 7, 7, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：洞元室",
@@ -138,7 +178,12 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [4, 5, 4, 4, 4, 5, 5, 4, 4, 2, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嵩山十志十首：金碧潭",
@@ -155,6 +200,11 @@
             ""
         ],
         "volume": "卷一百二十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [4, 5, 4, 4, 4, 4, 4, 7, 5, 2, 7, 7, 7, 7, 7, 8],
+            "uniform_sentence_length": null
+        }
     }
 ]

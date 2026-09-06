@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "敬寄族弟唐十八使君",
@@ -32,7 +37,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "憶昔行",
@@ -48,7 +58,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "魏將軍歌",
@@ -64,7 +79,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "北風",
@@ -78,7 +98,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "客從",
@@ -92,7 +117,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白馬",
@@ -106,7 +136,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白鳧行",
@@ -120,7 +155,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [10, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "朱鳳行",
@@ -134,7 +174,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [10, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "惜別行，送向卿進奉端午禦衣之上都",
@@ -149,7 +194,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "醉歌行，贈公安顏少府請顧八題壁",
@@ -163,7 +213,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夜聞觱篥",
@@ -177,7 +232,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "發劉郎浦",
@@ -191,7 +251,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別董頲",
@@ -208,7 +273,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送重表侄王砅評事使南海",
@@ -239,7 +309,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 76,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠懷二首",
@@ -269,7 +344,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 72,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送顧八分文學適洪吉州",
@@ -297,7 +377,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 62,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上水遣懷",
@@ -320,7 +405,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 44,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遣遇",
@@ -338,7 +428,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "解憂",
@@ -353,7 +448,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿鑿石浦",
@@ -369,7 +469,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早行",
@@ -384,7 +489,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過津口",
@@ -400,7 +510,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "次空靈岸",
@@ -416,7 +531,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿花石戍",
@@ -433,7 +553,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早發",
@@ -451,7 +576,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "次晚洲",
@@ -466,7 +596,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "望岳",
@@ -485,7 +620,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "湘江宴餞裴二端公赴道州",
@@ -505,7 +645,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "清明",
@@ -520,7 +665,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "風雨看舟前落花，戲為新句",
@@ -534,7 +684,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "岳麓山道林二寺行",
@@ -552,7 +707,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉送魏六丈佑少府之交廣",
@@ -577,7 +737,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 52,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別張十三建封",
@@ -600,7 +765,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 42,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "暮秋枉裴道州手劄，率爾遣興，寄近呈蘇渙侍禦",
@@ -620,7 +790,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉贈李八丈判官",
@@ -640,7 +815,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "歲晏行",
@@ -655,7 +835,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "追酬故高蜀州人日見寄",
@@ -671,7 +856,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蘇大侍禦訪江浦，賦八韻記異",
@@ -687,7 +877,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題衡山縣文宣王廟新學堂，呈陸宰",
@@ -709,7 +904,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "入衡州",
@@ -743,7 +943,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 88,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舟中苦熱遣懷，奉呈陽中丞通簡台省諸公",
@@ -767,7 +972,12 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聶耒陽以僕阻水書致酒肉療飢荒江詩得代懷興盡本韻至縣呈聶令陸路去方田驛四十里舟行一日時屬江漲泊於方田",
@@ -786,6 +996,11 @@
             ""
         ],
         "volume": "卷二百二十三",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

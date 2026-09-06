@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：艾如張",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：上之回",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：上之回",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：上之回",
@@ -71,7 +91,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：戰城南",
@@ -85,7 +110,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：戰城南",
@@ -103,7 +133,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [6, 6, 7, 8, 9, 7, 7, 5, 5, 5, 7, 5, 7, 5, 5, 7, 8],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：戰城南",
@@ -117,7 +152,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：戰城南二首",
@@ -134,7 +174,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -148,7 +193,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高二首",
@@ -164,7 +214,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -178,7 +233,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -192,7 +252,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -206,7 +271,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -220,7 +290,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -234,7 +309,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -249,7 +329,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高二首",
@@ -265,7 +350,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -279,7 +369,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：巫山高",
@@ -294,7 +389,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：將進酒",
@@ -312,7 +412,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [10, 7, 10, 7, 7, 7, 7, 3, 3, 3, 3, 5, 7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：將進酒",
@@ -328,7 +433,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：將進酒",
@@ -342,7 +452,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：君馬黃",
@@ -358,7 +473,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [3, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：芳樹",
@@ -372,7 +492,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：芳樹",
@@ -386,7 +511,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：芳樹",
@@ -400,7 +530,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：芳樹",
@@ -414,7 +549,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：芳樹",
@@ -430,7 +570,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：芳樹",
@@ -447,7 +592,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 8, 4, 4, 4, 7, 7, 6, 7, 7, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：有所思",
@@ -461,7 +611,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：有所思",
@@ -475,7 +630,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [4, 7, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：有所思",
@@ -488,7 +648,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：有所思",
@@ -503,7 +668,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 3, 5, 9, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：有所思",
@@ -517,7 +687,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：有所思",
@@ -531,7 +706,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：雉子班",
@@ -548,7 +728,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 3, 3, 5, 5, 7, 7, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：臨高臺",
@@ -562,7 +747,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：臨高臺",
@@ -581,7 +771,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [3, 7, 7, 5, 5, 5, 5, 7, 7, 7, 5, 5, 5, 5, 5, 5, 7, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：臨高臺",
@@ -595,7 +790,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：黃雀行",
@@ -609,7 +809,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：釣竿篇",
@@ -624,7 +829,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹曲辭：凱歌六首",
@@ -648,7 +858,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：晉陽武",
@@ -665,7 +880,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：獸之窮",
@@ -682,7 +902,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [3, 3, 4, 3, 4, 3, 3, 3, 4, 3, 2, 3, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：戰武牢",
@@ -696,7 +921,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：涇水黃",
@@ -711,7 +941,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [3, 3, 3, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：奔鯨沛",
@@ -725,7 +960,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 4, 3, 4, 4, 3, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：苞枿",
@@ -741,7 +981,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [4, 4, 4, 5, 5, 4, 4, 5, 3, 3, 4, 4, 4, 4, 3, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：河右平",
@@ -757,7 +1002,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [4, 4, 5, 4, 4, 4, 5, 4, 4, 5, 5, 4, 4, 3, 4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：鐵山碎",
@@ -773,7 +1023,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 4, 4, 5, 4, 3, 3, 4, 3, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：靖本邦",
@@ -789,7 +1044,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：吐谷渾",
@@ -808,7 +1068,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：高昌",
@@ -826,7 +1091,12 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂府雜曲：鼓吹鐃歌：東蠻",
@@ -844,6 +1114,11 @@
             ""
         ],
         "volume": "卷一十七",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

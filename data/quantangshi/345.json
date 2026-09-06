@@ -15,7 +15,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 29,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "送張道士",
@@ -39,7 +44,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 46,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送鄭十校理得洛字",
@@ -54,7 +64,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送陸歙州傪",
@@ -69,7 +84,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 4, 5, 4, 5, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "送汴州監軍俱文珍",
@@ -83,7 +103,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《贈崔立之",
@@ -101,7 +126,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "海水",
@@ -120,7 +150,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈河陽李大夫",
@@ -134,7 +169,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "苦寒歌",
@@ -148,7 +188,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "芍藥歌",
@@ -163,7 +208,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "《贈徐州族侄",
@@ -181,7 +231,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嘲鼾睡",
@@ -207,7 +262,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 54,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "晝月",
@@ -220,7 +280,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈張徐州莫辭酒",
@@ -234,7 +299,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 5, 7, 7, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "辭唱歌",
@@ -252,7 +322,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "知音者誠希",
@@ -265,7 +340,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同竇、韋尋劉尊師不遇",
@@ -279,7 +359,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春雪",
@@ -294,7 +379,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬藍田崔丞立之詠雪見寄",
@@ -311,7 +401,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "潭州泊船呈諸公",
@@ -325,7 +420,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "飲城南道邊古墓上逢中丞過贈禮部衛員外少室張道士",
@@ -339,7 +439,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "池上絮",
@@ -353,7 +458,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "《贈賈島",
@@ -367,7 +477,12 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈譯經僧",
@@ -381,6 +496,11 @@
             ""
         ],
         "volume": "卷三百四十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

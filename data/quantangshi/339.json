@@ -14,7 +14,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄭群贈簟",
@@ -30,7 +35,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "豐陵行",
@@ -46,7 +56,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遊青龍寺贈崔大補闕",
@@ -65,7 +80,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈崔立之評事",
@@ -86,7 +106,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送區弘南歸",
@@ -105,7 +130,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "三星行",
@@ -121,7 +151,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "剝啄行",
@@ -137,7 +172,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "青青水中蒲三首",
@@ -152,7 +192,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "孟東野失子",
@@ -178,7 +223,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 56,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陸渾山火和皇甫湜用其韻",
@@ -201,7 +251,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 7, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "縣齋讀書",
@@ -217,7 +272,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新竹",
@@ -233,7 +293,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚菊",
@@ -247,7 +312,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "落齒",
@@ -268,7 +338,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "哭楊兵部凝陸歙州參",
@@ -282,7 +357,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "苦寒",
@@ -312,7 +392,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 72,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和虞部盧四酬翰林錢七赤藤杖歌",
@@ -328,7 +413,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "崔十六少府攝伊陽，以詩及書見投，因酬三十韻",
@@ -355,7 +445,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 60,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送侯參謀赴河中幕",
@@ -387,7 +482,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 80,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "東都遇春",
@@ -414,7 +514,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 58,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "感春五首",
@@ -436,7 +541,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬裴十六功曹巡府西驛途中見寄",
@@ -455,7 +565,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "燕河南府秀才得生字",
@@ -477,7 +592,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送李翱",
@@ -493,7 +613,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送石洪處士赴河陽幕得起字",
@@ -508,7 +633,12 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送湖南李正字歸",
@@ -523,6 +653,11 @@
             ""
         ],
         "volume": "卷三百三十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

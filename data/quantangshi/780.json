@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "天驥呈材",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "律中應鐘",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閏月定四時",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閏月定四時",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閏月定四時",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新陽改故陰",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春水綠波",
@@ -117,7 +152,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "海水不揚波",
@@ -132,7 +172,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "四水合流",
@@ -147,7 +192,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登聖善寺閣望龍門",
@@ -162,7 +212,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋霽望廬山瀑布",
@@ -177,7 +232,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "濟川用舟楫",
@@ -192,7 +252,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洛出書",
@@ -207,7 +272,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洛出書",
@@ -222,7 +292,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洛出書",
@@ -237,7 +312,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "玉壺冰",
@@ -252,7 +332,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "美玉",
@@ -267,7 +352,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "琢玉",
@@ -282,7 +372,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白珪無玷",
@@ -297,7 +392,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鮫人潛織",
@@ -312,7 +412,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "瑕瑜不相掩",
@@ -327,7 +432,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "戛玉有餘聲",
@@ -342,7 +452,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "珠還合浦",
@@ -357,7 +472,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "濁水求珠",
@@ -372,7 +492,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "暗投明珠",
@@ -387,7 +512,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "暗投明珠",
@@ -402,7 +532,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "暗投明珠",
@@ -417,7 +552,12 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "泗濱得石磬",
@@ -432,6 +572,11 @@
             ""
         ],
         "volume": "卷七百八十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

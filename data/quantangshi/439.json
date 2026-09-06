@@ -59,7 +59,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 200,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謫居",
@@ -73,7 +78,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "初到江州寄翰林張、李、杜三學士",
@@ -87,7 +97,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "庾樓曉望",
@@ -101,7 +116,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿西林寺",
@@ -115,7 +135,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "江樓宴別",
@@ -129,7 +154,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題山石榴花",
@@ -143,7 +173,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "代春贈",
@@ -157,7 +192,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答春",
@@ -171,7 +211,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "櫻桃花下歎白髮",
@@ -185,7 +230,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "惜落花，贈崔二十四",
@@ -199,7 +249,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "移山櫻桃",
@@ -213,7 +268,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "官舍閑題",
@@ -227,7 +287,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚春登大雲寺南樓，贈常禪師",
@@ -241,7 +306,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "北樓送客歸上都",
@@ -255,7 +325,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "北亭招客",
@@ -269,7 +344,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿西林寺，早赴東林滿上人之會因寄崔二十二員外",
@@ -283,7 +363,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遊寶稱寺",
@@ -297,7 +382,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早春聞提壺鳥，因題鄰家",
@@ -311,7 +401,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "見紫薇花憶微之",
@@ -325,7 +420,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "薔薇花一叢獨死，不知其故，因有是篇",
@@ -340,7 +440,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "湖亭望水",
@@ -354,7 +459,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閒遊",
@@ -368,7 +478,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "憶微之傷仲遠",
@@ -383,7 +498,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過鄭處士",
@@ -397,7 +517,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "霖雨苦多，江湖暴漲，塊然獨望，因題北亭",
@@ -412,7 +537,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春末夏初閒遊江郭二首",
@@ -430,7 +560,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紅藤杖",
@@ -445,7 +580,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "風雨中尋李十一，因題船上",
@@ -459,7 +599,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題廬山山下湯泉",
@@ -473,7 +618,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄蘄州簟與元九，因題六韻",
@@ -488,7 +638,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋熱",
@@ -502,7 +657,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題元八溪居",
@@ -516,7 +676,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "晚出西郊",
@@ -530,7 +695,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "階下蓮",
@@ -544,7 +714,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "端居詠懷",
@@ -558,7 +733,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夜宿江浦，聞元八改官，因寄此什",
@@ -572,7 +752,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "百花亭",
@@ -586,7 +771,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江樓早秋",
@@ -601,7 +791,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送客之湖南",
@@ -615,7 +810,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "百花亭晚望夜歸",
@@ -629,7 +829,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "西樓",
@@ -643,7 +848,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "尋李道士山居，兼呈元明府",
@@ -657,7 +867,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "四十五",
@@ -671,7 +886,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄李相公、崔侍郎、錢舍人",
@@ -685,7 +905,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "廳前桂",
@@ -699,7 +924,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "尋王道士藥堂，因有題贈",
@@ -713,7 +943,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋晚",
@@ -727,7 +962,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "南浦歲暮對酒，送王十五歸京",
@@ -741,7 +981,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "除夜",
@@ -755,7 +1000,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "聞李十一出牧澧州，崔二十二出牧果州，因寄絕句",
@@ -769,7 +1019,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "元和十二年淮寇未平詔停歲仗憤然有感率爾成章",
@@ -783,7 +1038,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "庾樓新歲",
@@ -796,7 +1056,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上香爐峰",
@@ -810,7 +1075,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶微之",
@@ -824,7 +1094,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "雨夜贈元十八",
@@ -838,7 +1113,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寒食江畔",
@@ -852,7 +1132,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "三月三日登庾樓寄庾三十二",
@@ -866,7 +1151,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞李六景儉自河東令授唐鄧行軍司馬，以詩賀之",
@@ -880,7 +1170,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "石榴樹",
@@ -894,7 +1189,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "大林寺桃花",
@@ -908,7 +1208,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "詠懷",
@@ -922,7 +1227,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早發楚城驛",
@@ -937,7 +1247,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "箬峴東池",
@@ -951,7 +1266,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "建昌江",
@@ -965,7 +1285,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "哭從弟",
@@ -979,7 +1304,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "香爐峰下新卜山居，草堂初成，偶題東壁",
@@ -993,7 +1323,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 67
+        "no#": 67,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重題",
@@ -1013,7 +1348,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 68
+        "no#": 68,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山中問月",
@@ -1028,7 +1368,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 69
+        "no#": 69,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "正月十五日夜東林寺學禪偶懷藍田楊主簿因呈智禪師",
@@ -1042,7 +1387,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 70
+        "no#": 70,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "臨水坐",
@@ -1056,7 +1406,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 71
+        "no#": 71,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山居",
@@ -1070,7 +1425,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 72
+        "no#": 72,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遺愛寺",
@@ -1083,7 +1443,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 73
+        "no#": 73,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山中與元九書，因題書後",
@@ -1096,7 +1461,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 74
+        "no#": 74,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "黃石岩下作",
@@ -1110,7 +1480,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 75
+        "no#": 75,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "戲贈李十三判官",
@@ -1124,7 +1499,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 76
+        "no#": 76,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "醉中戲贈鄭使君",
@@ -1138,7 +1518,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 77
+        "no#": 77,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江亭夕望",
@@ -1152,7 +1537,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 78
+        "no#": 78,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬元員外三月三十日慈恩寺相憶見寄",
@@ -1166,7 +1556,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 79
+        "no#": 79,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "偶然二首",
@@ -1182,7 +1577,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 80
+        "no#": 80,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "中秋月",
@@ -1196,7 +1596,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 81
+        "no#": 81,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "謝李六郎中寄新蜀茶",
@@ -1210,7 +1615,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 82
+        "no#": 82,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "攜諸山客同上香爐峰遇雨而還沾濡狼藉互相笑謔題此解嘲",
@@ -1224,7 +1634,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 83
+        "no#": 83,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "彭蠡湖晚歸",
@@ -1238,7 +1653,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 84
+        "no#": 84,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬贈李煉師見招",
@@ -1252,7 +1672,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 85
+        "no#": 85,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "西河雨夜送客",
@@ -1266,7 +1691,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 86
+        "no#": 86,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登西樓憶行簡",
@@ -1280,7 +1710,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 87
+        "no#": 87,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "羅子",
@@ -1294,7 +1729,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 88
+        "no#": 88,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "讀僧靈徹詩",
@@ -1308,7 +1748,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 89
+        "no#": 89,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聽李士良琵琶",
@@ -1322,7 +1767,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 90
+        "no#": 90,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "昭君怨",
@@ -1336,7 +1786,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 91
+        "no#": 91,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "閑吟",
@@ -1350,7 +1805,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 92
+        "no#": 92,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戲問山石榴",
@@ -1364,7 +1824,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 93
+        "no#": 93,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "編集拙詩成一十五卷因題卷末戲贈元九、李二十",
@@ -1378,7 +1843,12 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 94
+        "no#": 94,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湖上閑望",
@@ -1392,6 +1862,11 @@
             ""
         ],
         "volume": "卷四百三十九",
-        "no#": 95
+        "no#": 95,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

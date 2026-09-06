@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "華山南望春",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "水閣",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "迎風亭",
@@ -52,7 +67,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雙櫧亭",
@@ -65,7 +85,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蓮亭",
@@ -78,7 +103,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "中峰亭",
@@ -91,7 +121,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "飛雲亭",
@@ -104,7 +139,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "四望亭",
@@ -117,7 +157,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "望蓮台",
@@ -130,7 +175,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "茶亭",
@@ -143,7 +193,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿新安村步",
@@ -157,7 +212,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遠聞本郡行春到舊山二首",
@@ -173,7 +233,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和崔使君臨發不得觀積雪",
@@ -187,7 +252,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -200,7 +270,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別青州妓段東美",
@@ -216,7 +291,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "詠韋皋",
@@ -230,7 +310,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "進宣宗收復河湟詩",
@@ -244,7 +329,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "詠架上鷹",
@@ -258,7 +348,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "越亭二十韻",
@@ -280,7 +375,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "除浙東留題桂郡林亭",
@@ -294,7 +394,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -308,7 +413,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和元常侍除浙東留題",
@@ -322,7 +432,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈鞏疇",
@@ -344,7 +459,12 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -357,6 +477,11 @@
             ""
         ],
         "volume": "卷五百四十七",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

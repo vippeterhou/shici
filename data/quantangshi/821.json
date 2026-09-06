@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [6, 6, 6, 6, 6, 6, 7, 8, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "步虛詞",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉應顏尚書真卿觀玄真子置酒張樂舞破陣畫洞庭三山歌",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答韋山人隱起龍文藥瓢歌",
@@ -59,7 +74,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "桃花石枕歌贈康從事",
@@ -75,7 +95,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "張伯英草書歌",
@@ -91,7 +116,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寒棲子歌",
@@ -108,7 +138,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "翔隼歌送王端公",
@@ -123,7 +158,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "白雲歌寄陸中丞使君長源",
@@ -140,7 +180,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "裴端公使君清席，賦得青桂歌送徐長史",
@@ -154,7 +199,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "周長史昉畫毗沙門天王歌",
@@ -170,7 +220,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉和顏魯公真卿落玄真子舴艋舟歌",
@@ -185,7 +240,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 8, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "鄭容全成蛟形木機歌",
@@ -201,7 +261,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉同顏使君真卿清風樓賦得洞庭歌送吳煉師歸林屋洞",
@@ -217,7 +282,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戛銅碗為龍吟歌",
@@ -234,7 +304,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "飲茶歌誚崔石使君",
@@ -249,7 +324,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 5, 7, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "買藥歌送楊山人",
@@ -264,7 +344,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "薛卿教長行歌",
@@ -280,7 +365,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "桃花石枕歌送安吉康丞",
@@ -295,7 +385,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賦得吳王送女潮歌，送李判官之河中府",
@@ -311,7 +406,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "觀李中丞洪二美人唱歌軋箏歌",
@@ -329,7 +429,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 7, 7, 7, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "陳氏童子草書歌",
@@ -345,7 +450,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "飲茶歌送鄭容",
@@ -359,7 +469,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "花石長枕歌答章居士贈",
@@ -374,7 +489,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "觀王右丞維滄洲圖歌",
@@ -389,7 +509,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "洞庭山維諒上人院階前孤生橘樹歌",
@@ -405,7 +530,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春夜賦得漉水囊歌，送鄭明府",
@@ -420,7 +550,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湛處士枸杞架歌",
@@ -436,7 +571,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "觀裴秀才松石障歌",
@@ -451,7 +591,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送顧處士歌",
@@ -467,7 +612,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "水精數珠歌",
@@ -480,7 +630,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "兵後西日溪行",
@@ -496,7 +651,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "姑蘇行",
@@ -510,7 +670,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "短歌行",
@@ -525,7 +690,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 7, 7, 7, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "山月行",
@@ -539,7 +709,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "顧渚行寄裴方舟",
@@ -556,7 +731,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "武源行贈丘卿岑",
@@ -574,7 +754,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "長安少年行",
@@ -588,7 +773,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "風入松",
@@ -603,7 +793,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 3, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "陪盧中丞閒遊山寺",
@@ -617,7 +812,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "湖南草堂讀書招李少府",
@@ -631,7 +831,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答李季蘭",
@@ -644,7 +849,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬鄭判官湖上見贈",
@@ -658,7 +868,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送旻上人遊天臺",
@@ -672,7 +887,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送別",
@@ -686,7 +906,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "與昂上人兩字繼合四句初字日",
@@ -699,7 +924,12 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "次日",
@@ -712,6 +942,11 @@
             ""
         ],
         "volume": "卷八百二十一",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

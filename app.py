@@ -9,7 +9,6 @@ import pandas as pd
 import streamlit as st
 
 from poetry.analytics import (
-    STRUCTURE_TYPE_ORDER,
     author_counts,
     character_counts,
     duplicate_text_groups,
@@ -397,6 +396,7 @@ with overview_tab:
             structure_type_counts(filtered_poems),
             columns=["结构类型", "诗作数"],
         )
+        structure_order = structure_data["结构类型"].tolist()
         structure_selection = alt.selection_point(
             name="structure_selection",
             fields=["结构类型"],
@@ -414,7 +414,7 @@ with overview_tab:
                 y=alt.Y(
                     "结构类型:N",
                     title=None,
-                    sort=STRUCTURE_TYPE_ORDER,
+                    sort=structure_order,
                 ),
                 tooltip=["结构类型:N", "诗作数:Q"],
                 opacity=alt.condition(

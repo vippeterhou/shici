@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "傷春感懷",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閏三月",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早秋遊湖上亭",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿漁家",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "旅中早秋",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早秋西歸有懷",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬夜旅懷",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "塞上作",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋日寄陳景孚秀才",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬日送友人西歸",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "感寓",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "七夕",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "晚春陪王員外東塘游宴",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "游東湖黃處士園林",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題許子正處士新池",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "旅懷",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早秋歸",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "歐陽示新詩因貽四韻",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "尉遲將軍",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈歐陽秀才",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈道者",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈道者",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遣懷寄歐陽秀才",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送元秀才入道",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "三閭大夫",
@@ -361,7 +486,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "傷曾秀才馬",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "噴玉泉冥會詩八首：白衣叟途中吟二首",
@@ -390,7 +525,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "噴玉泉冥會詩八首：白衣叟述甘棠館西楹詩",
@@ -404,7 +544,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "噴玉泉冥會詩八首：白衣叟噴玉泉感舊遊書懷",
@@ -418,7 +563,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "噴玉泉冥會詩八首：四丈夫同賦",
@@ -438,7 +588,12 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "下第歸宜春酬黃頗餞別",
@@ -452,6 +607,11 @@
             ""
         ],
         "volume": "卷五百六十二",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

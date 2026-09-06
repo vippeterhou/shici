@@ -14,7 +14,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 9, 3, 3, 7, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "法曲－美列聖，正華聲也",
@@ -30,7 +35,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "二王后－明祖宗之意也",
@@ -46,7 +56,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "海漫漫－戒求仙也",
@@ -62,7 +77,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 9, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "立部伎－刺雅樂之替也",
@@ -79,7 +99,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "華原磬－刺樂工非其人也",
@@ -95,7 +120,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [3, 3, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "上陽白髮人－湣怨曠也",
@@ -113,7 +143,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "胡旋女－戒近習也",
@@ -130,7 +165,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "新豐折臂翁－戒邊功也",
@@ -152,7 +192,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 10, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "太行路－借夫婦以諷君臣之不終也",
@@ -168,7 +213,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 7, 5, 7, 7, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "司天臺－引古以儆今也",
@@ -183,7 +233,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "捕蝗－刺長吏也",
@@ -200,7 +255,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 9, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "昆明春－思王澤之廣被也",
@@ -217,7 +277,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "城鹽州－美聖謨而誚邊將也",
@@ -235,7 +300,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "道州民－美臣遇明主也",
@@ -250,7 +320,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "馴犀－感為政之難終也",
@@ -267,7 +342,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 6, 7, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "五弦彈－惡鄭之奪雅也",
@@ -286,7 +366,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蠻子朝－刺將驕而相備位也",
@@ -306,7 +391,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 9, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "驃國樂－欲王化之先邇後遠也",
@@ -324,7 +414,12 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "縛戎人－達窮民之情也",
@@ -345,6 +440,11 @@
             ""
         ],
         "volume": "卷四百二十六",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

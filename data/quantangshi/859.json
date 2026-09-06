@@ -19,7 +19,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "寄白龍洞劉道人",
@@ -42,7 +47,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 35,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7, 10, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "贈喬二郎",
@@ -59,7 +69,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄂渚悟道歌",
@@ -78,7 +93,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "又記",
@@ -102,7 +122,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 46,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秘訣歌",
@@ -115,7 +140,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "勉牛生、夏侯生",
@@ -133,7 +163,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [3, 7, 7, 7, 7, 5, 5, 4, 4, 4, 7, 7, 7, 6, 6, 8, 7, 9],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "題四明金鵝寺壁",
@@ -147,7 +182,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "穀神歌",
@@ -165,7 +205,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 5, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "修身訣",
@@ -179,7 +224,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 7, 5, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "長短句",
@@ -193,7 +243,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 4, 4, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "直指大丹歌",
@@ -208,7 +263,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "漁父詞一十八首：入定",
@@ -222,7 +282,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：初九",
@@ -236,7 +301,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：玄用",
@@ -250,7 +320,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：神效",
@@ -264,7 +339,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：沐浴",
@@ -278,7 +358,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：延壽",
@@ -292,7 +377,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：瑞鼎",
@@ -306,7 +396,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：活得",
@@ -320,7 +415,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：燦爛",
@@ -334,7 +434,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：煉質",
@@ -348,7 +453,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：神異",
@@ -362,7 +472,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：知路",
@@ -376,7 +491,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：朝帝",
@@ -390,7 +510,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：方契理",
@@ -404,7 +529,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：自無憂",
@@ -418,7 +548,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：作甚物",
@@ -432,7 +567,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：疾瞥地",
@@ -446,7 +586,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漁父詞一十八首：常自在",
@@ -460,7 +605,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "口占",
@@ -474,7 +624,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "敲爻歌",
@@ -522,7 +677,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 140,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "三字訣",
@@ -542,7 +702,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 46,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "百字碑",
@@ -559,7 +724,12 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -572,6 +742,11 @@
             ""
         ],
         "volume": "卷八百五十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

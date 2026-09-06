@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬宇文少府見贈桃竹書筒",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五月東魯行，答汶上君",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早秋單父南樓酬竇公衡",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "山中問答",
@@ -71,7 +91,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答友人贈烏紗帽",
@@ -84,7 +109,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 4, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "酬張司馬贈墨",
@@ -98,7 +128,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "答湖州迦葉司馬問白是何人",
@@ -112,7 +147,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答長安崔少府叔封游終南翠微寺太宗皇帝金沙泉見寄",
@@ -132,7 +172,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬崔五郎中",
@@ -153,7 +198,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "以詩代書答元丹丘",
@@ -169,7 +219,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "金門答蘇秀才",
@@ -192,7 +247,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 42,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬坊州王司馬與閻正字對雪見贈",
@@ -209,7 +269,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬中都小吏攜鬥酒雙魚於逆旅見贈",
@@ -223,7 +288,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "酬張卿夜宿南陵見贈",
@@ -243,7 +313,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬岑勳見尋就元丹丘對酒相待，以詩見招",
@@ -262,7 +337,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答從弟幼成過西園見贈",
@@ -279,7 +359,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬王補闕惠翼莊廟宋丞泚贈別",
@@ -296,7 +381,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬裴侍禦對雨感時見贈",
@@ -313,7 +403,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬崔侍禦",
@@ -327,7 +422,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "翫月金陵城西孫楚酒樓達曙歌吹日晚乘醉著紫綺裘烏紗巾與酒客數人櫂歌秦淮往石頭訪崔四侍御",
@@ -347,7 +447,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江上答崔宣城",
@@ -363,7 +468,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答族侄僧中孚贈玉泉仙人掌茶",
@@ -380,7 +490,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬裴侍禦留岫師彈琴見寄",
@@ -394,7 +509,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "張相公出鎮荊州尋除太子詹事余時流夜郎行至江夏與張公去千里公因太府丞王昔使車寄羅衣二事及五月五日贈余詩余答以此詩",
@@ -408,7 +528,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "醉後答丁十八以詩譏余捶碎黃鶴樓",
@@ -423,7 +548,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答裴侍禦先行至石頭驛以書見招，期月滿泛洞庭",
@@ -439,7 +569,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答高山人兼呈權、顧二侯",
@@ -461,7 +596,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答杜秀才五松見贈",
@@ -480,7 +620,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "至陵陽山登天柱石，酬韓侍禦見招隱黃山",
@@ -500,7 +645,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬崔十五見招",
@@ -514,7 +664,12 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答王十二寒夜獨酌有懷",
@@ -535,6 +690,11 @@
             ""
         ],
         "volume": "卷一百七十八",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

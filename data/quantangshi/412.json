@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "陪韋尚書丈歸履信宅，因贈韋氏兄弟",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "永貞二年正月二日上御丹鳳樓赦天下予與李公垂庾順之閒行曲江不及盛觀",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "韋居守晚歲常言退休之志因署其居曰大隱洞命予賦詩因贈絕句",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈李十二牡丹花片，因以餞行",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題李十一修行裏居壁",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "靖安窮居",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈樂天",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：駱口驛二首",
@@ -125,7 +165,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：清明日",
@@ -139,7 +184,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：亞枝紅",
@@ -153,7 +203,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：梁州夢",
@@ -167,7 +222,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：南秦雪",
@@ -181,7 +241,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：江樓月",
@@ -195,7 +260,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：慚問囚",
@@ -209,7 +279,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：江上行",
@@ -223,7 +298,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：漢江上笛",
@@ -237,7 +317,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：郵亭月",
@@ -251,7 +336,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：嘉陵驛二首",
@@ -267,7 +357,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：百牢關",
@@ -281,7 +376,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：江花落",
@@ -295,7 +395,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：嘉陵江二首",
@@ -311,7 +416,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：西縣驛",
@@ -325,7 +435,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：望喜驛",
@@ -339,7 +454,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：好時節",
@@ -353,7 +473,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：夜深行",
@@ -367,7 +492,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "使東川：望驛台",
@@ -381,7 +511,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈咸陽少府蕭郎",
@@ -395,7 +530,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈呂三校書",
@@ -409,7 +549,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "封書",
@@ -423,7 +568,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "仁風李著作園醉後寄李十",
@@ -437,7 +587,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "燈影",
@@ -451,7 +606,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貶江陵途中寄樂天杓直杓直以員外郎判鹽鐵樂天以拾遺在翰林",
@@ -465,7 +625,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "渡漢江",
@@ -479,7 +644,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "哀病驄呈致用",
@@ -493,7 +663,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送嶺南崔侍禦",
@@ -509,7 +684,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬樂天八月十五夜禁中獨直玩月見寄",
@@ -523,7 +703,12 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "予病瘴樂天寄通中散碧腴垂雲膏仍題四韻以慰遠懷開坼之間因有酬答",
@@ -537,6 +722,11 @@
             ""
         ],
         "volume": "卷四百一十二",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

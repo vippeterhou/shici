@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遺畫工詩",
@@ -24,7 +29,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夜吟",
@@ -37,7 +47,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "愧謝詩",
@@ -50,7 +65,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "擲裴武公詩",
@@ -64,7 +84,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "死後詩",
@@ -77,7 +102,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洋州館夜吟",
@@ -90,7 +120,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "獻元載",
@@ -104,7 +139,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "詩二首",
@@ -122,7 +162,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "祭後見石上詩",
@@ -135,7 +180,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠浮雲",
@@ -148,7 +198,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "呈李續",
@@ -161,7 +216,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和崔侍禦",
@@ -175,7 +235,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈竇丞",
@@ -189,7 +254,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "敘幽冤",
@@ -203,7 +273,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過台城感舊",
@@ -217,7 +292,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詩",
@@ -231,7 +311,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "踏歌",
@@ -244,7 +329,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "題少陵別墅",
@@ -258,7 +348,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夢張垂贈詩",
@@ -271,7 +366,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋月聯句",
@@ -287,7 +387,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 3, 5, 3, 5, 2, 5, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "天明聯句",
@@ -303,7 +408,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 3, 5, 3, 5, 4, 5, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "贈張珽",
@@ -317,7 +427,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "西軒詩",
@@ -334,7 +449,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "降巫詩",
@@ -348,7 +468,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈雷殿直",
@@ -362,7 +487,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "吟",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "又吟",
@@ -388,7 +523,12 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "獻高駢",
@@ -401,6 +541,11 @@
             ""
         ],
         "volume": "卷八百六十五",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

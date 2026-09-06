@@ -14,7 +14,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [7, 6, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 9, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "南都行",
@@ -31,7 +36,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江上吟",
@@ -45,7 +55,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "侍從宜春苑奉詔賦龍池柳色初青聽新鶯百囀歌",
@@ -60,7 +75,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "玉壺吟",
@@ -75,7 +95,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "豳歌行，上新平長史兄粲",
@@ -91,7 +116,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "西嶽雲台歌，送丹丘子",
@@ -107,7 +137,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "元丹丘歌",
@@ -120,7 +155,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "扶風豪士歌",
@@ -137,7 +177,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "同族弟金城尉叔卿燭照山水壁畫歌",
@@ -151,7 +196,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "白毫子歌",
@@ -166,7 +216,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 5, 5, 5, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "梁園吟",
@@ -184,7 +239,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "鳴皋歌，送岑征君",
@@ -208,7 +268,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [7, 7, 9, 7, 7, 6, 8, 4, 4, 5, 6, 6, 6, 6, 7, 7, 7, 6, 6, 6, 4, 4, 4, 4, 10, 11, 6, 6, 15, 8, 5, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "鳴皋歌奉餞從翁清歸五崖山居",
@@ -223,7 +288,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "勞勞亭歌",
@@ -237,7 +307,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "橫江詞六首",
@@ -260,7 +335,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "金陵城西樓月下吟",
@@ -274,7 +354,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "東山吟",
@@ -288,7 +373,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 7, 7, 7, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "僧伽歌",
@@ -304,7 +394,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "白雲歌，送劉十六歸山",
@@ -317,7 +412,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "金陵歌，送別范宣",
@@ -333,7 +433,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "笑歌行",
@@ -353,7 +458,12 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [3, 3, 6, 7, 6, 7, 9, 10, 7, 7, 7, 3, 3, 7, 7, 7, 5, 5, 7, 3, 3, 3, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "悲歌行",
@@ -372,6 +482,11 @@
             ""
         ],
         "volume": "卷一百六十六",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 5, 3, 3, 3, 3, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

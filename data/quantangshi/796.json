@@ -10,7 +10,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -23,7 +28,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -36,7 +46,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -49,7 +64,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -62,7 +82,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -75,7 +100,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -88,7 +118,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -101,7 +136,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -114,7 +154,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -127,7 +172,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -140,7 +190,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -153,7 +208,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -166,7 +226,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -179,7 +244,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -192,7 +262,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -205,7 +280,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -218,7 +298,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -231,7 +316,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -244,7 +334,12 @@
             "（贈僧，齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -257,7 +352,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -270,7 +370,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -283,7 +388,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -296,7 +406,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -309,7 +424,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -322,7 +442,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -335,7 +460,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -348,7 +478,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -361,7 +496,12 @@
             "（齊己《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -374,7 +514,12 @@
             "（炙轂子《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -387,7 +532,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -400,7 +550,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -413,7 +568,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -426,7 +586,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -439,7 +604,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -452,7 +622,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -465,7 +640,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -478,7 +658,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -491,7 +676,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -504,7 +694,12 @@
             "（徐寅《雅道機要》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -517,7 +712,12 @@
             "（文彧《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -530,7 +730,12 @@
             "（文彧《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -543,7 +748,12 @@
             "（文彧《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -556,7 +766,12 @@
             "（文彧《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -569,7 +784,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -582,7 +802,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -595,7 +820,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -608,7 +838,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -621,7 +856,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -634,7 +874,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -647,7 +892,12 @@
             "（《桂林詩評》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -660,7 +910,12 @@
             "（待月，王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -673,7 +928,12 @@
             "（秋日言懷，王正字詩中旨格）"
         ],
         "volume": "卷七百九十六",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -686,7 +946,12 @@
             "（送雁，王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -699,7 +964,12 @@
             "（蟋蟀，王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -712,7 +982,12 @@
             "（王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -725,7 +1000,12 @@
             "（王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -738,7 +1018,12 @@
             "（王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -751,7 +1036,12 @@
             "（王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -764,7 +1054,12 @@
             "（王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -777,7 +1072,12 @@
             "（王正字《詩中旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -790,7 +1090,12 @@
             "（《吟窗雜錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -803,7 +1108,12 @@
             "（《吟窗雜錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -816,7 +1126,12 @@
             "（《樹萱錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -829,7 +1144,12 @@
             "（《樹萱錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -842,7 +1162,12 @@
             "（《樹萱錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -855,7 +1180,12 @@
             "（《樹萱錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -868,7 +1198,12 @@
             "（《苦寒》見《事文類聚》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 67
+        "no#": 67,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -881,7 +1216,12 @@
             "（《悼方幹》見《海錄碎事》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 68
+        "no#": 68,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -894,7 +1234,12 @@
             "（《樂府》見陸務觀集注）"
         ],
         "volume": "卷七百九十六",
-        "no#": 69
+        "no#": 69,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -907,7 +1252,12 @@
             "（《題於兢畫牡丹》，"
         ],
         "volume": "卷七百九十六",
-        "no#": 70
+        "no#": 70,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -920,7 +1270,12 @@
             "見《見聞志》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 71
+        "no#": 71,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [4, 3, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "句",
@@ -933,7 +1288,12 @@
             "輪囷如象鼻，瀟灑絕青蠅。（《碧筩杯》，見楊慎《藝林伐山》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 72
+        "no#": 72,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -946,7 +1306,12 @@
             "（《國史補》曰：進士科得之艱難，其有老死於文場者，亦無所恨，故詩雲。《畫墁錄》以為趙嘏作）"
         ],
         "volume": "卷七百九十六",
-        "no#": 73
+        "no#": 73,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -959,7 +1324,12 @@
             "（神龍已來，杏園宴後，皆於慈恩塔下題名，及第後知聞。或遇未及第時題名處，則為添前字，故詩雲。見《摭言》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 74
+        "no#": 74,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -972,7 +1342,12 @@
             "（新進士放榜後翌日，排光範門候過宰相。雖雲排建福門，實集於西方館，故詩云云。見《南部新書》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 75
+        "no#": 75,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -985,7 +1360,12 @@
             "（李德裕營平泉，遠方之人，多以異物奉之，時有題詩云云。見《劇談錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 76
+        "no#": 76,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -998,7 +1378,12 @@
             "（德裕為相，頗為寒進開路。及謫官南去，人詠此。見《摭言》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 77
+        "no#": 77,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1011,7 +1396,12 @@
             "（陳詠有詩名，善弈棋。昭宗幸陝之歲，策名歸蜀，韋莊以詩賀之。鄉中有嫉善者，屬和韋詩云云，比之滌器當壚也。見《紀事》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 78
+        "no#": 78,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1024,7 +1414,12 @@
             "（《寒食》，見《事文類聚》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 79
+        "no#": 79,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1037,7 +1432,12 @@
             " （江南自初春至初夏，有二十四番花信風，最後為楝花風，故唐人有此句。見《東皋雜錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 80
+        "no#": 80,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1050,7 +1450,12 @@
             "（唐人《午日》詩。南方競渡，治其舟使輕利，名飛鳧，名水車，又名水馬。見《荊楚歲時記》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 81
+        "no#": 81,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1063,7 +1468,12 @@
             "（見《東皋雜錄》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 82
+        "no#": 82,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1076,7 +1486,12 @@
             "（《雪》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 83
+        "no#": 83,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1089,7 +1504,12 @@
             "（《春雪》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 84
+        "no#": 84,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1102,7 +1522,12 @@
             "（《晴雪》，王安石嘗舉此三聯，雲唐人詩）"
         ],
         "volume": "卷七百九十六",
-        "no#": 85
+        "no#": 85,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "句",
@@ -1115,7 +1540,12 @@
             "（王安石在翰苑，見榴花止開一朵，有詩。陳正敏謂此乃唐人詩，非安石所作。見《泊宅編》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 86
+        "no#": 86,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1128,7 +1558,12 @@
             "（見《錦繡萬花穀》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 87
+        "no#": 87,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1141,7 +1576,12 @@
             "（《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 88
+        "no#": 88,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1154,7 +1594,12 @@
             "（《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 89
+        "no#": 89,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1167,7 +1612,12 @@
             "（《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 90
+        "no#": 90,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1180,7 +1630,12 @@
             "（《風騷旨格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 91
+        "no#": 91,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1193,7 +1648,12 @@
             "（炙轂子《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 92
+        "no#": 92,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1206,7 +1666,12 @@
             "（炙轂子《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 93
+        "no#": 93,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1219,7 +1684,12 @@
             "（炙轂子《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 94
+        "no#": 94,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1232,7 +1702,12 @@
             "（炙轂子《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 95
+        "no#": 95,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1245,7 +1720,12 @@
             "（炙轂子《詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 96
+        "no#": 96,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1258,7 +1738,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 97
+        "no#": 97,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1271,7 +1756,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 98
+        "no#": 98,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1284,7 +1774,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 99
+        "no#": 99,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1297,7 +1792,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 100
+        "no#": 100,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1310,7 +1810,12 @@
             "（梅堯臣《續金針詩格》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 101
+        "no#": 101,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1323,7 +1828,12 @@
             "（《雲》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 102
+        "no#": 102,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -1336,6 +1846,11 @@
             "（劉素者，字仲華。好學，不事科舉，頗通遷、固、壽、曄之書，嘗有人貽詩云云，然卒不及仕。見《江南野志》）"
         ],
         "volume": "卷七百九十六",
-        "no#": 103
+        "no#": 103,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和同太子監守違戀",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制過溫湯",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "石橋",
@@ -59,6 +74,11 @@
             ""
         ],
         "volume": "卷六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 3, 1, 5, 5, 5, 5, 5, 3, 2, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     }
 ]

@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "三禦史詠",
@@ -23,7 +28,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "台中裏行詠",
@@ -36,7 +46,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "譏裴休",
@@ -50,7 +65,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "嘲四相",
@@ -63,7 +83,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "放榜詩",
@@ -77,7 +102,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "改魏扶詩",
@@ -90,7 +120,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嘲舉子騎驢",
@@ -104,7 +139,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "嘲崔垂休",
@@ -118,7 +158,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "嘲主司崔澹",
@@ -131,7 +176,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "朝士戲任轂",
@@ -145,7 +195,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題房魯題名後",
@@ -159,7 +214,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "洛陽人嘲跋異",
@@ -172,7 +232,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "又嘲",
@@ -185,7 +250,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蜀選人嘲韓昭",
@@ -199,7 +269,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "嘲傴僂人",
@@ -213,7 +288,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "曲中唱語",
@@ -227,7 +307,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "改唱",
@@ -241,7 +326,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "街中又唱",
@@ -255,7 +345,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "吹火詩",
@@ -269,7 +364,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "劉黑闥解嘲人語",
@@ -283,7 +383,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [2, 7, 7, 2, 4, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "村人學解嘲人語",
@@ -296,7 +401,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [2, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "嘲劉師老",
@@ -309,7 +419,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "嘲鄭熏",
@@ -322,7 +437,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "嘲蔣蟠金丹",
@@ -335,7 +455,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "注苗張二進士題名",
@@ -348,7 +473,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "袁州人謔彭伉",
@@ -361,7 +491,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "洛中人語",
@@ -374,7 +509,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嘲毛炳、彭會",
@@ -387,7 +527,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "右威衛嘲語",
@@ -400,7 +545,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南唐伶人獻先主詞",
@@ -413,7 +563,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "閩伶官戲主延政語",
@@ -426,7 +581,12 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "言志",
@@ -439,6 +599,11 @@
             ""
         ],
         "volume": "卷八百七十二",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

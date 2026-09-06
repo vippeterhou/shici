@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "立春日作",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈雲陽裴明府",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賊中與蕭韋二秀才同臥重疾二君尋愈…因有題",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "重圍中逢蕭校書",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "咸通",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "白櫻桃",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夜景",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿山家",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長年",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "辛醜年",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "思歸",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶昔",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "合歡蓮花",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "覽蕭必先卷",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和人歲宴旅舍見寄",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿泊孟津寄三堂友人",
@@ -235,7 +315,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "對酒賦友人",
@@ -249,7 +334,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "天井關",
@@ -263,7 +353,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈邊將",
@@ -277,7 +372,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春日",
@@ -291,7 +391,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早秋夜作",
@@ -305,7 +410,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄江南逐客",
@@ -319,7 +429,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "冬夜",
@@ -333,7 +448,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "又聞湖南荊渚相次陷沒",
@@ -347,7 +467,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "家叔南游卻歸因獻賀",
@@ -361,7 +486,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "楚行吟",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "洛陽吟",
@@ -389,7 +524,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過舊宅",
@@ -403,7 +543,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "喻東軍",
@@ -417,7 +562,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "清河縣樓作",
@@ -431,7 +581,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "北原閑眺",
@@ -445,7 +600,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈戍兵",
@@ -459,7 +619,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "睹軍回戈",
@@ -473,7 +638,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "中渡晚眺",
@@ -487,7 +657,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "河內別村業閑題",
@@ -501,7 +676,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞官軍繼至未睹凱旋",
@@ -515,7 +695,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和集賢侯學士分司丁侍禦秋日雨霽之作",
@@ -529,7 +714,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題安定張使君",
@@ -543,7 +733,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "潁陽縣",
@@ -557,7 +752,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄園林主人",
@@ -571,7 +771,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洛北村居",
@@ -585,7 +790,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "對梨花贈皇甫秀才",
@@ -599,7 +809,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "立春",
@@ -613,7 +828,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "村笛",
@@ -627,7 +847,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題李斯傳",
@@ -641,7 +866,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈薛秀才",
@@ -655,7 +885,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和元秀才別業書事",
@@ -669,7 +904,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紀村事",
@@ -683,7 +923,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題許仙師院",
@@ -697,7 +942,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "離筵訴酒",
@@ -711,7 +961,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "不寐",
@@ -725,7 +980,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈武處士",
@@ -739,7 +999,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題吉澗盧拾遺莊",
@@ -753,7 +1018,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題潁源廟",
@@ -767,7 +1037,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "東遊遠歸",
@@ -781,7 +1056,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新正日商南道中作寄李明府",
@@ -795,7 +1075,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春暮",
@@ -809,7 +1094,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "哭麻處士",
@@ -823,7 +1113,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春早",
@@ -836,7 +1131,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和友人",
@@ -850,7 +1150,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春愁",
@@ -864,7 +1169,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚春",
@@ -878,7 +1188,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題許渾詩卷",
@@ -892,7 +1207,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈禮佛名者",
@@ -906,7 +1226,12 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "殘花",
@@ -920,6 +1245,11 @@
             ""
         ],
         "volume": "卷六百九十六",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

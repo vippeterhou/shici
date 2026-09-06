@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "灞上輕薄行",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長安羈旅行",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長安道",
@@ -56,7 +71,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送遠吟",
@@ -70,7 +90,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古薄命妾",
@@ -85,7 +110,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古離別",
@@ -99,7 +129,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雜怨",
@@ -118,7 +153,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "靜女吟",
@@ -132,7 +172,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "歸信吟",
@@ -145,7 +190,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山老吟",
@@ -159,7 +209,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遊子吟",
@@ -173,7 +228,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小隱吟",
@@ -187,7 +247,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "苦寒吟",
@@ -201,7 +266,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "猛將吟",
@@ -215,7 +285,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "傷哉行",
@@ -230,7 +305,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "怨詩",
@@ -243,7 +323,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "湘弦怨",
@@ -259,7 +344,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "楚竹吟酬盧虔端公見和湘弦怨",
@@ -275,7 +365,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遠愁曲",
@@ -290,7 +385,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貧女詞寄從叔先輩簡",
@@ -305,7 +405,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "邊城吟",
@@ -319,7 +424,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新平歌送許問",
@@ -333,7 +443,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "殺氣不在邊",
@@ -351,7 +466,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "結愛",
@@ -366,7 +486,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "弦歌行",
@@ -379,7 +504,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "覆巢行",
@@ -393,7 +523,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "出門行",
@@ -409,7 +544,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湘妃怨",
@@ -424,7 +564,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "巫山曲",
@@ -438,7 +583,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "巫山高",
@@ -452,7 +602,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "楚怨",
@@ -466,7 +621,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "塘下行",
@@ -480,7 +640,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "臨池曲",
@@ -494,7 +659,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "車遙遙",
@@ -510,7 +680,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "征婦怨",
@@ -527,7 +702,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "空城雀",
@@ -541,7 +721,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "閑怨",
@@ -554,7 +739,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "羽林行",
@@ -568,7 +758,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古意",
@@ -581,7 +776,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古別離",
@@ -594,7 +794,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遊俠行",
@@ -608,7 +813,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "黃雀吟",
@@ -623,7 +833,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "有所思",
@@ -636,7 +851,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "求仙曲",
@@ -650,7 +870,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嬋娟篇",
@@ -665,7 +890,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "南浦篇",
@@ -678,7 +908,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "清東曲",
@@ -693,7 +928,12 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "望遠曲",
@@ -707,6 +947,11 @@
             ""
         ],
         "volume": "卷三百七十二",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

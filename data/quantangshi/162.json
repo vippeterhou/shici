@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 7, 6, 4, 7, 7, 7, 5, 3, 7, 5, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "公無渡河",
@@ -29,7 +34,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 3, 3, 5, 5, 5, 5, 4, 4, 7, 3, 3, 7, 8],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蜀道難",
@@ -46,7 +56,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 9, 5, 7, 7, 7, 7, 7, 7, 7, 3, 9, 7, 7, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "梁甫吟",
@@ -64,7 +79,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [5, 5, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "烏夜啼",
@@ -77,7 +97,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "烏棲曲",
@@ -91,7 +116,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戰城南",
@@ -107,7 +137,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [6, 6, 7, 8, 9, 7, 7, 5, 5, 7, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "將進酒",
@@ -125,7 +160,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [10, 7, 10, 7, 7, 7, 7, 3, 3, 3, 3, 5, 7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "行行遊且獵篇",
@@ -140,7 +180,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "飛龍引二首",
@@ -158,7 +203,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 3, 5, 7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 3, 3, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "天馬歌",
@@ -176,7 +226,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [7, 7, 3, 3, 7, 7, 3, 3, 7, 7, 7, 5, 5, 5, 5, 5, 7, 7, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "行路難三首",
@@ -198,7 +253,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [7, 7, 7, 7, 7, 3, 3, 5, 5, 7, 7, 7, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "長相思",
@@ -213,7 +273,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "上留田行",
@@ -233,7 +298,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 3, 3, 3, 3, 7, 7, 7, 7, 7, 4, 4, 4, 4, 4, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "春日行",
@@ -249,7 +319,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "前有一樽酒行二首",
@@ -264,7 +339,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夜坐吟",
@@ -278,7 +358,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 3, 3, 3, 3, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "野田黃雀行",
@@ -291,7 +376,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [6, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "箜篌謠",
@@ -307,7 +397,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [5, 5, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "雉朝飛",
@@ -321,7 +416,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "上雲樂",
@@ -346,7 +446,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 50,
+            "sentence_lengths": [4, 4, 4, 4, 4, 5, 5, 5, 5, 8, 8, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 5, 5, 4, 4, 3, 3, 3, 3, 7, 3, 3, 3, 3, 9, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "白鳩辭",
@@ -362,7 +467,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [3, 3, 3, 3, 7, 3, 3, 5, 5, 7, 7, 3, 3, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "日出行",
@@ -377,7 +487,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [5, 5, 5, 4, 9, 4, 4, 4, 4, 6, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "胡無人",
@@ -392,7 +507,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 5, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "北風行",
@@ -408,7 +528,12 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 8, 5, 9, 7, 3, 7, 5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "俠客行",
@@ -426,6 +551,11 @@
             ""
         ],
         "volume": "卷一百六十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -14,7 +14,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬張九齡使風見示",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈張丞相",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬故人還山",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和張荊州九齡晨出郡舍林下",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉酬張洪州九齡江上見贈",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古意贈孫翃",
@@ -100,7 +130,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和姚令公駕幸溫湯喜雪應制",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠月",
@@ -128,7 +168,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "山行見孤松成詠",
@@ -143,7 +188,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "使至三姓咽面",
@@ -159,7 +209,12 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新都南亭別郭大元振",
@@ -174,6 +229,11 @@
             ""
         ],
         "volume": "卷一百一十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

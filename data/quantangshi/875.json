@@ -15,7 +15,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 19,
+            "sentence_lengths": [3, 3, 7, 3, 3, 5, 5, 3, 5, 3, 5, 5, 3, 3, 3, 5, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "勸進疏引讖",
@@ -37,7 +42,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 38,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 5, 5, 7, 7, 3, 4, 3, 3, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 3, 3, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "符鳳引讖",
@@ -50,7 +60,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "安祿山古讖",
@@ -63,7 +78,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "普滿題潞州佛舍",
@@ -76,7 +96,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南省北街人吟",
@@ -89,7 +114,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "盧求榜讖",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "清僧示趙宗儒",
@@ -115,7 +150,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "又示段文昌",
@@ -128,7 +168,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "洛城五鳳樓中歌",
@@ -141,7 +186,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "延和閣詩",
@@ -155,7 +205,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "唐舊讖",
@@ -168,7 +223,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "越中狂生題旗亭",
@@ -181,7 +241,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "清泰三年歌",
@@ -194,7 +259,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蜀王氏讖文",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "黃萬祜題蜀宮壁",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "孟蜀丐者語",
@@ -234,7 +314,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "孟蜀桃符詩",
@@ -247,7 +332,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "上藍和尚晉漢二代讖",
@@ -260,7 +350,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "又遺鐘傳偈",
@@ -273,7 +368,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "又報王審知十字讖",
@@ -286,7 +386,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "錢處士李氏讖",
@@ -299,7 +404,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "孫咸題廬山神廟詩",
@@ -313,7 +423,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "南唐江州風墜詩",
@@ -327,7 +442,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "杭州還鄉和尚唱",
@@ -341,7 +461,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "福州記",
@@ -354,7 +479,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "黃涅盤讖",
@@ -367,7 +497,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "陳智廣讖",
@@ -380,7 +515,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "又讖",
@@ -393,7 +533,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "僧緘示王處厚",
@@ -406,7 +551,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "任叟書授劉生",
@@ -420,7 +570,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "昌明裏中讖",
@@ -433,7 +588,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宋善威詩",
@@ -446,7 +606,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "田承嗣誑李寶臣偽讖",
@@ -459,7 +624,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "皮日休造黃巢讖",
@@ -472,7 +642,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "附：上元初嵩山石記",
@@ -485,7 +660,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [5, 3, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "上陽銅器篆",
@@ -498,7 +678,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "永安渠石銘",
@@ -511,7 +696,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "漳泉分地神篆",
@@ -525,7 +715,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "含元殿丹石隱語",
@@ -538,7 +733,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "長安空宅銘篆",
@@ -551,7 +751,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [8, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "莆田石記",
@@ -565,7 +770,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "符離樹穴中石篆",
@@ -578,7 +788,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "淮西池濠石銘",
@@ -591,7 +806,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "羅池石刻",
@@ -604,7 +824,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "道者遺記",
@@ -618,7 +843,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [4, 4, 4, 4, 3, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "王璠石銘",
@@ -631,7 +861,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "玄元觀棟桁記",
@@ -644,7 +879,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "天臺觀石簡記",
@@ -657,7 +897,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "成都羅城北門石記",
@@ -671,7 +916,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "青羊宮磚記",
@@ -684,7 +934,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 1,
+            "sentence_lengths": [6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "銅雀台玉板篆",
@@ -697,7 +952,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "顯德道宮石記",
@@ -711,7 +971,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "南唐升元殿基下石記",
@@ -725,7 +990,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "馬殷浚城石碣篆",
@@ -738,7 +1008,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "王霸仙壇磚刻",
@@ -753,7 +1028,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "劉龑石讖",
@@ -766,7 +1046,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "南漢羅浮古劍篆文",
@@ -779,7 +1064,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "司馬承禎含象鑒文",
@@ -794,7 +1084,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [4, 4, 4, 4, 3, 3, 3, 3, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "景震劍文",
@@ -808,7 +1103,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "高麗鏡文",
@@ -822,7 +1122,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [3, 3, 7, 3, 3, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "京西市放生池墓銘",
@@ -835,7 +1140,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "古墓蔔地詞",
@@ -848,7 +1158,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 63
+        "no#": 63,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "衛先生墓銘",
@@ -861,7 +1176,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 64
+        "no#": 64,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "隱者瘞男銘",
@@ -875,7 +1195,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 65
+        "no#": 65,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "烏氏葬碑",
@@ -888,7 +1213,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 66
+        "no#": 66,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "岩腹棺銘",
@@ -901,7 +1231,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 67
+        "no#": 67,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "古棺石銘",
@@ -914,7 +1249,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 68
+        "no#": 68,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "漣水古塚瓶文",
@@ -927,7 +1267,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 69
+        "no#": 69,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "沈彬壙篆",
@@ -940,7 +1285,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 70
+        "no#": 70,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "廣陵古塚石刻",
@@ -954,7 +1304,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 71
+        "no#": 71,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "王承檢掘得墓銘",
@@ -967,7 +1322,12 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 72
+        "no#": 72,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "馬希振葬地碣",
@@ -980,6 +1340,11 @@
             ""
         ],
         "volume": "卷八百七十五",
-        "no#": 73
+        "no#": 73,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     }
 ]

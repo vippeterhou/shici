@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送張舍人之江東",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送王屋山人魏萬還王屋",
@@ -67,7 +77,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 120,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送當塗趙少府赴長蘆",
@@ -82,7 +97,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送友人尋越中山水",
@@ -97,7 +117,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送族弟凝之滁求婚崔氏",
@@ -111,7 +136,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送友人游梅湖",
@@ -125,7 +155,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送崔十二遊天竺寺",
@@ -139,7 +174,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送楊山人歸天臺",
@@ -155,7 +195,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送溫處士歸黃山白鵝峰舊居",
@@ -173,7 +218,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送方士趙叟之東平",
@@ -187,7 +237,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送韓准、裴政、孔巢父還山",
@@ -205,7 +260,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送楊少府赴選",
@@ -224,7 +284,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "對雪奉餞任城六父秩滿歸京",
@@ -242,7 +307,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "魯郡堯祠送吳五之琅琊",
@@ -256,7 +326,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "魯郡堯祠送竇明府薄華還西京",
@@ -279,7 +354,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 29,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "金鄉送韋八之西京",
@@ -293,7 +373,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送薛九被讒去魯",
@@ -313,7 +398,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "單父東樓秋夜送族弟沈之秦",
@@ -330,7 +420,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 5, 5, 5, 5, 7, 7, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "送族弟凝至晏堌",
@@ -346,7 +441,12 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "魯城北郭曲腰桑下送張子還嵩陽",
@@ -360,6 +460,11 @@
             ""
         ],
         "volume": "卷一百七十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

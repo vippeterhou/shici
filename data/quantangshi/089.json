@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉蕭令嵩酒並詩",
@@ -23,7 +28,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉宇文黃門融酒",
@@ -36,7 +46,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉裴中書光庭酒",
@@ -49,7 +64,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "清夜酌",
@@ -62,7 +82,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "醉中作",
@@ -75,7 +100,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送梁知微渡海東",
@@ -88,7 +118,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄劉道士舄",
@@ -101,7 +136,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "書香能和尚塔",
@@ -114,7 +154,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "被使在蜀",
@@ -127,7 +172,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "正朝摘梅",
@@ -140,7 +190,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蜀道後期",
@@ -153,7 +208,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "廣州江中作",
@@ -166,7 +226,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江中誦經",
@@ -179,7 +244,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江中遇黃領子劉隆",
@@ -192,7 +262,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "欽州守歲",
@@ -205,7 +280,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嶽州守歲二首",
@@ -219,7 +299,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "元朝",
@@ -232,7 +317,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "耗磨日飲二首",
@@ -246,7 +336,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "又",
@@ -259,7 +354,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日進茱萸山詩五首",
@@ -276,7 +376,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "岳州看黃葉",
@@ -289,7 +394,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嶺南送使二首",
@@ -303,7 +413,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "傷妓人董氏四首",
@@ -319,7 +434,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "三月閨怨",
@@ -332,7 +452,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "破陳樂詞二首",
@@ -348,7 +473,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "舞馬詞六首",
@@ -366,7 +496,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "奉和三日祓禊渭濱應制",
@@ -380,7 +515,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "桃花園馬上應制",
@@ -394,7 +534,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和聖制幸韋嗣立山莊應制",
@@ -408,7 +553,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "奉和聖制同玉真公主游大哥山池題石壁",
@@ -422,7 +572,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "十五日夜御前口號踏歌詞二首",
@@ -438,7 +593,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蘇摩遮五首",
@@ -460,7 +620,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "三月三日定昆池奉和蕭令得潭字韻",
@@ -474,7 +639,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和尹從事懋泛洞庭",
@@ -488,7 +658,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送梁六自洞庭山作",
@@ -502,7 +677,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "同趙侍禦望歸舟",
@@ -516,7 +696,12 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襄陽路逢寒食",
@@ -530,6 +715,11 @@
             ""
         ],
         "volume": "卷八十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

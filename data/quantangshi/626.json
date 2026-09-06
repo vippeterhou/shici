@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "病中秋懷寄襲美",
@@ -26,7 +31,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋賦有期因寄襲美",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美新秋即事次韻三首",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美贈南陽潤卿將歸雷平",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "顧道士亡，弟子奉束帛乞銘於襲美，因賦戲贈",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和訪寂上人不遇",
@@ -100,7 +130,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋夕文宴",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "南陽廣文欲于荊襄卜居，襲美有贈，代酬次韻",
@@ -128,7 +168,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美寄毗陵魏處士朴",
@@ -142,7 +187,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美初冬偶作寄南陽潤卿次韻",
@@ -156,7 +206,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美冬曉章上人院",
@@ -170,7 +225,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美寄題鏡岩周尊師所居",
@@ -184,7 +244,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寒夜文宴得驚字",
@@ -198,7 +263,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送潤卿還華陽",
@@ -212,7 +282,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美為新羅弘惠上人撰靈鷲山周禪師碑送歸詩",
@@ -226,7 +301,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美寒日書齋即事三首，每篇各用一韻",
@@ -244,7 +324,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美臘後送內大德從勖游天臺",
@@ -258,7 +343,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美寄題玉霄峰葉涵象尊師所居",
@@ -272,7 +362,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "南陽廣文博士還雷平後寄",
@@ -286,7 +381,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美題支山南峰僧次韻",
@@ -300,7 +400,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送董少卿游茅山",
@@ -314,7 +419,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美寄懷南陽潤卿",
@@ -328,7 +438,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襲美將以綠罽為贈因成四韻",
@@ -342,7 +457,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和過張祜處士丹陽故居",
@@ -356,7 +476,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美寄廣文先生",
@@ -370,7 +495,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美先輩悼鶴",
@@ -384,7 +514,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "幽居有白菊一叢因而成詠呈知己",
@@ -398,7 +533,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美傷開元觀顧道士",
@@ -412,7 +552,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美醉中即席贈潤卿博士次韻",
@@ -426,7 +571,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送浙東德師侍禦罷府西歸",
@@ -440,7 +590,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送羊振文先輩往桂陽歸覲",
@@ -454,7 +609,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "襲美留振文宴龜蒙抱病不赴猥示倡和因次韻酬謝",
@@ -467,7 +627,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美重送圓載上人歸日本國",
@@ -481,7 +646,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和襲美褚家林亭",
@@ -495,7 +665,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "歸雁",
@@ -509,7 +684,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "王先輩草堂",
@@ -523,7 +703,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "傷越",
@@ -537,7 +722,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新定陪太守一百五夜南館玩月",
@@ -551,7 +741,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "中元夜寄道侶二首",
@@ -567,7 +762,12 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄懷華陽道士",
@@ -589,6 +789,11 @@
             ""
         ],
         "volume": "卷六百二十六",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

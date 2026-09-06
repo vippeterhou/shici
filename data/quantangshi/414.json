@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "岳陽樓",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄庾敬休",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "花栽二首",
@@ -55,7 +70,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宿石磯",
@@ -69,7 +89,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "遭風二十韻",
@@ -88,7 +113,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 21,
+            "sentence_lengths": [7, 7, 7, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "贈崔元儒",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄂州寓館嚴澗宅",
@@ -116,7 +151,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送杜元穎",
@@ -130,7 +170,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貽蜀五首：病馬詩寄上李尚書",
@@ -144,7 +189,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貽蜀五首：李中丞表臣",
@@ -158,7 +208,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貽蜀五首：盧評事子蒙",
@@ -172,7 +227,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貽蜀五首：張校書元夫",
@@ -186,7 +246,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貽蜀五首：韋兵曹臧文",
@@ -200,7 +265,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈嚴童子",
@@ -214,7 +284,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "桐孫詩",
@@ -228,7 +303,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "西歸絕句十二首",
@@ -264,7 +344,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "留呈夢得、子厚、致用",
@@ -278,7 +363,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "小碎",
@@ -292,7 +382,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和樂天高相宅",
@@ -306,7 +401,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和樂天仇家酒",
@@ -320,7 +420,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和樂天贈雲寂僧",
@@ -334,7 +439,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "澧西別樂天博載樊宗憲李景信兩秀才姪谷三月三十日相餞送",
@@ -348,7 +458,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄曇、嵩、寂三上人",
@@ -362,7 +477,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題漫天嶺智藏師蘭若僧雲住此二十八年",
@@ -376,7 +496,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蒼溪縣寄揚州兄弟",
@@ -390,7 +515,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈吳渠州從姨兄士則",
@@ -404,7 +534,12 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "長灘夢李紳",
@@ -418,6 +553,11 @@
             ""
         ],
         "volume": "卷四百一十四",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

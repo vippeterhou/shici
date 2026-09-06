@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "太常寺觀舞聖壽樂",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "太清宮聞滴漏",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "仲秋太常寺觀公卿輅車拜陵",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貢舉人謁先師聞雅樂",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "望淩煙閣",
@@ -88,7 +113,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "觀北番謁廟",
@@ -104,7 +134,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舞幹羽兩階",
@@ -119,7 +154,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禦制段太尉碑",
@@ -134,7 +174,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "恩賜魏文貞公諸孫舊第，以導直臣",
@@ -149,7 +194,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "恩賜耆老布帛",
@@ -164,7 +214,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "東都父老望幸",
@@ -180,7 +235,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "言行相顧",
@@ -195,7 +255,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "言行相顧",
@@ -210,7 +275,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "人不易知",
@@ -226,7 +296,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "早春送郎官出宰",
@@ -241,7 +316,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "餞王將軍赴雲中",
@@ -256,7 +336,12 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西戎即敘",
@@ -272,6 +357,11 @@
             ""
         ],
         "volume": "卷七百八十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

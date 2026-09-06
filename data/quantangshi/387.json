@@ -40,7 +40,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 112,
+            "sentence_lengths": [7, 4, 4, 4, 7, 7, 7, 5, 5, 5, 5, 5, 5, 7, 3, 3, 5, 7, 5, 5, 5, 5, 5, 5, 7, 5, 5, 5, 5, 7, 7, 5, 7, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 5, 5, 5, 5, 5, 5, 5, 9, 7, 5, 2, 3, 3, 3, 3, 5, 8, 4, 5, 3, 7, 7, 7, 7, 3, 3, 3, 3, 4, 4, 4, 4, 7, 7, 7, 7, 5, 5, 7, 7, 7, 7, 7, 5, 7, 7, 5, 6, 5, 5, 5, 5, 5, 5, 5, 7, 7, 5, 5, 5, 5, 5, 7, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "哭玉碑子",
@@ -64,7 +69,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 48,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "觀放魚歌",
@@ -87,7 +97,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 6, 5, 3, 3, 4, 5, 5, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 9, 7, 3, 3, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "示添丁",
@@ -101,7 +116,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "寄男抱孫",
@@ -130,7 +150,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 68,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "自詠三首",
@@ -148,7 +173,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送王儲詹事西遊獻兵書",
@@ -163,7 +193,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送邵兵曹歸江南",
@@ -177,7 +212,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄外兄魏澈",
@@ -190,7 +230,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "喜逢鄭三游山",
@@ -204,7 +249,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "卓女怨",
@@ -218,7 +268,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "守歲二首",
@@ -232,7 +287,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新月",
@@ -245,7 +305,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "解悶",
@@ -258,7 +323,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "揚子津",
@@ -272,7 +342,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "人日立春",
@@ -286,7 +361,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送尉遲羽之歸宣州",
@@ -299,7 +379,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "悲新年",
@@ -313,7 +398,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "憶酒寄劉侍郎",
@@ -326,7 +416,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白鷺鷥",
@@ -340,7 +435,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "風中琴",
@@ -354,7 +454,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "感秋別怨",
@@ -368,7 +473,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "新蟬",
@@ -381,7 +491,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題褚遂良孫庭竹",
@@ -395,7 +510,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "訪含曦上人",
@@ -408,7 +528,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "客淮南病",
@@ -422,7 +547,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "村醉",
@@ -435,7 +565,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客贈石",
@@ -448,7 +583,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：石讓竹",
@@ -461,7 +601,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：竹答客",
@@ -474,7 +619,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：石請客",
@@ -487,7 +637,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客答石",
@@ -500,7 +655,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：石答竹",
@@ -517,7 +677,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：竹請客",
@@ -531,7 +696,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客謝竹",
@@ -545,7 +715,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：石請客",
@@ -559,7 +734,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客謝石",
@@ -573,7 +753,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：石再請客",
@@ -587,7 +772,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [5, 6, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客許石",
@@ -601,7 +791,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：井請客",
@@ -615,7 +810,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客謝井",
@@ -629,7 +829,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：馬蘭請客",
@@ -642,7 +847,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客請馬蘭",
@@ -656,7 +866,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：蛺蝶請客",
@@ -669,7 +884,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客答蛺蝶",
@@ -682,7 +902,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：蝦蟆請客",
@@ -695,7 +920,12 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蕭宅二三子贈答詩二十首：客請蝦蟆",
@@ -708,6 +938,11 @@
             ""
         ],
         "volume": "卷三百八十七",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [3, 7, 7],
+            "uniform_sentence_length": null
+        }
     }
 ]

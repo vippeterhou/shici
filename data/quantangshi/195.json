@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "白沙亭逢吳叟歌",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送褚校書歸舊山歌",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "五弦行",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "驪山行",
@@ -78,7 +98,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "漢武帝雜歌三首",
@@ -100,7 +125,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 29,
+            "sentence_lengths": [5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 7, 7, 5, 7, 7, 3, 5, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "棕櫚蠅拂歌",
@@ -114,7 +144,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "信州錄事參軍常曾古鼎歌",
@@ -128,7 +163,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夏冰歌",
@@ -143,7 +183,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [9, 9, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "黿頭山神女歌",
@@ -161,7 +206,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [4, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "寇季膺古刀歌",
@@ -178,7 +228,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "淩霧行",
@@ -193,7 +248,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樂燕行",
@@ -209,7 +269,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "采玉行",
@@ -223,7 +288,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "難言",
@@ -236,7 +306,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "易言",
@@ -249,7 +324,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "三台二首",
@@ -265,7 +345,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [6, 6, 6, 6, 6, 6, 6, 6],
+            "uniform_sentence_length": 6
+        }
     },
     {
         "title": "上皇三台",
@@ -278,7 +363,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答暢參軍",
@@ -294,7 +384,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南池宴錢子辛，賦得科鬥",
@@ -308,7 +403,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠徐正字畫青蠅",
@@ -322,7 +422,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "虞獲子鹿",
@@ -336,7 +441,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "陪王郎中尋孔征君",
@@ -350,7 +460,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送宮人入道",
@@ -364,7 +479,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和晉陵陸丞早春遊望",
@@ -378,7 +498,12 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日",
@@ -391,6 +516,11 @@
             ""
         ],
         "volume": "卷一百九十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

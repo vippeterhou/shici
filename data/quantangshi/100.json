@@ -19,7 +19,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 32,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "三婦豔",
@@ -33,7 +38,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別離怨",
@@ -47,7 +57,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寒食",
@@ -60,7 +75,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "覽鏡",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "獨愁",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "昭君怨三首",
@@ -101,7 +131,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春雪",
@@ -114,7 +149,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "逸人歌贈李山人",
@@ -127,7 +167,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 3, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "謫南海過始興廣勝寺果上人房",
@@ -141,7 +186,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠院中叢竹",
@@ -154,7 +204,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和呂禦史詠院中叢竹",
@@ -167,7 +222,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《閨怨",
@@ -181,7 +241,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "行路難",
@@ -198,7 +263,12 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "別親朋",
@@ -211,6 +281,11 @@
             ""
         ],
         "volume": "卷一百",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -10,7 +10,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "罷相作",
@@ -23,7 +28,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題漢州西湖",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠方圓動靜",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "長歌行",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "奉和聖制中和節曲江宴百僚",
@@ -82,7 +107,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制，重陽賜會聊示所懷",
@@ -97,7 +127,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -112,7 +147,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "享太廟樂章：廣運舞",
@@ -126,7 +166,12 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：保大舞",
@@ -140,6 +185,11 @@
             ""
         ],
         "volume": "卷一百零九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     }
 ]

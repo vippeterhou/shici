@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禁中春松",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得禦園芳草",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -55,7 +70,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [3, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "曉過南宮聞太常清樂",
@@ -70,7 +90,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禁中春松",
@@ -85,7 +110,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禁中春松",
@@ -100,7 +130,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西戎獻馬",
@@ -115,7 +150,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -130,7 +170,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夏首猶清和",
@@ -145,7 +190,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -160,7 +210,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -175,7 +230,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -190,7 +250,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -205,7 +270,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -220,7 +290,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -235,7 +310,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -250,7 +330,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南至日太史登臺書雲物",
@@ -265,7 +350,12 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "小苑春望宮池柳色",
@@ -280,6 +370,11 @@
             ""
         ],
         "volume": "卷二百八十八",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "塞下曲",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古塞下曲",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "漁父歌",
@@ -56,7 +71,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "東京寄萬楚",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄焦煉師",
@@ -88,7 +113,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "望鳴皋山白雲寄洛陽盧主簿",
@@ -105,7 +135,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄萬齊融",
@@ -122,7 +157,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈張旭",
@@ -140,7 +180,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈蘇明府",
@@ -157,7 +202,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登首陽山謁夷齊廟",
@@ -174,7 +224,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謁張果先生",
@@ -196,7 +251,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "光上座廊下眾山五韻",
@@ -211,7 +271,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九月九日劉十八東堂集",
@@ -226,7 +291,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宋少府東溪泛舟",
@@ -240,7 +310,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與諸公遊濟瀆泛舟",
@@ -262,7 +337,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "送綦毋三謁房給事",
@@ -279,7 +359,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送劉四",
@@ -297,7 +382,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送裴騰",
@@ -314,7 +404,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送司農崔丞",
@@ -331,7 +426,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送崔侍禦赴京",
@@ -347,7 +447,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春送從叔游襄陽",
@@ -364,7 +469,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈別高三十五",
@@ -383,7 +493,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "崔五宅送劉跂入京",
@@ -400,7 +515,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送馬錄事赴永陽",
@@ -417,7 +537,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "臨別送張諲入蜀",
@@ -434,7 +559,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送王昌齡",
@@ -450,7 +580,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "留別王盧二拾遺",
@@ -464,7 +599,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈別穆元林",
@@ -481,7 +621,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "不調歸東川別業",
@@ -498,7 +643,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚歸東園",
@@ -512,7 +662,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "龍門西峰曉望劉十八不至",
@@ -526,7 +681,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "裴尹東溪別業",
@@ -543,7 +703,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "無盡上人東林禪居",
@@ -560,7 +725,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題綦毋校書別業",
@@ -576,7 +746,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題盧道士房",
@@ -591,7 +766,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題神力師院",
@@ -606,7 +786,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題僧房雙桐",
@@ -620,7 +805,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "粲公院各賦一物得初荷",
@@ -634,7 +824,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "李兵曹壁畫山水各賦得桂水帆",
@@ -648,7 +843,12 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題合歡",
@@ -662,6 +862,11 @@
             ""
         ],
         "volume": "卷一百三十二",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

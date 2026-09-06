@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "吳宮教美人戰",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "月映清淮流",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "圓靈水鏡",
@@ -57,7 +72,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "虹藏不見",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白露為霜",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得金莖露",
@@ -102,7 +132,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "圓靈水鏡",
@@ -117,7 +152,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "景風扇物",
@@ -132,7 +172,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "劍化為龍",
@@ -147,7 +192,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "餘瑞麥",
@@ -162,7 +212,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得首夏猶清和",
@@ -177,7 +232,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "移居洞庭",
@@ -191,7 +251,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "吳門送客",
@@ -205,7 +270,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長安道",
@@ -218,7 +288,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "出自賊中謁恒上人",
@@ -232,7 +307,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "過真律師舊院",
@@ -246,7 +326,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬談上人詠海石榴",
@@ -260,7 +345,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -273,7 +363,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬日可愛",
@@ -288,7 +383,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "臨川羨魚",
@@ -303,7 +403,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "青雲幹呂",
@@ -318,7 +423,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "青雲幹呂",
@@ -336,7 +446,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寄妻",
@@ -350,7 +465,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "青雲幹呂",
@@ -365,7 +485,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "吳宮教戰",
@@ -380,7 +505,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "梨嶺",
@@ -394,7 +524,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈馮宿",
@@ -409,7 +544,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿裴友書齋",
@@ -424,7 +564,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "禦溝新柳",
@@ -439,7 +584,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "試中和節詔賜公卿尺詩",
@@ -454,7 +604,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "省試恩賜耆老布帛",
@@ -469,7 +624,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和裴相國答張秘書贈馬詩",
@@ -483,7 +643,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賜耆老布帛",
@@ -498,7 +663,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "齊優開籠飛去所獻楚王鵠",
@@ -513,7 +683,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "試中和節詔賜公卿尺詩",
@@ -528,7 +703,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得白雲起封中",
@@ -543,7 +723,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得白雲起封中",
@@ -558,7 +743,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春色滿皇州",
@@ -573,7 +763,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "日暮碧雲合",
@@ -588,7 +783,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白雲起封中",
@@ -603,7 +803,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "石季倫金穀園",
@@ -618,7 +823,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "石季倫金谷園",
@@ -633,7 +843,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "享惠昭太子廟樂章登歌",
@@ -647,7 +862,12 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "南至日隔仗望含元殿香爐",
@@ -662,6 +882,11 @@
             ""
         ],
         "volume": "卷三百一十九",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "遊南陽清泠泉",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "尋魯城北范居士失道落蒼耳中見範置酒摘蒼耳作",
@@ -44,7 +54,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "東魯門泛舟二首",
@@ -60,7 +75,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "秋獵孟諸夜歸，置酒單父東樓觀妓",
@@ -77,7 +97,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "游泰山六首",
@@ -115,7 +140,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 96,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋夜與劉碭山泛宴喜亭池",
@@ -129,7 +159,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "攜妓登梁王棲霞山孟氏桃園中",
@@ -144,7 +179,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 7, 5, 5, 8, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "與從侄杭州刺史良游天竺寺",
@@ -159,7 +199,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同友人舟行游台越作",
@@ -175,7 +220,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "下終南山過斛斯山人宿置酒",
@@ -191,7 +241,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "朝下過盧郎中敘舊游",
@@ -206,7 +261,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "侍從游宿溫泉宮作",
@@ -220,7 +280,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "邯鄲南亭觀妓",
@@ -236,7 +301,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日游羅敷潭",
@@ -250,7 +320,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春陪商州裴使君游石娥溪",
@@ -269,7 +344,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陪從祖濟南太守泛鵲山湖三首",
@@ -284,7 +364,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春日陪楊江甯及諸官宴北湖感古作",
@@ -303,7 +388,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宴鄭參卿山池",
@@ -317,7 +407,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "游謝氏山亭",
@@ -333,7 +428,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "把酒問月",
@@ -348,7 +448,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "同族侄評事黯游昌禪師山池二首",
@@ -364,7 +469,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "金陵鳳凰台置酒",
@@ -381,7 +491,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋浦清溪雪夜對酒，客有唱山鷓鴣者",
@@ -396,7 +511,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與周剛清溪玉鏡潭宴別",
@@ -414,7 +534,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "游秋浦白笴陂二首",
@@ -430,7 +555,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宴陶家亭子",
@@ -444,7 +574,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "在水軍宴韋司馬樓船觀妓",
@@ -458,7 +593,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "流夜郎至江夏，陪長史叔及薛明府宴興德寺南閣",
@@ -472,7 +612,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "泛沔州城南郎官湖",
@@ -487,7 +632,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陪侍郎叔游洞庭醉後三首",
@@ -502,7 +652,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "夜泛洞庭，尋裴侍禦清酌",
@@ -517,7 +672,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陪族叔刑部侍郎曄及中書賈舍人至遊洞庭五首",
@@ -539,7 +699,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "楚江黃龍磯南宴楊執戟治樓",
@@ -553,7 +718,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "銅官山醉後絕句",
@@ -566,7 +736,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與南陵常贊府遊五松山",
@@ -583,7 +758,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宣城青溪",
@@ -597,7 +777,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與謝良輔遊涇川陵岩寺",
@@ -611,7 +796,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "游水西簡鄭明府",
@@ -627,7 +817,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日登山",
@@ -648,7 +843,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日",
@@ -663,7 +863,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九日龍山飲",
@@ -676,7 +881,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "九月十日即事",
@@ -689,7 +899,12 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陪族叔當塗宰遊化城寺升公清風亭",
@@ -708,6 +923,11 @@
             ""
         ],
         "volume": "卷一百七十九",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

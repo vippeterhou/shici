@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [3, 3, 3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "上雲樂",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 3, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "摩多樓子",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "猛虎行",
@@ -56,7 +71,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "日出行",
@@ -71,7 +91,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 11,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 8],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "苦篁調嘯引",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "拂舞歌辭",
@@ -101,7 +131,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "夜坐吟",
@@ -115,7 +150,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "箜篌引",
@@ -130,7 +170,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 5, 7, 5, 5, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "巫山高",
@@ -144,7 +189,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "平城下",
@@ -160,7 +210,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江南弄",
@@ -174,7 +229,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "榮華樂",
@@ -193,7 +253,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 23,
+            "sentence_lengths": [7, 3, 3, 4, 4, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "相勸酒",
@@ -211,7 +276,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 6, 6, 7, 7, 6, 4, 3, 3, 7, 7, 9, 7, 3, 3, 6, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "瑤華樂",
@@ -227,7 +297,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 4, 4, 4, 4, 4, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "北中寒",
@@ -241,7 +316,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "梁台古愁",
@@ -255,7 +335,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "公無出門",
@@ -270,7 +355,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 5, 5, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "神弦別曲",
@@ -284,7 +374,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "綠水詞",
@@ -298,7 +393,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "沙路曲",
@@ -312,7 +412,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "上之回",
@@ -326,7 +431,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "高軒過",
@@ -341,7 +451,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "貝宮夫人",
@@ -355,7 +470,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "蘭香神女廟",
@@ -375,7 +495,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送韋仁實兄弟入關",
@@ -392,7 +517,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洛陽城外別皇甫湜",
@@ -406,7 +536,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "溪晚涼",
@@ -420,7 +555,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "官不來，題皇甫湜先輩廳",
@@ -433,7 +573,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "長平箭頭歌",
@@ -448,7 +593,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "江樓曲",
@@ -462,7 +612,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "塞下曲",
@@ -477,7 +632,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "染絲上春機",
@@ -490,7 +650,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五粒小松歌",
@@ -504,7 +669,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "塘上行",
@@ -517,7 +687,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "呂將軍歌",
@@ -533,7 +708,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 13,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "休洗紅",
@@ -547,7 +727,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [3, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "神弦曲",
@@ -561,7 +746,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "野歌",
@@ -575,7 +765,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "神弦",
@@ -589,7 +784,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "將進酒",
@@ -603,7 +803,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [3, 3, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "美人梳頭歌",
@@ -618,7 +823,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 6, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "月漉漉篇",
@@ -633,7 +843,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [3, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "京城",
@@ -646,7 +861,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "官街鼓",
@@ -660,7 +880,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "許公子鄭姬歌",
@@ -676,7 +901,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "新夏歌",
@@ -690,7 +920,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題歸夢",
@@ -704,7 +939,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "經沙苑",
@@ -718,7 +958,12 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "出城別張又新酬李漢",
@@ -743,6 +988,11 @@
             ""
         ],
         "volume": "卷三百九十三",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 50,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     }
 ]

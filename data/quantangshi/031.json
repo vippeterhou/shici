@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：肅和",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：雍和",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：舒和",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五郊樂章：青帝角音",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：肅和",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：雍和",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：舒和",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五郊樂章：赤帝征音",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：肅和",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：雍和",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 3, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "五郊樂章：舒和",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五郊樂章：白帝商音",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：肅和",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：雍和",
@@ -207,7 +277,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：舒和",
@@ -221,7 +296,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五郊樂章：黑帝羽音",
@@ -234,7 +314,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：肅和",
@@ -248,7 +333,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：雍和",
@@ -262,7 +352,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "五郊樂章：舒和",
@@ -276,7 +371,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "享太廟樂章：永和",
@@ -290,7 +390,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：肅和",
@@ -304,7 +409,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：雍和",
@@ -318,7 +428,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：長髮舞",
@@ -332,7 +447,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：大基舞",
@@ -346,7 +466,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：大成舞",
@@ -360,7 +485,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：大明舞",
@@ -375,7 +505,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：壽和",
@@ -388,7 +523,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：舒和",
@@ -402,7 +542,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "享太廟樂章：雍和",
@@ -416,7 +561,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "享太廟樂章：永和",
@@ -430,7 +580,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [4, 4, 4, 4, 4, 4, 4, 4],
+            "uniform_sentence_length": 4
+        }
     },
     {
         "title": "賦西漢",
@@ -444,7 +599,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "暮秋言懷",
@@ -458,7 +618,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "述懷",
@@ -475,7 +640,12 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和正日臨朝應詔",
@@ -491,6 +661,11 @@
             ""
         ],
         "volume": "卷三十一",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

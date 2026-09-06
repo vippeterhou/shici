@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "旅中答喻軍事問客情",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈盧逸人",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送玉禪師",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送智光之南值雨",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謝白樂天招",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "五歲詠花",
@@ -94,7 +124,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "祝堯詩",
@@ -108,7 +143,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答僧澈",
@@ -122,7 +162,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "月夜懷劉秀才",
@@ -136,7 +181,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送李四校書",
@@ -150,7 +200,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "邊思",
@@ -164,7 +219,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "八月十五夜玩月",
@@ -178,7 +238,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "尋山僧真勝上人不遇",
@@ -192,7 +257,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈李溟秀才",
@@ -206,7 +276,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送石秀才",
@@ -220,7 +295,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送造微上人遊五台及禮本師",
@@ -234,7 +314,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送禪師宗極歸玉峰",
@@ -248,7 +333,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送僧歸舊山",
@@ -262,7 +352,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送圓仁三藏歸本國",
@@ -276,7 +371,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送王煉師歸嵩岳",
@@ -290,7 +390,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "壽昌節賦得紅雲表夏日",
@@ -304,7 +409,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "經廢宮",
@@ -318,7 +428,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈識古法師",
@@ -332,7 +447,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "月夜懷劉秀才",
@@ -346,7 +466,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄南山景禪師",
@@ -360,7 +485,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "哭劉得仁",
@@ -374,7 +504,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "龍潭",
@@ -388,7 +523,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題化城寺",
@@ -402,7 +542,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戴雲山吟",
@@ -418,7 +563,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答盧鄴",
@@ -432,7 +582,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山居八詠",
@@ -460,7 +615,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 64,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "苦熱行",
@@ -477,7 +637,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈李粲秀才",
@@ -498,7 +663,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和王季文題九華山",
@@ -515,7 +685,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宿嚴陵釣台",
@@ -529,7 +704,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "效古",
@@ -543,7 +723,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "病後作",
@@ -557,7 +742,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "寫真",
@@ -571,7 +761,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "端午",
@@ -585,7 +780,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "謝友人見訪留詩",
@@ -599,7 +799,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送新平故人",
@@ -613,7 +818,12 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "辭南平鐘王召",
@@ -627,6 +837,11 @@
             ""
         ],
         "volume": "卷八百二十三",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

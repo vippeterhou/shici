@@ -29,7 +29,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 80,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "寂上人院聯句",
@@ -47,7 +52,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "獨在開元寺避暑，頗懷魯望，因飛筆聯句",
@@ -65,7 +75,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "寒夜文宴聯句",
@@ -87,7 +102,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 3, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "藥名聯句",
@@ -111,7 +131,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "寒夜聯句",
@@ -133,7 +158,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "開元寺樓看雨聯句",
@@ -157,7 +187,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 60,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 4, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "報恩寺南池聯句",
@@ -184,7 +219,12 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 43,
+            "sentence_lengths": [5, 3, 5, 5, 3, 4, 5, 2, 5, 5, 3, 2, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "天臺禪院聯句",
@@ -200,6 +240,11 @@
             ""
         ],
         "volume": "卷七百九十三",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     }
 ]

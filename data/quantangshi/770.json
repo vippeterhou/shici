@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南山",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得遊人久不歸",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白紵辭",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 7,
+            "sentence_lengths": [7, 7, 7, 3, 3, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "還渭南感舊二首",
@@ -69,7 +89,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈亡妻張氏",
@@ -82,7 +107,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題司空山觀",
@@ -96,7 +126,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戲題盱眙壁",
@@ -110,7 +145,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題楊少卿書後",
@@ -124,7 +164,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "自紫陽觀至華陽洞，宿侯尊師草堂簡同游",
@@ -142,7 +187,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題鐘雅青紗枕",
@@ -156,7 +206,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題搔口",
@@ -170,7 +225,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山寺見楊少卿書壁，因題其尾",
@@ -184,7 +244,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "經杜甫舊宅",
@@ -198,7 +263,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "行縣至浮查寺",
@@ -212,7 +282,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "敕和元相公家園即事寄王相公",
@@ -226,7 +301,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "仲秋太常寺觀公輅車拜陵",
@@ -241,7 +321,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "尋易尊師不遇",
@@ -255,7 +340,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "早過梨嶺，喜雪書情呈崔判官",
@@ -269,7 +359,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春情",
@@ -282,7 +377,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈竇蔡二記室入蜀",
@@ -300,7 +400,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "采菊",
@@ -314,7 +419,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "水精環",
@@ -329,7 +439,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "看牡丹",
@@ -343,7 +458,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得垣衣",
@@ -357,7 +477,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬晚對雪憶胡處士",
@@ -371,7 +496,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "池上",
@@ -384,7 +514,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "對趙穎歌",
@@ -398,7 +533,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賦百舌鳥",
@@ -412,7 +552,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "孤雁",
@@ -426,7 +571,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "水殿拋球曲二首",
@@ -442,7 +592,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "銅雀妓",
@@ -456,7 +611,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戲示諸妓",
@@ -470,7 +630,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "末秋到家",
@@ -483,7 +648,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送人往宣城",
@@ -496,7 +666,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洛陽河亭奉酬留守郡公追送",
@@ -510,7 +685,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送道士曾昭瑩",
@@ -524,7 +704,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈別徐侃",
@@ -539,7 +724,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "顧城",
@@ -553,7 +743,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "金錢花",
@@ -567,7 +762,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "故白岩禪師院",
@@ -581,7 +781,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題九天使者廟",
@@ -595,7 +800,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "房公舊竹亭聞琴",
@@ -608,7 +818,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "清溪館作",
@@ -622,7 +837,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚春宴",
@@ -636,7 +856,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長沙六快詩",
@@ -655,7 +880,12 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "廣州王園寺伏日即事寄北中親友",
@@ -672,6 +902,11 @@
             ""
         ],
         "volume": "卷七百七十",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

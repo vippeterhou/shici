@@ -12,7 +12,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "終南精舍月中聞磬聲詩",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "青出藍詩",
@@ -41,7 +51,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和李相公早朝於中書候傳點偶書所懷奉呈門下武相公中書鄭相公",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和武中丞秋日台中寄懷簡諸僚友",
@@ -74,7 +94,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "吐蕃別館和周十一郎中楊七錄事望白水山作",
@@ -90,7 +115,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和張舍人閣中直夜思聞雅琴因書事通簡僚友",
@@ -105,7 +135,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和舍弟惜花絕句",
@@ -118,7 +153,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和恭聽曉籠中山鵲",
@@ -131,7 +171,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和舍弟讓籠中鷹",
@@ -145,7 +190,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同恭夏日題尋真觀李寬中秀才書院",
@@ -159,7 +209,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "同舍弟恭歲暮寄晉州李六協律三十韻",
@@ -186,7 +241,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 60,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "青海西寄竇三端公",
@@ -200,7 +260,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "蕃中拘留歲餘回至隴石先寄城中親故",
@@ -214,7 +279,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "吐蕃別館臥病寄朝中諸友",
@@ -228,7 +298,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "吐蕃別館中和日寄朝中僚舊",
@@ -242,7 +317,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "及第後答潼關主人",
@@ -256,7 +336,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "河中城南姚家浴後題贈主人",
@@ -269,7 +354,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "看渾中丞山桃花初有他客不通晚方得入因有戲贈",
@@ -283,7 +373,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈友人",
@@ -298,7 +393,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "道州夏日郡內北橋新亭書懷贈何元二處士",
@@ -315,7 +415,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "道州弘道縣主簿知縣三年頗著廉慎秩滿縣闕申使請留將赴衡州題其廳事",
@@ -329,7 +434,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "道州將赴衡州酬別江華毛令",
@@ -343,7 +453,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "道州夏日早訪荀參軍林園敬酬見贈",
@@ -357,7 +472,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "道州敬酬何處士懷郡樓月夜之作",
@@ -371,7 +491,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "道州敬酬何處士書情見贈",
@@ -385,7 +510,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戲贈靈澈上人",
@@ -399,7 +529,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "二月一日是貞元舊節有感絕句寄黔南竇三洛陽盧七",
@@ -413,7 +548,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "初發道州答崔三連州題海陽亭見寄絕句",
@@ -427,7 +567,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "答段秀才",
@@ -441,7 +586,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宗禮欲往桂州，苦雨因以戲贈",
@@ -455,7 +605,12 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "道州奉寄襄陽裴相公",
@@ -469,6 +624,11 @@
             ""
         ],
         "volume": "卷三百七十",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

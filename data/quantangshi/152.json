@@ -15,7 +15,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "謝陸處士杼山折青桂花見寄之什",
@@ -30,7 +35,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈裴將軍",
@@ -47,7 +57,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈僧皎然",
@@ -65,7 +80,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "詠陶淵明",
@@ -81,7 +101,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "三言擬五雜組二首",
@@ -95,7 +120,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+            "uniform_sentence_length": 3
+        }
     },
     {
         "title": "使過瑤台寺，有懷圓寂上人",
@@ -109,7 +139,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登平望橋下作",
@@ -123,7 +158,12 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "刻清遠道士詩，因而繼作",
@@ -141,6 +181,11 @@
             ""
         ],
         "volume": "卷一百五十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

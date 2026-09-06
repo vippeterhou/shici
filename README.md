@@ -55,3 +55,10 @@ Regenerate this metadata after changing poem text:
 ```bash
 python -m scripts.enrich_format data/tangshisanbaishou.json
 ```
+
+The enrichment command also accepts a directory and processes every JSON file
+directly inside it:
+
+```bash
+python -m scripts.enrich_format data/quantangshi
+```

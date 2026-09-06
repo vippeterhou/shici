@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陌上桑",
@@ -30,7 +35,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "枯魚過河泣",
@@ -45,7 +55,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "丁督護歌",
@@ -60,7 +75,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "相逢行",
@@ -80,7 +100,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "千里思",
@@ -94,7 +119,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "樹中草",
@@ -108,7 +138,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "君馬黃",
@@ -124,7 +159,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [3, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "擬古",
@@ -138,7 +178,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "折楊柳",
@@ -152,7 +197,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "少年子",
@@ -166,7 +216,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "紫騮馬",
@@ -180,7 +235,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "少年行二首",
@@ -196,7 +256,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "白鼻騧",
@@ -209,7 +274,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [5, 5, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "豫章行",
@@ -227,7 +297,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "沐浴子",
@@ -241,7 +316,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高句驪",
@@ -254,7 +334,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "舍利弗",
@@ -267,7 +352,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "靜夜思",
@@ -280,7 +370,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "淥水曲",
@@ -293,7 +388,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鳳凰曲",
@@ -307,7 +407,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鳳台曲",
@@ -321,7 +426,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "從軍行",
@@ -335,7 +445,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋思",
@@ -349,7 +464,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "春思",
@@ -363,7 +483,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "秋思",
@@ -377,7 +502,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "子夜吳歌：春歌",
@@ -391,7 +521,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "子夜吳歌：夏歌",
@@ -405,7 +540,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "子夜吳歌：秋歌",
@@ -419,7 +559,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "子夜吳歌：冬歌",
@@ -433,7 +578,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "對酒行",
@@ -448,7 +598,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "估客行",
@@ -461,7 +616,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "擣衣篇",
@@ -477,7 +637,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "少年行",
@@ -495,7 +660,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 17,
+            "sentence_lengths": [10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "長歌行",
@@ -512,7 +682,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "長相思",
@@ -528,7 +703,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 5, 7, 7, 7, 7, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "猛虎行",
@@ -548,7 +728,12 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [5, 5, 7, 7, 7, 7, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "去婦詞",
@@ -564,6 +749,11 @@
             ""
         ],
         "volume": "卷一百六十五",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7, 5, 5],
+            "uniform_sentence_length": null
+        }
     }
 ]

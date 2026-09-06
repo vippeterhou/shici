@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [6, 6, 7, 12, 7, 11, 7, 7, 7, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "胡無人",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "月夜金陵懷古",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "冬日歸舊山",
@@ -59,7 +74,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "望夫石",
@@ -73,7 +93,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "對雨",
@@ -87,7 +112,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "曉晴",
@@ -101,7 +131,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初月",
@@ -115,7 +150,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "雨後望月",
@@ -129,7 +169,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得鶴，送史司馬赴崔相公幕",
@@ -144,7 +189,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送客歸吳",
@@ -158,7 +208,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送友生游峽中",
@@ -172,7 +227,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送袁明府任長沙",
@@ -186,7 +246,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "鄒衍穀",
@@ -199,7 +264,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《雜言用投丹陽知己兼奉宣慰判官",
@@ -215,7 +285,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 13, 7, 3, 7, 7, 5, 5, 5, 3, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "觀魚潭",
@@ -229,7 +304,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "自廣平乘醉走馬六十裏至邯鄲，登城樓覽古書懷",
@@ -251,7 +331,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 40,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宣州長史弟昭贈余琴溪中雙舞鶴詩以見志",
@@ -266,7 +351,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題舒州司空山瀑布",
@@ -280,7 +370,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "金陵新亭",
@@ -294,7 +389,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《上清寶鼎詩",
@@ -310,7 +410,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《題許宣平庵壁",
@@ -324,7 +429,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "《戲贈杜甫",
@@ -338,7 +448,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "春感詩",
@@ -352,7 +467,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "白微時募縣小吏入令臥內嘗驅牛經堂下令妻怒將加詰責白亟以詩謝云",
@@ -365,7 +485,12 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -381,6 +506,11 @@
             ""
         ],
         "volume": "卷一百八十五",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

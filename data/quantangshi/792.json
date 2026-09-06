@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 6,
+            "sentence_lengths": [7, 7, 2, 7, 7, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "同趙二十二訪張明府郊居聯句",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 2, 7, 7, 2, 7, 7, 2, 7, 7, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：靖恭坊大興善寺：老松青桐聯二…絕句",
@@ -42,7 +52,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 2],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：靖恭坊大興善寺：蛤像聯二十字絕句",
@@ -56,7 +71,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：靖恭坊大興善寺：聖柱聯句",
@@ -72,7 +92,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：長樂坊安國寺：紅樓聯句",
@@ -86,7 +111,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：長樂坊安國寺：穗柏聯句",
@@ -100,7 +130,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：長樂坊安國寺：題璘公院",
@@ -116,7 +151,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 3, 5, 6, 6, 3, 7, 7, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：常樂坊趙景公寺：吳畫聯句",
@@ -133,7 +173,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 2, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：常樂坊趙景公寺：題約公院",
@@ -149,7 +194,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [4, 4, 3, 4, 4, 3, 4, 4, 2, 4, 4, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：大同坊雲華寺：偶聯句",
@@ -167,7 +217,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：道政坊寶應寺：僧房聯句",
@@ -181,7 +236,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：道政坊寶應寺：小小寫真聯句",
@@ -203,7 +263,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：平康坊菩薩寺：書事聯句",
@@ -227,7 +292,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 2, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：光宅坊光宅寺：中禪師影堂聯句",
@@ -244,7 +314,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 2, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：翊善坊保壽寺：光天幀贊聯句",
@@ -263,7 +338,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 35,
+            "sentence_lengths": [4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 2, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：宣陽坊靜域寺：三階院聯句",
@@ -280,7 +360,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 2, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：崇義坊招福院：贈諸上人聯句",
@@ -296,7 +381,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：招國坊崇濟寺：奇松聯二十字絕句",
@@ -313,7 +403,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 25,
+            "sentence_lengths": [5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 2, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：永安坊永壽寺：閑中好",
@@ -328,7 +423,12 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 15,
+            "sentence_lengths": [3, 5, 5, 5, 2, 3, 5, 5, 5, 3, 3, 5, 5, 5, 3],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "游長安諸寺聯句：崇仁坊資聖寺：諸畫聯句",
@@ -351,6 +451,11 @@
             ""
         ],
         "volume": "卷七百九十二",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 22,
+            "sentence_lengths": [7, 3, 7, 3, 7, 2, 7, 3, 7, 3, 7, 2, 7, 3, 7, 3, 7, 2, 7, 3, 7, 3],
+            "uniform_sentence_length": null
+        }
     }
 ]

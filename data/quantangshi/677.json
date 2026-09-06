@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "贈咸陽王主簿",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "松",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "梅",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鶴",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重陽夜旅懷",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "壬戌西幸後",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "多虞",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "短褐",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "曲江紅杏",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "折得梅",
@@ -151,7 +201,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "牡丹",
@@ -165,7 +220,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寂寞",
@@ -179,7 +239,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "亂後灞上",
@@ -193,7 +258,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "長門怨二首",
@@ -209,7 +279,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "郊野戲題",
@@ -223,7 +298,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "宗人惠四藥",
@@ -237,7 +317,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題張衡廟",
@@ -251,7 +336,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "山鳥",
@@ -265,7 +355,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "黯然",
@@ -279,7 +374,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "借薛尚書集",
@@ -293,7 +393,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "小北廳閑題",
@@ -307,7 +412,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "菊",
@@ -321,7 +431,12 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈楊夔二首",
@@ -337,6 +452,11 @@
             ""
         ],
         "volume": "卷六百七十七",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]

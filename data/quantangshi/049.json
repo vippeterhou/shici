@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制早渡蒲津關",
@@ -28,7 +33,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制同二相南出雀鼠谷",
@@ -43,7 +53,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制經河上公廟",
@@ -58,7 +73,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制送尚書燕國公赴朔方",
@@ -75,7 +95,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制途經華山",
@@ -90,7 +115,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制早登太行山率爾言志",
@@ -106,7 +136,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制登封禮畢洛城酺宴",
@@ -121,7 +156,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "恩賜樂遊園宴應制",
@@ -136,7 +176,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制過王浚墓",
@@ -151,7 +196,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和吏部崔尚書雨後大明朝堂望南山",
@@ -170,7 +220,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和崔尚書喜雨",
@@ -187,7 +242,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和許給事中直夜簡諸公",
@@ -203,7 +263,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和蘇侍郎小園夕霽寄諸弟",
@@ -218,7 +283,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬宋使君見贈之作",
@@ -233,7 +303,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬宋使君見詒",
@@ -248,7 +323,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬通事舍人寓直見示篇中兼起居陸舍人景獻",
@@ -264,7 +344,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與袁補闕尋蔡拾遺會此公出行後蔡有五韻詩見贈以此篇答焉",
@@ -279,7 +364,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬趙二侍禦使西軍贈兩省舊僚之作",
@@ -295,7 +385,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "武司功初有幽庭春暄見貽夏首獲見以詩報焉",
@@ -310,7 +405,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "酬王履震遊園林見貽",
@@ -330,7 +430,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 30,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "餞王尚書出邊",
@@ -347,7 +452,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "送趙都護赴安西",
@@ -363,7 +473,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉使自藍田玉山南行",
@@ -381,7 +496,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賀給事嘗詣蔡起居郊館有詩因命同作",
@@ -396,7 +516,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南山下舊居閑放",
@@ -413,7 +538,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "高齋閑望言懷",
@@ -428,7 +558,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "別鄉人南還",
@@ -443,7 +578,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初發江陵有懷",
@@ -458,7 +598,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "同綦毋學士月夜聞雁",
@@ -473,7 +618,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登總持寺閣",
@@ -488,7 +638,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "晚憩王少府東閣",
@@ -503,7 +658,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登城樓望西山作",
@@ -519,7 +679,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "祠紫蓋山經玉泉山寺",
@@ -536,7 +701,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "洪州西山祈雨，是日輒應，因賦詩言事",
@@ -555,7 +725,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 26,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "經江寧覽舊跡至玄武湖",
@@ -574,7 +749,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登襄陽峴山",
@@ -590,7 +770,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登荊州城樓",
@@ -609,7 +794,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 28,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登樂游原春望書懷",
@@ -626,7 +816,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "候使登石頭驛樓作",
@@ -642,7 +837,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登臨沮樓",
@@ -658,7 +858,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 14,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "陪王司馬登薛公逍遙台",
@@ -675,7 +880,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "嘗與大理丞袁公太府丞田公偶詣一所林沼尤勝因並坐其次相得甚歡遂賦詩焉以詠其事",
@@ -691,7 +901,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 43
+        "no#": 43,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "與弟游家園",
@@ -706,7 +921,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 44
+        "no#": 44,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "郡內閑齋",
@@ -721,7 +941,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 45
+        "no#": 45,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "城南隅山池春中田袁二公盛稱其美夏首獲賞果會夙言故有此詠",
@@ -738,7 +963,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 46
+        "no#": 46,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "西江夜行",
@@ -753,7 +983,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 47
+        "no#": 47,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南還湘水言懷",
@@ -768,7 +1003,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 48
+        "no#": 48,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "商洛山行懷古",
@@ -785,7 +1025,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 49
+        "no#": 49,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "南還以詩代書贈京師舊僚",
@@ -811,7 +1056,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 50
+        "no#": 50,
+        "format": {
+            "sentence_count": 56,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "初發道中贈王司馬兼寄諸公",
@@ -832,7 +1082,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 51
+        "no#": 51,
+        "format": {
+            "sentence_count": 36,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "自始興溪夜上赴嶺",
@@ -848,7 +1103,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 52
+        "no#": 52,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "當塗界寄裴宣州",
@@ -865,7 +1125,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 53
+        "no#": 53,
+        "format": {
+            "sentence_count": 18,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "郡中每晨興輒見群鶴東飛至暮又行列而返哢唳雲路甚和樂焉予愧獨處江城常目送此意有所羨遂賦以詩",
@@ -880,7 +1145,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 54
+        "no#": 54,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和裴侍中承恩拜掃旋轡途中有懷寄州縣官僚鄉國親故",
@@ -896,7 +1166,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 55
+        "no#": 55,
+        "format": {
+            "sentence_count": 16,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和姚令公哭李尚書乂",
@@ -913,7 +1188,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 56
+        "no#": 56,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制經函谷關作",
@@ -926,7 +1206,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 57
+        "no#": 57,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉和聖制度潼關口號",
@@ -939,7 +1224,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 58
+        "no#": 58,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答太常靳博士見贈一絕",
@@ -952,7 +1242,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 59
+        "no#": 59,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登荊州城望江二首",
@@ -966,7 +1261,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 60
+        "no#": 60,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "賦得自君之出矣",
@@ -979,7 +1279,12 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 61
+        "no#": 61,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答陸澧",
@@ -992,6 +1297,11 @@
             ""
         ],
         "volume": "卷四十九",
-        "no#": 62
+        "no#": 62,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

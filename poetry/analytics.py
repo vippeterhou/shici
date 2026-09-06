@@ -12,15 +12,13 @@ from opencc import OpenCC
 from .models import Poem
 from .text import is_han_character
 
-STRUCTURE_TYPE_ORDER = [
+BASE_STRUCTURE_TYPE_ORDER = [
     "五言四句",
     "五言八句",
     "其他五言",
     "七言四句",
     "七言八句",
     "其他七言",
-    "杂言",
-    "其他齐言",
 ]
 WORD_TOKENIZER = jieba.Tokenizer()
 TRADITIONAL_TO_SIMPLIFIED = OpenCC("t2s")
@@ -111,21 +109,38 @@ def sentence_count_distribution(poems: Sequence[Poem]) -> list[tuple[int, int]]:
     return sorted(Counter(poem.format.sentence_count for poem in poems).items())
 
 
+def chinese_number(value: int) -> str:
+    digits = "零一二三四五六七八九"
+    if value < 10:
+        return digits[value]
+    if value < 20:
+        return f"十{digits[value % 10]}" if value % 10 else "十"
+    if value < 100:
+        ones = digits[value % 10] if value % 10 else ""
+        return f"{digits[value // 10]}十{ones}"
+    return str(value)
+
+
+def line_length_label(length: int) -> str:
+    return f"{chinese_number(length)}言"
+
+
 def line_length_type(poem: Poem) -> str:
     length = poem.format.uniform_sentence_length
-    if length == 5:
-        return "五言"
-    if length == 7:
-        return "七言"
     if length is None:
         return "杂言"
-    return "其他齐言"
+    return line_length_label(length)
 
 
 def line_length_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
-    order = {"五言": 0, "七言": 1, "杂言": 2, "其他齐言": 3}
-    counts = Counter(line_length_type(poem) for poem in poems)
-    return sorted(counts.items(), key=lambda item: order[item[0]])
+    counts = Counter(poem.format.uniform_sentence_length for poem in poems)
+    result = [
+        (line_length_label(length), counts[length])
+        for length in sorted(value for value in counts if value is not None)
+    ]
+    if counts[None]:
+        result.append(("杂言", counts[None]))
+    return result
 
 
 def format_combination_counts(
@@ -155,11 +170,25 @@ def structure_type(poem: Poem) -> str:
 
 def structure_type_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     counts = Counter(structure_type(poem) for poem in poems)
-    return [
+    result = [
         (structure_name, counts[structure_name])
-        for structure_name in STRUCTURE_TYPE_ORDER
+        for structure_name in BASE_STRUCTURE_TYPE_ORDER
         if counts[structure_name]
     ]
+    other_lengths = sorted(
+        {
+            poem.format.uniform_sentence_length
+            for poem in poems
+            if poem.format.uniform_sentence_length not in {None, 5, 7}
+        }
+    )
+    result.extend(
+        (line_length_label(length), counts[line_length_label(length)])
+        for length in other_lengths
+    )
+    if counts["杂言"]:
+        result.append(("杂言", counts["杂言"]))
+    return result
 
 
 def poems_with_sentence_count(

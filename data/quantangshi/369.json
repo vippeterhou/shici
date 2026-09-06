@@ -13,7 +13,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈毛仙翁",
@@ -27,7 +32,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "拜禹歌",
@@ -40,7 +50,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 3,
+            "sentence_lengths": [7, 6, 6],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "廣慶寺",
@@ -54,7 +69,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "奉酬劉言史宴光風亭",
@@ -68,7 +88,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戲贈詩",
@@ -83,7 +108,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "題浯溪石",
@@ -101,7 +131,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "石佛穀",
@@ -119,7 +154,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 24,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "出世篇",
@@ -140,7 +180,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 34,
+            "sentence_lengths": [6, 3, 3, 4, 4, 4, 4, 5, 5, 3, 3, 3, 4, 4, 5, 5, 7, 7, 7, 5, 4, 4, 4, 4, 5, 5, 5, 5, 4, 4, 6, 5, 4, 4],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "蜀綿州越王樓詩",
@@ -157,7 +202,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 20,
+            "sentence_lengths": [5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "催妝",
@@ -171,7 +221,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "官舍迎內子有庭花開",
@@ -184,7 +239,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "古松感興",
@@ -199,7 +259,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "怨回紇歌",
@@ -213,7 +278,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "江上送別",
@@ -227,7 +297,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "採蓮子二首",
@@ -243,7 +318,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "拋球樂",
@@ -259,7 +339,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "勸僧酒",
@@ -272,7 +357,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "登郭隗台",
@@ -285,7 +375,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "楊柳枝詞二首",
@@ -301,7 +396,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "浪淘沙二首",
@@ -317,7 +417,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -331,7 +436,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 9,
+            "sentence_lengths": [5, 5, 3, 6, 1, 4, 5, 4, 7],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "送皇甫湜赴舉",
@@ -346,7 +456,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "貞元旱歲",
@@ -360,7 +475,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "暮春醉中寄李幹秀才",
@@ -374,7 +494,12 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "答盧仝結交詩",
@@ -395,6 +520,11 @@
             ""
         ],
         "volume": "卷三百六十九",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 27,
+            "sentence_lengths": [5, 5, 5, 7, 7, 7, 7, 7, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5],
+            "uniform_sentence_length": null
+        }
     }
 ]

@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "過小妓英英墓",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -38,7 +48,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和段相公登武擔寺西台",
@@ -52,7 +67,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和段相公夏登張儀樓",
@@ -66,7 +86,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "和宗人尚書嗣複祠祭武侯畢，題臨淮公舊碑",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "宴楊僕射新昌裏第",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "建節後偶作",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題畫山水",
@@ -123,7 +163,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "賀筵占贈營妓",
@@ -137,7 +182,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 4,
+            "sentence_lengths": [7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "句",
@@ -152,7 +202,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [7, 7, 7, 3, 5, 3, 1, 4, 2, 4, 4, 10],
+            "uniform_sentence_length": null
+        }
     },
     {
         "title": "賦得芙蓉出水",
@@ -167,7 +222,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "薦冰",
@@ -182,7 +242,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "句",
@@ -195,7 +260,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 2,
+            "sentence_lengths": [7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "薦冰",
@@ -210,7 +280,12 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     },
     {
         "title": "老人星",
@@ -225,6 +300,11 @@
             ""
         ],
         "volume": "卷四百八十四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 12,
+            "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+            "uniform_sentence_length": 5
+        }
     }
 ]

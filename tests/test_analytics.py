@@ -160,6 +160,37 @@ def test_format_analytics_and_drilldowns() -> None:
     assert poems_with_structure_type(POEMS, "其他五言") == list(POEMS[1:])
 
 
+def test_labels_other_uniform_line_lengths_with_specific_number() -> None:
+    four_character_poem = Poem(
+        id="four",
+        title="四言",
+        author="作者",
+        paragraphs=("天地玄黃，宇宙洪荒。",),
+        format=PoemFormat(
+            sentence_count=2,
+            sentence_lengths=(4, 4),
+            uniform_sentence_length=4,
+        ),
+    )
+    twenty_eight_character_poem = Poem(
+        id="twenty-eight",
+        title="二十八言",
+        author="作者",
+        paragraphs=("天地",),
+        format=PoemFormat(
+            sentence_count=1,
+            sentence_lengths=(28,),
+            uniform_sentence_length=28,
+        ),
+    )
+
+    poems = (four_character_poem, twenty_eight_character_poem)
+    assert line_length_type(four_character_poem) == "四言"
+    assert line_length_type(twenty_eight_character_poem) == "二十八言"
+    assert line_length_type_counts(poems) == [("四言", 1), ("二十八言", 1)]
+    assert structure_type_counts(poems) == [("四言", 1), ("二十八言", 1)]
+
+
 def test_finds_exact_duplicate_text() -> None:
     duplicate_groups = duplicate_text_groups(POEMS)
 

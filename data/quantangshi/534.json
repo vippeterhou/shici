@@ -11,7 +11,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 1
+        "no#": 1,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "夜歸驛樓",
@@ -25,7 +30,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 2
+        "no#": 2,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題靈山寺行堅師院",
@@ -39,7 +49,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 3
+        "no#": 3,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "湖州韋長史山居",
@@ -53,7 +68,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 4
+        "no#": 4,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "贈李伊闕",
@@ -67,7 +87,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 5
+        "no#": 5,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重遊練湖懷舊",
@@ -81,7 +106,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 6
+        "no#": 6,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "乘月棹舟送大曆寺靈聰上人不及",
@@ -95,7 +125,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 7
+        "no#": 7,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "汴河亭",
@@ -109,7 +144,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 8
+        "no#": 8,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "村舍二首",
@@ -125,7 +165,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 9
+        "no#": 9,
+        "format": {
+            "sentence_count": 10,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鄭秀才東歸憑達家書",
@@ -139,7 +184,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 10
+        "no#": 10,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "傷故湖州李郎中",
@@ -153,7 +203,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 11
+        "no#": 11,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和友人送僧歸桂州靈岩寺",
@@ -167,7 +222,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 12
+        "no#": 12,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "淮陰阻風寄呈楚州韋中丞",
@@ -181,7 +241,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 13
+        "no#": 13,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "途經敷水",
@@ -195,7 +260,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 14
+        "no#": 14,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "和人賀楊僕射致政",
@@ -209,7 +279,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 15
+        "no#": 15,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題四皓廟",
@@ -223,7 +298,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 16
+        "no#": 16,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "鶴林寺中秋夜玩月",
@@ -237,7 +317,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 17
+        "no#": 17,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "南海府罷歸京口經大庾嶺贈張明府",
@@ -252,7 +337,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 18
+        "no#": 18,
+        "format": {
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題衛將軍廟",
@@ -266,7 +356,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 19
+        "no#": 19,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "訪別韋隱居不值",
@@ -280,7 +375,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 20
+        "no#": 20,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送前東陽於明府由鄂渚歸故林",
@@ -294,7 +394,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 21
+        "no#": 21,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聽歌鷓鴣辭",
@@ -308,7 +413,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 22
+        "no#": 22,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "寄題華嚴韋秀才院",
@@ -322,7 +432,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 23
+        "no#": 23,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "戲代李協律松江有贈",
@@ -336,7 +451,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 24
+        "no#": 24,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "送黃隱居歸南海",
@@ -350,7 +470,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 25
+        "no#": 25,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "朝台送客有懷",
@@ -364,7 +489,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 26
+        "no#": 26,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "自楞伽寺晨起泛舟，道中有懷",
@@ -378,7 +508,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 27
+        "no#": 27,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "十二月拜起居表回",
@@ -392,7 +527,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 28
+        "no#": 28,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "觀章中丞夜按歌舞",
@@ -406,7 +546,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 29
+        "no#": 29,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "重遊飛泉觀題故梁道士宿龍池",
@@ -420,7 +565,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 30
+        "no#": 30,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "下第貽友人",
@@ -434,7 +584,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 31
+        "no#": 31,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "晚登龍門驛樓",
@@ -448,7 +603,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 32
+        "no#": 32,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題故李秀才居",
@@ -462,7 +622,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 33
+        "no#": 33,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "韶州韶陽樓夜宴",
@@ -476,7 +641,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 34
+        "no#": 34,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "聞韶州李相公移拜郴州因寄",
@@ -490,7 +660,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 35
+        "no#": 35,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "游江令舊宅",
@@ -504,7 +679,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 36
+        "no#": 36,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "灞上逢元九處士東歸",
@@ -518,7 +698,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 37
+        "no#": 37,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別張秀才",
@@ -532,7 +717,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 38
+        "no#": 38,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "別表兄軍倅",
@@ -546,7 +736,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 39
+        "no#": 39,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "題蘇州虎丘寺僧院",
@@ -560,7 +755,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 40
+        "no#": 40,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "酬郭少府先奉使巡澇見寄兼呈裴明府",
@@ -574,7 +774,12 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 41
+        "no#": 41,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     },
     {
         "title": "出永通門經李氏莊",
@@ -588,6 +793,11 @@
             ""
         ],
         "volume": "卷五百三十四",
-        "no#": 42
+        "no#": 42,
+        "format": {
+            "sentence_count": 5,
+            "sentence_lengths": [7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
+        }
     }
 ]
