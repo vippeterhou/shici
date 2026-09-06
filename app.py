@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 from functools import partial
 from pathlib import Path
 
@@ -110,26 +111,67 @@ def render_poem_collection(
         return
 
     st.markdown(f"**{heading} · {len(selected_poems)} 首**")
-    rows = [
-        {
-            "题目": poem.title,
-            "作者": poem.author,
-            "言": (
-                str(poem.format.uniform_sentence_length)
-                if poem.format.uniform_sentence_length is not None
-                else "杂"
-            ),
-            "句": poem.format.sentence_count,
-            "字数": poem_character_count(poem),
-            "正文": poem_text(poem),
-        }
+    rows = "".join(
+        (
+            '<div class="poem-grid-row">'
+            f"<div>{html.escape(poem.title)}</div>"
+            f"<div>{html.escape(poem.author)}</div>"
+            f"<div>{poem.format.uniform_sentence_length or '杂'}</div>"
+            f"<div>{poem.format.sentence_count}</div>"
+            f"<div>{poem_character_count(poem)}</div>"
+            f'<div class="poem-grid-text">{html.escape(poem_text(poem))}</div>'
+            "</div>"
+        )
         for poem in selected_poems
-    ]
-    st.dataframe(
-        pd.DataFrame(rows),
-        hide_index=True,
-        width="stretch",
-        height=min(420, 38 + len(rows) * 35),
+    )
+    st.markdown(
+        f"""
+        <style>
+        .poem-grid {{
+          border: 1px solid rgba(127, 127, 127, 0.28);
+          border-radius: 0.5rem;
+          max-height: 68vh;
+          overflow: auto;
+        }}
+        .poem-grid-header,
+        .poem-grid-row {{
+          display: grid;
+          grid-template-columns: 108px 62px 28px 28px 42px minmax(420px, 1fr);
+          column-gap: 6px;
+          padding: 0.42rem 0.5rem;
+        }}
+        .poem-grid-header {{
+          background: rgba(127, 127, 127, 0.14);
+          font-size: 0.76rem;
+          font-weight: 700;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+        }}
+        .poem-grid-row {{
+          border-top: 1px solid rgba(127, 127, 127, 0.18);
+          font-size: 0.78rem;
+          line-height: 1.45;
+        }}
+        .poem-grid-row > div:nth-child(3),
+        .poem-grid-row > div:nth-child(4),
+        .poem-grid-row > div:nth-child(5) {{
+          text-align: center;
+        }}
+        .poem-grid-text {{
+          white-space: normal;
+          word-break: break-word;
+        }}
+        </style>
+        <div class="poem-grid">
+          <div class="poem-grid-header">
+            <div>题目</div><div>作者</div><div>言</div>
+            <div>句</div><div>字数</div><div>正文</div>
+          </div>
+          {rows}
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
 
 with st.sidebar:
