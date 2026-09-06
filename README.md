@@ -4,14 +4,15 @@ A Streamlit dashboard for exploring the bundled 唐诗三百首 dataset.
 
 ## Dashboard
 
-- Global filtering by author, tag, poem length, and body text
-- Corpus metrics for poems, authors, tags, Han-character count, and average length
-- Top-author and poem-length charts
-- Tag filtering and character-frequency analysis
+- Global filtering by author, format, and body text
+- Corpus metrics for poems, authors, and Han-character count
+- Top-author poem-count chart with full-list expansion
+- Character-frequency analysis
 - Sentence-count, line-length, structure, and format-combination analysis
+- Dedicated format-distribution tab
 - Clickable chart drill-downs that open matching poems in a modal
 - Interactive poem catalog and reader
-- Duplicate-text, repeated-title, and missing-tag quality checks
+- Duplicate-text and repeated-title quality checks
 
 ## Run locally
 

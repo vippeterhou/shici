@@ -54,11 +54,15 @@ def filter_poems(
     *,
     authors: Iterable[str] = (),
     tags: Iterable[str] = (),
+    line_types: Iterable[str] = (),
+    sentence_counts: Iterable[int] = (),
     length_range: tuple[int, int] | None = None,
     text_query: str = "",
 ) -> list[Poem]:
     author_filter = set(authors)
     tag_filter = set(tags)
+    line_type_filter = set(line_types)
+    sentence_count_filter = set(sentence_counts)
     normalized_query = text_query.strip().casefold()
     filtered: list[Poem] = []
 
@@ -66,6 +70,13 @@ def filter_poems(
         if author_filter and poem.author not in author_filter:
             continue
         if tag_filter and not tag_filter.intersection(poem.tags):
+            continue
+        if line_type_filter and line_length_type(poem) not in line_type_filter:
+            continue
+        if (
+            sentence_count_filter
+            and poem.format.sentence_count not in sentence_count_filter
+        ):
             continue
 
         length = poem_character_count(poem)

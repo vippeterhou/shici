@@ -102,6 +102,13 @@ def test_filters_across_dashboard_dimensions() -> None:
     assert len(filter_poems(POEMS, tags=["黃河"])) == 2
     assert len(filter_poems(POEMS, text_query="入海")) == 2
     assert filter_poems(POEMS, text_query="李白") == []
+    assert filter_poems(POEMS, line_types=["七言"]) == [POEMS[0]]
+    assert filter_poems(POEMS, sentence_counts=[2]) == list(POEMS[1:])
+    assert filter_poems(
+        POEMS,
+        line_types=["五言"],
+        sentence_counts=[2],
+    ) == list(POEMS[1:])
 
 
 def test_analytics_counts_and_distribution() -> None:

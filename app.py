@@ -15,11 +15,9 @@ from poetry.analytics import (
     duplicate_text_groups,
     filter_poems,
     format_combination_counts,
-    length_distribution,
     line_length_type_counts,
     poem_character_count,
     poems_containing_character,
-    poems_in_length_bucket,
     poems_with_format_combination,
     poems_with_line_length_type,
     poems_with_sentence_count,
@@ -35,6 +33,7 @@ from poetry.models import Poem
 
 DATA_PATH = Path(__file__).parent / "data" / "tangshisanbaishou.json"
 DATA_SCHEMA_VERSION = 2
+AUTHOR_PREVIEW_LIMIT = 20
 
 st.set_page_config(
     page_title="唐诗三百首数据仪表板",
@@ -57,9 +56,9 @@ poems = load_poems(
     DATA_PATH.stat().st_mtime_ns,
     DATA_SCHEMA_VERSION,
 )
-all_lengths = [poem_character_count(poem) for poem in poems]
 all_authors = sorted({poem.author for poem in poems})
-all_tags = sorted({tag for poem in poems for tag in poem.tags})
+all_line_types = [name for name, _ in line_length_type_counts(poems)]
+all_sentence_counts = sorted({poem.format.sentence_count for poem in poems})
 
 
 def selected_chart_record(
@@ -177,131 +176,45 @@ def render_poem_collection(
 with st.sidebar:
     st.header("筛选")
     selected_authors = st.multiselect("作者", all_authors)
-    selected_tags = st.multiselect("标签（符合任一）", all_tags)
-    selected_length = st.slider(
-        "篇幅（字数）",
-        min_value=min(all_lengths),
-        max_value=max(all_lengths),
-        value=(min(all_lengths), max(all_lengths)),
-    )
+    with st.expander("格式", expanded=True):
+        selected_line_types = st.multiselect("言", all_line_types)
+        selected_sentence_counts = st.multiselect(
+            "句数",
+            all_sentence_counts,
+        )
     text_query = st.text_input("正文包含", placeholder="例如：明月")
     st.caption("所有图表和表格会随筛选条件同步更新。")
 
 filtered_poems = filter_poems(
     poems,
     authors=selected_authors,
-    tags=selected_tags,
-    length_range=selected_length,
+    line_types=selected_line_types,
+    sentence_counts=selected_sentence_counts,
     text_query=text_query,
 )
 summary = summarize(filtered_poems)
 
 st.title("唐诗三百首数据仪表板")
-st.caption("探索作者、标签、篇幅、常用字与数据质量")
+st.caption("探索作者、格式、常用字与数据质量")
 
-metric_columns = st.columns(5)
+metric_columns = st.columns(3)
 metric_columns[0].metric("诗作", f"{summary.poem_count:,}")
 metric_columns[1].metric("作者", f"{summary.author_count:,}")
-metric_columns[2].metric("标签", f"{summary.tag_count:,}")
-metric_columns[3].metric("总字数", f"{summary.character_count:,}")
-metric_columns[4].metric("平均篇幅", f"{summary.average_characters:.1f}")
+metric_columns[2].metric("总字数", f"{summary.character_count:,}")
 
 if not filtered_poems:
     st.warning("目前的筛选条件没有符合的诗作。")
     st.stop()
 
-overview_tab, characters_tab, explorer_tab, quality_tab = st.tabs(
-    ["总览", "常用字", "诗作浏览", "数据质量"]
+overview_tab, format_tab, characters_tab, explorer_tab, quality_tab = st.tabs(
+    ["总览", "格式分布", "常用字", "诗作浏览", "数据质量"]
 )
 
-with overview_tab:
-    author_column, length_column = st.columns(2)
-
-    with author_column:
-        st.subheader("作品最多的作者")
-        author_data = pd.DataFrame(
-            author_counts(filtered_poems)[:15],
-            columns=["作者", "诗作数"],
-        )
-        author_selection = alt.selection_point(
-            name="author_selection",
-            fields=["作者"],
-            clear="dblclick",
-        )
-        author_chart = (
-            alt.Chart(author_data)
-            .mark_bar()
-            .encode(
-                x=alt.X(
-                    "诗作数:Q",
-                    title="诗作数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                ),
-                y=alt.Y("作者:N", title=None, sort="-x"),
-                tooltip=["作者:N", "诗作数:Q"],
-                opacity=alt.condition(author_selection, alt.value(1), alt.value(0.55)),
-            )
-            .add_params(author_selection)
-            .properties(height=430)
-        )
-        st.altair_chart(
-            author_chart,
-            use_container_width=True,
-            key="author-chart",
-            on_select=partial(
-                activate_chart_drilldown,
-                "author-chart",
-                "author_selection",
-                "author",
-            ),
-            selection_mode="author_selection",
-        )
-
-    with length_column:
-        st.subheader("篇幅分布")
-        length_data = pd.DataFrame(
-            length_distribution(filtered_poems),
-            columns=["字数范围", "诗作数"],
-        )
-        length_selection = alt.selection_point(
-            name="length_selection",
-            fields=["字数范围"],
-            clear="dblclick",
-        )
-        length_chart = (
-            alt.Chart(length_data)
-            .mark_bar()
-            .encode(
-                x=alt.X("字数范围:N", title="字数范围", sort=None),
-                y=alt.Y(
-                    "诗作数:Q",
-                    title="诗作数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                ),
-                tooltip=["字数范围:N", "诗作数:Q"],
-                opacity=alt.condition(length_selection, alt.value(1), alt.value(0.55)),
-            )
-            .add_params(length_selection)
-            .properties(height=430)
-        )
-        st.altair_chart(
-            length_chart,
-            use_container_width=True,
-            key="length-chart",
-            on_select=partial(
-                activate_chart_drilldown,
-                "length-chart",
-                "length_selection",
-                "length",
-            ),
-            selection_mode="length_selection",
-        )
-
-    st.divider()
-    st.subheader("格式分析")
+with format_tab:
+    st.subheader("格式分布")
     st.caption("点击柱形或热力图单元格查看对应的全部诗作。")
 
-    sentence_column, line_type_column = st.columns(2)
+    sentence_column, combination_column = st.columns([2, 3])
 
     with sentence_column:
         st.markdown("#### 句数分布")
@@ -346,52 +259,6 @@ with overview_tab:
             ),
             selection_mode="sentence_selection",
         )
-
-    with line_type_column:
-        st.markdown("#### 每句字数类型")
-        line_type_data = pd.DataFrame(
-            line_length_type_counts(filtered_poems),
-            columns=["类型", "诗作数"],
-        )
-        line_type_selection = alt.selection_point(
-            name="line_type_selection",
-            fields=["类型"],
-            clear="dblclick",
-        )
-        line_type_chart = (
-            alt.Chart(line_type_data)
-            .mark_bar()
-            .encode(
-                x=alt.X(
-                    "诗作数:Q",
-                    title="诗作数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                ),
-                y=alt.Y("类型:N", title=None, sort="-x"),
-                tooltip=["类型:N", "诗作数:Q"],
-                opacity=alt.condition(
-                    line_type_selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
-            )
-            .add_params(line_type_selection)
-            .properties(height=330)
-        )
-        st.altair_chart(
-            line_type_chart,
-            use_container_width=True,
-            key="line-type-chart",
-            on_select=partial(
-                activate_chart_drilldown,
-                "line-type-chart",
-                "line_type_selection",
-                "line_type",
-            ),
-            selection_mode="line_type_selection",
-        )
-
-    combination_column, structure_column = st.columns([3, 2])
 
     with combination_column:
         st.markdown("#### 句数 × 每句字数类型")
@@ -444,8 +311,55 @@ with overview_tab:
             selection_mode="combination_selection",
         )
 
+with overview_tab:
+    line_type_column, structure_column = st.columns(2)
+
+    with line_type_column:
+        st.subheader("每句字数类型")
+        line_type_data = pd.DataFrame(
+            line_length_type_counts(filtered_poems),
+            columns=["类型", "诗作数"],
+        )
+        line_type_selection = alt.selection_point(
+            name="line_type_selection",
+            fields=["类型"],
+            clear="dblclick",
+        )
+        line_type_chart = (
+            alt.Chart(line_type_data)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "诗作数:Q",
+                    title="诗作数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                y=alt.Y("类型:N", title=None, sort="-x"),
+                tooltip=["类型:N", "诗作数:Q"],
+                opacity=alt.condition(
+                    line_type_selection,
+                    alt.value(1),
+                    alt.value(0.55),
+                ),
+            )
+            .add_params(line_type_selection)
+            .properties(height=330)
+        )
+        st.altair_chart(
+            line_type_chart,
+            use_container_width=True,
+            key="line-type-chart",
+            on_select=partial(
+                activate_chart_drilldown,
+                "line-type-chart",
+                "line_type_selection",
+                "line_type",
+            ),
+            selection_mode="line_type_selection",
+        )
+
     with structure_column:
-        st.markdown("#### 结构类型")
+        st.subheader("结构类型")
         structure_data = pd.DataFrame(
             structure_type_counts(filtered_poems),
             columns=["结构类型", "诗作数"],
@@ -477,7 +391,7 @@ with overview_tab:
                 ),
             )
             .add_params(structure_selection)
-            .properties(height=420)
+            .properties(height=330)
         )
         st.altair_chart(
             structure_chart,
@@ -491,6 +405,63 @@ with overview_tab:
             ),
             selection_mode="structure_selection",
         )
+
+    st.divider()
+    st.subheader("作者诗词数量")
+    all_author_counts = author_counts(filtered_poems)
+    show_all_authors = st.toggle(
+        f"显示全部作者（{len(all_author_counts)} 位）",
+        value=False,
+    )
+    visible_author_counts = (
+        all_author_counts
+        if show_all_authors
+        else all_author_counts[:AUTHOR_PREVIEW_LIMIT]
+    )
+    author_data = pd.DataFrame(
+        visible_author_counts,
+        columns=["作者", "诗作数"],
+    )
+    author_selection = alt.selection_point(
+        name="author_selection",
+        fields=["作者"],
+        clear="dblclick",
+    )
+    author_chart = (
+        alt.Chart(author_data)
+        .mark_bar()
+        .encode(
+            x=alt.X(
+                "诗作数:Q",
+                title="诗作数",
+                scale=alt.Scale(domainMin=0, nice=True),
+            ),
+            y=alt.Y(
+                "作者:N",
+                title=None,
+                sort="-x",
+                axis=alt.Axis(labelOverlap=False),
+            ),
+            tooltip=["作者:N", "诗作数:Q"],
+            opacity=alt.condition(author_selection, alt.value(1), alt.value(0.55)),
+        )
+        .add_params(author_selection)
+        .properties(height=max(430, len(author_data) * 22))
+    )
+    st.altair_chart(
+        author_chart,
+        use_container_width=True,
+        key="author-chart",
+        on_select=partial(
+            activate_chart_drilldown,
+            "author-chart",
+            "author_selection",
+            "author",
+        ),
+        selection_mode="author_selection",
+    )
+    if not show_all_authors and len(all_author_counts) > len(visible_author_counts):
+        st.caption(f"当前显示前 {len(visible_author_counts)} 位作者。")
 
 with characters_tab:
     st.subheader("正文常用字")
@@ -553,9 +524,8 @@ with explorer_tab:
         {
             "题目": poem.title,
             "作者": poem.author,
-            "篇幅": poem_character_count(poem),
+            "字数": poem_character_count(poem),
             "段落": len(poem.paragraphs),
-            "标签数": len(poem.tags),
         }
         for poem in filtered_poems
     ]
@@ -579,8 +549,7 @@ with explorer_tab:
             st.write(paragraph)
     with metadata_column:
         st.markdown(f"**作者**  \n{selected_poem.author}")
-        st.markdown(f"**篇幅**  \n{poem_character_count(selected_poem)} 字")
-        st.markdown(f"**标签**  \n{'、'.join(selected_poem.tags) or '无'}")
+        st.markdown(f"**字数**  \n{poem_character_count(selected_poem)}")
 
 with quality_tab:
     duplicates = duplicate_text_groups(filtered_poems)
@@ -589,12 +558,9 @@ with quality_tab:
         for title, count in title_counts(filtered_poems)
         if count > 1
     ]
-    missing_tags = sum(not poem.tags for poem in filtered_poems)
-
-    quality_metrics = st.columns(3)
+    quality_metrics = st.columns(2)
     quality_metrics[0].metric("完全相同正文组", len(duplicates))
     quality_metrics[1].metric("重复题目", len(repeated_titles))
-    quality_metrics[2].metric("无标签诗作", missing_tags)
 
     duplicate_column, title_column = st.columns(2)
     with duplicate_column:
@@ -639,10 +605,6 @@ if active_drilldown:
         drilldown_poems = [
             poem for poem in filtered_poems if poem.author == drilldown_value
         ]
-    elif drilldown_kind == "length":
-        drilldown_value = str(drilldown_selection["字数范围"])
-        drilldown_heading = f"{drilldown_value} 字"
-        drilldown_poems = poems_in_length_bucket(filtered_poems, drilldown_value)
     elif drilldown_kind == "character":
         drilldown_value = str(drilldown_selection["字"])
         drilldown_heading = f"包含「{drilldown_value}」"
@@ -673,13 +635,16 @@ if active_drilldown:
             sentence_count,
             line_type,
         )
-    else:
+    elif drilldown_kind == "structure":
         selected_structure_type = str(drilldown_selection["结构类型"])
         drilldown_heading = selected_structure_type
         drilldown_poems = poems_with_structure_type(
             filtered_poems,
             selected_structure_type,
         )
+    else:
+        drilldown_heading = ""
+        drilldown_poems = []
 
     if drilldown_poems:
         render_poem_collection(
