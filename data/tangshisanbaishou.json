@@ -14,7 +14,12 @@
       "五言律诗"
     ],
     "title": "在嶽詠蟬",
-    "id": "c65539db-4e2b-4ce4-a22b-563b6ef3f4f1"
+    "id": "c65539db-4e2b-4ce4-a22b-563b6ef3f4f1",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "陳子昂",
@@ -31,7 +36,12 @@
       "七言古诗"
     ],
     "title": "登幽州臺歌",
-    "id": "c244a5b4-0ed0-48fe-8694-95309acac184"
+    "id": "c244a5b4-0ed0-48fe-8694-95309acac184",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 6, 6],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "明皇帝",
@@ -48,7 +58,12 @@
       "五言律诗"
     ],
     "title": "經鄒魯祭孔子而歎之",
-    "id": "a1824eb8-4e2e-4d53-9a33-e1dcfe7d1c73"
+    "id": "a1824eb8-4e2e-4d53-9a33-e1dcfe7d1c73",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -79,7 +94,12 @@
       "咏物诗"
     ],
     "title": "鼓吹曲辭 將進酒",
-    "id": "0f7504df-cda2-4fe2-bc63-867ec2e418e7"
+    "id": "0f7504df-cda2-4fe2-bc63-867ec2e418e7",
+    "format": {
+      "sentence_count": 28,
+      "sentence_lengths": [10, 7, 10, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "王昌齡",
@@ -98,7 +118,12 @@
       "边塞"
     ],
     "title": "橫吹曲辭 出塞 一",
-    "id": "2d0385e7-0c72-423f-a538-f66acc9d4c46"
+    "id": "2d0385e7-0c72-423f-a538-f66acc9d4c46",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王之渙",
@@ -116,7 +141,12 @@
       "将士"
     ],
     "title": "橫吹曲辭 出塞",
-    "id": "bcdf6f13-4cb9-418f-9279-c690522e0a27"
+    "id": "bcdf6f13-4cb9-418f-9279-c690522e0a27",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -140,7 +170,12 @@
       "征人"
     ],
     "title": "橫吹曲辭 關山月",
-    "id": "0167687e-8325-48bf-8da4-3749c9ce0a74"
+    "id": "0167687e-8325-48bf-8da4-3749c9ce0a74",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王建",
@@ -156,7 +191,12 @@
       "生活"
     ],
     "title": "新嫁娘詞三首 三",
-    "id": "efaaa86e-5628-40d3-a137-1ae8fcbe41b8"
+    "id": "efaaa86e-5628-40d3-a137-1ae8fcbe41b8",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王建",
@@ -172,7 +212,12 @@
       "五言绝句"
     ],
     "title": "故行宮",
-    "id": "a6c85d29-ad02-4f54-a347-63800213a7b4"
+    "id": "a6c85d29-ad02-4f54-a347-63800213a7b4",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -190,7 +235,12 @@
       "爱情"
     ],
     "title": "錦瑟",
-    "id": "e0eb3016-9288-4dc0-9257-3de36e5ad73c"
+    "id": "e0eb3016-9288-4dc0-9257-3de36e5ad73c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -207,7 +257,12 @@
       "五言律诗"
     ],
     "title": "蟬",
-    "id": "b3de619f-cc8b-457d-942b-49f06651aba4"
+    "id": "b3de619f-cc8b-457d-942b-49f06651aba4",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -221,7 +276,12 @@
       "哲理"
     ],
     "title": "樂遊原",
-    "id": "d7c6d072-6e84-482e-856a-5a4c21226a3c"
+    "id": "d7c6d072-6e84-482e-856a-5a4c21226a3c",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -244,7 +304,12 @@
       "七年级上册(课外)"
     ],
     "title": "夜雨寄北",
-    "id": "75db753d-e7da-48a1-a6c0-6ed9147e58db"
+    "id": "75db753d-e7da-48a1-a6c0-6ed9147e58db",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -283,7 +348,12 @@
       "咏史"
     ],
     "title": "韓碑",
-    "id": "0d2c5fba-d350-4c3f-b55e-72a491a84df6"
+    "id": "0d2c5fba-d350-4c3f-b55e-72a491a84df6",
+    "format": {
+      "sentence_count": 52,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 9],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李商隱",
@@ -300,7 +370,12 @@
       "怀才不遇"
     ],
     "title": "風雨",
-    "id": "d32a2610-09d7-49ad-8cdf-dd9c649144c7"
+    "id": "d32a2610-09d7-49ad-8cdf-dd9c649144c7",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -316,7 +391,12 @@
       "友情"
     ],
     "title": "寄令狐郎中",
-    "id": "fb376b71-91c6-44ee-b2e4-40f5b3f71b8f"
+    "id": "fb376b71-91c6-44ee-b2e4-40f5b3f71b8f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -334,7 +414,12 @@
       "咏史"
     ],
     "title": "隋宮",
-    "id": "670009c2-a701-4140-aa31-b4973f76d632"
+    "id": "670009c2-a701-4140-aa31-b4973f76d632",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -353,7 +438,12 @@
       "咏史怀古"
     ],
     "title": "籌筆驛",
-    "id": "131c9f87-273f-4684-9b67-bd7b58ad4008"
+    "id": "131c9f87-273f-4684-9b67-bd7b58ad4008",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -373,7 +463,12 @@
       "组诗"
     ],
     "title": "無題二首 一",
-    "id": "3410e7ce-df3a-4ab8-bea3-7f681661b240"
+    "id": "3410e7ce-df3a-4ab8-bea3-7f681661b240",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -391,7 +486,12 @@
       "爱情"
     ],
     "title": "無題四首 一",
-    "id": "7377e34a-1aab-47e3-a6dd-376c98a5d6b7"
+    "id": "7377e34a-1aab-47e3-a6dd-376c98a5d6b7",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -409,7 +509,12 @@
       "七言律诗"
     ],
     "title": "無題四首 二",
-    "id": "811a5f9e-0df5-46f1-a587-0d4df7bca5a0"
+    "id": "811a5f9e-0df5-46f1-a587-0d4df7bca5a0",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -424,7 +529,12 @@
       "讽刺"
     ],
     "title": "隋宮",
-    "id": "91f95b30-c42f-470a-9df8-dd6284fca474"
+    "id": "91f95b30-c42f-470a-9df8-dd6284fca474",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -444,7 +554,12 @@
       "咏物诗"
     ],
     "title": "落花",
-    "id": "da157c27-d317-4205-9cdc-a254445659fc"
+    "id": "da157c27-d317-4205-9cdc-a254445659fc",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -458,7 +573,12 @@
       "怨情"
     ],
     "title": "爲有",
-    "id": "974914ee-1fc0-4952-a863-820bad2e4065"
+    "id": "974914ee-1fc0-4952-a863-820bad2e4065",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -477,7 +597,12 @@
       "爱情"
     ],
     "title": "無題",
-    "id": "ed79f9bc-d5d1-4251-b22d-d091e0758a3f"
+    "id": "ed79f9bc-d5d1-4251-b22d-d091e0758a3f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -492,7 +617,12 @@
       "讽刺"
     ],
     "title": "瑤池",
-    "id": "2161a569-6250-4886-9500-2168821b62be"
+    "id": "2161a569-6250-4886-9500-2168821b62be",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -510,7 +640,12 @@
       "雨"
     ],
     "title": "春雨",
-    "id": "8331c76b-a250-4d07-9c28-b8a456e0974c"
+    "id": "8331c76b-a250-4d07-9c28-b8a456e0974c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -528,7 +663,12 @@
       "小学古诗"
     ],
     "title": "常娥",
-    "id": "f7c9c409-9571-4eb8-abd9-91ec6c1ff564"
+    "id": "f7c9c409-9571-4eb8-abd9-91ec6c1ff564",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -543,7 +683,12 @@
       "唐诗三百首"
     ],
     "title": "無題二首 一",
-    "id": "e006dfd3-40be-40ef-ba3b-552428931ae3"
+    "id": "e006dfd3-40be-40ef-ba3b-552428931ae3",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -561,7 +706,12 @@
       "爱情"
     ],
     "title": "無題二首 二",
-    "id": "b6475dea-1d69-4f0d-b98a-39393f47741e"
+    "id": "b6475dea-1d69-4f0d-b98a-39393f47741e",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -577,7 +727,12 @@
       "怀才不遇"
     ],
     "title": "賈生",
-    "id": "02456f60-6ab5-4de8-b9ed-f7519818f0ca"
+    "id": "02456f60-6ab5-4de8-b9ed-f7519818f0ca",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李商隱",
@@ -593,7 +748,12 @@
       "五言律诗"
     ],
     "title": "涼思",
-    "id": "15c6cbc9-753a-4f09-86bf-4fe2d8bb1fee"
+    "id": "15c6cbc9-753a-4f09-86bf-4fe2d8bb1fee",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -609,7 +769,12 @@
       "五言律诗"
     ],
     "title": "北青蘿",
-    "id": "9380d4f6-e19d-4ff1-8309-07f4ede69f7c"
+    "id": "9380d4f6-e19d-4ff1-8309-07f4ede69f7c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李商隱",
@@ -628,7 +793,12 @@
       "怀才不遇"
     ],
     "title": "赤壁",
-    "id": "ae660471-84bc-4a58-a438-005b8a99c3c1"
+    "id": "ae660471-84bc-4a58-a438-005b8a99c3c1",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韋莊",
@@ -645,7 +815,12 @@
       "五言律诗"
     ],
     "title": "章臺夜思",
-    "id": "19796737-ec7b-4c33-8df4-a81a7ca2cc10"
+    "id": "19796737-ec7b-4c33-8df4-a81a7ca2cc10",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋莊",
@@ -663,7 +838,12 @@
       "地名"
     ],
     "title": "金陵圖",
-    "id": "4c5b328d-2ab8-4f4d-a0c2-627b6cb0c92b"
+    "id": "4c5b328d-2ab8-4f4d-a0c2-627b6cb0c92b",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韋莊",
@@ -679,7 +859,12 @@
       "咏史怀古"
     ],
     "title": "臺城",
-    "id": "9154fc22-5e19-45b7-a506-435298bb26fc"
+    "id": "9154fc22-5e19-45b7-a506-435298bb26fc",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "薛逢",
@@ -695,7 +880,12 @@
       "七言律诗"
     ],
     "title": "宮詞",
-    "id": "f8d102c4-b25b-412f-afce-35db35c339d9"
+    "id": "f8d102c4-b25b-412f-afce-35db35c339d9",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "馬戴",
@@ -713,7 +903,12 @@
       "怀古"
     ],
     "title": "楚江懷古三首 一",
-    "id": "7456691c-636e-46d7-9093-edc778b0a7ea"
+    "id": "7456691c-636e-46d7-9093-edc778b0a7ea",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "馬戴",
@@ -731,7 +926,12 @@
       "怀才不遇"
     ],
     "title": "灞上秋居",
-    "id": "f2f04c30-149d-4b2b-bce1-1334adf84739"
+    "id": "f2f04c30-149d-4b2b-bce1-1334adf84739",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "鄭畋",
@@ -747,7 +947,12 @@
       "地名"
     ],
     "title": "馬嵬坡",
-    "id": "7e75853a-bf7a-4d8d-b3e9-0537f4ed913a"
+    "id": "7e75853a-bf7a-4d8d-b3e9-0537f4ed913a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張籍",
@@ -763,7 +968,12 @@
       "五言律诗"
     ],
     "title": "沒蕃故人",
-    "id": "5ccd5188-0e5d-450e-8ec5-d6e661fac4f7"
+    "id": "5ccd5188-0e5d-450e-8ec5-d6e661fac4f7",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "金昌緒",
@@ -778,7 +988,12 @@
       "闺怨"
     ],
     "title": "春怨",
-    "id": "b41e25f5-5a57-497f-a3a2-84bdfb9331f5"
+    "id": "b41e25f5-5a57-497f-a3a2-84bdfb9331f5",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "元稹",
@@ -794,7 +1009,12 @@
       "悼亡"
     ],
     "title": "遣悲懷三首 一",
-    "id": "8b57e03d-6d1f-4a4a-ba34-1f58e2551ca1"
+    "id": "8b57e03d-6d1f-4a4a-ba34-1f58e2551ca1",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "元稹",
@@ -812,7 +1032,12 @@
       "七言律诗"
     ],
     "title": "遣悲懷三首 二",
-    "id": "ea3f91f0-487e-4df7-826a-3692ef82e64d"
+    "id": "ea3f91f0-487e-4df7-826a-3692ef82e64d",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "元稹",
@@ -828,7 +1053,12 @@
       "悼亡"
     ],
     "title": "遣悲懷三首 三",
-    "id": "82f57261-b608-4ee9-8d88-7fde20c49a7a"
+    "id": "82f57261-b608-4ee9-8d88-7fde20c49a7a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "元稹",
@@ -844,7 +1074,12 @@
       "五言绝句"
     ],
     "title": "行宮",
-    "id": "02943f6d-2c91-4d9c-9690-247eab9ae3ec"
+    "id": "02943f6d-2c91-4d9c-9690-247eab9ae3ec",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "西鄙人",
@@ -859,7 +1094,12 @@
       "民歌"
     ],
     "title": "哥舒歌",
-    "id": "ac2ec0ba-10b1-4ae3-8859-1e7752625331"
+    "id": "ac2ec0ba-10b1-4ae3-8859-1e7752625331",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "無名氏",
@@ -875,7 +1115,12 @@
       "感伤"
     ],
     "title": "雜詩 十三",
-    "id": "31e9a6b0-5035-4b1b-a9d3-ff1c279f53b6"
+    "id": "31e9a6b0-5035-4b1b-a9d3-ff1c279f53b6",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "沈佺期",
@@ -893,7 +1138,12 @@
       "相思"
     ],
     "title": "雜詩三首 三",
-    "id": "1fb10ea4-f46c-4c08-bd06-f039f1907be6"
+    "id": "1fb10ea4-f46c-4c08-bd06-f039f1907be6",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "沈佺期",
@@ -910,7 +1160,12 @@
       "乐府"
     ],
     "title": "古意呈補闕喬知之",
-    "id": "b9521e2b-963e-4d90-acf3-d87c2a135071"
+    "id": "b9521e2b-963e-4d90-acf3-d87c2a135071",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王灣",
@@ -930,7 +1185,12 @@
       "思乡"
     ],
     "title": "次北固山下",
-    "id": "5bb5c590-5de8-4bfb-aee6-30bc4bcdf99a"
+    "id": "5bb5c590-5de8-4bfb-aee6-30bc4bcdf99a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張旭",
@@ -947,7 +1207,12 @@
       "写水"
     ],
     "title": "桃花谿",
-    "id": "1f28ab03-8388-4a2f-8c4f-3ce47789e221"
+    "id": "1f28ab03-8388-4a2f-8c4f-3ce47789e221",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -964,7 +1229,12 @@
       "送别"
     ],
     "title": "送別",
-    "id": "31cc87f3-da0f-421d-8674-8753530077e2"
+    "id": "31cc87f3-da0f-421d-8674-8753530077e2",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -986,7 +1256,12 @@
       "友情"
     ],
     "title": "送綦毋潛落第還鄉",
-    "id": "56bec3c2-9c0c-4d40-9750-2e28bdc9a20e"
+    "id": "56bec3c2-9c0c-4d40-9750-2e28bdc9a20e",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -1005,7 +1280,12 @@
       "山水"
     ],
     "title": "青谿",
-    "id": "a0576d39-c4ac-4608-a4e2-249b6c31fd1d"
+    "id": "a0576d39-c4ac-4608-a4e2-249b6c31fd1d",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -1023,7 +1303,12 @@
       "田园"
     ],
     "title": "渭川田家",
-    "id": "204e287b-8194-4c2d-808b-11cc260412ae"
+    "id": "204e287b-8194-4c2d-808b-11cc260412ae",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -1045,7 +1330,12 @@
       "怀才不遇"
     ],
     "title": "西施詠",
-    "id": "4d6f83e9-8232-4db1-903e-f9e619df5ecb"
+    "id": "4d6f83e9-8232-4db1-903e-f9e619df5ecb",
+    "format": {
+      "sentence_count": 14,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -1074,7 +1364,12 @@
       "赞颂"
     ],
     "title": "老將行",
-    "id": "d5d66aff-b6ae-48cc-9160-16b096d4ea49"
+    "id": "d5d66aff-b6ae-48cc-9160-16b096d4ea49",
+    "format": {
+      "sentence_count": 30,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -1104,7 +1399,12 @@
       "水"
     ],
     "title": "桃源行",
-    "id": "3b847cf5-16b1-449d-a436-e5995c6433c4"
+    "id": "3b847cf5-16b1-449d-a436-e5995c6433c4",
+    "format": {
+      "sentence_count": 32,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -1128,7 +1428,12 @@
       "新乐府辞"
     ],
     "title": "洛陽女兒行",
-    "id": "4925c861-b0f8-4b2f-923e-9cba2df1323e"
+    "id": "4925c861-b0f8-4b2f-923e-9cba2df1323e",
+    "format": {
+      "sentence_count": 20,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -1146,7 +1451,12 @@
       "五言律诗"
     ],
     "title": "輞川閑居贈裴秀才迪",
-    "id": "a2b4e8ca-92e3-4101-8a54-739b8f1d8184"
+    "id": "a2b4e8ca-92e3-4101-8a54-739b8f1d8184",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -1164,7 +1474,12 @@
       "五言律诗"
     ],
     "title": "酬張少府",
-    "id": "65e9c24b-bdbd-4ef9-9e14-012c8fde79b8"
+    "id": "65e9c24b-bdbd-4ef9-9e14-012c8fde79b8",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -1181,7 +1496,12 @@
       "五言律诗"
     ],
     "title": "送梓州李使君",
-    "id": "263b4a33-fd51-47e1-b49a-d84dd99a2e0f"
+    "id": "263b4a33-fd51-47e1-b49a-d84dd99a2e0f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "權德輿",
@@ -1196,7 +1516,12 @@
       "女子"
     ],
     "title": "玉臺體十二首 十一",
-    "id": "9a5070c8-8b6a-46d3-a976-ce942baf42e7"
+    "id": "9a5070c8-8b6a-46d3-a976-ce942baf42e7",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韓愈",
@@ -1220,7 +1545,12 @@
       "七言古诗"
     ],
     "title": "山石",
-    "id": "e73e2743-3752-4ba3-938a-fb59cd3965ee"
+    "id": "e73e2743-3752-4ba3-938a-fb59cd3965ee",
+    "format": {
+      "sentence_count": 20,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韓愈",
@@ -1248,7 +1578,12 @@
       "饮酒"
     ],
     "title": "八月十五夜贈張功曹",
-    "id": "88e98bed-27fa-4dbe-8d6e-e7cb8c3e4d97"
+    "id": "88e98bed-27fa-4dbe-8d6e-e7cb8c3e4d97",
+    "format": {
+      "sentence_count": 26,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韓愈",
@@ -1277,7 +1612,12 @@
       "寺庙"
     ],
     "title": "謁衡嶽廟遂宿嶽寺題門樓",
-    "id": "14ae27a0-2641-41e6-8c0a-60a9185f8b6d"
+    "id": "14ae27a0-2641-41e6-8c0a-60a9185f8b6d",
+    "format": {
+      "sentence_count": 32,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韓偓",
@@ -1293,7 +1633,12 @@
       "婉约"
     ],
     "title": "已涼",
-    "id": "1deac6d5-6da0-4d9f-a182-2f0697cbb932"
+    "id": "1deac6d5-6da0-4d9f-a182-2f0697cbb932",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜荀鶴",
@@ -1312,7 +1657,12 @@
       "五言律诗"
     ],
     "title": "春宮怨",
-    "id": "8eaf97fd-82bb-4651-9dde-9a5a6f78182c"
+    "id": "8eaf97fd-82bb-4651-9dde-9a5a6f78182c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "朱慶餘",
@@ -1327,7 +1677,12 @@
       "考试"
     ],
     "title": "近試上張籍水部",
-    "id": "27ff54ab-4861-43d8-b3c1-69113d2e4e10"
+    "id": "27ff54ab-4861-43d8-b3c1-69113d2e4e10",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1341,7 +1696,12 @@
       "爱国"
     ],
     "title": "將赴吳興登樂遊原一絕",
-    "id": "24ca9268-9cbd-423b-b423-12e1a9aa9041"
+    "id": "24ca9268-9cbd-423b-b423-12e1a9aa9041",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1360,7 +1720,12 @@
       "怀才不遇"
     ],
     "title": "赤壁",
-    "id": "7c93c162-d424-4d91-b71b-7c9b81713b8c"
+    "id": "7c93c162-d424-4d91-b71b-7c9b81713b8c",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1380,7 +1745,12 @@
       "七年级上册(课外)"
     ],
     "title": "泊秦淮",
-    "id": "8de30193-fba7-4aef-9ff9-c3726a22104d"
+    "id": "8de30193-fba7-4aef-9ff9-c3726a22104d",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1392,7 +1762,12 @@
       "唐诗三百首"
     ],
     "title": "贈別二首 一",
-    "id": "54008cd0-f9bf-424f-bc55-f15c1e9025f3"
+    "id": "54008cd0-f9bf-424f-bc55-f15c1e9025f3",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1407,7 +1782,12 @@
       "惜别"
     ],
     "title": "贈別二首 二",
-    "id": "a7f425de-143b-493d-bb51-13e27c68e871"
+    "id": "a7f425de-143b-493d-bb51-13e27c68e871",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1421,7 +1801,12 @@
       "抒怀"
     ],
     "title": "遣懷",
-    "id": "92ae04dc-89af-45d6-9e31-204a01df801d"
+    "id": "92ae04dc-89af-45d6-9e31-204a01df801d",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1433,7 +1818,12 @@
       "唐诗三百首"
     ],
     "title": "秋夕",
-    "id": "d12edd29-d467-4b19-b3f5-533fa5c8d56a"
+    "id": "d12edd29-d467-4b19-b3f5-533fa5c8d56a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1447,7 +1837,12 @@
       "怀古"
     ],
     "title": "金谷園",
-    "id": "80159919-0b66-4956-a563-ef9bcf6a05c0"
+    "id": "80159919-0b66-4956-a563-ef9bcf6a05c0",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜牧",
@@ -1464,7 +1859,12 @@
       "五言律诗"
     ],
     "title": "旅宿",
-    "id": "200fe9fa-0221-4123-86de-4d63ce9d3daf"
+    "id": "200fe9fa-0221-4123-86de-4d63ce9d3daf",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "許渾",
@@ -1481,7 +1881,12 @@
       "五言律诗"
     ],
     "title": "早秋三首 一",
-    "id": "fedb06cc-37da-4aaf-8f39-85ebcb08b947"
+    "id": "fedb06cc-37da-4aaf-8f39-85ebcb08b947",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "許渾",
@@ -1498,7 +1903,12 @@
       "五言律诗"
     ],
     "title": "秋日赴闕題潼關驛樓",
-    "id": "292c14cd-151f-4321-a94c-46fc86693eb3"
+    "id": "292c14cd-151f-4321-a94c-46fc86693eb3",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張泌",
@@ -1514,7 +1924,12 @@
       "爱情"
     ],
     "title": "寄人 一",
-    "id": "afc2e6d6-e67f-4513-a6ab-82841d2f97cc"
+    "id": "afc2e6d6-e67f-4513-a6ab-82841d2f97cc",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "陳陶",
@@ -1531,7 +1946,12 @@
       "七言绝句"
     ],
     "title": "隴西行四首 二",
-    "id": "fde30eaa-9b2c-47ce-ba49-c1356353ac9a"
+    "id": "fde30eaa-9b2c-47ce-ba49-c1356353ac9a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "釋明辯",
@@ -1546,7 +1966,12 @@
       "唐诗三百首"
     ],
     "title": "頌古三十二首  其二三",
-    "id": "228c87f2-092b-411b-9029-c5454cc2cb1c"
+    "id": "228c87f2-092b-411b-9029-c5454cc2cb1c",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "白居易",
@@ -1560,7 +1985,12 @@
       "宫怨"
     ],
     "title": "後宮詞",
-    "id": "549a5a94-a8f5-436e-bc9c-1253d01c1940"
+    "id": "549a5a94-a8f5-436e-bc9c-1253d01c1940",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李益",
@@ -1576,7 +2006,12 @@
       "五言律诗"
     ],
     "title": "喜見外弟又言別",
-    "id": "d755f74b-18fd-44d1-a6e1-43e77490bb09"
+    "id": "d755f74b-18fd-44d1-a6e1-43e77490bb09",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李益",
@@ -1590,7 +2025,12 @@
       "乐府"
     ],
     "title": "江南詞",
-    "id": "9bd49546-5289-4351-97f4-d69296720dfc"
+    "id": "9bd49546-5289-4351-97f4-d69296720dfc",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李益",
@@ -1608,7 +2048,12 @@
       "月亮"
     ],
     "title": "夜上受降城聞笛",
-    "id": "992df222-c445-4925-a656-0caa4447d5bb"
+    "id": "992df222-c445-4925-a656-0caa4447d5bb",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李端",
@@ -1622,7 +2067,12 @@
       "音乐"
     ],
     "title": "聽箏",
-    "id": "7f3799de-78b4-49bc-b6d8-a5fa3ecacd33"
+    "id": "7f3799de-78b4-49bc-b6d8-a5fa3ecacd33",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "司空曙",
@@ -1639,7 +2089,12 @@
       "五言律诗"
     ],
     "title": "賊平後送人北歸",
-    "id": "4c745990-657a-41fe-ba2c-d9cf371ca563"
+    "id": "4c745990-657a-41fe-ba2c-d9cf371ca563",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "司空曙",
@@ -1656,7 +2111,12 @@
       "惜别"
     ],
     "title": "雲陽館與韓紳宿別",
-    "id": "3138fe30-6cf6-45b0-a441-2d5398107a9a"
+    "id": "3138fe30-6cf6-45b0-a441-2d5398107a9a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "司空曙",
@@ -1673,7 +2133,12 @@
       "年老"
     ],
     "title": "喜外弟盧綸見宿",
-    "id": "f0cd6afd-c89d-4fc3-b214-bcbf63042e8e"
+    "id": "f0cd6afd-c89d-4fc3-b214-bcbf63042e8e",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1688,7 +2153,12 @@
       "五言绝句"
     ],
     "title": "聽彈琴",
-    "id": "72aab9ef-65a9-4a8a-b36b-61932c09ce85"
+    "id": "72aab9ef-65a9-4a8a-b36b-61932c09ce85",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1702,7 +2172,12 @@
       "五言绝句"
     ],
     "title": "送方外上人",
-    "id": "c26445b5-a433-4cd7-9020-435866b845f9"
+    "id": "c26445b5-a433-4cd7-9020-435866b845f9",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1721,7 +2196,12 @@
       "七年级下册(课外)"
     ],
     "title": "送靈澈上人",
-    "id": "a746d1f0-a72c-44d2-8b1c-c5c990749257"
+    "id": "a746d1f0-a72c-44d2-8b1c-c5c990749257",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1738,7 +2218,12 @@
       "思乡"
     ],
     "title": "新年作",
-    "id": "6556f501-f5b9-4353-bde2-75ec0e1bb616"
+    "id": "6556f501-f5b9-4353-bde2-75ec0e1bb616",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1756,7 +2241,12 @@
       "五言律诗"
     ],
     "title": "秋日登吳公臺上寺遠眺寺即陳將吳明徹戰場",
-    "id": "fdc07d9f-95b8-45f7-b1b3-9d272b3416a4"
+    "id": "fdc07d9f-95b8-45f7-b1b3-9d272b3416a4",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1772,7 +2262,12 @@
       "五言律诗"
     ],
     "title": "尋南溪常山道人隱居",
-    "id": "04af557e-bac8-4fbf-92e7-d8a87fa11038"
+    "id": "04af557e-bac8-4fbf-92e7-d8a87fa11038",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1790,7 +2285,12 @@
       "五言律诗"
     ],
     "title": "餞別王十一南遊",
-    "id": "1487452b-5f49-4f4f-9913-1f3ec1cddf95"
+    "id": "1487452b-5f49-4f4f-9913-1f3ec1cddf95",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉長卿",
@@ -1806,7 +2306,12 @@
       "七言律诗"
     ],
     "title": "江州重別薛六柳八二員外",
-    "id": "d9dd3520-9aab-4b1b-bd57-810f29391667"
+    "id": "d9dd3520-9aab-4b1b-bd57-810f29391667",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉長卿",
@@ -1824,7 +2329,12 @@
       "七言律诗"
     ],
     "title": "長沙過賈誼宅",
-    "id": "8cefa67f-2b9a-4e13-8158-4d38cbfb331b"
+    "id": "8cefa67f-2b9a-4e13-8158-4d38cbfb331b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉長卿",
@@ -1842,7 +2352,12 @@
       "触景感怀"
     ],
     "title": "自夏口至鸚鵡洲夕望岳陽寄源中丞",
-    "id": "3f049d66-1513-407f-bb4e-cf25a7b5069a"
+    "id": "3f049d66-1513-407f-bb4e-cf25a7b5069a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉長卿",
@@ -1861,7 +2376,12 @@
       "闺怨"
     ],
     "title": "賦得",
-    "id": "41d292d2-b752-4c30-8b6b-7b7380f2f9bd"
+    "id": "41d292d2-b752-4c30-8b6b-7b7380f2f9bd",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "崔曙",
@@ -1879,7 +2399,12 @@
       "重阳节"
     ],
     "title": "九日登望仙臺呈劉明府容",
-    "id": "1c1d545e-07a1-46a9-bb76-b7473c1fde43"
+    "id": "1c1d545e-07a1-46a9-bb76-b7473c1fde43",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王翰",
@@ -1896,7 +2421,12 @@
       "七言绝句"
     ],
     "title": "涼州詞二首 一",
-    "id": "0445f296-5816-4ab9-a617-7d8ed29088ea"
+    "id": "0445f296-5816-4ab9-a617-7d8ed29088ea",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "孟浩然",
@@ -1917,7 +2447,12 @@
       "怀人"
     ],
     "title": "秋登蘭山寄張五",
-    "id": "56ca5b29-4bb9-4f12-9200-6bc7c72e4e47"
+    "id": "56ca5b29-4bb9-4f12-9200-6bc7c72e4e47",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -1936,7 +2471,12 @@
       "怀人"
     ],
     "title": "夏日南亭懷辛大",
-    "id": "f8afed4e-e8cd-467f-afae-51dc149921f7"
+    "id": "f8afed4e-e8cd-467f-afae-51dc149921f7",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -1952,7 +2492,12 @@
       "写景"
     ],
     "title": "宿業師山房期丁大不至",
-    "id": "3e504df9-b22d-480e-9e7c-9f8ab8591b91"
+    "id": "3e504df9-b22d-480e-9e7c-9f8ab8591b91",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -1969,7 +2514,12 @@
       "七言古诗"
     ],
     "title": "夜歸鹿門山歌",
-    "id": "cc0e7ac3-bde4-4491-8ae5-027106709e72"
+    "id": "cc0e7ac3-bde4-4491-8ae5-027106709e72",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "孟浩然",
@@ -1993,7 +2543,12 @@
       "地名"
     ],
     "title": "望洞庭湖贈張丞相",
-    "id": "6975adab-25d0-40c6-af3a-3a05847e7717"
+    "id": "6975adab-25d0-40c6-af3a-3a05847e7717",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2010,7 +2565,12 @@
       "五言律诗"
     ],
     "title": "秦中感秋寄遠上人",
-    "id": "0613f575-4f07-4326-8591-603fb3d1da45"
+    "id": "0613f575-4f07-4326-8591-603fb3d1da45",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2028,7 +2588,12 @@
       "写水"
     ],
     "title": "宿桐廬江寄廣陵舊遊",
-    "id": "b1dad78c-4dd8-4b99-b37b-741ed761f26a"
+    "id": "b1dad78c-4dd8-4b99-b37b-741ed761f26a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2047,7 +2612,12 @@
       "思乡"
     ],
     "title": "早寒江上有懷",
-    "id": "8e18183e-5a58-4805-b672-1726969d6526"
+    "id": "8e18183e-5a58-4805-b672-1726969d6526",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2066,7 +2636,12 @@
       "五言律诗"
     ],
     "title": "留別王侍御維",
-    "id": "7f4cacb5-cde8-40de-9b14-e223879cc2f4"
+    "id": "7f4cacb5-cde8-40de-9b14-e223879cc2f4",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2081,7 +2656,12 @@
       "五言律诗"
     ],
     "title": "清明日宴梅道士房",
-    "id": "d2b5090e-e6fe-4d4f-9dd6-fe94ff6d4b5c"
+    "id": "d2b5090e-e6fe-4d4f-9dd6-fe94ff6d4b5c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2098,7 +2678,12 @@
       "五言律诗"
     ],
     "title": "與諸子登峴山",
-    "id": "b71d7c9c-7e92-4797-b2c9-8715dd0c2881"
+    "id": "b71d7c9c-7e92-4797-b2c9-8715dd0c2881",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2120,7 +2705,12 @@
       "四年级上册"
     ],
     "title": "過故人莊",
-    "id": "9309205e-1d08-4a7b-99ef-4a05a9ee4370"
+    "id": "9309205e-1d08-4a7b-99ef-4a05a9ee4370",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2136,7 +2726,12 @@
       "失意"
     ],
     "title": "歲暮歸南山",
-    "id": "542cb326-1037-4bd9-b0f6-6479d165dc4c"
+    "id": "542cb326-1037-4bd9-b0f6-6479d165dc4c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2154,7 +2749,12 @@
       "思乡"
     ],
     "title": "歲除夜有懷",
-    "id": "0f5af383-765a-4d56-b00b-79ee2ccd5111"
+    "id": "0f5af383-765a-4d56-b00b-79ee2ccd5111",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2172,7 +2772,12 @@
       "小学古诗"
     ],
     "title": "春曉",
-    "id": "cb168b3b-d104-4df7-9868-1e1225ddb941"
+    "id": "cb168b3b-d104-4df7-9868-1e1225ddb941",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟浩然",
@@ -2191,7 +2796,12 @@
       "写水"
     ],
     "title": "宿建德江",
-    "id": "0bed9b02-991e-4e28-b631-86640147a712"
+    "id": "0bed9b02-991e-4e28-b631-86640147a712",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -2224,7 +2834,12 @@
       "相和歌辞"
     ],
     "title": "蜀道難",
-    "id": "f15c4b50-ee89-4927-8cf3-15e3a6a6ab95"
+    "id": "f15c4b50-ee89-4927-8cf3-15e3a6a6ab95",
+    "format": {
+      "sentence_count": 46,
+      "sentence_lengths": [3, 4, 9, 5, 5, 7, 7, 7, 7, 7, 9, 9, 9, 8, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 9, 7, 7, 7, 7, 7, 5, 11, 7, 4, 4, 5, 5, 4, 4, 4, 4, 5, 5, 9, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -2255,7 +2870,12 @@
       "咏物诗"
     ],
     "title": "將進酒",
-    "id": "e5e5f969-ddac-4491-9cfe-d77742e1416d"
+    "id": "e5e5f969-ddac-4491-9cfe-d77742e1416d",
+    "format": {
+      "sentence_count": 28,
+      "sentence_lengths": [10, 7, 10, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "杜荀鶴",
@@ -2274,7 +2894,12 @@
       "五言律诗"
     ],
     "title": "春宮怨",
-    "id": "d3357800-9021-4647-a0a0-98499a0ee3c5"
+    "id": "d3357800-9021-4647-a0a0-98499a0ee3c5",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "戴叔倫",
@@ -2293,7 +2918,12 @@
       "相聚"
     ],
     "title": "客夜與故人偶集",
-    "id": "94ae3e7e-eb5d-414c-bfd6-124f50687ce5"
+    "id": "94ae3e7e-eb5d-414c-bfd6-124f50687ce5",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "盧綸",
@@ -2310,7 +2940,12 @@
       "赞美"
     ],
     "title": "和張僕射塞下曲 一",
-    "id": "ce491725-b96b-46a7-b83c-463d2094ef3f"
+    "id": "ce491725-b96b-46a7-b83c-463d2094ef3f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "盧綸",
@@ -2327,7 +2962,12 @@
       "狩猎"
     ],
     "title": "和張僕射塞下曲 二",
-    "id": "6d2e12c0-c1b8-4242-888c-9dba1a8f93ce"
+    "id": "6d2e12c0-c1b8-4242-888c-9dba1a8f93ce",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "盧綸",
@@ -2345,7 +2985,12 @@
       "赞美"
     ],
     "title": "和張僕射塞下曲 三",
-    "id": "ee2a3000-9127-43fa-8618-89a1937322cb"
+    "id": "ee2a3000-9127-43fa-8618-89a1937322cb",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "盧綸",
@@ -2362,7 +3007,12 @@
       "将士"
     ],
     "title": "和張僕射塞下曲 四",
-    "id": "9a4d3eae-fe01-46c7-a28b-8b518614a508"
+    "id": "9a4d3eae-fe01-46c7-a28b-8b518614a508",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "盧綸",
@@ -2381,7 +3031,12 @@
       "思乡"
     ],
     "title": "晚次鄂州",
-    "id": "fae577a5-da28-4672-83ff-94c97ae2a4a4"
+    "id": "fae577a5-da28-4672-83ff-94c97ae2a4a4",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "盧綸",
@@ -2400,7 +3055,12 @@
       "伤怀"
     ],
     "title": "李端公",
-    "id": "f4301f96-e872-4eae-aa51-0d12328059d1"
+    "id": "f4301f96-e872-4eae-aa51-0d12328059d1",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2416,7 +3076,12 @@
       "五言律诗"
     ],
     "title": "過香積寺",
-    "id": "e4354c00-c83e-43da-9341-7007889dd625"
+    "id": "e4354c00-c83e-43da-9341-7007889dd625",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2435,7 +3100,12 @@
       "写人"
     ],
     "title": "山居秋暝",
-    "id": "00f12a19-bb96-4980-a4f5-11a1b9d604dd"
+    "id": "00f12a19-bb96-4980-a4f5-11a1b9d604dd",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2454,7 +3124,12 @@
       "写人"
     ],
     "title": "終南別業",
-    "id": "6d098c75-038d-45f4-8f86-73976c355e44"
+    "id": "6d098c75-038d-45f4-8f86-73976c355e44",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2472,7 +3147,12 @@
       "五言律诗"
     ],
     "title": "歸嵩山作",
-    "id": "40cd6eec-c6ce-4659-a225-61063cd210e9"
+    "id": "40cd6eec-c6ce-4659-a225-61063cd210e9",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2492,7 +3172,12 @@
       "写山"
     ],
     "title": "終南山",
-    "id": "a5b1f5c9-1ba7-4533-b497-55b1d4af1bbb"
+    "id": "a5b1f5c9-1ba7-4533-b497-55b1d4af1bbb",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2509,7 +3194,12 @@
       "五言律诗"
     ],
     "title": "漢江臨汎",
-    "id": "9080a103-2750-4b9b-a4fa-1167cd670a0c"
+    "id": "9080a103-2750-4b9b-a4fa-1167cd670a0c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2526,7 +3216,12 @@
       "七言律诗"
     ],
     "title": "奉和聖製從蓬萊向興慶閣道中留春雨中春望之作應制",
-    "id": "ce71032a-c075-492c-9554-51eb080348a5"
+    "id": "ce71032a-c075-492c-9554-51eb080348a5",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -2543,7 +3238,12 @@
       "早朝"
     ],
     "title": "和賈舍人早朝大明宮之作",
-    "id": "a364504e-3cfc-44c6-9203-173856452cdd"
+    "id": "a364504e-3cfc-44c6-9203-173856452cdd",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -2559,7 +3259,12 @@
       "七言律诗"
     ],
     "title": "酬郭給事",
-    "id": "7950a49f-f51d-4926-9d1e-e5f76b153829"
+    "id": "7950a49f-f51d-4926-9d1e-e5f76b153829",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -2575,7 +3280,12 @@
       "田园"
     ],
     "title": "積雨輞川莊作",
-    "id": "0949fe2a-aadf-4cd4-b1c3-25fcdaecdb96"
+    "id": "0949fe2a-aadf-4cd4-b1c3-25fcdaecdb96",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -2592,7 +3302,12 @@
       "五言绝句"
     ],
     "title": "輞川集 鹿柴",
-    "id": "2e8999a9-9df8-4483-ab1e-0231c3e46320"
+    "id": "2e8999a9-9df8-4483-ab1e-0231c3e46320",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2611,7 +3326,12 @@
       "七年级下册(课外)"
     ],
     "title": "輞川集 竹里館",
-    "id": "36e09cb4-4fb7-48be-b6c6-c9bd906d9331"
+    "id": "36e09cb4-4fb7-48be-b6c6-c9bd906d9331",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2626,7 +3346,12 @@
       "友情"
     ],
     "title": "送別",
-    "id": "c8a4faa6-8666-44f9-b4c9-df78d7af844d"
+    "id": "c8a4faa6-8666-44f9-b4c9-df78d7af844d",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2644,7 +3369,12 @@
       "五言绝句"
     ],
     "title": "雜詩三首 二",
-    "id": "4c7205af-d1e8-48ed-8220-fe095418b95a"
+    "id": "4c7205af-d1e8-48ed-8220-fe095418b95a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2661,7 +3391,12 @@
       "五言绝句"
     ],
     "title": "相思",
-    "id": "8baa7c35-9afb-40bf-b5e4-41d9895e2710"
+    "id": "8baa7c35-9afb-40bf-b5e4-41d9895e2710",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王維",
@@ -2678,7 +3413,12 @@
       "小学古诗"
     ],
     "title": "九月九日憶山東兄弟",
-    "id": "6bbd1c2c-8c43-4ffb-b7b3-506d74266cee"
+    "id": "6bbd1c2c-8c43-4ffb-b7b3-506d74266cee",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -2698,7 +3438,12 @@
       "四年级上册"
     ],
     "title": "渭城曲",
-    "id": "1575c835-1241-4d7b-99dc-6d700549ac65"
+    "id": "1575c835-1241-4d7b-99dc-6d700549ac65",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "裴迪",
@@ -2713,7 +3458,12 @@
       "规劝"
     ],
     "title": "崔九欲往南山馬上口號與別",
-    "id": "80fe70cd-6e63-48eb-9c1e-ab26330d45d9"
+    "id": "80fe70cd-6e63-48eb-9c1e-ab26330d45d9",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "丘爲",
@@ -2733,7 +3483,12 @@
       "友情"
     ],
     "title": "尋西山隱者不遇",
-    "id": "10a0aedc-4b39-494b-a36c-28c6df28a668"
+    "id": "10a0aedc-4b39-494b-a36c-28c6df28a668",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "崔顥",
@@ -2758,7 +3513,12 @@
       "地名"
     ],
     "title": "黃鶴樓",
-    "id": "2188f98e-d5f0-4740-b94b-e1497a3619ee"
+    "id": "2188f98e-d5f0-4740-b94b-e1497a3619ee",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "崔顥",
@@ -2775,7 +3535,12 @@
       "山水"
     ],
     "title": "行經華陰",
-    "id": "39b2954c-04df-4561-ad6e-f4ddbae0db1e"
+    "id": "39b2954c-04df-4561-ad6e-f4ddbae0db1e",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "崔顥",
@@ -2791,7 +3556,12 @@
       "乐府"
     ],
     "title": "長干曲四首 一",
-    "id": "c39225f9-16b2-4713-a11c-d7030ec3b1c9"
+    "id": "c39225f9-16b2-4713-a11c-d7030ec3b1c9",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "崔顥",
@@ -2807,7 +3577,12 @@
       "乐府"
     ],
     "title": "長干曲四首 二",
-    "id": "4a732464-35a5-4ffc-94d0-37d653eef2a1"
+    "id": "4a732464-35a5-4ffc-94d0-37d653eef2a1",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "祖詠",
@@ -2824,7 +3599,12 @@
       "边塞"
     ],
     "title": "望薊門",
-    "id": "6beb5cc2-ae49-4e23-952a-1cb92fa11512"
+    "id": "6beb5cc2-ae49-4e23-952a-1cb92fa11512",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "祖詠",
@@ -2842,7 +3622,12 @@
       "五言绝句"
     ],
     "title": "終南望餘雪",
-    "id": "b4780bd1-1703-4bce-a801-d5ed566826b5"
+    "id": "b4780bd1-1703-4bce-a801-d5ed566826b5",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李頎",
@@ -2863,7 +3648,12 @@
       "相和歌辞"
     ],
     "title": "古從軍行",
-    "id": "bea6f283-8f90-49b5-8842-1cb906816548"
+    "id": "bea6f283-8f90-49b5-8842-1cb906816548",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李頎",
@@ -2881,7 +3671,12 @@
       "七言古诗"
     ],
     "title": "琴歌",
-    "id": "7d906794-b4d1-4922-9c59-eee5b19602ad"
+    "id": "7d906794-b4d1-4922-9c59-eee5b19602ad",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李頎",
@@ -2902,7 +3697,12 @@
       "七言古诗"
     ],
     "title": "送陳章甫",
-    "id": "9e6cbc1b-95ed-406b-8c9d-d05876a1342c"
+    "id": "9e6cbc1b-95ed-406b-8c9d-d05876a1342c",
+    "format": {
+      "sentence_count": 18,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李頎",
@@ -2923,7 +3723,12 @@
       "七言古诗"
     ],
     "title": "聽安萬善吹觱篥歌",
-    "id": "2d66a9e4-7b4d-4be4-91fd-6a4b2cd8817b"
+    "id": "2d66a9e4-7b4d-4be4-91fd-6a4b2cd8817b",
+    "format": {
+      "sentence_count": 18,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李頎",
@@ -2944,7 +3749,12 @@
       "七言古诗"
     ],
     "title": "古意",
-    "id": "f1496cf4-4f85-4f9e-9e0e-dd05370641d3"
+    "id": "f1496cf4-4f85-4f9e-9e0e-dd05370641d3",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李頎",
@@ -2972,7 +3782,12 @@
       "古体"
     ],
     "title": "聽董大彈胡笳聲兼寄語弄房給事",
-    "id": "361a3e5e-ef71-4749-b39a-aa2f5d9180e4"
+    "id": "361a3e5e-ef71-4749-b39a-aa2f5d9180e4",
+    "format": {
+      "sentence_count": 29,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 7, 7, 7, 7, 7, 7, 7, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李頎",
@@ -2992,7 +3807,12 @@
       "送别"
     ],
     "title": "送魏萬之京",
-    "id": "6340ef19-35e2-4194-96a9-3ee0a667905b"
+    "id": "6340ef19-35e2-4194-96a9-3ee0a667905b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "綦毋潛",
@@ -3009,7 +3829,12 @@
       "五言古诗"
     ],
     "title": "春泛若耶溪",
-    "id": "6290b8f0-48de-407f-be2c-629140d91f83"
+    "id": "6290b8f0-48de-407f-be2c-629140d91f83",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王昌齡",
@@ -3029,7 +3854,12 @@
       "新乐府辞"
     ],
     "title": "塞下曲四首 一",
-    "id": "8d58a158-1a9b-4085-8ef7-b7b4e6adb66d"
+    "id": "8d58a158-1a9b-4085-8ef7-b7b4e6adb66d",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王昌齡",
@@ -3046,7 +3876,12 @@
       "乐府"
     ],
     "title": "塞下曲四首 二",
-    "id": "59fb3f01-65b2-416a-aefb-c13e502bfba1"
+    "id": "59fb3f01-65b2-416a-aefb-c13e502bfba1",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王昌齡",
@@ -3064,7 +3899,12 @@
       "怀人"
     ],
     "title": "同從弟銷南齋玩月憶山陰崔少府",
-    "id": "e2fec465-cea1-4829-b12d-3ba37a267562"
+    "id": "e2fec465-cea1-4829-b12d-3ba37a267562",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王昌齡",
@@ -3083,7 +3923,12 @@
       "边塞"
     ],
     "title": "出塞二首 一",
-    "id": "de6b7e3d-03cd-4daa-bdc2-7fb820fda441"
+    "id": "de6b7e3d-03cd-4daa-bdc2-7fb820fda441",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王昌齡",
@@ -3098,7 +3943,12 @@
       "女子"
     ],
     "title": "春宮曲",
-    "id": "d0fa1454-f337-4343-ab4a-2a42dfdf4e8f"
+    "id": "d0fa1454-f337-4343-ab4a-2a42dfdf4e8f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王昌齡",
@@ -3114,7 +3964,12 @@
       "闺怨"
     ],
     "title": "閨怨",
-    "id": "4ac3f099-73da-43e8-a4e5-1dbbd9427491"
+    "id": "4ac3f099-73da-43e8-a4e5-1dbbd9427491",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王昌齡",
@@ -3133,7 +3988,12 @@
       "小学古诗"
     ],
     "title": "芙蓉樓送辛漸二首 一",
-    "id": "090b7792-2942-4f3c-a34d-caccd066c76f"
+    "id": "090b7792-2942-4f3c-a34d-caccd066c76f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "常建",
@@ -3150,7 +4010,12 @@
       "山水"
     ],
     "title": "宿王昌齡隱居",
-    "id": "c854a853-b015-4848-823b-a786659d33b3"
+    "id": "c854a853-b015-4848-823b-a786659d33b3",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -3166,7 +4031,12 @@
       "近代曲辞"
     ],
     "title": "清平調 一",
-    "id": "d5da9d7d-1e52-4992-8be5-73e556b07e0b"
+    "id": "d5da9d7d-1e52-4992-8be5-73e556b07e0b",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -3181,7 +4051,12 @@
       "乐府"
     ],
     "title": "清平調 二",
-    "id": "59063901-7dbc-4f22-974f-ddccab675cbc"
+    "id": "59063901-7dbc-4f22-974f-ddccab675cbc",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -3197,7 +4072,12 @@
       "写花"
     ],
     "title": "清平調 三",
-    "id": "f91f3117-2bf2-4d12-999a-aca174124715"
+    "id": "f91f3117-2bf2-4d12-999a-aca174124715",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "黄拱",
@@ -3215,7 +4095,12 @@
       "小学古诗"
     ],
     "title": "還鄉偶書  其二",
-    "id": "569ef0e1-887d-4d98-b869-9634f099c8e9"
+    "id": "569ef0e1-887d-4d98-b869-9634f099c8e9",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "白居易",
@@ -3292,7 +4177,12 @@
       "讽喻"
     ],
     "title": "長恨歌",
-    "id": "0a0f9231-d88c-4f81-b941-83b67a736194"
+    "id": "0a0f9231-d88c-4f81-b941-83b67a736194",
+    "format": {
+      "sentence_count": 120,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "白居易",
@@ -3352,7 +4242,12 @@
       "愤懑"
     ],
     "title": "琵琶引",
-    "id": "0fb0189c-8ff3-4106-af94-f6d26d528a1d"
+    "id": "0fb0189c-8ff3-4106-af94-f6d26d528a1d",
+    "format": {
+      "sentence_count": 88,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "白居易",
@@ -3373,7 +4268,12 @@
       "小学古诗"
     ],
     "title": "賦得古原草送別",
-    "id": "0174cbbc-31fa-4daf-b1cf-7f91c6a646a9"
+    "id": "0174cbbc-31fa-4daf-b1cf-7f91c6a646a9",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "白居易",
@@ -3387,7 +4287,12 @@
       "唐诗三百首"
     ],
     "title": "自河南經亂關內阻饑兄弟離散各在一處因望月有感聊書所懷寄上浮梁大兄於潛七兄烏江十五兄兼示符離及下邽弟妹",
-    "id": "a2aed629-465d-412c-a68d-780068488725"
+    "id": "a2aed629-465d-412c-a68d-780068488725",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "白居易",
@@ -3403,7 +4308,12 @@
       "友情"
     ],
     "title": "問劉十九",
-    "id": "9972f7bb-ae5b-49e4-87df-381386af66b6"
+    "id": "9972f7bb-ae5b-49e4-87df-381386af66b6",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "賈島",
@@ -3418,7 +4328,12 @@
       "唐诗三百首"
     ],
     "title": "尋隱者不遇",
-    "id": "4f6575cc-12cc-4986-8bfc-5cedac7bb68f"
+    "id": "4f6575cc-12cc-4986-8bfc-5cedac7bb68f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "溫庭筠",
@@ -3436,7 +4351,12 @@
       "山水"
     ],
     "title": "利州南渡",
-    "id": "ac97d42b-8fef-42c9-829f-baafe89b4cdc"
+    "id": "ac97d42b-8fef-42c9-829f-baafe89b4cdc",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "溫庭筠",
@@ -3451,7 +4371,12 @@
       "闺怨"
     ],
     "title": "瑤瑟怨",
-    "id": "b7d50789-e0d5-4291-8014-eddf65a124df"
+    "id": "b7d50789-e0d5-4291-8014-eddf65a124df",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "溫庭筠",
@@ -3470,7 +4395,12 @@
       "秋天"
     ],
     "title": "送人東遊",
-    "id": "315bc0e1-f76c-49d5-9940-b212e5f9c2ae"
+    "id": "315bc0e1-f76c-49d5-9940-b212e5f9c2ae",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "溫庭筠",
@@ -3489,7 +4419,12 @@
       "赞颂"
     ],
     "title": "蘇武廟",
-    "id": "cae8a893-7ae6-4824-b4c5-eada730b075f"
+    "id": "cae8a893-7ae6-4824-b4c5-eada730b075f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李頻",
@@ -3504,7 +4439,12 @@
       "渡江"
     ],
     "title": "渡漢江",
-    "id": "a6144ae0-3bcf-4503-b58d-9abf24d6608c"
+    "id": "a6144ae0-3bcf-4503-b58d-9abf24d6608c",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "秦韜玉",
@@ -3523,7 +4463,12 @@
       "怀才不遇"
     ],
     "title": "貧女",
-    "id": "16ddf43c-ac3a-47bc-95a5-36a49bceb30b"
+    "id": "16ddf43c-ac3a-47bc-95a5-36a49bceb30b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "周朴",
@@ -3542,7 +4487,12 @@
       "五言律诗"
     ],
     "title": "春宮怨",
-    "id": "1d6885a4-d11e-4428-80a8-fcf75d7a41aa"
+    "id": "1d6885a4-d11e-4428-80a8-fcf75d7a41aa",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "崔塗",
@@ -3562,7 +4512,12 @@
       "鸟"
     ],
     "title": "孤鴈 二",
-    "id": "c836e52f-2346-4a3e-84bb-97514b17faf6"
+    "id": "c836e52f-2346-4a3e-84bb-97514b17faf6",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "崔塗",
@@ -3580,7 +4535,12 @@
       "思乡"
     ],
     "title": "巴山道中除夜書懷",
-    "id": "9d33c118-cde9-49af-b572-c43427a10b48"
+    "id": "9d33c118-cde9-49af-b572-c43427a10b48",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張祜",
@@ -3594,7 +4554,12 @@
       "宫怨"
     ],
     "title": "宮詞二首 一",
-    "id": "d850db6a-e07b-4fee-b642-57a70bdbbed2"
+    "id": "d850db6a-e07b-4fee-b642-57a70bdbbed2",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張祜",
@@ -3609,7 +4574,12 @@
       "女子"
     ],
     "title": "贈內人",
-    "id": "84bd91bd-11f7-4218-b9e2-b05b06ce8b99"
+    "id": "84bd91bd-11f7-4218-b9e2-b05b06ce8b99",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張祜",
@@ -3624,7 +4594,12 @@
       "讽刺"
     ],
     "title": "集靈臺二首 一",
-    "id": "19867a30-1b67-4123-b367-44565bab6516"
+    "id": "19867a30-1b67-4123-b367-44565bab6516",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張祜",
@@ -3639,7 +4614,12 @@
       "讽刺"
     ],
     "title": "集靈臺二首 二",
-    "id": "51262a8c-de53-41ee-958a-de08d5f5a446"
+    "id": "51262a8c-de53-41ee-958a-de08d5f5a446",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張祜",
@@ -3654,7 +4634,12 @@
       "旅途"
     ],
     "title": "題金陵渡",
-    "id": "bce40ff4-816c-490c-be30-04de15f7c25e"
+    "id": "bce40ff4-816c-490c-be30-04de15f7c25e",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "朱慶餘",
@@ -3669,7 +4654,12 @@
       "写景"
     ],
     "title": "宮詞",
-    "id": "ab4b1a7f-4fbe-438b-817f-9e1ed2d39f4f"
+    "id": "ab4b1a7f-4fbe-438b-817f-9e1ed2d39f4f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韓愈",
@@ -3714,7 +4704,12 @@
       "题咏"
     ],
     "title": "石鼓歌",
-    "id": "1b9b8047-2410-47ae-a24c-aad7342b338f"
+    "id": "1b9b8047-2410-47ae-a24c-aad7342b338f",
+    "format": {
+      "sentence_count": 66,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王涯",
@@ -3730,7 +4725,12 @@
       "乐府"
     ],
     "title": "秋夜曲",
-    "id": "0055db4e-e8d3-41a0-b201-0e3b970e27b6"
+    "id": "0055db4e-e8d3-41a0-b201-0e3b970e27b6",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "柳宗元",
@@ -3750,7 +4750,12 @@
       "贬谪"
     ],
     "title": "晨詣超師院讀禪經",
-    "id": "2954ddd2-f1c7-41b1-8c9e-42058398cde0"
+    "id": "2954ddd2-f1c7-41b1-8c9e-42058398cde0",
+    "format": {
+      "sentence_count": 14,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "柳宗元",
@@ -3767,7 +4772,12 @@
       "怀人"
     ],
     "title": "登柳州城樓寄漳汀封連四州",
-    "id": "3d26433c-a673-4094-8c83-cadb1b08412a"
+    "id": "3d26433c-a673-4094-8c83-cadb1b08412a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "柳宗元",
@@ -3784,7 +4794,12 @@
       "生活"
     ],
     "title": "溪居",
-    "id": "469dec8b-ba5e-4faf-b52f-2ad203e38d81"
+    "id": "469dec8b-ba5e-4faf-b52f-2ad203e38d81",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "柳宗元",
@@ -3805,7 +4820,12 @@
       "鸟"
     ],
     "title": "江雪",
-    "id": "1f92134b-bca9-46eb-b2fe-87b30413041a"
+    "id": "1f92134b-bca9-46eb-b2fe-87b30413041a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "柳宗元",
@@ -3821,7 +4841,12 @@
       "山水"
     ],
     "title": "漁翁",
-    "id": "51b1aeeb-9a66-412d-b15c-4afaa6c6b1d7"
+    "id": "51b1aeeb-9a66-412d-b15c-4afaa6c6b1d7",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉禹錫",
@@ -3838,7 +4863,12 @@
       "五言律诗"
     ],
     "title": "蜀先主廟",
-    "id": "2f37297b-77d5-412b-bc73-105bfa4d011d"
+    "id": "2f37297b-77d5-412b-bc73-105bfa4d011d",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3858,7 +4888,12 @@
       "三年级上册"
     ],
     "title": "月夜",
-    "id": "59c7eaa9-3c05-4857-8cff-10376706ccb9"
+    "id": "59c7eaa9-3c05-4857-8cff-10376706ccb9",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3881,7 +4916,12 @@
       "鸟"
     ],
     "title": "春望",
-    "id": "e9e6425c-6c14-4f69-8694-87a8b96a43de"
+    "id": "e9e6425c-6c14-4f69-8694-87a8b96a43de",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3898,7 +4938,12 @@
       "五言律诗"
     ],
     "title": "春宿左省",
-    "id": "2769113d-0cac-4e67-83cb-0c10685f8381"
+    "id": "2769113d-0cac-4e67-83cb-0c10685f8381",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3915,7 +4960,12 @@
       "怀念"
     ],
     "title": "至德二載甫自京金光門出問道歸鳳翔乾元初從左拾遺移華州掾與親故別因出此門有悲往事",
-    "id": "f88a6dbd-bf83-458c-b5e2-85fdd1ed98b2"
+    "id": "f88a6dbd-bf83-458c-b5e2-85fdd1ed98b2",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3936,7 +4986,12 @@
       "中秋"
     ],
     "title": "月夜憶舍弟",
-    "id": "c1280e87-ac81-4f9b-9de5-377d6af38ae8"
+    "id": "c1280e87-ac81-4f9b-9de5-377d6af38ae8",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3954,7 +5009,12 @@
       "怀人"
     ],
     "title": "天末憶李白",
-    "id": "2c036362-9f1d-434c-854f-b97a2a4bb19b"
+    "id": "2c036362-9f1d-434c-854f-b97a2a4bb19b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -3974,7 +5034,12 @@
       "赞颂"
     ],
     "title": "蜀相",
-    "id": "a353dcb1-12cc-4ca8-af1e-55d1d62445f8"
+    "id": "a353dcb1-12cc-4ca8-af1e-55d1d62445f8",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -3992,7 +5057,12 @@
       "待客"
     ],
     "title": "客至",
-    "id": "9da0cbe5-52d4-4efc-8be2-2f78f1a8f097"
+    "id": "9da0cbe5-52d4-4efc-8be2-2f78f1a8f097",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4009,7 +5079,12 @@
       "抒情"
     ],
     "title": "野望",
-    "id": "d77f340f-1a04-4c5b-9704-2536e4249c6b"
+    "id": "d77f340f-1a04-4c5b-9704-2536e4249c6b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4026,7 +5101,12 @@
       "惜别"
     ],
     "title": "奉濟驛重送嚴公四韻",
-    "id": "c2c83ee2-940f-4ae3-9ab3-4f509d2991f3"
+    "id": "c2c83ee2-940f-4ae3-9ab3-4f509d2991f3",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4044,7 +5124,12 @@
       "小学古诗"
     ],
     "title": "聞官軍收河南河北",
-    "id": "22e90c0d-2b59-4500-8e5d-80d38ec4692c"
+    "id": "22e90c0d-2b59-4500-8e5d-80d38ec4692c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4065,7 +5150,12 @@
       "抒情"
     ],
     "title": "登高",
-    "id": "a4d718ee-c020-42b4-97df-499cd0076f7b"
+    "id": "a4d718ee-c020-42b4-97df-499cd0076f7b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4083,7 +5173,12 @@
       "悼亡"
     ],
     "title": "別房太尉墓",
-    "id": "c19e64b1-604b-40b7-9e41-6ef57b9c6f7b"
+    "id": "c19e64b1-604b-40b7-9e41-6ef57b9c6f7b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4107,7 +5202,12 @@
       "九年级下册(课外)"
     ],
     "title": "登樓",
-    "id": "12919986-2d09-4d2e-b5ad-f2485e40ada5"
+    "id": "12919986-2d09-4d2e-b5ad-f2485e40ada5",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4124,7 +5224,12 @@
       "七言律诗"
     ],
     "title": "宿府",
-    "id": "f540f519-e3c4-41c2-b299-f1d255977705"
+    "id": "f540f519-e3c4-41c2-b299-f1d255977705",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4142,7 +5247,12 @@
       "五言律诗"
     ],
     "title": "旅夜書懷",
-    "id": "f96506ea-e8ac-47e0-a0a6-ccd306e56645"
+    "id": "f96506ea-e8ac-47e0-a0a6-ccd306e56645",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4156,7 +5266,12 @@
       "唐诗三百首"
     ],
     "title": "閣夜",
-    "id": "0f5874bf-3748-44c9-bc3a-be4a8c3eb2f6"
+    "id": "0f5874bf-3748-44c9-bc3a-be4a8c3eb2f6",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4173,7 +5288,12 @@
       "五言绝句"
     ],
     "title": "八陣圖",
-    "id": "927908c0-999f-4d3f-8192-d67d28f93576"
+    "id": "927908c0-999f-4d3f-8192-d67d28f93576",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4191,7 +5311,12 @@
       "怀古"
     ],
     "title": "詠懷古跡五首 一",
-    "id": "03eb4001-023a-4920-bbc7-a0fc52b2836d"
+    "id": "03eb4001-023a-4920-bbc7-a0fc52b2836d",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4209,7 +5334,12 @@
       "抒怀"
     ],
     "title": "詠懷古跡五首 二",
-    "id": "acbe1729-cefd-4678-9719-09c5c9c27db0"
+    "id": "acbe1729-cefd-4678-9719-09c5c9c27db0",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4227,7 +5357,12 @@
       "思乡"
     ],
     "title": "詠懷古跡五首 三",
-    "id": "3b5db620-1964-4674-a01d-ad70ba3ebd2a"
+    "id": "3b5db620-1964-4674-a01d-ad70ba3ebd2a",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4245,7 +5380,12 @@
       "抒怀"
     ],
     "title": "詠懷古跡五首 四",
-    "id": "733afc7b-e370-4724-b755-e9342c574d22"
+    "id": "733afc7b-e370-4724-b755-e9342c574d22",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4263,7 +5403,12 @@
       "议论"
     ],
     "title": "詠懷古跡五首 五",
-    "id": "87f5949b-bdad-4b5e-b488-7015bd45cc4f"
+    "id": "87f5949b-bdad-4b5e-b488-7015bd45cc4f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4280,7 +5425,12 @@
       "七年级下册(课外)"
     ],
     "title": "江南逢李龜年",
-    "id": "ae5b1a15-0b5c-4578-8f31-1b60030633a4"
+    "id": "ae5b1a15-0b5c-4578-8f31-1b60030633a4",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4299,7 +5449,12 @@
       "山水"
     ],
     "title": "登岳陽樓",
-    "id": "5d05fef6-e4aa-48e5-917d-c29d0e6d6b33"
+    "id": "5d05fef6-e4aa-48e5-917d-c29d0e6d6b33",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4314,7 +5469,12 @@
       "讽刺"
     ],
     "title": "虢國夫人",
-    "id": "15180235-db35-499b-8fd5-b8d9fa92f5f2"
+    "id": "15180235-db35-499b-8fd5-b8d9fa92f5f2",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張九齡",
@@ -4334,7 +5494,12 @@
       "月亮"
     ],
     "title": "望月懷遠",
-    "id": "2c152693-c25f-45ce-8ef2-cbedce1a62bc"
+    "id": "2c152693-c25f-45ce-8ef2-cbedce1a62bc",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "宋之問",
@@ -4351,7 +5516,12 @@
       "地名"
     ],
     "title": "題大庾嶺北驛",
-    "id": "058db0d1-0656-4e8f-ac49-87622e16b19b"
+    "id": "058db0d1-0656-4e8f-ac49-87622e16b19b",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "宋之問",
@@ -4366,7 +5536,12 @@
       "渡江"
     ],
     "title": "渡漢江",
-    "id": "eb9530d2-e4c7-4c34-9214-06c28ca586bf"
+    "id": "eb9530d2-e4c7-4c34-9214-06c28ca586bf",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "宋之問",
@@ -4383,7 +5558,12 @@
       "思乡"
     ],
     "title": "新年作",
-    "id": "368fc6bb-1636-419e-8ddb-cdc1dd07a1ca"
+    "id": "368fc6bb-1636-419e-8ddb-cdc1dd07a1ca",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王勃",
@@ -4403,7 +5583,12 @@
       "哲理"
     ],
     "title": "杜少府之任蜀州",
-    "id": "fe6f4b72-855c-43b9-8883-8b3fe3cd8bd4"
+    "id": "fe6f4b72-855c-43b9-8883-8b3fe3cd8bd4",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜審言",
@@ -4422,7 +5607,12 @@
       "五言律诗"
     ],
     "title": "和晉陵陸丞早春遊望",
-    "id": "b881b056-6d92-45e8-9620-4710a375776f"
+    "id": "b881b056-6d92-45e8-9620-4710a375776f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "朱斌",
@@ -4442,7 +5632,12 @@
       "五言绝句"
     ],
     "title": "登樓",
-    "id": "19340af6-e25d-41c8-90fc-b465d9be1134"
+    "id": "19340af6-e25d-41c8-90fc-b465d9be1134",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "高適",
@@ -4461,7 +5656,12 @@
       "七言律诗"
     ],
     "title": "送李少府貶峽中王少府貶長沙",
-    "id": "2c24cec1-4105-4511-bf8b-bc6d5d8d48c7"
+    "id": "2c24cec1-4105-4511-bf8b-bc6d5d8d48c7",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4487,7 +5687,12 @@
       "鸟"
     ],
     "title": "望嶽",
-    "id": "12fdaad8-b197-4526-b56d-c7c713267248"
+    "id": "12fdaad8-b197-4526-b56d-c7c713267248",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4518,7 +5723,12 @@
       "新乐府辞"
     ],
     "title": "兵車行",
-    "id": "bd57a0b0-28a1-4d53-bc09-51899d2dac38"
+    "id": "bd57a0b0-28a1-4d53-bc09-51899d2dac38",
+    "format": {
+      "sentence_count": 35,
+      "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5, 7, 7, 6, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "杜甫",
@@ -4544,7 +5754,12 @@
       "友情"
     ],
     "title": "贈衛八處士",
-    "id": "6c7c45a6-c944-4ff3-aa99-f5cb0440436f"
+    "id": "6c7c45a6-c944-4ff3-aa99-f5cb0440436f",
+    "format": {
+      "sentence_count": 24,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4571,7 +5786,12 @@
       "咏叹"
     ],
     "title": "麗人行",
-    "id": "370b53ae-949e-45cf-92b0-3aca072c1b86"
+    "id": "370b53ae-949e-45cf-92b0-3aca072c1b86",
+    "format": {
+      "sentence_count": 26,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "杜甫",
@@ -4597,7 +5817,12 @@
       "写水"
     ],
     "title": "哀江頭",
-    "id": "8474f5c4-d18e-4b42-9702-19ad909b9ea2"
+    "id": "8474f5c4-d18e-4b42-9702-19ad909b9ea2",
+    "format": {
+      "sentence_count": 20,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4627,7 +5852,12 @@
       "鸟"
     ],
     "title": "哀王孫",
-    "id": "bd7949f8-c961-4bfd-a307-1fe9e621028c"
+    "id": "bd7949f8-c961-4bfd-a307-1fe9e621028c",
+    "format": {
+      "sentence_count": 28,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4653,7 +5883,12 @@
       "女子"
     ],
     "title": "佳人",
-    "id": "f2db30a1-f125-44b9-a8d8-287ccb69238a"
+    "id": "f2db30a1-f125-44b9-a8d8-287ccb69238a",
+    "format": {
+      "sentence_count": 24,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4671,7 +5906,12 @@
       "唐诗三百首"
     ],
     "title": "夢李白二首 一",
-    "id": "c9362aba-fb50-481b-a4cd-08ddd65cdd2a"
+    "id": "c9362aba-fb50-481b-a4cd-08ddd65cdd2a",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4693,7 +5933,12 @@
       "五言古诗"
     ],
     "title": "夢李白二首 二",
-    "id": "0710a746-8660-4bc1-b073-8ce51ac9f4d9"
+    "id": "0710a746-8660-4bc1-b073-8ce51ac9f4d9",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -4724,7 +5969,12 @@
       "马"
     ],
     "title": "韋諷錄事宅觀曹將軍畫馬圖",
-    "id": "827e44b1-7064-4ff7-9a9c-192eece94e2d"
+    "id": "827e44b1-7064-4ff7-9a9c-192eece94e2d",
+    "format": {
+      "sentence_count": 34,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "杜甫",
@@ -4758,7 +6008,12 @@
       "怅惘"
     ],
     "title": "丹青引贈曹將軍霸",
-    "id": "13b12259-3750-4c6d-87ee-35283ad63dab"
+    "id": "13b12259-3750-4c6d-87ee-35283ad63dab",
+    "format": {
+      "sentence_count": 39,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 14, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "杜甫",
@@ -4782,7 +6037,12 @@
       "七言古诗"
     ],
     "title": "寄韓諫議",
-    "id": "6d303931-f900-4f29-a8b9-caea611a521f"
+    "id": "6d303931-f900-4f29-a8b9-caea611a521f",
+    "format": {
+      "sentence_count": 22,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4809,7 +6069,12 @@
       "怀才不遇"
     ],
     "title": "古柏行",
-    "id": "383d41a8-5155-4fff-b91f-87d5585ff03e"
+    "id": "383d41a8-5155-4fff-b91f-87d5585ff03e",
+    "format": {
+      "sentence_count": 24,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "杜甫",
@@ -4832,7 +6097,12 @@
       "唐诗三百首"
     ],
     "title": "觀公孫大娘弟子舞劒器行",
-    "id": "61304178-6b16-4f98-87b2-4ad6bc98da98"
+    "id": "61304178-6b16-4f98-87b2-4ad6bc98da98",
+    "format": {
+      "sentence_count": 26,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張佖",
@@ -4848,7 +6118,12 @@
       "爱情"
     ],
     "title": "寄人二首  其一",
-    "id": "4ddb6dda-68be-4bb2-8874-8508c6c6e3ad"
+    "id": "4ddb6dda-68be-4bb2-8874-8508c6c6e3ad",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "不詳",
@@ -4867,7 +6142,12 @@
       "边塞"
     ],
     "title": "雜曲歌辭 蓋羅縫 一",
-    "id": "7066e611-faa5-427c-8fce-e0bf10c55416"
+    "id": "7066e611-faa5-427c-8fce-e0bf10c55416",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "楊敬述進",
@@ -4885,7 +6165,12 @@
       "月亮"
     ],
     "title": "雜曲歌辭 婆羅門",
-    "id": "f1320c1f-949a-4cbe-ad23-4806878632c5"
+    "id": "f1320c1f-949a-4cbe-ad23-4806878632c5",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -4901,7 +6186,12 @@
       "近代曲辞"
     ],
     "title": "雜曲歌辭 清平調 一",
-    "id": "b5f1094b-b9be-43cf-8e04-9b984642a630"
+    "id": "b5f1094b-b9be-43cf-8e04-9b984642a630",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -4916,7 +6206,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 清平調 二",
-    "id": "73dadc56-88ff-4f11-9ff5-da0e0adf533c"
+    "id": "73dadc56-88ff-4f11-9ff5-da0e0adf533c",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -4933,7 +6228,12 @@
       "近代曲辞"
     ],
     "title": "雜曲歌辭 清平調 三",
-    "id": "0db5450e-f1e0-4d53-8106-529def535537"
+    "id": "0db5450e-f1e0-4d53-8106-529def535537",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王維",
@@ -4953,7 +6253,12 @@
       "四年级上册"
     ],
     "title": "雜曲歌辭 渭城曲",
-    "id": "e4a87504-f9a3-4599-b770-aba4afd3cb04"
+    "id": "e4a87504-f9a3-4599-b770-aba4afd3cb04",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "不詳",
@@ -4968,7 +6273,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 金縷衣",
-    "id": "a8617715-ad59-4da8-8071-e9aeb1760e6a"
+    "id": "a8617715-ad59-4da8-8071-e9aeb1760e6a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "張九齡",
@@ -4987,7 +6297,12 @@
       "植物"
     ],
     "title": "感遇十二首 一",
-    "id": "9b4f2d56-6df4-4999-a82c-11283529dd51"
+    "id": "9b4f2d56-6df4-4999-a82c-11283529dd51",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張九齡",
@@ -5007,7 +6322,12 @@
       "鸟"
     ],
     "title": "感遇十二首 二",
-    "id": "6df38a77-6e5d-43ae-a115-7de36475f53e"
+    "id": "6df38a77-6e5d-43ae-a115-7de36475f53e",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張九齡",
@@ -5029,7 +6349,12 @@
       "鸟"
     ],
     "title": "感遇十二首 四",
-    "id": "f9798830-48c1-45e3-be90-4028d93954dc"
+    "id": "f9798830-48c1-45e3-be90-4028d93954dc",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張九齡",
@@ -5050,7 +6375,12 @@
       "写树"
     ],
     "title": "感遇十二首 七",
-    "id": "11b013f9-aa6a-4e55-8e68-195dc62f161f"
+    "id": "11b013f9-aa6a-4e55-8e68-195dc62f161f",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "皎然",
@@ -5068,7 +6398,12 @@
       "五言律诗"
     ],
     "title": "尋陸鴻漸不遇",
-    "id": "565d931a-ff49-4f37-b633-524b48c2f4f0"
+    "id": "565d931a-ff49-4f37-b633-524b48c2f4f0",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "劉禹錫",
@@ -5085,7 +6420,12 @@
       "咏史怀古"
     ],
     "title": "西塞山懷古",
-    "id": "80beb8cc-8338-44d4-8b96-7f9d32133c97"
+    "id": "80beb8cc-8338-44d4-8b96-7f9d32133c97",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉禹錫",
@@ -5101,7 +6441,12 @@
       "地名"
     ],
     "title": "金陵五題 烏衣巷",
-    "id": "4fa92777-9bd6-45ca-9272-bac30459cf5e"
+    "id": "4fa92777-9bd6-45ca-9272-bac30459cf5e",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉禹錫",
@@ -5117,7 +6462,12 @@
       "七言绝句"
     ],
     "title": "和樂天春詞",
-    "id": "297dd100-6aab-4685-a52d-983fb0999c7a"
+    "id": "297dd100-6aab-4685-a52d-983fb0999c7a",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "孟郊",
@@ -5133,7 +6483,12 @@
       "乐府"
     ],
     "title": "列女操",
-    "id": "a9d3bfca-8402-4946-ad02-53db1964a3b2"
+    "id": "a9d3bfca-8402-4946-ad02-53db1964a3b2",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟郊",
@@ -5151,7 +6506,12 @@
       "赞颂"
     ],
     "title": "遊子吟",
-    "id": "4cf19354-4c0a-4e55-980b-69fa7f81ed0f"
+    "id": "4cf19354-4c0a-4e55-980b-69fa7f81ed0f",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "蔡襄",
@@ -5168,7 +6528,12 @@
       "写水"
     ],
     "title": "度南澗",
-    "id": "e72db286-3b6a-425b-ad02-75248ea5a790"
+    "id": "e72db286-3b6a-425b-ad02-75248ea5a790",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "錢起",
@@ -5185,7 +6550,12 @@
       "邀请"
     ],
     "title": "谷口書齋寄楊補闕",
-    "id": "b700208d-d859-4e36-96bf-883c81d4df0f"
+    "id": "b700208d-d859-4e36-96bf-883c81d4df0f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "錢起",
@@ -5202,7 +6572,12 @@
       "惜别"
     ],
     "title": "送僧歸日本",
-    "id": "15274300-bd45-4898-ab14-9a3dead4b620"
+    "id": "15274300-bd45-4898-ab14-9a3dead4b620",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "錢起",
@@ -5218,7 +6593,12 @@
       "七言律诗"
     ],
     "title": "贈闕下裴舍人",
-    "id": "42f17f00-bbc1-4b5b-82c1-3e9e012725ba"
+    "id": "42f17f00-bbc1-4b5b-82c1-3e9e012725ba",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "錢起",
@@ -5236,7 +6616,12 @@
       "赞美"
     ],
     "title": "和張僕射塞下曲",
-    "id": "c8210485-a1f4-4c76-a1f6-2f5e57d39d29"
+    "id": "c8210485-a1f4-4c76-a1f6-2f5e57d39d29",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "元結",
@@ -5260,7 +6645,12 @@
       "五言古诗"
     ],
     "title": "賊退示官吏",
-    "id": "1ce94bde-41ec-42b8-abef-e1e1be55be7c"
+    "id": "1ce94bde-41ec-42b8-abef-e1e1be55be7c",
+    "format": {
+      "sentence_count": 24,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "元結",
@@ -5275,7 +6665,12 @@
       "洞庭湖"
     ],
     "title": "石魚湖上醉歌",
-    "id": "8af643c9-a8b0-49b7-b8e9-88920ab0bbd8"
+    "id": "8af643c9-a8b0-49b7-b8e9-88920ab0bbd8",
+    "format": {
+      "sentence_count": 10,
+      "sentence_lengths": [3, 3, 7, 3, 3, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "張繼",
@@ -5292,7 +6687,12 @@
       "秋"
     ],
     "title": "楓橋夜泊",
-    "id": "3cda5a92-ffa2-4af0-9217-97ce36113705"
+    "id": "3cda5a92-ffa2-4af0-9217-97ce36113705",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韓翃",
@@ -5309,7 +6709,12 @@
       "五言律诗"
     ],
     "title": "酬程延秋夜即事見贈",
-    "id": "ce493923-7c4b-41a9-94e9-cf95741c018c"
+    "id": "ce493923-7c4b-41a9-94e9-cf95741c018c",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韓翃",
@@ -5326,7 +6731,12 @@
       "游历"
     ],
     "title": "同題仙游觀",
-    "id": "b411ce1e-ac09-4427-ab32-f8dc7a57e566"
+    "id": "b411ce1e-ac09-4427-ab32-f8dc7a57e566",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韓翃",
@@ -5343,7 +6753,12 @@
       "讽刺"
     ],
     "title": "寒食",
-    "id": "77ac62ee-6396-4ac0-a3ab-cb84ba2e5cd0"
+    "id": "77ac62ee-6396-4ac0-a3ab-cb84ba2e5cd0",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韋應物",
@@ -5361,7 +6776,12 @@
       "七言律诗"
     ],
     "title": "寄李儋元錫",
-    "id": "8435b46d-bbf1-49e5-af66-6f2d5681f1bf"
+    "id": "8435b46d-bbf1-49e5-af66-6f2d5681f1bf",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韋應物",
@@ -5377,7 +6797,12 @@
       "怀念"
     ],
     "title": "寄全椒山中道士",
-    "id": "46503396-3bb3-449c-9c84-f2ff232f7949"
+    "id": "46503396-3bb3-449c-9c84-f2ff232f7949",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5392,7 +6817,12 @@
       "五言绝句"
     ],
     "title": "秋夜寄丘二十二員外",
-    "id": "96455db1-a0c6-402c-8892-05c6b9a3d029"
+    "id": "96455db1-a0c6-402c-8892-05c6b9a3d029",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5411,7 +6841,12 @@
       "雨"
     ],
     "title": "賦得暮雨送李胄",
-    "id": "83dcb67c-ccbc-4592-b232-368a6b5275ce"
+    "id": "83dcb67c-ccbc-4592-b232-368a6b5275ce",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5436,7 +6871,12 @@
       "五言古诗"
     ],
     "title": "送楊氏女",
-    "id": "f800050a-d7a0-4f12-a614-17fe23df8f41"
+    "id": "f800050a-d7a0-4f12-a614-17fe23df8f41",
+    "format": {
+      "sentence_count": 24,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5454,7 +6894,12 @@
       "五言古诗"
     ],
     "title": "長安遇馮著",
-    "id": "b8ae44b3-ba8d-42d3-85a7-a70aa8608379"
+    "id": "b8ae44b3-ba8d-42d3-85a7-a70aa8608379",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5472,7 +6917,12 @@
       "思乡"
     ],
     "title": "夕次盱眙縣",
-    "id": "11424603-9a22-4564-89a4-95e1766f9685"
+    "id": "11424603-9a22-4564-89a4-95e1766f9685",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5489,7 +6939,12 @@
       "生活"
     ],
     "title": "東郊",
-    "id": "3e0e1d96-c249-47c4-b16d-4d91dd6e7cce"
+    "id": "3e0e1d96-c249-47c4-b16d-4d91dd6e7cce",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -5509,7 +6964,12 @@
       "七年级下册(课外)"
     ],
     "title": "滁州西澗",
-    "id": "0ae0e3bd-a32e-481f-9719-b283da2da964"
+    "id": "0ae0e3bd-a32e-481f-9719-b283da2da964",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "韋應物",
@@ -5528,7 +6988,12 @@
       "五言律诗"
     ],
     "title": "和晉陵陸丞早春遊望",
-    "id": "b67ddf05-43fb-4859-a1a9-34f95d45aabf"
+    "id": "b67ddf05-43fb-4859-a1a9-34f95d45aabf",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "岑參",
@@ -5554,7 +7019,12 @@
       "写塔"
     ],
     "title": "與高適薛據慈恩寺浮圖",
-    "id": "93d82a12-5e4d-45c2-b837-d0c54447fba3"
+    "id": "93d82a12-5e4d-45c2-b837-d0c54447fba3",
+    "format": {
+      "sentence_count": 22,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "岑參",
@@ -5584,7 +7054,12 @@
       "咏物诗"
     ],
     "title": "白雪歌送武判官歸京",
-    "id": "294bc7b2-b4f8-4a53-be17-a40ded4afd1a"
+    "id": "294bc7b2-b4f8-4a53-be17-a40ded4afd1a",
+    "format": {
+      "sentence_count": 18,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "岑參",
@@ -5609,7 +7084,12 @@
       "将士"
     ],
     "title": "輪臺歌奉送封大夫出師西征",
-    "id": "d129dc0f-cec9-4073-bb89-cb9312564d9d"
+    "id": "d129dc0f-cec9-4073-bb89-cb9312564d9d",
+    "format": {
+      "sentence_count": 18,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "岑參",
@@ -5638,7 +7118,12 @@
       "将士"
     ],
     "title": "走馬川行奉送出師西征",
-    "id": "f5e021d7-ea56-4341-947c-8fd024018e1c"
+    "id": "f5e021d7-ea56-4341-947c-8fd024018e1c",
+    "format": {
+      "sentence_count": 17,
+      "sentence_lengths": [10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "岑參",
@@ -5655,7 +7140,12 @@
       "感慨"
     ],
     "title": "寄左省杜拾遺",
-    "id": "2779f710-4ab4-46cb-a2b6-1889752f26c2"
+    "id": "2779f710-4ab4-46cb-a2b6-1889752f26c2",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "岑參",
@@ -5671,7 +7161,12 @@
       "唱和"
     ],
     "title": "奉和中書舍人賈至早朝大明宮",
-    "id": "8df8e94b-ffe4-4930-af4c-491d7cb04651"
+    "id": "8df8e94b-ffe4-4930-af4c-491d7cb04651",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "岑參",
@@ -5689,7 +7184,12 @@
       "七年级下册(课外)"
     ],
     "title": "逢入京使",
-    "id": "07238ad9-c348-43d4-b1d7-25d89369286d"
+    "id": "07238ad9-c348-43d4-b1d7-25d89369286d",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "孫革",
@@ -5704,7 +7204,12 @@
       "寻访"
     ],
     "title": "訪羊尊師",
-    "id": "162eb552-a496-4979-87e2-e441847d4e6f"
+    "id": "162eb552-a496-4979-87e2-e441847d4e6f",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "張喬",
@@ -5721,7 +7226,12 @@
       "边塞"
     ],
     "title": "書邊事",
-    "id": "8324db66-b75a-40ff-9469-cba276d2f88f"
+    "id": "8324db66-b75a-40ff-9469-cba276d2f88f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5746,7 +7256,12 @@
       "怀才不遇"
     ],
     "title": "行路難三首 一",
-    "id": "c348bc2e-f50d-436b-88b7-c198d63dacfc"
+    "id": "c348bc2e-f50d-436b-88b7-c198d63dacfc",
+    "format": {
+      "sentence_count": 14,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -5767,7 +7282,12 @@
       "唐诗三百首"
     ],
     "title": "行路難三首 二",
-    "id": "801c3192-8001-4238-8ecf-0111f490e84c"
+    "id": "801c3192-8001-4238-8ecf-0111f490e84c",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7, 7, 7, 3, 3],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -5788,7 +7308,12 @@
       "态度"
     ],
     "title": "行路難三首 三",
-    "id": "a7b8e17f-ee93-4bdc-a144-b1ba5ab32bb5"
+    "id": "a7b8e17f-ee93-4bdc-a144-b1ba5ab32bb5",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -5808,7 +7333,12 @@
       "伤怀"
     ],
     "title": "長相思",
-    "id": "3c1693fc-f4e6-43b7-a66f-6379c3a26eef"
+    "id": "3c1693fc-f4e6-43b7-a66f-6379c3a26eef",
+    "format": {
+      "sentence_count": 13,
+      "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -5832,7 +7362,12 @@
       "征人"
     ],
     "title": "關山月",
-    "id": "4be77185-992e-4614-9746-de2e73c8a3c3"
+    "id": "4be77185-992e-4614-9746-de2e73c8a3c3",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5847,7 +7382,12 @@
       "乐府"
     ],
     "title": "玉階怨",
-    "id": "a65e5646-14b1-4f75-924b-bbf262b242d7"
+    "id": "a65e5646-14b1-4f75-924b-bbf262b242d7",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5863,7 +7403,12 @@
       "近代曲辞"
     ],
     "title": "清平調詞三首 一",
-    "id": "948fa40a-492e-4fa1-99f4-b002ae87cd24"
+    "id": "948fa40a-492e-4fa1-99f4-b002ae87cd24",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -5878,7 +7423,12 @@
       "乐府"
     ],
     "title": "清平調詞三首 二",
-    "id": "99167d13-8e2c-4b75-bf93-62b0682dfdd0"
+    "id": "99167d13-8e2c-4b75-bf93-62b0682dfdd0",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -5897,7 +7447,12 @@
       "小学古诗"
     ],
     "title": "靜夜思",
-    "id": "ca2c489a-e433-4c0f-8248-77d354f0665e"
+    "id": "ca2c489a-e433-4c0f-8248-77d354f0665e",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5915,7 +7470,12 @@
       "妇女"
     ],
     "title": "春思",
-    "id": "7277c420-9f3f-4093-a5b2-6331494721e8"
+    "id": "7277c420-9f3f-4093-a5b2-6331494721e8",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5933,7 +7493,12 @@
       "赞美"
     ],
     "title": "子夜吳歌 春歌",
-    "id": "57203d7f-380c-4052-b21b-d1ea79fbe231"
+    "id": "57203d7f-380c-4052-b21b-d1ea79fbe231",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5952,7 +7517,12 @@
       "荷花"
     ],
     "title": "子夜吳歌 夏歌",
-    "id": "abb3e465-f10e-43dd-b564-a5de08010478"
+    "id": "abb3e465-f10e-43dd-b564-a5de08010478",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5972,7 +7542,12 @@
       "闺怨"
     ],
     "title": "子夜吳歌 秋歌",
-    "id": "baccf46a-41c4-4a0f-b90f-37cc35b04a64"
+    "id": "baccf46a-41c4-4a0f-b90f-37cc35b04a64",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -5990,7 +7565,12 @@
       "乐府"
     ],
     "title": "子夜吳歌 冬歌",
-    "id": "f990af2e-d929-48da-a9b3-fdbc706ca4a3"
+    "id": "f990af2e-d929-48da-a9b3-fdbc706ca4a3",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6007,7 +7587,12 @@
       "敬爱"
     ],
     "title": "贈孟浩然",
-    "id": "9d1b6a18-571c-4f25-bfdb-3fe260115c3f"
+    "id": "9d1b6a18-571c-4f25-bfdb-3fe260115c3f",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6037,7 +7622,12 @@
       "山水"
     ],
     "title": "廬山謠寄盧侍御虛舟",
-    "id": "4e491c2f-c3c8-487f-8e76-63bd0a811b30"
+    "id": "4e491c2f-c3c8-487f-8e76-63bd0a811b30",
+    "format": {
+      "sentence_count": 29,
+      "sentence_lengths": [5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6074,7 +7664,12 @@
       "古体"
     ],
     "title": "夢遊天姥吟留別",
-    "id": "606d0bd8-31d2-4a7a-97ee-341956e7be60"
+    "id": "606d0bd8-31d2-4a7a-97ee-341956e7be60",
+    "format": {
+      "sentence_count": 45,
+      "sentence_lengths": [5, 7, 5, 7, 7, 7, 7, 7, 7, 7, 5, 5, 7, 7, 5, 5, 5, 5, 7, 7, 7, 7, 6, 6, 4, 4, 4, 4, 7, 7, 7, 9, 7, 7, 6, 6, 6, 6, 7, 7, 7, 7, 7, 9, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6090,7 +7685,12 @@
       "饮酒"
     ],
     "title": "金陵酒肆留別",
-    "id": "809ad73b-9a8e-436e-9874-f9295b624af0"
+    "id": "809ad73b-9a8e-436e-9874-f9295b624af0",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -6117,7 +7717,12 @@
       "四年级上册"
     ],
     "title": "黃鶴樓送孟浩然之廣陵",
-    "id": "d43a4767-2240-44b7-8d5b-c2acdc689839"
+    "id": "d43a4767-2240-44b7-8d5b-c2acdc689839",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -6137,7 +7742,12 @@
       "思乡"
     ],
     "title": "渡荆門送別",
-    "id": "bf8918b8-a05a-4ccf-bb2e-3f9b81f6bbfc"
+    "id": "bf8918b8-a05a-4ccf-bb2e-3f9b81f6bbfc",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6158,7 +7768,12 @@
       "惜别"
     ],
     "title": "送友人",
-    "id": "1f83fccf-7476-464b-8cd4-8a2b4569c7a0"
+    "id": "1f83fccf-7476-464b-8cd4-8a2b4569c7a0",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6182,7 +7797,12 @@
       "豪迈"
     ],
     "title": "宣州謝朓樓餞別校書叔雲",
-    "id": "5593d522-b820-4c06-bab6-0ab5a0fc1d46"
+    "id": "5593d522-b820-4c06-bab6-0ab5a0fc1d46",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [11, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6204,7 +7824,12 @@
       "饮酒"
     ],
     "title": "下終南山過斛斯山人宿置酒",
-    "id": "ca4cc6b3-a324-48c0-89c0-bb36c09c4930"
+    "id": "ca4cc6b3-a324-48c0-89c0-bb36c09c4930",
+    "format": {
+      "sentence_count": 14,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6223,7 +7848,12 @@
       "咏史怀古"
     ],
     "title": "登金陵鳳凰臺",
-    "id": "4af86c76-18b3-4069-be90-6d8cef430bc7"
+    "id": "4af86c76-18b3-4069-be90-6d8cef430bc7",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -6243,7 +7873,12 @@
       "地名"
     ],
     "title": "早發白帝城",
-    "id": "9525f99d-39cb-4d04-8650-263493d223e0"
+    "id": "9525f99d-39cb-4d04-8650-263493d223e0",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -6260,7 +7895,12 @@
       "月亮"
     ],
     "title": "夜泊牛渚懷古",
-    "id": "7e1be9c9-fa2f-44c2-a6bc-3edcece745fe"
+    "id": "7e1be9c9-fa2f-44c2-a6bc-3edcece745fe",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6286,7 +7926,12 @@
       "九年级下册(课外)"
     ],
     "title": "月下獨酌四首 一",
-    "id": "83e70b6e-ff59-4a3b-8e81-249ab0cda0c3"
+    "id": "83e70b6e-ff59-4a3b-8e81-249ab0cda0c3",
+    "format": {
+      "sentence_count": 14,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6302,7 +7947,12 @@
       "五言律诗"
     ],
     "title": "聽蜀僧濬彈琴",
-    "id": "71999aa1-55dd-4449-81b0-41f04686bf2e"
+    "id": "71999aa1-55dd-4449-81b0-41f04686bf2e",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6316,7 +7966,12 @@
       "女子"
     ],
     "title": "怨情",
-    "id": "22e72306-f41c-4621-a925-83bab7f9d76e"
+    "id": "22e72306-f41c-4621-a925-83bab7f9d76e",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -6332,7 +7987,12 @@
       "五言律诗"
     ],
     "title": "淮上喜會梁川故人",
-    "id": "a68013c8-4630-41c6-a5ee-a658b57f58fe"
+    "id": "a68013c8-4630-41c6-a5ee-a658b57f58fe",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -6354,7 +8014,12 @@
       "宴会"
     ],
     "title": "郡齋雨中與諸文士燕集",
-    "id": "9f5ded08-4f6f-4641-878e-897904483479"
+    "id": "9f5ded08-4f6f-4641-878e-897904483479",
+    "format": {
+      "sentence_count": 20,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "韋應物",
@@ -6371,7 +8036,12 @@
       "依恋"
     ],
     "title": "初發揚子寄元大校書",
-    "id": "5b3a5651-2a80-4fb1-b1bf-c9fb5ec38905"
+    "id": "5b3a5651-2a80-4fb1-b1bf-c9fb5ec38905",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李益",
@@ -6385,7 +8055,12 @@
       "乐府"
     ],
     "title": "相和歌辭 江南曲",
-    "id": "bb111748-d8f1-4a5e-b618-b70272a7a642"
+    "id": "bb111748-d8f1-4a5e-b618-b70272a7a642",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "高適",
@@ -6409,7 +8084,12 @@
       "唐诗三百首"
     ],
     "title": "相和歌辭 燕歌行",
-    "id": "09788f19-1e11-4394-a543-0edf2cfdcae9"
+    "id": "09788f19-1e11-4394-a543-0edf2cfdcae9",
+    "format": {
+      "sentence_count": 28,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李頎",
@@ -6430,7 +8110,12 @@
       "相和歌辞"
     ],
     "title": "相和歌辭 從軍行",
-    "id": "0ed53ef4-30ca-41ac-a629-d778e5cc2bfa"
+    "id": "0ed53ef4-30ca-41ac-a629-d778e5cc2bfa",
+    "format": {
+      "sentence_count": 12,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -6463,7 +8148,12 @@
       "相和歌辞"
     ],
     "title": "相和歌辭 蜀道難",
-    "id": "e117d224-39ca-4eba-a047-0d36ce8b8c26"
+    "id": "e117d224-39ca-4eba-a047-0d36ce8b8c26",
+    "format": {
+      "sentence_count": 46,
+      "sentence_lengths": [3, 4, 9, 5, 5, 7, 7, 7, 7, 7, 9, 9, 9, 7, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 9, 7, 7, 7, 7, 7, 5, 11, 7, 4, 4, 5, 5, 4, 4, 4, 4, 5, 5, 9, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "王昌齡",
@@ -6475,7 +8165,12 @@
       "唐诗三百首"
     ],
     "title": "相和歌辭 長信怨 二",
-    "id": "1b6f2389-2d09-4d51-982a-e7efb35113c5"
+    "id": "1b6f2389-2d09-4d51-982a-e7efb35113c5",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "李白",
@@ -6490,7 +8185,12 @@
       "乐府"
     ],
     "title": "相和歌辭 玉階怨",
-    "id": "f93545e7-747e-4d12-a6c8-e484c46b2860"
+    "id": "f93545e7-747e-4d12-a6c8-e484c46b2860",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6508,7 +8208,12 @@
       "赞美"
     ],
     "title": "相和歌辭 子夜四時歌四首 春歌",
-    "id": "4e92a96d-aa74-4153-8314-b6df22d1e18a"
+    "id": "4e92a96d-aa74-4153-8314-b6df22d1e18a",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6527,7 +8232,12 @@
       "荷花"
     ],
     "title": "相和歌辭 子夜四時歌四首 夏歌",
-    "id": "4bd5be2b-5788-42c0-a300-9d106a73d46e"
+    "id": "4bd5be2b-5788-42c0-a300-9d106a73d46e",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6547,7 +8257,12 @@
       "闺怨"
     ],
     "title": "相和歌辭 子夜四時歌四首 秋歌",
-    "id": "49194c4b-b775-4d21-a506-fc0a2ff308f1"
+    "id": "49194c4b-b775-4d21-a506-fc0a2ff308f1",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6565,7 +8280,12 @@
       "乐府"
     ],
     "title": "相和歌辭 子夜四時歌四首 冬歌",
-    "id": "35319d7e-9cf6-43b0-bfa3-991cf82a49f9"
+    "id": "35319d7e-9cf6-43b0-bfa3-991cf82a49f9",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟郊",
@@ -6581,7 +8301,12 @@
       "乐府"
     ],
     "title": "琴曲歌辭 列女操",
-    "id": "7ccd9915-51a1-4748-9989-af243036455b"
+    "id": "7ccd9915-51a1-4748-9989-af243036455b",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "孟郊",
@@ -6599,7 +8324,12 @@
       "赞颂"
     ],
     "title": "雜曲歌辭 遊子吟",
-    "id": "22923091-18da-429d-9ef1-6b367fd74b1a"
+    "id": "22923091-18da-429d-9ef1-6b367fd74b1a",
+    "format": {
+      "sentence_count": 6,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "杜甫",
@@ -6626,7 +8356,12 @@
       "咏叹"
     ],
     "title": "雜曲歌辭 麗人行",
-    "id": "aaae5882-9b74-4b45-9bb5-9f773a721119"
+    "id": "aaae5882-9b74-4b45-9bb5-9f773a721119",
+    "format": {
+      "sentence_count": 26,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 5, 7, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6646,7 +8381,12 @@
       "伤怀"
     ],
     "title": "雜曲歌辭 長相思三首 一",
-    "id": "d4baf2d1-ea61-4fb3-a284-e889275bdca2"
+    "id": "d4baf2d1-ea61-4fb3-a284-e889275bdca2",
+    "format": {
+      "sentence_count": 13,
+      "sentence_lengths": [3, 3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6663,7 +8403,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 長相思三首 二",
-    "id": "caa023cf-9f55-450c-9638-1cf5c0223cc1"
+    "id": "caa023cf-9f55-450c-9638-1cf5c0223cc1",
+    "format": {
+      "sentence_count": 11,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 5, 5, 5, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6687,7 +8432,12 @@
       "怀才不遇"
     ],
     "title": "雜曲歌辭 行路難三首 一",
-    "id": "527eba4b-b35c-4d29-99e7-8f40c6f3d5b7"
+    "id": "527eba4b-b35c-4d29-99e7-8f40c6f3d5b7",
+    "format": {
+      "sentence_count": 14,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6708,7 +8458,12 @@
       "叹息"
     ],
     "title": "雜曲歌辭 行路難三首 二",
-    "id": "e12edd83-36cd-4e8a-a630-91874631c51f"
+    "id": "e12edd83-36cd-4e8a-a630-91874631c51f",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [5, 5, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7, 7, 7, 3, 3],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "李白",
@@ -6728,7 +8483,12 @@
       "态度"
     ],
     "title": "雜曲歌辭 行路難三首 三",
-    "id": "b4f9c5b3-0108-4127-bf3e-73fd207176f3"
+    "id": "b4f9c5b3-0108-4127-bf3e-73fd207176f3",
+    "format": {
+      "sentence_count": 16,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 7, 7],
+      "uniform_sentence_length": null
+    }
   },
   {
     "author": "崔顥",
@@ -6744,7 +8504,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 長干曲四首 一",
-    "id": "4bef9a5e-f4a1-44bd-a78c-cb0fe38ccdff"
+    "id": "4bef9a5e-f4a1-44bd-a78c-cb0fe38ccdff",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "崔顥",
@@ -6760,7 +8525,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 長干曲四首 二",
-    "id": "8d480633-1876-4082-aaca-a7b3a26c04d7"
+    "id": "8d480633-1876-4082-aaca-a7b3a26c04d7",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "李白",
@@ -6785,7 +8555,12 @@
       "唐诗三百首"
     ],
     "title": "雜曲歌辭 長干行二首 一",
-    "id": "1352fbf1-2c3d-459c-b4ac-061e0c6befb8"
+    "id": "1352fbf1-2c3d-459c-b4ac-061e0c6befb8",
+    "format": {
+      "sentence_count": 30,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "沈佺期",
@@ -6802,7 +8577,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 獨不見",
-    "id": "15079155-e95e-4abc-b36e-f6b605848f37"
+    "id": "15079155-e95e-4abc-b36e-f6b605848f37",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王涯",
@@ -6818,7 +8598,12 @@
       "乐府"
     ],
     "title": "雜曲歌辭 秋夜曲",
-    "id": "1f66d2ec-8418-485e-a434-e21a0d439dda"
+    "id": "1f66d2ec-8418-485e-a434-e21a0d439dda",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "皇甫冉",
@@ -6837,7 +8622,12 @@
       "闺怨"
     ],
     "title": "春思",
-    "id": "d35f583a-c20c-453c-a886-e13f98b2e4b4"
+    "id": "d35f583a-c20c-453c-a886-e13f98b2e4b4",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉方平",
@@ -6856,7 +8646,12 @@
       "七言绝句"
     ],
     "title": "夜月",
-    "id": "79e7ec6e-0d6c-4f95-8181-4671c42e1faf"
+    "id": "79e7ec6e-0d6c-4f95-8181-4671c42e1faf",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉方平",
@@ -6871,7 +8666,12 @@
       "宫怨"
     ],
     "title": "春怨",
-    "id": "fc1bc01d-c281-40fd-9e0d-4c484539e4ae"
+    "id": "fc1bc01d-c281-40fd-9e0d-4c484539e4ae",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "王之渙",
@@ -6891,7 +8691,12 @@
       "五言绝句"
     ],
     "title": "登鸛雀樓",
-    "id": "63950163-6a10-4e74-af8a-09886e4ef2a8"
+    "id": "63950163-6a10-4e74-af8a-09886e4ef2a8",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "王之渙",
@@ -6910,7 +8715,12 @@
       "将士"
     ],
     "title": "涼州詞二首 一",
-    "id": "526d4ecc-e123-4b9d-a213-958bb947593d"
+    "id": "526d4ecc-e123-4b9d-a213-958bb947593d",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "劉眘虛",
@@ -6927,7 +8737,12 @@
       "五言律诗"
     ],
     "title": "闕題",
-    "id": "a2b4fe60-9809-422d-afa7-143a2088f045"
+    "id": "a2b4fe60-9809-422d-afa7-143a2088f045",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "柳中庸",
@@ -6942,7 +8757,12 @@
       "七言绝句"
     ],
     "title": "征怨",
-    "id": "92dd65da-8301-4c83-b8f3-986b6095c481"
+    "id": "92dd65da-8301-4c83-b8f3-986b6095c481",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   },
   {
     "author": "嚴維",
@@ -6961,7 +8781,12 @@
       "伤怀"
     ],
     "title": "送李端",
-    "id": "67c18ea1-db49-44b5-8b21-6176e4a86416"
+    "id": "67c18ea1-db49-44b5-8b21-6176e4a86416",
+    "format": {
+      "sentence_count": 8,
+      "sentence_lengths": [5, 5, 5, 5, 5, 5, 5, 5],
+      "uniform_sentence_length": 5
+    }
   },
   {
     "author": "顧況",
@@ -6973,6 +8798,11 @@
       "唐诗三百首"
     ],
     "title": "宮詞五首 二",
-    "id": "aa9f9e4d-aa34-496e-89cf-cfef61efa89d"
+    "id": "aa9f9e4d-aa34-496e-89cf-cfef61efa89d",
+    "format": {
+      "sentence_count": 4,
+      "sentence_lengths": [7, 7, 7, 7],
+      "uniform_sentence_length": 7
+    }
   }
 ]

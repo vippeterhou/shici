@@ -34,3 +34,21 @@ pytest -q
 `poetry/analytics.py` contains framework-independent filtering and aggregation
 logic. A future Supabase repository can replace JSON storage without coupling
 the dashboard to a specific data source.
+
+Each poem includes deterministic format metadata:
+
+```json
+{
+  "format": {
+    "sentence_count": 4,
+    "sentence_lengths": [5, 5, 5, 5],
+    "uniform_sentence_length": 5
+  }
+}
+```
+
+Regenerate this metadata after changing poem text:
+
+```bash
+python -m scripts.enrich_format data/tangshisanbaishou.json
+```

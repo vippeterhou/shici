@@ -10,7 +10,14 @@ from poetry.analytics import (
     poems_in_length_bucket,
     summarize,
 )
-from poetry.models import Poem
+from poetry.models import Poem, PoemFormat
+
+
+FIVE_CHARACTER_FORMAT = PoemFormat(
+    sentence_count=1,
+    sentence_lengths=(5,),
+    uniform_sentence_length=5,
+)
 
 
 POEMS = (
@@ -19,6 +26,11 @@ POEMS = (
         title="將進酒",
         author="李白",
         paragraphs=("黃河之水天上來。",),
+        format=PoemFormat(
+            sentence_count=1,
+            sentence_lengths=(7,),
+            uniform_sentence_length=7,
+        ),
         tags=("樂府", "黃河"),
     ),
     Poem(
@@ -26,6 +38,11 @@ POEMS = (
         title="登鸛雀樓",
         author="王之渙",
         paragraphs=("白日依山盡，黃河入海流。",),
+        format=PoemFormat(
+            sentence_count=2,
+            sentence_lengths=(5, 5),
+            uniform_sentence_length=5,
+        ),
         tags=("五言絕句", "黃河"),
     ),
     Poem(
@@ -33,6 +50,11 @@ POEMS = (
         title="異題",
         author="佚名",
         paragraphs=("白日依山盡，黃河入海流。",),
+        format=PoemFormat(
+            sentence_count=2,
+            sentence_lengths=(5, 5),
+            uniform_sentence_length=5,
+        ),
         tags=(),
     ),
 )
@@ -53,6 +75,7 @@ def test_poem_length_counts_only_han_characters() -> None:
         title="測試",
         author="作者",
         paragraphs=("明 月，ABC 123。〇",),
+        format=FIVE_CHARACTER_FORMAT,
     )
 
     assert poem_character_count(poem) == 3
