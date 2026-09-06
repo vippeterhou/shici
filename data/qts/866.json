@@ -592,8 +592,8 @@
         "author": "王麗真",
         "biography": "",
         "paragraphs": [
-            "五原分袂真吳越燕拆鶯離芳草歇年少煙花處處春北邙空恨清秋月",
-            "莎草青青雁欲歸玉腮珠淚灑臨岐雲鬟飄去香風盡愁見鶯啼紅樹枝"
+            "五原分袂真吳越，燕拆鶯離芳草歇。年少煙花處處春，北邙空恨清秋月。",
+            "莎草青青雁欲歸，玉腮珠淚灑臨岐。雲鬟飄去香風盡，愁見鶯啼紅樹枝。"
         ],
         "notes": [
             ""
@@ -601,9 +601,9 @@
         "volume": "卷八百六十六",
         "no#": 30,
         "format": {
-            "sentence_count": 2,
-            "sentence_lengths": [28, 28],
-            "uniform_sentence_length": 28
+            "sentence_count": 8,
+            "sentence_lengths": [7, 7, 7, 7, 7, 7, 7, 7],
+            "uniform_sentence_length": 7
         }
     },
     {

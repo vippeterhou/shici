@@ -23,3 +23,29 @@ def test_repository_loads_directory_and_generates_stable_ids() -> None:
     assert len({poem.id for poem in poems}) == len(poems)
     assert poems[0].id == "qts/001.json:0"
     assert all(poem.format.sentence_count > 0 for poem in poems)
+
+
+def test_repository_excludes_comments_and_fixes_missing_line_breaks() -> None:
+    poems = JsonPoemRepository(QTS_PATH).list_poems()
+    poems_by_author_and_title = {
+        (poem.author, poem.title): poem for poem in poems
+    }
+
+    meeting_poem = poems_by_author_and_title[("王麗真", "與曾季衡冥會詩")]
+    assert meeting_poem.format.sentence_count == 8
+    assert meeting_poem.format.uniform_sentence_length == 7
+
+    butterfly_poem = poems_by_author_and_title[("李煜", "蝶戀花")]
+    assert butterfly_poem.format.sentence_lengths == (
+        7,
+        4,
+        5,
+        7,
+        7,
+        7,
+        4,
+        5,
+        7,
+        7,
+    )
+    assert all("一名一籮金" not in paragraph for paragraph in butterfly_poem.paragraphs)
