@@ -1,9 +1,11 @@
 # 唐诗三百首数据仪表板
 
-A Streamlit dashboard for exploring the bundled 唐诗三百首 dataset.
+A Streamlit dashboard for exploring the bundled 唐诗三百首 and 全唐诗
+datasets.
 
 ## Dashboard
 
+- Corpus selection for 唐诗三百首, 全唐诗, or both
 - Global filtering by author, format, and body text
 - Corpus metrics for poems, authors, and Han-character count
 - Top-author poem-count chart with full-list expansion

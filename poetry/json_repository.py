@@ -17,10 +17,33 @@ class JsonPoemRepository:
         return self._poems
 
     def _load(self) -> tuple[Poem, ...]:
-        with self.path.open(encoding="utf-8") as file:
-            records = json.load(file)
+        if self.path.is_file():
+            return self._load_file(self.path)
+        if self.path.is_dir():
+            files = sorted(self.path.glob("*.json"))
+            if not files:
+                raise ValueError(f"No JSON files found in: {self.path}")
+            return tuple(
+                poem
+                for file_path in files
+                for poem in self._load_file(file_path)
+            )
+        raise ValueError(f"Poetry data path does not exist: {self.path}")
 
+    def _load_file(self, path: Path) -> tuple[Poem, ...]:
+        with path.open(encoding="utf-8") as file:
+            records = json.load(file)
         if not isinstance(records, list):
             raise ValueError("Poetry data must be a top-level JSON array")
 
-        return tuple(Poem.from_dict(record) for record in records)
+        poems = []
+        for index, record in enumerate(records):
+            if not isinstance(record, dict):
+                raise ValueError(f"Poetry record must be an object: {path}")
+            normalized_record = dict(record)
+            normalized_record.setdefault(
+                "id",
+                f"{self.path.name}/{path.name}:{index}",
+            )
+            poems.append(Poem.from_dict(normalized_record))
+        return tuple(poems)

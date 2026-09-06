@@ -32,8 +32,12 @@ from poetry.analytics import (
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
 
-DATA_PATH = Path(__file__).parent / "data" / "tangshisanbaishou.json"
-DATA_SCHEMA_VERSION = 2
+DATA_DIRECTORY = Path(__file__).parent / "data"
+CORPUS_PATHS = {
+    "唐诗三百首": DATA_DIRECTORY / "tangshisanbaishou.json",
+    "全唐诗": DATA_DIRECTORY / "quantangshi",
+}
+DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 20
 
 st.set_page_config(
@@ -52,14 +56,22 @@ def load_poems(
     return JsonPoemRepository(data_path).list_poems()
 
 
-poems = load_poems(
-    str(DATA_PATH),
-    DATA_PATH.stat().st_mtime_ns,
-    DATA_SCHEMA_VERSION,
-)
-all_authors = sorted({poem.author for poem in poems})
-all_line_types = [name for name, _ in line_length_type_counts(poems)]
-all_sentence_counts = sorted({poem.format.sentence_count for poem in poems})
+@st.cache_data(show_spinner=False, max_entries=8)
+def cached_word_counts(
+    cache_key: tuple[object, ...],
+    _selected_poems: tuple[Poem, ...],
+) -> list[tuple[str, int]]:
+    _ = cache_key
+    return word_counts(_selected_poems)
+
+
+def corpus_modified_time_ns(path: Path) -> int:
+    if path.is_file():
+        return path.stat().st_mtime_ns
+    return max(
+        (file_path.stat().st_mtime_ns for file_path in path.glob("*.json")),
+        default=path.stat().st_mtime_ns,
+    )
 
 
 def selected_chart_record(
@@ -204,6 +216,31 @@ def render_poem_collection(
 
 with st.sidebar:
     st.header("筛选")
+    selected_corpora = st.multiselect(
+        "数据集",
+        list(CORPUS_PATHS),
+        default=["唐诗三百首"],
+    )
+    if not selected_corpora:
+        st.warning("请至少选择一个数据集。")
+        st.stop()
+
+    selected_corpus_versions = {
+        corpus_name: corpus_modified_time_ns(CORPUS_PATHS[corpus_name])
+        for corpus_name in selected_corpora
+    }
+    poems = tuple(
+        poem
+        for corpus_name in selected_corpora
+        for poem in load_poems(
+            str(CORPUS_PATHS[corpus_name]),
+            selected_corpus_versions[corpus_name],
+            DATA_SCHEMA_VERSION,
+        )
+    )
+    all_authors = sorted({poem.author for poem in poems})
+    all_line_types = [name for name, _ in line_length_type_counts(poems)]
+    all_sentence_counts = sorted({poem.format.sentence_count for poem in poems})
     selected_authors = st.multiselect("作者", all_authors)
     with st.expander("格式", expanded=True):
         selected_line_types = st.multiselect("言", all_line_types)
@@ -223,7 +260,8 @@ filtered_poems = filter_poems(
 )
 summary = summarize(filtered_poems)
 
-st.title("唐诗三百首数据仪表板")
+st.title("唐诗数据仪表板")
+st.caption(f"当前数据集：{'、'.join(selected_corpora)}")
 st.caption("探索作者、格式、常用字与数据质量")
 
 metric_columns = st.columns(3)
@@ -499,91 +537,74 @@ with overview_tab:
         st.caption(f"当前显示前 {len(visible_author_counts)} 位作者。")
 
 with characters_tab:
-    st.subheader("正文常用字")
-    character_limit = st.slider(
-        "显示数量",
-        10,
-        100,
-        30,
-        5,
-        key="character-limit",
+    frequency_type = st.radio(
+        "统计类型",
+        ["常用字", "常用词语"],
+        horizontal=True,
     )
-    character_data = pd.DataFrame(
-        character_counts(filtered_poems)[:character_limit],
-        columns=["字", "出现次数"],
-    )
-    chart_column, table_column = st.columns([3, 2])
-    with chart_column:
-        character_selection = alt.selection_point(
+
+    if frequency_type == "常用字":
+        st.subheader("正文常用字")
+        frequency_limit = st.slider(
+            "显示数量",
+            10,
+            100,
+            30,
+            5,
+            key="character-limit",
+        )
+        frequency_data = pd.DataFrame(
+            character_counts(filtered_poems)[:frequency_limit],
+            columns=["字", "出现次数"],
+        )
+        selection = alt.selection_point(
             name="character_selection",
             fields=["字"],
             clear="dblclick",
         )
-        character_chart = (
-            alt.Chart(character_data)
-            .mark_bar()
-            .encode(
-                x=alt.X(
-                    "出现次数:Q",
-                    title="出现次数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                ),
-                y=alt.Y(
-                    "字:N",
-                    title=None,
-                    sort="-x",
-                    axis=alt.Axis(labelOverlap=False),
-                ),
-                tooltip=["字:N", "出现次数:Q"],
-                opacity=alt.condition(
-                    character_selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
+        category_field = "字"
+        selection_name = "character_selection"
+        drilldown_kind = "character"
+        chart_base_key = "character-chart"
+        caption = "只统计汉字，排除标点、空格、数字及其他非汉字。"
+    else:
+        st.subheader("正文常用词语")
+        frequency_limit = st.slider(
+            "显示数量",
+            10,
+            100,
+            30,
+            5,
+            key="word-limit",
+        )
+        with st.spinner("正在进行中文分词统计……"):
+            word_count_cache_key = (
+                DATA_SCHEMA_VERSION,
+                tuple(selected_corpus_versions.items()),
+                tuple(poem.id for poem in filtered_poems),
             )
-            .add_params(character_selection)
-            .properties(height=max(400, character_limit * 22))
-        )
-        character_chart_key = chart_widget_key("character-chart")
-        st.altair_chart(
-            character_chart,
-            use_container_width=True,
-            key=character_chart_key,
-            on_select=partial(
-                activate_chart_drilldown,
-                character_chart_key,
-                "character_selection",
-                "character",
-            ),
-            selection_mode="character_selection",
-        )
-    with table_column:
-        st.dataframe(character_data, hide_index=True, width="stretch")
-    st.caption("只统计汉字，排除标点、空格、数字及其他非汉字。")
-
-    st.divider()
-    st.subheader("正文常用词语")
-    word_limit = st.slider(
-        "显示数量",
-        10,
-        100,
-        30,
-        5,
-        key="word-limit",
-    )
-    word_data = pd.DataFrame(
-        word_counts(filtered_poems)[:word_limit],
-        columns=["词语", "出现次数"],
-    )
-    word_chart_column, word_table_column = st.columns([3, 2])
-    with word_chart_column:
-        word_selection = alt.selection_point(
+            frequency_data = pd.DataFrame(
+                cached_word_counts(
+                    word_count_cache_key,
+                    tuple(filtered_poems),
+                )[:frequency_limit],
+                columns=["词语", "出现次数"],
+            )
+        selection = alt.selection_point(
             name="word_selection",
             fields=["词语"],
             clear="dblclick",
         )
-        word_chart = (
-            alt.Chart(word_data)
+        category_field = "词语"
+        selection_name = "word_selection"
+        drilldown_kind = "word"
+        chart_base_key = "word-chart"
+        caption = "使用中文分词统计，只保留由至少两个汉字组成的词语。"
+
+    chart_column, table_column = st.columns([3, 2])
+    with chart_column:
+        frequency_chart = (
+            alt.Chart(frequency_data)
             .mark_bar()
             .encode(
                 x=alt.X(
@@ -592,37 +613,37 @@ with characters_tab:
                     scale=alt.Scale(domainMin=0, nice=True),
                 ),
                 y=alt.Y(
-                    "词语:N",
+                    f"{category_field}:N",
                     title=None,
                     sort="-x",
                     axis=alt.Axis(labelOverlap=False),
                 ),
-                tooltip=["词语:N", "出现次数:Q"],
+                tooltip=[f"{category_field}:N", "出现次数:Q"],
                 opacity=alt.condition(
-                    word_selection,
+                    selection,
                     alt.value(1),
                     alt.value(0.55),
                 ),
             )
-            .add_params(word_selection)
-            .properties(height=max(400, word_limit * 22))
+            .add_params(selection)
+            .properties(height=max(400, frequency_limit * 22))
         )
-        word_chart_key = chart_widget_key("word-chart")
+        chart_key = chart_widget_key(chart_base_key)
         st.altair_chart(
-            word_chart,
+            frequency_chart,
             use_container_width=True,
-            key=word_chart_key,
+            key=chart_key,
             on_select=partial(
                 activate_chart_drilldown,
-                word_chart_key,
-                "word_selection",
-                "word",
+                chart_key,
+                selection_name,
+                drilldown_kind,
             ),
-            selection_mode="word_selection",
+            selection_mode=selection_name,
         )
-    with word_table_column:
-        st.dataframe(word_data, hide_index=True, width="stretch")
-    st.caption("使用中文分词统计，只保留由至少两个汉字组成的词语。")
+    with table_column:
+        st.dataframe(frequency_data, hide_index=True, width="stretch")
+    st.caption(caption)
 
 with explorer_tab:
     st.subheader("诗作目录")
