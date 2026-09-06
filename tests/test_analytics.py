@@ -3,6 +3,7 @@ from poetry.analytics import (
     character_counts,
     duplicate_text_groups,
     filter_poems,
+    format_bucket_combination_counts,
     format_combination_counts,
     is_han_character,
     length_distribution,
@@ -12,11 +13,15 @@ from poetry.analytics import (
     poems_containing_character,
     poems_in_length_bucket,
     poems_containing_word,
+    poems_with_format_bucket_combination,
     poems_with_format_combination,
     poems_with_line_length_type,
     poems_with_sentence_count,
+    poems_with_sentence_count_bucket,
     poems_with_structure_breakdown,
     poems_with_structure_type,
+    sentence_count_bucket,
+    sentence_count_bucket_distribution,
     sentence_count_distribution,
     structure_breakdown_counts,
     structure_type,
@@ -169,6 +174,28 @@ def test_format_analytics_and_drilldowns() -> None:
         "五言",
         "其他句数",
     ) == list(POEMS[1:])
+    assert sentence_count_bucket_distribution(POEMS) == [("1", 1), ("2", 2)]
+    assert format_bucket_combination_counts(POEMS) == [
+        ("1", "七言", 1),
+        ("2", "五言", 2),
+    ]
+    assert poems_with_sentence_count_bucket(POEMS, "2") == list(POEMS[1:])
+    assert poems_with_format_bucket_combination(
+        POEMS,
+        "2",
+        "五言",
+    ) == list(POEMS[1:])
+
+
+def test_groups_large_sentence_counts_into_ranges() -> None:
+    assert sentence_count_bucket(32) == "32"
+    assert sentence_count_bucket(33) == "33–40"
+    assert sentence_count_bucket(40) == "33–40"
+    assert sentence_count_bucket(41) == "41–50"
+    assert sentence_count_bucket(50) == "41–50"
+    assert sentence_count_bucket(51) == "51–100"
+    assert sentence_count_bucket(100) == "51–100"
+    assert sentence_count_bucket(101) == "101+"
 
 
 def test_groups_structure_breakdown_by_sentence_count() -> None:

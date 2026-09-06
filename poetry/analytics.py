@@ -21,6 +21,13 @@ BASE_STRUCTURE_TYPE_ORDER = [
     "其他七言",
 ]
 SENTENCE_COUNT_GROUP_ORDER = ["四句", "八句", "其他句数"]
+SENTENCE_COUNT_EXACT_LIMIT = 32
+SENTENCE_COUNT_RANGES = (
+    (33, 40, "33–40"),
+    (41, 50, "41–50"),
+    (51, 100, "51–100"),
+    (101, None, "101+"),
+)
 WORD_TOKENIZER = jieba.Tokenizer()
 TRADITIONAL_TO_SIMPLIFIED = OpenCC("t2s")
 
@@ -110,6 +117,39 @@ def sentence_count_distribution(poems: Sequence[Poem]) -> list[tuple[int, int]]:
     return sorted(Counter(poem.format.sentence_count for poem in poems).items())
 
 
+def sentence_count_bucket(sentence_count: int) -> str:
+    if sentence_count <= SENTENCE_COUNT_EXACT_LIMIT:
+        return str(sentence_count)
+    for lower, upper, label in SENTENCE_COUNT_RANGES:
+        if sentence_count >= lower and (
+            upper is None or sentence_count <= upper
+        ):
+            return label
+    raise ValueError(f"Unsupported sentence count: {sentence_count}")
+
+
+def sentence_count_bucket_distribution(
+    poems: Sequence[Poem],
+) -> list[tuple[str, int]]:
+    counts = Counter(
+        sentence_count_bucket(poem.format.sentence_count) for poem in poems
+    )
+    exact_labels = [
+        str(sentence_count)
+        for sentence_count in sorted(
+            {
+                poem.format.sentence_count
+                for poem in poems
+                if poem.format.sentence_count <= SENTENCE_COUNT_EXACT_LIMIT
+            }
+        )
+    ]
+    range_labels = [
+        label for _, _, label in SENTENCE_COUNT_RANGES if counts[label]
+    ]
+    return [(label, counts[label]) for label in exact_labels + range_labels]
+
+
 def chinese_number(value: int) -> str:
     digits = "零一二三四五六七八九"
     if value < 10:
@@ -156,6 +196,28 @@ def format_combination_counts(
             counts.items(),
             key=lambda item: (item[0][0], item[0][1]),
         )
+    ]
+
+
+def format_bucket_combination_counts(
+    poems: Sequence[Poem],
+) -> list[tuple[str, str, int]]:
+    counts = Counter(
+        (
+            sentence_count_bucket(poem.format.sentence_count),
+            line_length_type(poem),
+        )
+        for poem in poems
+    )
+    sentence_order = [
+        label for label, _ in sentence_count_bucket_distribution(poems)
+    ]
+    line_type_order = [name for name, _ in line_length_type_counts(poems)]
+    return [
+        (sentence_bucket, length_type, counts[sentence_bucket, length_type])
+        for sentence_bucket in sentence_order
+        for length_type in line_type_order
+        if counts[sentence_bucket, length_type]
     ]
 
 
@@ -224,6 +286,17 @@ def poems_with_sentence_count(
     ]
 
 
+def poems_with_sentence_count_bucket(
+    poems: Sequence[Poem],
+    sentence_bucket: str,
+) -> list[Poem]:
+    return [
+        poem
+        for poem in poems
+        if sentence_count_bucket(poem.format.sentence_count) == sentence_bucket
+    ]
+
+
 def poems_with_line_length_type(
     poems: Sequence[Poem],
     length_type: str,
@@ -240,6 +313,19 @@ def poems_with_format_combination(
         poem
         for poem in poems
         if poem.format.sentence_count == sentence_count
+        and line_length_type(poem) == length_type
+    ]
+
+
+def poems_with_format_bucket_combination(
+    poems: Sequence[Poem],
+    sentence_bucket: str,
+    length_type: str,
+) -> list[Poem]:
+    return [
+        poem
+        for poem in poems
+        if sentence_count_bucket(poem.format.sentence_count) == sentence_bucket
         and line_length_type(poem) == length_type
     ]
 

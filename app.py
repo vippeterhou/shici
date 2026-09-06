@@ -13,17 +13,21 @@ from poetry.analytics import (
     character_counts,
     duplicate_text_groups,
     filter_poems,
+    format_bucket_combination_counts,
     format_combination_counts,
     line_length_type_counts,
     poem_character_count,
     poems_containing_character,
     poems_containing_word,
+    poems_with_format_bucket_combination,
     poems_with_format_combination,
     poems_with_line_length_type,
+    poems_with_sentence_count_bucket,
     poems_with_sentence_count,
     poems_with_structure_breakdown,
     poems_with_structure_type,
     poem_text,
+    sentence_count_bucket_distribution,
     sentence_count_distribution,
     structure_breakdown_counts,
     structure_type_counts,
@@ -229,9 +233,10 @@ def render_poem_collection(
 
 with st.sidebar:
     st.header("筛选")
-    selected_corpora = st.multiselect(
+    selected_corpora = st.pills(
         "数据集",
         list(CORPUS_PATHS),
+        selection_mode="multi",
         default=["唐诗三百首"],
     )
     if not selected_corpora:
@@ -299,36 +304,79 @@ overview_tab, format_tab, characters_tab, explorer_tab, quality_tab = st.tabs(
 with format_tab:
     st.subheader("格式分布")
     st.caption("点击柱形或热力图单元格查看对应的全部诗作。")
+    option_columns = st.columns(2)
+    with option_columns[0]:
+        group_large_sentence_counts = st.toggle(
+            "合并大句数",
+            value=False,
+            help="保留 1–32 句的精确值，并将更大的句数合并为区间。",
+            on_change=clear_active_drilldown,
+        )
+        if group_large_sentence_counts:
+            st.caption("保留 1–32 句的精确值，33 句以上按区间合并。")
+        else:
+            st.caption("显示所有精确句数，不合并长尾区间。")
+    with option_columns[1]:
+        use_log_color_scale = st.toggle(
+            "使用对数颜色",
+            value=False,
+            help="增强数量较少的格式组合与高频组合之间的颜色差异。",
+        )
+        if use_log_color_scale:
+            st.caption("对数刻度使数量较少的组合也能清晰区分。")
+        else:
+            st.caption("线性刻度直接反映不同组合的数量差距。")
 
-    sentence_column, combination_column = st.columns([2, 3])
+    # Reserve display positions before computing the shared sentence-count axis.
+    combination_column = st.container()
+    st.divider()
+    sentence_column = st.container()
 
     with sentence_column:
         st.markdown("#### 句数分布")
+        if group_large_sentence_counts:
+            sentence_distribution = sentence_count_bucket_distribution(
+                filtered_poems
+            )
+            sentence_field = "句数范围"
+            sentence_drilldown_kind = "sentence_count_bucket"
+        else:
+            sentence_distribution = sentence_count_distribution(filtered_poems)
+            sentence_field = "句数"
+            sentence_drilldown_kind = "sentence_count"
         sentence_data = with_percentage(
             pd.DataFrame(
-                sentence_count_distribution(filtered_poems),
-                columns=["句数", "诗作数"],
+                sentence_distribution,
+                columns=[sentence_field, "诗作数"],
             ),
             "诗作数",
             len(filtered_poems),
         )
+        sentence_count_order = sentence_data[sentence_field].tolist()
         sentence_selection = alt.selection_point(
             name="sentence_selection",
-            fields=["句数"],
+            fields=[sentence_field],
             clear="dblclick",
         )
         sentence_chart = (
             alt.Chart(sentence_data)
             .mark_bar(color=BAR_COLOR)
             .encode(
-                x=alt.X("句数:O", title="句数", sort="ascending"),
+                x=alt.X(
+                    f"{sentence_field}:O",
+                    title="句数",
+                    sort=sentence_count_order,
+                    scale=alt.Scale(domain=sentence_count_order),
+                    axis=alt.Axis(labelOverlap="greedy"),
+                ),
                 y=alt.Y(
                     "诗作数:Q",
                     title="诗作数",
                     scale=alt.Scale(domainMin=0, nice=True),
+                    axis=alt.Axis(minExtent=90, maxExtent=90),
                 ),
                 tooltip=[
-                    "句数:O",
+                    f"{sentence_field}:O",
                     "诗作数:Q",
                     alt.Tooltip("占比:Q", format=".1%"),
                 ],
@@ -339,7 +387,7 @@ with format_tab:
                 ),
             )
             .add_params(sentence_selection)
-            .properties(height=330)
+            .properties(height=420)
         )
         sentence_chart_key = chart_widget_key("sentence-chart")
         st.altair_chart(
@@ -350,39 +398,69 @@ with format_tab:
                 activate_chart_drilldown,
                 sentence_chart_key,
                 "sentence_selection",
-                "sentence_count",
+                sentence_drilldown_kind,
             ),
             selection_mode="sentence_selection",
         )
 
     with combination_column:
         st.markdown("#### 句数 × 每句字数类型")
+        if group_large_sentence_counts:
+            combination_counts = format_bucket_combination_counts(
+                filtered_poems
+            )
+            combination_drilldown_kind = "format_bucket"
+        else:
+            combination_counts = format_combination_counts(filtered_poems)
+            combination_drilldown_kind = "combination"
         combination_data = pd.DataFrame(
-            format_combination_counts(filtered_poems),
-            columns=["句数", "类型", "诗作数"],
+            combination_counts,
+            columns=[sentence_field, "类型", "诗作数"],
         )
         combination_selection = alt.selection_point(
             name="combination_selection",
-            fields=["句数", "类型"],
+            fields=[sentence_field, "类型"],
             clear="dblclick",
         )
+        combination_type_count = combination_data["类型"].nunique()
         combination_base = alt.Chart(combination_data).encode(
-            x=alt.X("类型:N", title="每句字数类型"),
-            y=alt.Y(
-                "句数:O",
+            x=alt.X(
+                f"{sentence_field}:O",
                 title="句数",
-                sort="ascending",
-                axis=alt.Axis(labelOverlap=False),
+                sort=sentence_count_order,
+                scale=alt.Scale(domain=sentence_count_order),
+                axis=alt.Axis(labelOverlap="greedy"),
             ),
-            tooltip=["句数:O", "类型:N", "诗作数:Q"],
+            y=alt.Y(
+                "类型:N",
+                title="每句字数类型",
+                axis=alt.Axis(
+                    minExtent=90,
+                    maxExtent=90,
+                    labelLimit=70,
+                ),
+            ),
+            tooltip=[f"{sentence_field}:O", "类型:N", "诗作数:Q"],
+        )
+        combination_color_scale = (
+            alt.Scale(type="log", scheme="reds")
+            if use_log_color_scale
+            else alt.Scale(scheme="reds")
+        )
+        combination_color_title = (
+            "诗作数（对数）" if use_log_color_scale else "诗作数"
         )
         combination_chart = (
             combination_base.mark_rect()
             .encode(
             color=alt.Color(
                 "诗作数:Q",
-                title="诗作数",
-                scale=alt.Scale(scheme="reds"),
+                title=combination_color_title,
+                scale=combination_color_scale,
+                legend=alt.Legend(
+                    orient="top",
+                    direction="horizontal",
+                ),
             ),
             opacity=alt.condition(
                 combination_selection,
@@ -391,7 +469,7 @@ with format_tab:
             ),
             )
             .add_params(combination_selection)
-            .properties(height=420)
+            .properties(height=max(240, combination_type_count * 32))
         )
         combination_chart_key = chart_widget_key("combination-chart")
         st.altair_chart(
@@ -402,11 +480,10 @@ with format_tab:
                 activate_chart_drilldown,
                 combination_chart_key,
                 "combination_selection",
-                "combination",
+                combination_drilldown_kind,
             ),
             selection_mode="combination_selection",
         )
-
     st.divider()
     line_type_column, structure_type_column = st.columns(2)
 
@@ -905,6 +982,13 @@ if active_drilldown:
             filtered_poems,
             drilldown_value,
         )
+    elif drilldown_kind == "sentence_count_bucket":
+        sentence_bucket = str(drilldown_selection["句数范围"])
+        drilldown_heading = f"{sentence_bucket} 句"
+        drilldown_poems = poems_with_sentence_count_bucket(
+            filtered_poems,
+            sentence_bucket,
+        )
     elif drilldown_kind == "sentence_count":
         sentence_count = int(drilldown_selection["句数"])
         drilldown_heading = f"{sentence_count} 句"
@@ -917,6 +1001,15 @@ if active_drilldown:
         drilldown_heading = line_type
         drilldown_poems = poems_with_line_length_type(
             filtered_poems,
+            line_type,
+        )
+    elif drilldown_kind == "format_bucket":
+        sentence_bucket = str(drilldown_selection["句数范围"])
+        line_type = str(drilldown_selection["类型"])
+        drilldown_heading = f"{sentence_bucket} 句 · {line_type}"
+        drilldown_poems = poems_with_format_bucket_combination(
+            filtered_poems,
+            sentence_bucket,
             line_type,
         )
     elif drilldown_kind == "combination":
