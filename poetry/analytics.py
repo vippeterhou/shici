@@ -121,6 +121,37 @@ def length_distribution(
     ]
 
 
+def poems_in_length_bucket(
+    poems: Sequence[Poem],
+    bucket_label: str,
+    *,
+    bucket_size: int = 25,
+) -> list[Poem]:
+    start_text, separator, end_text = bucket_label.partition("–")
+    if not separator:
+        raise ValueError(f"Invalid length bucket: {bucket_label}")
+
+    start = int(start_text)
+    end = int(end_text)
+    if end != start + bucket_size - 1:
+        raise ValueError(f"Unexpected length bucket size: {bucket_label}")
+
+    return [
+        poem
+        for poem in poems
+        if start <= poem_character_count(poem) <= end
+    ]
+
+
+def poems_containing_character(
+    poems: Sequence[Poem],
+    character: str,
+) -> list[Poem]:
+    if len(character) != 1 or not is_han_character(character):
+        raise ValueError("character must be one Han character")
+    return [poem for poem in poems if character in poem_text(poem)]
+
+
 def duplicate_text_groups(poems: Sequence[Poem]) -> list[tuple[Poem, ...]]:
     groups: dict[str, list[Poem]] = defaultdict(list)
     for poem in poems:

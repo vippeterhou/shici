@@ -6,6 +6,8 @@ from poetry.analytics import (
     is_han_character,
     length_distribution,
     poem_character_count,
+    poems_containing_character,
+    poems_in_length_bucket,
     summarize,
 )
 from poetry.models import Poem
@@ -73,6 +75,14 @@ def test_analytics_counts_and_distribution() -> None:
     assert author_counts(POEMS)[0][1] == 1
     assert character_counts(POEMS)[0][1] >= 2
     assert sum(count for _, count in length_distribution(POEMS)) == 3
+
+
+def test_selects_poems_for_chart_drilldowns() -> None:
+    distribution = length_distribution(POEMS)
+    bucket = distribution[0][0]
+
+    assert poems_in_length_bucket(POEMS, bucket)
+    assert len(poems_containing_character(POEMS, "黃")) == 3
 
 
 def test_finds_exact_duplicate_text() -> None:
