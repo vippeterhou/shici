@@ -353,37 +353,37 @@ overview_tab, format_tab, characters_tab, explorer_tab, quality_tab = st.tabs(
 
 with format_tab:
     st.subheader("格式分布")
-    st.caption("点击柱形或热力图单元格查看对应的全部诗作。")
     option_columns = st.columns(2)
     with option_columns[0]:
         group_large_sentence_counts = st.toggle(
             "合并大句数",
             value=False,
-            help="保留 1–32 句的精确值，并将更大的句数合并为区间。",
+            help=(
+                "关闭时显示所有精确句数；开启后保留 1–32 句的精确值，"
+                "并将 33 句以上按区间合并。"
+            ),
             on_change=clear_active_drilldown,
         )
-        if group_large_sentence_counts:
-            st.caption("保留 1–32 句的精确值，33 句以上按区间合并。")
-        else:
-            st.caption("显示所有精确句数，不合并长尾区间。")
     with option_columns[1]:
         use_log_color_scale = st.toggle(
             "使用对数颜色",
             value=False,
-            help="增强数量较少的格式组合与高频组合之间的颜色差异。",
+            help=(
+                "关闭时使用线性刻度直接反映数量差距；开启后使用对数刻度，"
+                "使数量较少的组合也能清晰区分。"
+            ),
         )
-        if use_log_color_scale:
-            st.caption("对数刻度使数量较少的组合也能清晰区分。")
-        else:
-            st.caption("线性刻度直接反映不同组合的数量差距。")
+
+    format_line_type_order = [
+        name for name, _ in line_length_type_counts(filtered_poems)
+    ]
 
     # Reserve display positions before computing the shared sentence-count axis.
-    combination_column = st.container()
-    st.divider()
-    sentence_column = st.container()
+    with st.container(gap=None):
+        combination_column = st.empty()
+        sentence_column = st.empty()
 
     with sentence_column:
-        st.markdown("#### 句数分布")
         if group_large_sentence_counts:
             sentence_distribution = sentence_count_bucket_distribution(
                 filtered_poems
@@ -414,16 +414,20 @@ with format_tab:
             .encode(
                 x=alt.X(
                     f"{sentence_field}:O",
-                    title="句数",
+                    title=None,
                     sort=sentence_count_order,
                     scale=alt.Scale(domain=sentence_count_order),
-                    axis=alt.Axis(labelOverlap="greedy"),
+                    axis=None,
                 ),
                 y=alt.Y(
                     "诗作数:Q",
                     title="诗作数",
-                    scale=alt.Scale(domainMin=0, nice=True),
-                    axis=alt.Axis(minExtent=90, maxExtent=90),
+                    scale=alt.Scale(domainMin=0, nice=True, reverse=True),
+                    axis=alt.Axis(
+                        minExtent=36,
+                        maxExtent=36,
+                        labelPadding=4,
+                    ),
                 ),
                 tooltip=[
                     f"{sentence_field}:O",
@@ -476,7 +480,7 @@ with format_tab:
         combination_base = alt.Chart(combination_data).encode(
             x=alt.X(
                 f"{sentence_field}:O",
-                title="句数",
+                title=None,
                 sort=sentence_count_order,
                 scale=alt.Scale(domain=sentence_count_order),
                 axis=alt.Axis(labelOverlap="greedy"),
@@ -484,10 +488,13 @@ with format_tab:
             y=alt.Y(
                 "类型:N",
                 title="每句字数类型",
+                sort=format_line_type_order,
                 axis=alt.Axis(
-                    minExtent=90,
-                    maxExtent=90,
+                    minExtent=36,
+                    maxExtent=36,
                     labelLimit=70,
+                    labelOverlap=False,
+                    labelPadding=4,
                 ),
             ),
             tooltip=[f"{sentence_field}:O", "类型:N", "诗作数:Q"],
@@ -519,7 +526,7 @@ with format_tab:
             ),
             )
             .add_params(combination_selection)
-            .properties(height=max(240, combination_type_count * 32))
+            .properties(height=max(240, combination_type_count * 40))
         )
         combination_chart_key = chart_widget_key("combination-chart")
         st.altair_chart(
@@ -561,7 +568,12 @@ with format_tab:
                     title="诗作数",
                     scale=alt.Scale(domainMin=0, nice=True),
                 ),
-                y=alt.Y("类型:N", title=None, sort="-x"),
+                y=alt.Y(
+                    "类型:N",
+                    title=None,
+                    sort=format_line_type_order,
+                    axis=alt.Axis(labelOverlap=False),
+                ),
                 tooltip=[
                     "类型:N",
                     "诗作数:Q",
@@ -659,7 +671,18 @@ with overview_tab:
         "诗作数",
         len(filtered_poems),
     )
-    line_type_order = list(dict.fromkeys(structure_data["类型"]))
+    line_types = list(dict.fromkeys(structure_data["类型"]))
+    line_type_totals = (
+        structure_data.groupby("类型", sort=False)["诗作数"].sum().to_dict()
+    )
+    structure_data["类型标签"] = [
+        f"{line_type_totals[line_type]:,} · {line_type}"
+        for line_type in structure_data["类型"]
+    ]
+    line_type_order = [
+        f"{line_type_totals[line_type]:,} · {line_type}"
+        for line_type in line_types
+    ]
     sentence_group_order = ["四句", "八句", "其他句数"]
     sentence_group_rank = {
         group: index for index, group in enumerate(sentence_group_order)
@@ -674,7 +697,11 @@ with overview_tab:
     )
     structure_chart = (
         alt.Chart(structure_data)
-        .mark_bar()
+        .mark_bar(
+            stroke="#2B2B2B",
+            strokeOpacity=0.45,
+            strokeWidth=0.7,
+        )
         .encode(
             x=alt.X(
                 "诗作数:Q",
@@ -683,7 +710,7 @@ with overview_tab:
                 scale=alt.Scale(domainMin=0, nice=True),
             ),
             y=alt.Y(
-                "类型:N",
+                "类型标签:N",
                 title=None,
                 sort=line_type_order,
             ),
@@ -698,6 +725,7 @@ with overview_tab:
                 legend=alt.Legend(
                     orient="top",
                     direction="horizontal",
+                    symbolStrokeColor="transparent",
                 ),
             ),
             order=alt.Order(
