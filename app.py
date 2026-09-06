@@ -263,6 +263,12 @@ summary = summarize(filtered_poems)
 st.title("唐诗数据仪表板")
 st.caption(f"当前数据集：{'、'.join(selected_corpora)}")
 st.caption("探索作者、格式、常用字与数据质量")
+if len(selected_corpora) > 1:
+    st.info(
+        "合并统计按原始作者名精确匹配，作者异名不会自动合并；"
+        "两个数据集中的相同诗作也不会自动去重，因此可能重复计数。"
+        "仅有异体字、繁简或标点差异的诗作也会被视为不同记录。"
+    )
 
 metric_columns = st.columns(3)
 metric_columns[0].metric("诗作", f"{summary.poem_count:,}")
