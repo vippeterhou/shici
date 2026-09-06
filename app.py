@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
 
@@ -38,14 +39,29 @@ from poetry.analytics import (
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
 
+
+@dataclass(frozen=True)
+class CorpusConfig:
+    query_id: str
+    path: Path
+
+
 DATA_DIRECTORY = Path(__file__).parent / "data"
-CORPUS_PATHS = {
-    "唐诗三百首": DATA_DIRECTORY / "tangshisanbaishou.json",
-    "全唐诗": DATA_DIRECTORY / "quantangshi",
+CORPORA = {
+    "唐诗三百首": CorpusConfig(
+        query_id="ts300",
+        path=DATA_DIRECTORY / "tangshisanbaishou.json",
+    ),
+    "全唐诗": CorpusConfig(
+        query_id="qts",
+        path=DATA_DIRECTORY / "quantangshi",
+    ),
 }
+DEFAULT_CORPORA = ["唐诗三百首"]
 DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 20
 BAR_COLOR = "#3F7C73"
+CORPUS_QUERY_PARAMETER = "corpus"
 
 st.set_page_config(
     page_title="唐诗三百首数据仪表板",
@@ -79,6 +95,33 @@ def corpus_modified_time_ns(path: Path) -> int:
         (file_path.stat().st_mtime_ns for file_path in path.glob("*.json")),
         default=path.stat().st_mtime_ns,
     )
+
+
+def corpora_from_query_parameters() -> list[str]:
+    requested_ids = set(
+        st.query_params.get_all(CORPUS_QUERY_PARAMETER)
+    )
+    return [
+        corpus_name
+        for corpus_name, config in CORPORA.items()
+        if config.query_id in requested_ids
+    ]
+
+
+def update_corpus_query_parameters() -> None:
+    selected_corpora = st.session_state["selected_corpora"]
+    if selected_corpora == DEFAULT_CORPORA:
+        if CORPUS_QUERY_PARAMETER in st.query_params:
+            del st.query_params[CORPUS_QUERY_PARAMETER]
+        return
+
+    selected_ids = [
+        CORPORA[corpus_name].query_id for corpus_name in selected_corpora
+    ]
+    if selected_ids:
+        st.query_params[CORPUS_QUERY_PARAMETER] = selected_ids
+    elif CORPUS_QUERY_PARAMETER in st.query_params:
+        del st.query_params[CORPUS_QUERY_PARAMETER]
 
 
 def selected_chart_record(
@@ -233,25 +276,28 @@ def render_poem_collection(
 
 with st.sidebar:
     st.header("筛选")
+    default_corpora = corpora_from_query_parameters() or DEFAULT_CORPORA
     selected_corpora = st.pills(
         "数据集",
-        list(CORPUS_PATHS),
+        list(CORPORA),
         selection_mode="multi",
-        default=["唐诗三百首"],
+        default=default_corpora,
+        key="selected_corpora",
+        on_change=update_corpus_query_parameters,
     )
     if not selected_corpora:
         st.warning("请至少选择一个数据集。")
         st.stop()
 
     selected_corpus_versions = {
-        corpus_name: corpus_modified_time_ns(CORPUS_PATHS[corpus_name])
+        corpus_name: corpus_modified_time_ns(CORPORA[corpus_name].path)
         for corpus_name in selected_corpora
     }
     poems = tuple(
         poem
         for corpus_name in selected_corpora
         for poem in load_poems(
-            str(CORPUS_PATHS[corpus_name]),
+            str(CORPORA[corpus_name].path),
             selected_corpus_versions[corpus_name],
             DATA_SCHEMA_VERSION,
         )
