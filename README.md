@@ -10,7 +10,7 @@ and 诗经 datasets.
 - Hierarchical 诗经 filters and a flattened 风雅颂 classification chart
 - Corpus metrics for poems, authors, and Han-character count
 - Top-author poem-count chart with full-list expansion
-- Character- and word-frequency analysis with poem drill-downs
+- Character- and bigram-frequency analysis with poem drill-downs
 - Sentence-count, line-length, structure, and format-combination analysis
 - Dedicated format-distribution tab
 - Clickable chart drill-downs that open matching poems in a modal

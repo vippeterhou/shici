@@ -22,7 +22,6 @@ from poetry.analytics import (
     poem_character_count,
     poems_containing_bigram,
     poems_containing_character,
-    poems_containing_word,
     poems_with_format_bucket_combination,
     poems_with_format_combination,
     poems_with_line_length_type,
@@ -39,7 +38,6 @@ from poetry.analytics import (
     structure_breakdown_counts,
     structure_type_counts,
     summarize,
-    word_counts,
 )
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
@@ -92,15 +90,6 @@ def load_poems(
 ) -> tuple[Poem, ...]:
     _ = modified_time_ns, schema_version
     return JsonPoemRepository(data_path).list_poems()
-
-
-@st.cache_data(show_spinner=False, max_entries=8)
-def cached_word_counts(
-    cache_key: tuple[object, ...],
-    _selected_poems: tuple[Poem, ...],
-) -> list[tuple[str, int]]:
-    _ = cache_key
-    return word_counts(_selected_poems)
 
 
 @st.cache_data(show_spinner=False, max_entries=8)
@@ -1114,7 +1103,7 @@ with overview_tab:
 with characters_tab:
     frequency_type = st.radio(
         "统计类型",
-        ["字频", "二字组合", "常用词语"],
+        ["字频", "二字组合"],
         horizontal=True,
     )
 
@@ -1139,7 +1128,7 @@ with characters_tab:
         drilldown_kind = "character"
         chart_base_key = "character-chart"
         caption = "只统计汉字，排除标点、空格、数字及其他非汉字。"
-    elif frequency_type == "二字组合":
+    else:
         st.subheader("正文常用二字组合")
         bigram_count_cache_key = (
             DATA_SCHEMA_VERSION,
@@ -1171,37 +1160,6 @@ with characters_tab:
             "统计正文中相邻且均为汉字的二字组合；"
             "标点和段落边界不会连接。"
         )
-    else:
-        st.subheader("正文常用词语")
-        with st.spinner("正在进行中文分词统计……"):
-            word_count_cache_key = (
-                DATA_SCHEMA_VERSION,
-                tuple(selected_corpus_versions.items()),
-                tuple(poem.id for poem in filtered_poems),
-            )
-            frequency_counts = cached_word_counts(
-                word_count_cache_key,
-                tuple(filtered_poems),
-            )
-            frequency_data = with_percentage(
-                pd.DataFrame(
-                    frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
-                    columns=["词语", "出现次数"],
-                ),
-                "出现次数",
-                sum(count for _, count in frequency_counts),
-            )
-        selection = alt.selection_point(
-            name="word_selection",
-            fields=["词语"],
-            clear="dblclick",
-        )
-        category_field = "词语"
-        selection_name = "word_selection"
-        drilldown_kind = "word"
-        chart_base_key = "word-chart"
-        caption = "使用中文分词统计，只保留由至少两个汉字组成的词语。"
-
     frequency_chart_height = (
         max(1, len(frequency_data)) * FREQUENCY_BAR_HEIGHT
     )
@@ -1336,14 +1294,6 @@ if active_drilldown:
         drilldown_heading = f"包含「{drilldown_value}」"
         highlight_text = drilldown_value
         drilldown_poems = poems_containing_character(
-            filtered_poems,
-            drilldown_value,
-        )
-    elif drilldown_kind == "word":
-        drilldown_value = str(drilldown_selection["词语"])
-        drilldown_heading = f"包含「{drilldown_value}」"
-        highlight_text = drilldown_value
-        drilldown_poems = poems_containing_word(
             filtered_poems,
             drilldown_value,
         )

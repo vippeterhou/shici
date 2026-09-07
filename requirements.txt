@@ -1,6 +1,4 @@
 streamlit>=1.40,<2
 altair>=5,<6
-jieba>=0.42,<1
-opencc-python-reimplemented>=0.1.7,<1
 pandas>=2,<3
 pytest>=8,<9
