@@ -4,6 +4,7 @@ from poetry.analytics import (
     character_counts,
     duplicate_text_groups,
     filter_poems,
+    filter_shijing_poems,
     format_bucket_combination_counts,
     format_combination_counts,
     is_han_character,
@@ -22,9 +23,13 @@ from poetry.analytics import (
     poems_with_sentence_count_bucket,
     poems_with_structure_breakdown,
     poems_with_structure_type,
+    poems_with_shijing_group,
     sentence_count_bucket,
     sentence_count_bucket_distribution,
     sentence_count_distribution,
+    shijing_classification,
+    shijing_group,
+    shijing_group_counts,
     structure_breakdown_counts,
     structure_type,
     structure_type_counts,
@@ -120,6 +125,52 @@ def test_filters_across_dashboard_dimensions() -> None:
         line_types=["五言"],
         sentence_counts=[2],
     ) == list(POEMS[1:])
+
+
+def test_classifies_and_filters_shijing_hierarchy() -> None:
+    wind = Poem(
+        id="shijing:000",
+        title="关雎",
+        author="佚名",
+        paragraphs=("关关雎鸠，在河之洲。",),
+        format=PoemFormat(
+            sentence_count=2,
+            sentence_lengths=(4, 4),
+            uniform_sentence_length=4,
+        ),
+        tags=("国风", "周南"),
+    )
+    ode = Poem(
+        id="shijing:160",
+        title="鹿鸣",
+        author="佚名",
+        paragraphs=("呦呦鹿鸣，食野之苹。",),
+        format=PoemFormat(
+            sentence_count=2,
+            sentence_lengths=(4, 4),
+            uniform_sentence_length=4,
+        ),
+        tags=("小雅", "鹿鸣之什"),
+    )
+
+    assert shijing_classification(wind) == ("风", "周南", "")
+    assert shijing_classification(ode) == ("雅", "小雅", "鹿鸣之什")
+    assert filter_shijing_poems(
+        (*POEMS, wind, ode),
+        categories=["雅"],
+        divisions=["小雅"],
+        sections=["鹿鸣之什"],
+        titles=["鹿鸣"],
+    ) == [*POEMS, ode]
+    assert shijing_group(wind) == ("风", "风 · 周南")
+    assert shijing_group(ode) == ("雅", "小雅 · 鹿鸣之什")
+    assert shijing_group_counts((wind, ode)) == [
+        ("风", "风 · 周南", 1),
+        ("雅", "小雅 · 鹿鸣之什", 1),
+    ]
+    assert poems_with_shijing_group((wind, ode), "小雅 · 鹿鸣之什") == [
+        ode
+    ]
 
 
 def test_analytics_counts_and_distribution() -> None:

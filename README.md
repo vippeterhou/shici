@@ -5,8 +5,9 @@ datasets.
 
 ## Dashboard
 
-- Corpus selection for 唐诗三百首, 全唐诗, 诗经, or any combination
+- Exclusive corpus selection for 唐诗三百首, 全唐诗, or 诗经
 - Global filtering by author, format, and body text
+- Hierarchical 诗经 filters and a flattened 风雅颂 classification chart
 - Corpus metrics for poems, authors, and Han-character count
 - Top-author poem-count chart with full-list expansion
 - Character- and word-frequency analysis with poem drill-downs

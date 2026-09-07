@@ -15,6 +15,7 @@ from poetry.analytics import (
     character_counts,
     duplicate_text_groups,
     filter_poems,
+    filter_shijing_poems,
     format_bucket_combination_counts,
     format_combination_counts,
     line_length_type_counts,
@@ -29,9 +30,12 @@ from poetry.analytics import (
     poems_with_sentence_count,
     poems_with_structure_breakdown,
     poems_with_structure_type,
+    poems_with_shijing_group,
     poem_text,
     sentence_count_bucket_distribution,
     sentence_count_distribution,
+    shijing_classification,
+    shijing_group_counts,
     structure_breakdown_counts,
     structure_type_counts,
     summarize,
@@ -62,7 +66,7 @@ CORPORA = {
         path=DATA_DIRECTORY / "shijing" / "shijing.json",
     ),
 }
-DEFAULT_CORPORA = ["唐诗三百首"]
+DEFAULT_CORPUS = "唐诗三百首"
 DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
@@ -113,31 +117,48 @@ def corpus_modified_time_ns(path: Path) -> int:
     )
 
 
-def corpora_from_query_parameters() -> list[str]:
+def corpus_from_query_parameters() -> str | None:
     requested_ids = set(
         st.query_params.get_all(CORPUS_QUERY_PARAMETER)
     )
-    return [
-        corpus_name
-        for corpus_name, config in CORPORA.items()
-        if config.query_id in requested_ids
-    ]
+    return next(
+        (
+            corpus_name
+            for corpus_name, config in CORPORA.items()
+            if config.query_id in requested_ids
+        ),
+        None,
+    )
 
 
 def update_corpus_query_parameters() -> None:
-    selected_corpora = st.session_state["selected_corpora"]
-    if selected_corpora == DEFAULT_CORPORA:
+    selected_corpus = st.session_state.get("selected_corpus")
+    if not selected_corpus or selected_corpus == DEFAULT_CORPUS:
         if CORPUS_QUERY_PARAMETER in st.query_params:
             del st.query_params[CORPUS_QUERY_PARAMETER]
         return
 
-    selected_ids = [
-        CORPORA[corpus_name].query_id for corpus_name in selected_corpora
-    ]
-    if selected_ids:
-        st.query_params[CORPUS_QUERY_PARAMETER] = selected_ids
-    elif CORPUS_QUERY_PARAMETER in st.query_params:
-        del st.query_params[CORPUS_QUERY_PARAMETER]
+    st.query_params[CORPUS_QUERY_PARAMETER] = CORPORA[
+        selected_corpus
+    ].query_id
+
+
+def reset_shijing_after_category() -> None:
+    for key in (
+        "shijing_division",
+        "shijing_section",
+        "shijing_title",
+    ):
+        st.session_state.pop(key, None)
+
+
+def reset_shijing_after_division() -> None:
+    for key in ("shijing_section", "shijing_title"):
+        st.session_state.pop(key, None)
+
+
+def reset_shijing_after_section() -> None:
+    st.session_state.pop("shijing_title", None)
 
 
 def selected_chart_record(
@@ -292,24 +313,25 @@ def render_poem_collection(
 
 with st.sidebar:
     st.header("筛选")
-    default_corpora = corpora_from_query_parameters() or DEFAULT_CORPORA
-    selected_corpora = st.pills(
+    default_corpus = corpus_from_query_parameters() or DEFAULT_CORPUS
+    selected_corpus = st.pills(
         "数据集",
         list(CORPORA),
-        selection_mode="multi",
-        default=default_corpora,
-        key="selected_corpora",
+        selection_mode="single",
+        default=default_corpus,
+        key="selected_corpus",
         on_change=update_corpus_query_parameters,
     )
-    if not selected_corpora:
+    if not selected_corpus:
         st.warning("请至少选择一个数据集。")
         st.stop()
+    selected_corpora = [selected_corpus]
 
     selected_corpus_versions = {
         corpus_name: corpus_modified_time_ns(CORPORA[corpus_name].path)
         for corpus_name in selected_corpora
     }
-    poems = tuple(
+    loaded_poems = tuple(
         poem
         for corpus_name in selected_corpora
         for poem in load_poems(
@@ -318,6 +340,124 @@ with st.sidebar:
             DATA_SCHEMA_VERSION,
         )
     )
+    poems = loaded_poems
+    if "诗经" in selected_corpora:
+        classified_shijing_poems = [
+            (poem, classification)
+            for poem in poems
+            if (classification := shijing_classification(poem)) is not None
+        ]
+        with st.expander("诗经分类", expanded=True):
+            selected_shijing_category = st.selectbox(
+                "风雅颂",
+                ["全部", "风", "雅", "颂"],
+                key="shijing_category",
+                on_change=reset_shijing_after_category,
+            )
+            selected_shijing_division = "全部"
+            selected_shijing_section = "全部"
+            selected_shijing_title = "全部"
+
+            if selected_shijing_category != "全部":
+                available_divisions = list(
+                    dict.fromkeys(
+                        division
+                        for _, (
+                            category,
+                            division,
+                            _,
+                        ) in classified_shijing_poems
+                        if category == selected_shijing_category
+                    )
+                )
+                division_label = {
+                    "风": "国风",
+                    "雅": "雅类",
+                    "颂": "颂类",
+                }[selected_shijing_category]
+                selected_shijing_division = st.selectbox(
+                    division_label,
+                    ["全部", *available_divisions],
+                    key="shijing_division",
+                    on_change=reset_shijing_after_division,
+                )
+
+            if (
+                selected_shijing_category in {"雅", "颂"}
+                and selected_shijing_division != "全部"
+            ):
+                available_sections = list(
+                    dict.fromkeys(
+                        section
+                        for _, (
+                            category,
+                            division,
+                            section,
+                        ) in classified_shijing_poems
+                        if category == selected_shijing_category
+                        and division == selected_shijing_division
+                    )
+                )
+                selected_shijing_section = st.selectbox(
+                    "诗什",
+                    ["全部", *available_sections],
+                    key="shijing_section",
+                    on_change=reset_shijing_after_section,
+                )
+
+            title_parent_selected = (
+                selected_shijing_category == "风"
+                and selected_shijing_division != "全部"
+            ) or (
+                selected_shijing_category in {"雅", "颂"}
+                and selected_shijing_section != "全部"
+            )
+            if title_parent_selected:
+                available_titles = [
+                    poem.title
+                    for poem, (
+                        category,
+                        division,
+                        section,
+                    ) in classified_shijing_poems
+                    if category == selected_shijing_category
+                    and division == selected_shijing_division
+                    and (
+                        selected_shijing_category == "风"
+                        or section == selected_shijing_section
+                    )
+                ]
+                selected_shijing_title = st.selectbox(
+                    "篇目",
+                    ["全部", *available_titles],
+                    key="shijing_title",
+                )
+
+        poems = tuple(
+            filter_shijing_poems(
+                poems,
+                categories=(
+                    []
+                    if selected_shijing_category == "全部"
+                    else [selected_shijing_category]
+                ),
+                divisions=(
+                    []
+                    if selected_shijing_division == "全部"
+                    else [selected_shijing_division]
+                ),
+                sections=(
+                    []
+                    if selected_shijing_section == "全部"
+                    else [selected_shijing_section]
+                ),
+                titles=(
+                    []
+                    if selected_shijing_title == "全部"
+                    else [selected_shijing_title]
+                ),
+            )
+        )
     all_authors = [author for author, _ in author_counts(poems)]
     all_line_types = [name for name, _ in line_length_type_counts(poems)]
     all_sentence_counts = sorted({poem.format.sentence_count for poem in poems})
@@ -338,6 +478,13 @@ filtered_poems = filter_poems(
     sentence_counts=selected_sentence_counts,
     text_query=text_query,
 )
+overview_filtered_poems = filter_poems(
+    loaded_poems,
+    authors=selected_authors,
+    line_types=selected_line_types,
+    sentence_counts=selected_sentence_counts,
+    text_query=text_query,
+)
 summary = summarize(filtered_poems)
 
 st.markdown("## 中国古诗数据概览")
@@ -347,11 +494,6 @@ st.markdown(
     f"**{summary.author_count:,}** 位作者　·　"
     f"**{summary.character_count:,}** 字"
 )
-if len(selected_corpora) > 1:
-    st.info(
-        "合并时作者按原名统计，异名不合并；重复诗作不去重，"
-        "异体字、繁简或标点差异也视为不同记录。"
-    )
 if not filtered_poems:
     st.warning("目前的筛选条件没有符合的诗作。")
     st.stop()
@@ -693,6 +835,102 @@ with format_tab:
         )
 
 with overview_tab:
+    if "诗经" in selected_corpora:
+        st.subheader("诗经分类")
+        shijing_overview_poems = [
+            poem
+            for poem in overview_filtered_poems
+            if shijing_classification(poem) is not None
+        ]
+        if shijing_overview_poems:
+            shijing_group_data = with_percentage(
+                pd.DataFrame(
+                    shijing_group_counts(shijing_overview_poems),
+                    columns=["分类", "分类项", "诗作数"],
+                ),
+                "诗作数",
+                len(shijing_overview_poems),
+            )
+            shijing_group_order = shijing_group_data["分类项"].tolist()
+            shijing_group_selection = alt.selection_point(
+                name="shijing_group_selection",
+                fields=["分类项"],
+                clear="dblclick",
+            )
+            shijing_group_chart = (
+                alt.Chart(shijing_group_data)
+                .mark_bar(
+                    stroke="#2B2B2B",
+                    strokeOpacity=0.35,
+                    strokeWidth=0.6,
+                )
+                .encode(
+                    x=alt.X(
+                        "诗作数:Q",
+                        title="诗作数",
+                        scale=alt.Scale(domainMin=0, nice=True),
+                    ),
+                    y=alt.Y(
+                        "分类项:N",
+                        title=None,
+                        sort=shijing_group_order,
+                        axis=alt.Axis(labelOverlap=False),
+                    ),
+                    color=alt.Color(
+                        "分类:N",
+                        title="风雅颂",
+                        sort=["风", "雅", "颂"],
+                        scale=alt.Scale(
+                            domain=["风", "雅", "颂"],
+                            range=["#3F7C73", "#B56A3B", "#725A8C"],
+                        ),
+                        legend=alt.Legend(
+                            orient="top",
+                            direction="horizontal",
+                            symbolStrokeColor="transparent",
+                        ),
+                    ),
+                    tooltip=[
+                        "分类:N",
+                        "分类项:N",
+                        "诗作数:Q",
+                        alt.Tooltip("占比:Q", format=".1%"),
+                    ],
+                    opacity=alt.condition(
+                        shijing_group_selection,
+                        alt.value(1),
+                        alt.value(0.55),
+                    ),
+                )
+                .add_params(shijing_group_selection)
+                .properties(
+                    height=max(420, len(shijing_group_data) * 25),
+                )
+            )
+            shijing_group_chart_key = chart_widget_key(
+                "shijing-group-chart"
+            )
+            st.altair_chart(
+                shijing_group_chart,
+                use_container_width=True,
+                key=shijing_group_chart_key,
+                on_select=partial(
+                    activate_chart_drilldown,
+                    shijing_group_chart_key,
+                    "shijing_group_selection",
+                    "shijing_group",
+                ),
+                selection_mode="shijing_group_selection",
+            )
+            st.caption(
+                "国风按分部统计；雅、颂将分部与诗什合并显示。"
+                "点击柱形可查看对应篇目。"
+            )
+        else:
+            st.info("当前作者、格式或正文条件下没有符合的诗经篇目。")
+
+        st.divider()
+
     st.subheader("诗体结构")
     st.caption("每根柱形表示每句字数类型，颜色区分四句、八句和其他句数。")
     structure_data = with_percentage(
@@ -794,70 +1032,80 @@ with overview_tab:
     )
 
     st.divider()
-    st.subheader("作者诗词数量")
-    all_author_counts = author_counts(filtered_poems)
-    show_all_authors = st.toggle(
-        f"显示全部作者（{len(all_author_counts)} 位）",
-        value=False,
-    )
-    visible_author_counts = (
-        all_author_counts
-        if show_all_authors
-        else all_author_counts[:AUTHOR_PREVIEW_LIMIT]
-    )
-    author_data = with_percentage(
-        pd.DataFrame(
-            visible_author_counts,
-            columns=["作者", "诗作数"],
-        ),
-        "诗作数",
-        len(filtered_poems),
-    )
-    author_selection = alt.selection_point(
-        name="author_selection",
-        fields=["作者"],
-        clear="dblclick",
-    )
-    author_chart = (
-        alt.Chart(author_data)
-        .mark_bar(color=BAR_COLOR)
-        .encode(
-            x=alt.X(
-                "诗作数:Q",
-                title="诗作数",
-                scale=alt.Scale(domainMin=0, nice=True),
-            ),
-            y=alt.Y(
-                "作者:N",
-                title=None,
-                sort="-x",
-                axis=alt.Axis(labelOverlap=False),
-            ),
-            tooltip=[
-                "作者:N",
-                "诗作数:Q",
-                alt.Tooltip("占比:Q", format=".1%"),
-            ],
-            opacity=alt.condition(author_selection, alt.value(1), alt.value(0.55)),
+    if selected_corpora == ["诗经"]:
+        st.caption("诗经篇目传统上多不署名，因此总览以分类统计取代作者排行。")
+    else:
+        st.subheader("作者诗词数量")
+        all_author_counts = author_counts(filtered_poems)
+        show_all_authors = st.toggle(
+            f"显示全部作者（{len(all_author_counts)} 位）",
+            value=False,
         )
-        .add_params(author_selection)
-        .properties(height=max(430, len(author_data) * 22))
-    )
-    author_chart_key = chart_widget_key("author-chart")
-    st.altair_chart(
-        author_chart,
-        use_container_width=True,
-        key=author_chart_key,
-        on_select=partial(
-            activate_chart_drilldown,
-            author_chart_key,
-            "author_selection",
-            "author",
-        ),
-        selection_mode="author_selection",
-    )
-    if not show_all_authors and len(all_author_counts) > len(visible_author_counts):
-        st.caption(f"当前显示前 {len(visible_author_counts)} 位作者。")
+        visible_author_counts = (
+            all_author_counts
+            if show_all_authors
+            else all_author_counts[:AUTHOR_PREVIEW_LIMIT]
+        )
+        author_data = with_percentage(
+            pd.DataFrame(
+                visible_author_counts,
+                columns=["作者", "诗作数"],
+            ),
+            "诗作数",
+            len(filtered_poems),
+        )
+        author_selection = alt.selection_point(
+            name="author_selection",
+            fields=["作者"],
+            clear="dblclick",
+        )
+        author_chart = (
+            alt.Chart(author_data)
+            .mark_bar(color=BAR_COLOR)
+            .encode(
+                x=alt.X(
+                    "诗作数:Q",
+                    title="诗作数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                y=alt.Y(
+                    "作者:N",
+                    title=None,
+                    sort="-x",
+                    axis=alt.Axis(labelOverlap=False),
+                ),
+                tooltip=[
+                    "作者:N",
+                    "诗作数:Q",
+                    alt.Tooltip("占比:Q", format=".1%"),
+                ],
+                opacity=alt.condition(
+                    author_selection,
+                    alt.value(1),
+                    alt.value(0.55),
+                ),
+            )
+            .add_params(author_selection)
+            .properties(height=max(430, len(author_data) * 22))
+        )
+        author_chart_key = chart_widget_key("author-chart")
+        st.altair_chart(
+            author_chart,
+            use_container_width=True,
+            key=author_chart_key,
+            on_select=partial(
+                activate_chart_drilldown,
+                author_chart_key,
+                "author_selection",
+                "author",
+            ),
+            selection_mode="author_selection",
+        )
+        if (
+            not show_all_authors
+            and len(all_author_counts) > len(visible_author_counts)
+        ):
+            st.caption(f"当前显示前 {len(visible_author_counts)} 位作者。")
 
 with characters_tab:
     frequency_type = st.radio(
@@ -1066,7 +1314,14 @@ if active_drilldown:
     drilldown_selection = active_drilldown["selection"]
     highlight_text = None
 
-    if drilldown_kind == "author":
+    if drilldown_kind == "shijing_group":
+        drilldown_value = str(drilldown_selection["分类项"])
+        drilldown_heading = drilldown_value
+        drilldown_poems = poems_with_shijing_group(
+            overview_filtered_poems,
+            drilldown_value,
+        )
+    elif drilldown_kind == "author":
         drilldown_value = str(drilldown_selection["作者"])
         drilldown_heading = drilldown_value
         drilldown_poems = [

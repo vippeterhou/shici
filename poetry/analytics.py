@@ -22,6 +22,14 @@ SENTENCE_COUNT_RANGES = (
 )
 WORD_TOKENIZER = jieba.Tokenizer()
 TRADITIONAL_TO_SIMPLIFIED = OpenCC("t2s")
+SHIJING_CATEGORY_BY_CHAPTER = {
+    "国风": "风",
+    "小雅": "雅",
+    "大雅": "雅",
+    "周颂": "颂",
+    "鲁颂": "颂",
+    "商颂": "颂",
+}
 
 
 @dataclass(frozen=True)
@@ -91,6 +99,95 @@ def filter_poems(
         filtered.append(poem)
 
     return filtered
+
+
+def shijing_classification(
+    poem: Poem,
+) -> tuple[str, str, str] | None:
+    if not poem.id.startswith("shijing:") or len(poem.tags) < 2:
+        return None
+
+    chapter, section = poem.tags[:2]
+    category = SHIJING_CATEGORY_BY_CHAPTER.get(chapter)
+    if category is None:
+        return None
+    if category == "风":
+        return category, section, ""
+    return category, chapter, section
+
+
+def filter_shijing_poems(
+    poems: Sequence[Poem],
+    *,
+    categories: Iterable[str] = (),
+    divisions: Iterable[str] = (),
+    sections: Iterable[str] = (),
+    titles: Iterable[str] = (),
+) -> list[Poem]:
+    category_filter = set(categories)
+    division_filter = set(divisions)
+    section_filter = set(sections)
+    title_filter = set(titles)
+    filtered: list[Poem] = []
+
+    for poem in poems:
+        classification = shijing_classification(poem)
+        if classification is None:
+            filtered.append(poem)
+            continue
+
+        category, division, section = classification
+        if category_filter and category not in category_filter:
+            continue
+        if division_filter and division not in division_filter:
+            continue
+        if section_filter and section not in section_filter:
+            continue
+        if title_filter and poem.title not in title_filter:
+            continue
+        filtered.append(poem)
+
+    return filtered
+
+
+def shijing_group(poem: Poem) -> tuple[str, str] | None:
+    classification = shijing_classification(poem)
+    if classification is None:
+        return None
+
+    category, division, section = classification
+    label = (
+        f"风 · {division}"
+        if category == "风"
+        else f"{division} · {section}"
+    )
+    return category, label
+
+
+def shijing_group_counts(
+    poems: Sequence[Poem],
+) -> list[tuple[str, str, int]]:
+    counts: Counter[tuple[str, str]] = Counter(
+        group
+        for poem in poems
+        if (group := shijing_group(poem)) is not None
+    )
+    return [
+        (category, label, count)
+        for (category, label), count in counts.items()
+    ]
+
+
+def poems_with_shijing_group(
+    poems: Sequence[Poem],
+    label: str,
+) -> list[Poem]:
+    return [
+        poem
+        for poem in poems
+        if (group := shijing_group(poem)) is not None
+        and group[1] == label
+    ]
 
 
 def author_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
