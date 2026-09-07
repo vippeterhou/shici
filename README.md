@@ -1,11 +1,11 @@
 # 中国古诗数据概览
 
-A Streamlit dashboard for exploring the bundled 唐诗三百首, 全唐诗, 全宋诗,
-and 诗经 datasets.
+A Streamlit dashboard for exploring Chinese poetry from 诗经 through the
+秦汉, 魏晋南北朝, 唐, and 宋 corpora.
 
 ## Dashboard
 
-- Exclusive corpus selection for 唐诗三百首, 全唐诗, 全宋诗, or 诗经
+- Exclusive, chronological corpus selection from 诗经 through 全宋诗
 - Global filtering by author, format, and body text
 - Hierarchical 诗经 filters and a flattened 风雅颂 classification chart
 - Corpus metrics for poems, authors, and Han-character count

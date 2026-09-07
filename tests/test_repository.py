@@ -7,6 +7,21 @@ TS300_PATH = Path(__file__).parents[1] / "data" / "ts300" / "ts300.json"
 QTS_PATH = Path(__file__).parents[1] / "data" / "qts"
 QUANSONGSHI_PATH = Path(__file__).parents[1] / "data" / "quansongshi"
 SHIJING_PATH = Path(__file__).parents[1] / "data" / "shijing" / "shijing.json"
+QINHAN_PATH = Path(__file__).parents[1] / "data" / "qinhan"
+WEIJINNANBEICHAO_PATH = (
+    Path(__file__).parents[1] / "data" / "weijinnanbeichao"
+)
+EARLY_CORPORA = {
+    "qinhan/qin.json": (7, "垓下歌", "项羽"),
+    "qinhan/han.json": (362, "桂", "杨孚"),
+    "weijinnanbeichao/wei.json": (178, "从军行", "左延年"),
+    "weijinnanbeichao/jin.json": (181, "七夕观织女诗", "王鉴"),
+    "weijinnanbeichao/nanbeichao.json": (
+        481,
+        "人日思归",
+        "薛道衡",
+    ),
+}
 
 
 def test_repository_loads_all_poems() -> None:
@@ -46,6 +61,33 @@ def test_repository_loads_shijing() -> None:
     assert poems[0].author == "佚名"
     assert poems[0].tags == ("国风", "周南")
     assert all(poem.format.sentence_count > 0 for poem in poems)
+
+
+def test_repository_loads_early_historical_corpora() -> None:
+    data_directory = Path(__file__).parents[1] / "data"
+
+    for relative_path, (
+        expected_count,
+        expected_title,
+        expected_author,
+    ) in EARLY_CORPORA.items():
+        poems = JsonPoemRepository(data_directory / relative_path).list_poems()
+
+        assert len(poems) == expected_count
+        assert poems[0].title == expected_title
+        assert poems[0].author == expected_author
+        assert len({poem.id for poem in poems}) == len(poems)
+        assert all(poem.format.sentence_count > 0 for poem in poems)
+
+
+def test_repository_loads_merged_historical_corpora() -> None:
+    qinhan_poems = JsonPoemRepository(QINHAN_PATH).list_poems()
+    weijinnanbeichao_poems = JsonPoemRepository(
+        WEIJINNANBEICHAO_PATH
+    ).list_poems()
+
+    assert len(qinhan_poems) == 369
+    assert len(weijinnanbeichao_poems) == 840
 
 
 def test_repository_excludes_comments_and_fixes_missing_line_breaks() -> None:

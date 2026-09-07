@@ -53,6 +53,18 @@ class CorpusConfig:
 
 DATA_DIRECTORY = Path(__file__).parent / "data"
 CORPORA = {
+    "诗经": CorpusConfig(
+        query_id="shijing",
+        path=DATA_DIRECTORY / "shijing" / "shijing.json",
+    ),
+    "秦汉诗": CorpusConfig(
+        query_id="qinhan",
+        path=DATA_DIRECTORY / "qinhan",
+    ),
+    "魏晋南北朝诗": CorpusConfig(
+        query_id="weijinnanbeichao",
+        path=DATA_DIRECTORY / "weijinnanbeichao",
+    ),
     "唐诗三百首": CorpusConfig(
         query_id="ts300",
         path=DATA_DIRECTORY / "ts300" / "ts300.json",
@@ -64,10 +76,6 @@ CORPORA = {
     "全宋诗": CorpusConfig(
         query_id="quansongshi",
         path=DATA_DIRECTORY / "quansongshi",
-    ),
-    "诗经": CorpusConfig(
-        query_id="shijing",
-        path=DATA_DIRECTORY / "shijing" / "shijing.json",
     ),
 }
 DEFAULT_CORPUS = "唐诗三百首"
