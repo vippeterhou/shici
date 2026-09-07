@@ -1,11 +1,11 @@
-# 唐诗数据概览
+# 中国古诗数据概览
 
-A Streamlit dashboard for exploring the bundled 唐诗三百首 and 全唐诗
+A Streamlit dashboard for exploring the bundled 唐诗三百首, 全唐诗, and 诗经
 datasets.
 
 ## Dashboard
 
-- Corpus selection for 唐诗三百首, 全唐诗, or both
+- Corpus selection for 唐诗三百首, 全唐诗, 诗经, or any combination
 - Global filtering by author, format, and body text
 - Corpus metrics for poems, authors, and Han-character count
 - Top-author poem-count chart with full-list expansion
@@ -35,7 +35,7 @@ pytest -q
 
 ## Architecture
 
-`JsonPoemRepository` loads `data/ts300/ts300.json`, while
+`JsonPoemRepository` loads normalized JSON poetry records, while
 `poetry/analytics.py` contains framework-independent filtering and aggregation
 logic. A future Supabase repository can replace JSON storage without coupling
 the dashboard to a specific data source.

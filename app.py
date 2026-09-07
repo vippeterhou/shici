@@ -57,6 +57,10 @@ CORPORA = {
         query_id="qts",
         path=DATA_DIRECTORY / "qts",
     ),
+    "诗经": CorpusConfig(
+        query_id="shijing",
+        path=DATA_DIRECTORY / "shijing" / "shijing.json",
+    ),
 }
 DEFAULT_CORPORA = ["唐诗三百首"]
 DATA_SCHEMA_VERSION = 3
@@ -67,7 +71,7 @@ BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
 
 st.set_page_config(
-    page_title="唐诗数据概览",
+    page_title="中国古诗数据概览",
     page_icon="诗",
     layout="wide",
 )
@@ -336,7 +340,7 @@ filtered_poems = filter_poems(
 )
 summary = summarize(filtered_poems)
 
-st.markdown("## 唐诗数据概览")
+st.markdown("## 中国古诗数据概览")
 st.markdown(
     f"**{'、'.join(selected_corpora)}**　·　"
     f"**{summary.poem_count:,}** 首诗　·　"
