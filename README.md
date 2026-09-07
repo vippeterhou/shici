@@ -1,11 +1,11 @@
 # 中国古诗数据概览
 
-A Streamlit dashboard for exploring the bundled 唐诗三百首, 全唐诗, and 诗经
-datasets.
+A Streamlit dashboard for exploring the bundled 唐诗三百首, 全唐诗, 全宋诗,
+and 诗经 datasets.
 
 ## Dashboard
 
-- Exclusive corpus selection for 唐诗三百首, 全唐诗, or 诗经
+- Exclusive corpus selection for 唐诗三百首, 全唐诗, 全宋诗, or 诗经
 - Global filtering by author, format, and body text
 - Hierarchical 诗经 filters and a flattened 风雅颂 classification chart
 - Corpus metrics for poems, authors, and Han-character count
@@ -40,6 +40,12 @@ pytest -q
 `poetry/analytics.py` contains framework-independent filtering and aggregation
 logic. A future Supabase repository can replace JSON storage without coupling
 the dashboard to a specific data source.
+
+The 全宋诗 corpus is derived from
+[`chinese-poetry/chinese-poetry`](https://github.com/chinese-poetry/chinese-poetry)
+and is distributed under the MIT license included in
+`data/quansongshi/LICENSE`. Empty records and records containing only
+placeholder squares are excluded during normalization.
 
 Each poem includes deterministic format metadata:
 

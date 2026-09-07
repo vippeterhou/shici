@@ -5,6 +5,7 @@ from poetry.json_repository import JsonPoemRepository
 
 TS300_PATH = Path(__file__).parents[1] / "data" / "ts300" / "ts300.json"
 QTS_PATH = Path(__file__).parents[1] / "data" / "qts"
+QUANSONGSHI_PATH = Path(__file__).parents[1] / "data" / "quansongshi"
 SHIJING_PATH = Path(__file__).parents[1] / "data" / "shijing" / "shijing.json"
 
 
@@ -23,6 +24,16 @@ def test_repository_loads_directory_and_generates_stable_ids() -> None:
     assert len(poems) == 43_103
     assert len({poem.id for poem in poems}) == len(poems)
     assert poems[0].id == "qts/001.json:0"
+    assert all(poem.format.sentence_count > 0 for poem in poems)
+
+
+def test_repository_loads_quansongshi() -> None:
+    poems = JsonPoemRepository(QUANSONGSHI_PATH).list_poems()
+
+    assert len(poems) == 254_223
+    assert len({poem.id for poem in poems}) == len(poems)
+    assert poems[0].title == "日詩"
+    assert poems[0].author == "宋太祖"
     assert all(poem.format.sentence_count > 0 for poem in poems)
 
 

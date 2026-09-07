@@ -61,6 +61,10 @@ CORPORA = {
         query_id="qts",
         path=DATA_DIRECTORY / "qts",
     ),
+    "全宋诗": CorpusConfig(
+        query_id="quansongshi",
+        path=DATA_DIRECTORY / "quansongshi",
+    ),
     "诗经": CorpusConfig(
         query_id="shijing",
         path=DATA_DIRECTORY / "shijing" / "shijing.json",
@@ -80,7 +84,7 @@ st.set_page_config(
     layout="wide",
 )
 
-@st.cache_data(show_spinner=False)
+@st.cache_resource(show_spinner=False)
 def load_poems(
     data_path: str,
     modified_time_ns: int,

@@ -1,10 +1,9 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from typing import NamedTuple
 
 
-@dataclass(frozen=True)
-class PoemFormat:
+class PoemFormat(NamedTuple):
     sentence_count: int
     sentence_lengths: tuple[int, ...]
     uniform_sentence_length: int | None
@@ -49,8 +48,7 @@ class PoemFormat:
         }
 
 
-@dataclass(frozen=True)
-class Poem:
+class Poem(NamedTuple):
     id: str
     title: str
     author: str
