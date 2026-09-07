@@ -457,34 +457,65 @@ def character_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     return counter.most_common()
 
 
-def bigram_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+def ngram_counts(
+    poems: Sequence[Poem],
+    size: int,
+) -> list[tuple[str, int]]:
+    if size < 1:
+        raise ValueError("ngram size must be positive")
+
     counter: Counter[str] = Counter()
     for poem in poems:
         for paragraph in poem.paragraphs:
             counter.update(
-                paragraph[index : index + 2]
-                for index in range(len(paragraph) - 1)
+                paragraph[index : index + size]
+                for index in range(len(paragraph) - size + 1)
                 if all(
                     is_han_character(character)
-                    for character in paragraph[index : index + 2]
+                    for character in paragraph[index : index + size]
                 )
             )
     return counter.most_common()
+
+
+def bigram_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    return ngram_counts(poems, 2)
+
+
+def trigram_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    return ngram_counts(poems, 3)
+
+
+def poems_containing_ngram(
+    poems: Sequence[Poem],
+    ngram: str,
+    size: int,
+) -> list[Poem]:
+    if len(ngram) != size or not all(
+        is_han_character(character) for character in ngram
+    ):
+        raise ValueError(
+            f"ngram must contain exactly {size} Han characters"
+        )
+    return [
+        poem
+        for poem in poems
+        if any(ngram in paragraph for paragraph in poem.paragraphs)
+    ]
 
 
 def poems_containing_bigram(
     poems: Sequence[Poem],
     bigram: str,
 ) -> list[Poem]:
-    if len(bigram) != 2 or not all(
-        is_han_character(character) for character in bigram
-    ):
-        raise ValueError("bigram must contain exactly two Han characters")
-    return [
-        poem
-        for poem in poems
-        if any(bigram in paragraph for paragraph in poem.paragraphs)
-    ]
+    return poems_containing_ngram(poems, bigram, 2)
+
+
+def poems_containing_trigram(
+    poems: Sequence[Poem],
+    trigram: str,
+) -> list[Poem]:
+    return poems_containing_ngram(poems, trigram, 3)
 
 
 def length_distribution(

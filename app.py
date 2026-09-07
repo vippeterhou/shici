@@ -22,6 +22,7 @@ from poetry.analytics import (
     poem_character_count,
     poems_containing_bigram,
     poems_containing_character,
+    poems_containing_trigram,
     poems_with_format_bucket_combination,
     poems_with_format_combination,
     poems_with_line_length_type,
@@ -38,6 +39,7 @@ from poetry.analytics import (
     structure_breakdown_counts,
     structure_type_counts,
     summarize,
+    trigram_counts,
 )
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
@@ -73,6 +75,7 @@ DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
 FREQUENCY_BAR_HEIGHT = 22
+TRIGRAM_POEM_LIMIT = 50_000
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
 
@@ -99,6 +102,15 @@ def cached_bigram_counts(
 ) -> list[tuple[str, int]]:
     _ = cache_key
     return bigram_counts(_selected_poems)
+
+
+@st.cache_data(show_spinner=False, max_entries=8)
+def cached_trigram_counts(
+    cache_key: tuple[object, ...],
+    _selected_poems: tuple[Poem, ...],
+) -> list[tuple[str, int]]:
+    _ = cache_key
+    return trigram_counts(_selected_poems)
 
 
 def corpus_modified_time_ns(path: Path) -> int:
@@ -198,6 +210,83 @@ def with_percentage(
     result = data.copy()
     result["占比"] = result[count_column] / total if total else 0
     return result
+
+
+def render_frequency_chart(
+    frequency_counts: list[tuple[str, int]],
+    *,
+    category_field: str,
+    selection_name: str,
+    drilldown_kind: str,
+    chart_base_key: str,
+    caption: str,
+) -> None:
+    frequency_data = with_percentage(
+        pd.DataFrame(
+            frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
+            columns=[category_field, "出现次数"],
+        ),
+        "出现次数",
+        sum(count for _, count in frequency_counts),
+    )
+    selection = alt.selection_point(
+        name=selection_name,
+        fields=[category_field],
+        clear="dblclick",
+    )
+    frequency_data["显示标签"] = [
+        f"{count:,} · {percentage:.1%} · {category}"
+        for category, count, percentage in zip(
+            frequency_data[category_field],
+            frequency_data["出现次数"],
+            frequency_data["占比"],
+        )
+    ]
+    frequency_chart = (
+        alt.Chart(frequency_data)
+        .mark_bar(color=BAR_COLOR)
+        .encode(
+            x=alt.X(
+                "出现次数:Q",
+                title="出现次数",
+                scale=alt.Scale(domainMin=0, nice=True),
+            ),
+            y=alt.Y(
+                "显示标签:N",
+                title=None,
+                sort="-x",
+                axis=alt.Axis(labelOverlap=False),
+            ),
+            tooltip=[
+                f"{category_field}:N",
+                "出现次数:Q",
+                alt.Tooltip("占比:Q", format=".1%"),
+            ],
+            opacity=alt.condition(
+                selection,
+                alt.value(1),
+                alt.value(0.55),
+            ),
+        )
+        .add_params(selection)
+        .properties(
+            height=max(1, len(frequency_data)) * FREQUENCY_BAR_HEIGHT,
+        )
+    )
+    chart_key = chart_widget_key(chart_base_key)
+    st.altair_chart(
+        frequency_chart,
+        use_container_width=True,
+        key=chart_key,
+        on_select=partial(
+            activate_chart_drilldown,
+            chart_key,
+            selection_name,
+            drilldown_kind,
+        ),
+        selection_mode=selection_name,
+    )
+    st.caption(caption)
 
 
 def clear_active_drilldown() -> None:
@@ -1103,32 +1192,22 @@ with overview_tab:
 with characters_tab:
     frequency_type = st.radio(
         "统计类型",
-        ["字频", "二字组合"],
+        ["字频", "二字组合", "三字组合"],
         horizontal=True,
     )
 
     if frequency_type == "字频":
         st.subheader("正文字频")
         frequency_counts = character_counts(filtered_poems)
-        frequency_data = with_percentage(
-            pd.DataFrame(
-                frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
-                columns=["字", "出现次数"],
-            ),
-            "出现次数",
-            sum(count for _, count in frequency_counts),
+        render_frequency_chart(
+            frequency_counts,
+            category_field="字",
+            selection_name="character_selection",
+            drilldown_kind="character",
+            chart_base_key="character-chart",
+            caption="只统计汉字，排除标点、空格、数字及其他非汉字。",
         )
-        selection = alt.selection_point(
-            name="character_selection",
-            fields=["字"],
-            clear="dblclick",
-        )
-        category_field = "字"
-        selection_name = "character_selection"
-        drilldown_kind = "character"
-        chart_base_key = "character-chart"
-        caption = "只统计汉字，排除标点、空格、数字及其他非汉字。"
-    else:
+    elif frequency_type == "二字组合":
         st.subheader("正文常用二字组合")
         bigram_count_cache_key = (
             DATA_SCHEMA_VERSION,
@@ -1139,81 +1218,46 @@ with characters_tab:
             bigram_count_cache_key,
             tuple(filtered_poems),
         )
-        frequency_data = with_percentage(
-            pd.DataFrame(
-                frequency_counts[:FREQUENCY_DISPLAY_LIMIT],
-                columns=["组合", "出现次数"],
-            ),
-            "出现次数",
-            sum(count for _, count in frequency_counts),
-        )
-        selection = alt.selection_point(
-            name="bigram_selection",
-            fields=["组合"],
-            clear="dblclick",
-        )
-        category_field = "组合"
-        selection_name = "bigram_selection"
-        drilldown_kind = "bigram"
-        chart_base_key = "bigram-chart"
-        caption = (
-            "统计正文中相邻且均为汉字的二字组合；"
-            "标点和段落边界不会连接。"
-        )
-    frequency_chart_height = (
-        max(1, len(frequency_data)) * FREQUENCY_BAR_HEIGHT
-    )
-    frequency_data["显示标签"] = [
-        f"{count:,} · {percentage:.1%} · {category}"
-        for category, count, percentage in zip(
-            frequency_data[category_field],
-            frequency_data["出现次数"],
-            frequency_data["占比"],
-        )
-    ]
-    frequency_chart = (
-        alt.Chart(frequency_data)
-        .mark_bar(color=BAR_COLOR)
-        .encode(
-            x=alt.X(
-                "出现次数:Q",
-                title="出现次数",
-                scale=alt.Scale(domainMin=0, nice=True),
-            ),
-            y=alt.Y(
-                "显示标签:N",
-                title=None,
-                sort="-x",
-                axis=alt.Axis(labelOverlap=False),
-            ),
-            tooltip=[
-                f"{category_field}:N",
-                "出现次数:Q",
-                alt.Tooltip("占比:Q", format=".1%"),
-            ],
-            opacity=alt.condition(
-                selection,
-                alt.value(1),
-                alt.value(0.55),
+        render_frequency_chart(
+            frequency_counts,
+            category_field="组合",
+            selection_name="bigram_selection",
+            drilldown_kind="bigram",
+            chart_base_key="bigram-chart",
+            caption=(
+                "统计正文中相邻且均为汉字的二字组合；"
+                "标点和段落边界不会连接。"
             ),
         )
-        .add_params(selection)
-        .properties(height=frequency_chart_height)
-    )
-    chart_key = chart_widget_key(chart_base_key)
-    st.altair_chart(
-        frequency_chart,
-        use_container_width=True,
-        key=chart_key,
-        on_select=partial(
-            activate_chart_drilldown,
-            chart_key,
-            selection_name,
-            drilldown_kind,
-        ),
-        selection_mode=selection_name,
-    )
-    st.caption(caption)
+    else:
+        st.subheader("正文常用三字组合")
+        if len(filtered_poems) > TRIGRAM_POEM_LIMIT:
+            st.warning(
+                f"当前有 {len(filtered_poems):,} 首诗。三字组合会产生大量"
+                f"唯一结果，请先使用作者或格式筛选，将范围缩小到 "
+                f"{TRIGRAM_POEM_LIMIT:,} 首以内。"
+            )
+        else:
+            trigram_count_cache_key = (
+                DATA_SCHEMA_VERSION,
+                tuple(selected_corpus_versions.items()),
+                tuple(poem.id for poem in filtered_poems),
+            )
+            frequency_counts = cached_trigram_counts(
+                trigram_count_cache_key,
+                tuple(filtered_poems),
+            )
+            render_frequency_chart(
+                frequency_counts,
+                category_field="组合",
+                selection_name="trigram_selection",
+                drilldown_kind="trigram",
+                chart_base_key="trigram-chart",
+                caption=(
+                    "统计正文中连续且均为汉字的三字组合；"
+                    "标点和段落边界不会连接。"
+                ),
+            )
 
 with explorer_tab:
     st.subheader("诗作目录")
@@ -1302,6 +1346,14 @@ if active_drilldown:
         drilldown_heading = f"包含「{drilldown_value}」"
         highlight_text = drilldown_value
         drilldown_poems = poems_containing_bigram(
+            filtered_poems,
+            drilldown_value,
+        )
+    elif drilldown_kind == "trigram":
+        drilldown_value = str(drilldown_selection["组合"])
+        drilldown_heading = f"包含「{drilldown_value}」"
+        highlight_text = drilldown_value
+        drilldown_poems = poems_containing_trigram(
             filtered_poems,
             drilldown_value,
         )

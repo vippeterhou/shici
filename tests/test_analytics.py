@@ -14,6 +14,7 @@ from poetry.analytics import (
     poem_character_count,
     poems_containing_bigram,
     poems_containing_character,
+    poems_containing_trigram,
     poems_in_length_bucket,
     poems_with_format_bucket_combination,
     poems_with_format_combination,
@@ -33,6 +34,7 @@ from poetry.analytics import (
     structure_type,
     structure_type_counts,
     summarize,
+    trigram_counts,
 )
 from poetry.models import Poem, PoemFormat
 
@@ -200,6 +202,24 @@ def test_bigram_counts_include_overlaps_without_crossing_punctuation() -> None:
         ("月光", 1),
     ]
     assert poems_containing_bigram((poem,), "月明") == [poem]
+
+
+def test_trigram_counts_include_overlaps_without_crossing_punctuation() -> None:
+    poem = Poem(
+        id="trigrams",
+        title="三字组合",
+        author="作者",
+        paragraphs=("君不見君不見，明月光。",),
+        format=FIVE_CHARACTER_FORMAT,
+    )
+
+    assert trigram_counts((poem,)) == [
+        ("君不見", 2),
+        ("不見君", 1),
+        ("見君不", 1),
+        ("明月光", 1),
+    ]
+    assert poems_containing_trigram((poem,), "君不見") == [poem]
 
 
 def test_format_analytics_and_drilldowns() -> None:
