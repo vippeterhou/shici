@@ -116,7 +116,7 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    [data-testid="stMainBlockContainer"] .stale {
+    [data-testid="stMainBlockContainer"] [data-stale="true"] {
       display: none !important;
     }
     .tab-loading {
@@ -564,6 +564,27 @@ with st.sidebar:
         st.stop()
     selected_corpora = [selected_corpus]
 
+st.markdown("## 中国古诗数据概览")
+hero_placeholder = st.empty()
+with hero_placeholder.container():
+    st.markdown(
+        '<div class="tab-skeleton hero-skeleton"></div>',
+        unsafe_allow_html=True,
+    )
+selected_tab = st.pills(
+    "内容导航",
+    TAB_LABELS,
+    selection_mode="single",
+    default="总览",
+    key="selected_tab",
+    label_visibility="collapsed",
+    on_change=clear_active_drilldown,
+)
+content_placeholder = st.empty()
+with content_placeholder.container():
+    render_tab_skeleton(selected_tab or "总览")
+
+with st.sidebar:
     selected_corpus_versions = {
         corpus_name: corpus_modified_time_ns(CORPORA[corpus_name].path)
         for corpus_name in selected_corpora
@@ -725,26 +746,6 @@ with st.sidebar:
         )
     text_query = st.text_input("正文包含", placeholder="例如：明月")
     st.caption("所有图表和表格会随筛选条件同步更新。")
-
-st.markdown("## 中国古诗数据概览")
-hero_placeholder = st.empty()
-with hero_placeholder.container():
-    st.markdown(
-        '<div class="tab-skeleton hero-skeleton"></div>',
-        unsafe_allow_html=True,
-    )
-selected_tab = st.pills(
-    "内容导航",
-    TAB_LABELS,
-    selection_mode="single",
-    default="总览",
-    key="selected_tab",
-    label_visibility="collapsed",
-    on_change=clear_active_drilldown,
-)
-content_placeholder = st.empty()
-with content_placeholder.container():
-    render_tab_skeleton(selected_tab or "总览")
 
 filter_cache_key = (
     poem_scope_cache_key,
