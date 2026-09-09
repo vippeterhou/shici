@@ -3,6 +3,7 @@ from poetry.analytics import (
     bigram_counts,
     character_counts,
     duplicate_text_groups,
+    derive_statistics,
     filter_poems,
     filter_shijing_poems,
     format_bucket_combination_counts,
@@ -351,3 +352,22 @@ def test_finds_exact_duplicate_text() -> None:
 
     assert len(duplicate_groups) == 1
     assert {poem.id for poem in duplicate_groups[0]} == {"2", "3"}
+
+
+def test_derives_reusable_statistics_together() -> None:
+    statistics = derive_statistics(POEMS)
+
+    assert statistics.summary == summarize(POEMS)
+    assert statistics.author_counts == tuple(author_counts(POEMS))
+    assert statistics.line_length_type_counts == tuple(
+        line_length_type_counts(POEMS)
+    )
+    assert statistics.character_counts == tuple(character_counts(POEMS))
+    assert statistics.duplicate_text_groups == tuple(
+        duplicate_text_groups(POEMS)
+    )
+    assert statistics.poem_catalog == (
+        ("將進酒", "李白", poem_character_count(POEMS[0]), 1),
+        ("登鸛雀樓", "王之渙", poem_character_count(POEMS[1]), 1),
+        ("異題", "佚名", poem_character_count(POEMS[2]), 1),
+    )

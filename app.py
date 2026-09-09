@@ -10,14 +10,12 @@ import pandas as pd
 import streamlit as st
 
 from poetry.analytics import (
+    DerivedStatistics,
     author_counts,
     bigram_counts,
-    character_counts,
-    duplicate_text_groups,
+    derive_statistics,
     filter_poems,
     filter_shijing_poems,
-    format_bucket_combination_counts,
-    format_combination_counts,
     line_length_type_counts,
     poem_character_count,
     poems_containing_bigram,
@@ -32,13 +30,8 @@ from poetry.analytics import (
     poems_with_structure_type,
     poems_with_shijing_group,
     poem_text,
-    sentence_count_bucket_distribution,
-    sentence_count_distribution,
     shijing_classification,
     shijing_group_counts,
-    structure_breakdown_counts,
-    structure_type_counts,
-    summarize,
     trigram_counts,
 )
 from poetry.json_repository import JsonPoemRepository
@@ -86,12 +79,79 @@ FREQUENCY_BAR_HEIGHT = 22
 TRIGRAM_POEM_LIMIT = 50_000
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
+TAB_LABELS = [
+    "总览",
+    "诗体结构",
+    "字词统计",
+    "诗作浏览",
+    "数据说明",
+]
+TAB_LOADING_MESSAGES = {
+    "总览": "正在整理总览数据…",
+    "诗体结构": "正在分析诗体结构…",
+    "字词统计": "正在统计常用字词…",
+    "诗作浏览": "正在准备诗作目录…",
+    "数据说明": "正在检查数据质量…",
+}
 
 st.set_page_config(
     page_title="中国古诗数据概览",
     page_icon="诗",
     layout="wide",
 )
+
+st.markdown(
+    """
+    <style>
+    [data-testid="stMainBlockContainer"] .stale {
+      display: none !important;
+    }
+    .tab-loading {
+      color: rgba(49, 51, 63, 0.62);
+      margin-top: 0.5rem;
+    }
+    .tab-loading p {
+      font-size: 0.88rem;
+      margin: 0.75rem 0 0;
+    }
+    .tab-skeleton {
+      background: linear-gradient(
+        90deg,
+        rgba(127, 127, 127, 0.08) 20%,
+        rgba(127, 127, 127, 0.16) 38%,
+        rgba(127, 127, 127, 0.08) 56%
+      );
+      background-size: 200% 100%;
+      border-radius: 0.35rem;
+      animation: tab-skeleton-shimmer 1.6s ease-in-out infinite;
+    }
+    .tab-skeleton-chart {
+      height: 19rem;
+      margin-top: 0.75rem;
+      width: 100%;
+    }
+    .tab-skeleton-line {
+      height: 0.75rem;
+      margin-top: 0.9rem;
+      width: 42%;
+    }
+    .hero-skeleton {
+      height: 1.1rem;
+      margin: 0.35rem 0 1rem;
+      width: min(32rem, 72%);
+    }
+    @keyframes tab-skeleton-shimmer {
+      from { background-position: 100% 0; }
+      to { background-position: -100% 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .tab-skeleton { animation: none; }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 @st.cache_resource(show_spinner=False)
 def load_poems(
@@ -101,6 +161,49 @@ def load_poems(
 ) -> tuple[Poem, ...]:
     _ = modified_time_ns, schema_version
     return JsonPoemRepository(data_path).list_poems()
+
+
+@st.cache_resource(show_spinner=False, max_entries=16)
+def cached_filter_poems(
+    cache_key: tuple[object, ...],
+    _poems: tuple[Poem, ...],
+    authors: tuple[str, ...] = (),
+    line_types: tuple[str, ...] = (),
+    sentence_counts: tuple[int, ...] = (),
+    text_query: str = "",
+) -> tuple[Poem, ...]:
+    _ = cache_key
+    return tuple(
+        filter_poems(
+            _poems,
+            authors=authors,
+            line_types=line_types,
+            sentence_counts=sentence_counts,
+            text_query=text_query,
+        )
+    )
+
+
+@st.cache_data(show_spinner=False, max_entries=16)
+def cached_filter_options(
+    cache_key: tuple[object, ...],
+    _poems: tuple[Poem, ...],
+) -> tuple[tuple[str, ...], tuple[str, ...], tuple[int, ...]]:
+    _ = cache_key
+    return (
+        tuple(author for author, _ in author_counts(_poems)),
+        tuple(name for name, _ in line_length_type_counts(_poems)),
+        tuple(sorted({poem.format.sentence_count for poem in _poems})),
+    )
+
+
+@st.cache_resource(show_spinner=False, max_entries=16)
+def cached_derived_statistics(
+    cache_key: tuple[object, ...],
+    _poems: tuple[Poem, ...],
+) -> DerivedStatistics:
+    _ = cache_key
+    return derive_statistics(_poems)
 
 
 @st.cache_data(show_spinner=False, max_entries=8)
@@ -218,6 +321,19 @@ def with_percentage(
     result = data.copy()
     result["占比"] = result[count_column] / total if total else 0
     return result
+
+
+def render_tab_skeleton(tab_name: str) -> None:
+    st.markdown(
+        f"""
+        <div class="tab-loading" role="status" aria-live="polite">
+          <div class="tab-skeleton tab-skeleton-chart"></div>
+          <div class="tab-skeleton tab-skeleton-line"></div>
+          <p>{TAB_LOADING_MESSAGES[tab_name]}</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def render_frequency_chart(
@@ -548,9 +664,18 @@ with st.sidebar:
                 ),
             )
         )
-    all_authors = [author for author, _ in author_counts(poems)]
-    all_line_types = [name for name, _ in line_length_type_counts(poems)]
-    all_sentence_counts = sorted({poem.format.sentence_count for poem in poems})
+    poem_scope_cache_key = (
+        DATA_SCHEMA_VERSION,
+        tuple(selected_corpus_versions.items()),
+        st.session_state.get("shijing_category", "全部"),
+        st.session_state.get("shijing_division", "全部"),
+        st.session_state.get("shijing_section", "全部"),
+        st.session_state.get("shijing_title", "全部"),
+    )
+    all_authors, all_line_types, all_sentence_counts = cached_filter_options(
+        poem_scope_cache_key,
+        tuple(poems),
+    )
     selected_authors = st.multiselect("作者", all_authors)
     with st.expander("格式", expanded=True):
         selected_line_types = st.multiselect("言", all_line_types)
@@ -561,39 +686,80 @@ with st.sidebar:
     text_query = st.text_input("正文包含", placeholder="例如：明月")
     st.caption("所有图表和表格会随筛选条件同步更新。")
 
-filtered_poems = filter_poems(
-    poems,
-    authors=selected_authors,
-    line_types=selected_line_types,
-    sentence_counts=selected_sentence_counts,
-    text_query=text_query,
-)
-overview_filtered_poems = filter_poems(
-    loaded_poems,
-    authors=selected_authors,
-    line_types=selected_line_types,
-    sentence_counts=selected_sentence_counts,
-    text_query=text_query,
-)
-summary = summarize(filtered_poems)
-
 st.markdown("## 中国古诗数据概览")
-st.markdown(
-    f"**{'、'.join(selected_corpora)}**　·　"
-    f"**{summary.poem_count:,}** 首诗　·　"
-    f"**{summary.author_count:,}** 位作者　·　"
-    f"**{summary.character_count:,}** 字"
+hero_placeholder = st.empty()
+with hero_placeholder.container():
+    st.markdown(
+        '<div class="tab-skeleton hero-skeleton"></div>',
+        unsafe_allow_html=True,
+    )
+selected_tab = st.pills(
+    "内容导航",
+    TAB_LABELS,
+    selection_mode="single",
+    default="总览",
+    key="selected_tab",
+    label_visibility="collapsed",
+    on_change=clear_active_drilldown,
 )
+content_placeholder = st.empty()
+with content_placeholder.container():
+    render_tab_skeleton(selected_tab or "总览")
+
+filter_cache_key = (
+    poem_scope_cache_key,
+    tuple(selected_authors),
+    tuple(selected_line_types),
+    tuple(selected_sentence_counts),
+    text_query.strip().casefold(),
+)
+filtered_poems = cached_filter_poems(
+    filter_cache_key,
+    tuple(poems),
+    tuple(selected_authors),
+    tuple(selected_line_types),
+    tuple(selected_sentence_counts),
+    text_query,
+)
+overview_filter_cache_key = (
+    DATA_SCHEMA_VERSION,
+    tuple(selected_corpus_versions.items()),
+    "overview",
+    tuple(selected_authors),
+    tuple(selected_line_types),
+    tuple(selected_sentence_counts),
+    text_query.strip().casefold(),
+)
+overview_filtered_poems = cached_filter_poems(
+    overview_filter_cache_key,
+    tuple(loaded_poems),
+    tuple(selected_authors),
+    tuple(selected_line_types),
+    tuple(selected_sentence_counts),
+    text_query,
+)
+statistics = cached_derived_statistics(
+    filter_cache_key,
+    tuple(filtered_poems),
+)
+summary = statistics.summary
+
+hero_placeholder.empty()
+with hero_placeholder.container():
+    st.markdown(
+        f"**{'、'.join(selected_corpora)}**　·　"
+        f"**{summary.poem_count:,}** 首诗　·　"
+        f"**{summary.author_count:,}** 位作者　·　"
+        f"**{summary.character_count:,}** 字"
+    )
+
 if not filtered_poems:
-    st.warning("目前的筛选条件没有符合的诗作。")
+    content_placeholder.empty()
+    with content_placeholder.container():
+        st.warning("目前的筛选条件没有符合的诗作。")
     st.stop()
 
-overview_tab, format_tab, characters_tab, explorer_tab, quality_tab = st.tabs(
-    ["总览", "格式分布", "常用字词", "诗作浏览", "数据质量"]
-)
-
-with format_tab:
-    st.subheader("格式分布")
+def render_format_tab() -> None:
     option_columns = st.columns(2)
     with option_columns[0]:
         group_large_sentence_counts = st.toggle(
@@ -616,7 +782,7 @@ with format_tab:
         )
 
     format_line_type_order = [
-        name for name, _ in line_length_type_counts(filtered_poems)
+        name for name, _ in statistics.line_length_type_counts
     ]
 
     # Reserve display positions before computing the shared sentence-count axis.
@@ -626,13 +792,11 @@ with format_tab:
 
     with sentence_column:
         if group_large_sentence_counts:
-            sentence_distribution = sentence_count_bucket_distribution(
-                filtered_poems
-            )
+            sentence_distribution = statistics.sentence_count_bucket_distribution
             sentence_field = "句数范围"
             sentence_drilldown_kind = "sentence_count_bucket"
         else:
-            sentence_distribution = sentence_count_distribution(filtered_poems)
+            sentence_distribution = statistics.sentence_count_distribution
             sentence_field = "句数"
             sentence_drilldown_kind = "sentence_count"
         sentence_data = with_percentage(
@@ -701,12 +865,10 @@ with format_tab:
     with combination_column:
         st.markdown("#### 字句组合分布")
         if group_large_sentence_counts:
-            combination_counts = format_bucket_combination_counts(
-                filtered_poems
-            )
+            combination_counts = statistics.format_bucket_combination_counts
             combination_drilldown_kind = "format_bucket"
         else:
-            combination_counts = format_combination_counts(filtered_poems)
+            combination_counts = statistics.format_combination_counts
             combination_drilldown_kind = "combination"
         combination_data = pd.DataFrame(
             combination_counts,
@@ -786,7 +948,7 @@ with format_tab:
     st.subheader("每句字数类型")
     line_type_data = with_percentage(
         pd.DataFrame(
-            line_length_type_counts(filtered_poems),
+            statistics.line_length_type_counts,
             columns=["类型", "诗作数"],
         ),
         "诗作数",
@@ -854,7 +1016,7 @@ with format_tab:
     st.subheader("结构类型")
     structure_type_data = with_percentage(
         pd.DataFrame(
-            structure_type_counts(filtered_poems),
+            statistics.structure_type_counts,
             columns=["结构类型", "诗作数"],
         ),
         "诗作数",
@@ -924,9 +1086,9 @@ with format_tab:
             width="stretch",
         )
 
-with overview_tab:
+def render_overview_tab() -> None:
     if "诗经" in selected_corpora:
-        st.subheader("诗经分类")
+        st.markdown("#### 诗经分类")
         shijing_overview_poems = [
             poem
             for poem in overview_filtered_poems
@@ -1021,11 +1183,11 @@ with overview_tab:
 
         st.divider()
 
-    st.subheader("诗体结构")
+    st.markdown("#### 诗体结构")
     st.caption("每根柱形表示每句字数类型，颜色区分四句、八句和其他句数。")
     structure_data = with_percentage(
         pd.DataFrame(
-            structure_breakdown_counts(filtered_poems),
+            statistics.structure_breakdown_counts,
             columns=["类型", "句数类别", "诗作数"],
         ),
         "诗作数",
@@ -1125,8 +1287,8 @@ with overview_tab:
     if selected_corpora == ["诗经"]:
         st.caption("诗经篇目传统上多不署名，因此总览以分类统计取代作者排行。")
     else:
-        st.subheader("作者诗词数量")
-        all_author_counts = author_counts(filtered_poems)
+        st.markdown("#### 作者诗词数量")
+        all_author_counts = statistics.author_counts
         show_all_authors = st.toggle(
             f"显示全部作者（{len(all_author_counts)} 位）",
             value=False,
@@ -1197,7 +1359,7 @@ with overview_tab:
         ):
             st.caption(f"当前显示前 {len(visible_author_counts)} 位作者。")
 
-with characters_tab:
+def render_characters_tab() -> None:
     frequency_type = st.radio(
         "统计类型",
         ["字频", "二字组合", "三字组合"],
@@ -1205,8 +1367,8 @@ with characters_tab:
     )
 
     if frequency_type == "字频":
-        st.subheader("正文字频")
-        frequency_counts = character_counts(filtered_poems)
+        st.markdown("#### 正文字频")
+        frequency_counts = statistics.character_counts
         render_frequency_chart(
             frequency_counts,
             category_field="字",
@@ -1216,7 +1378,7 @@ with characters_tab:
             caption="只统计汉字，排除标点、空格、数字及其他非汉字。",
         )
     elif frequency_type == "二字组合":
-        st.subheader("正文常用二字组合")
+        st.markdown("#### 正文常用二字组合")
         bigram_count_cache_key = (
             DATA_SCHEMA_VERSION,
             tuple(selected_corpus_versions.items()),
@@ -1238,7 +1400,7 @@ with characters_tab:
             ),
         )
     else:
-        st.subheader("正文常用三字组合")
+        st.markdown("#### 正文常用三字组合")
         if len(filtered_poems) > TRIGRAM_POEM_LIMIT:
             st.warning(
                 f"当前有 {len(filtered_poems):,} 首诗。三字组合会产生大量"
@@ -1267,16 +1429,17 @@ with characters_tab:
                 ),
             )
 
-with explorer_tab:
-    st.subheader("诗作目录")
+def render_explorer_tab() -> None:
+    st.markdown("#### 诗作目录")
     poem_rows = [
         {
-            "题目": poem.title,
-            "作者": poem.author,
-            "字数": poem_character_count(poem),
-            "段落": len(poem.paragraphs),
+            "题目": title,
+            "作者": author,
+            "字数": character_count,
+            "段落": paragraph_count,
         }
-        for poem in filtered_poems
+        for title, author, character_count, paragraph_count
+        in statistics.poem_catalog
     ]
     st.dataframe(
         pd.DataFrame(poem_rows),
@@ -1300,8 +1463,9 @@ with explorer_tab:
         st.markdown(f"**作者**  \n{selected_poem.author}")
         st.markdown(f"**字数**  \n{poem_character_count(selected_poem)}")
 
-with quality_tab:
-    duplicates = duplicate_text_groups(filtered_poems)
+def render_quality_tab() -> None:
+    st.caption("数据质量指标基于当前数据集与筛选条件计算。")
+    duplicates = statistics.duplicate_text_groups
     st.metric("完全相同正文组", len(duplicates))
     st.subheader("完全相同正文")
     if duplicates:
@@ -1321,6 +1485,17 @@ with quality_tab:
         )
     else:
         st.success("没有发现完全相同的正文。")
+
+
+content_placeholder.empty()
+with content_placeholder.container():
+    {
+        "总览": render_overview_tab,
+        "诗体结构": render_format_tab,
+        "字词统计": render_characters_tab,
+        "诗作浏览": render_explorer_tab,
+        "数据说明": render_quality_tab,
+    }[selected_tab or "总览"]()
 
 active_drilldown = st.session_state.get("active_drilldown")
 if active_drilldown:

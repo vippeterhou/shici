@@ -36,6 +36,22 @@ class CorpusSummary:
     average_characters: float
 
 
+@dataclass(frozen=True)
+class DerivedStatistics:
+    summary: CorpusSummary
+    author_counts: tuple[tuple[str, int], ...]
+    line_length_type_counts: tuple[tuple[str, int], ...]
+    sentence_count_distribution: tuple[tuple[int, int], ...]
+    sentence_count_bucket_distribution: tuple[tuple[str, int], ...]
+    format_combination_counts: tuple[tuple[int, str, int], ...]
+    format_bucket_combination_counts: tuple[tuple[str, str, int], ...]
+    structure_type_counts: tuple[tuple[str, int], ...]
+    structure_breakdown_counts: tuple[tuple[str, str, int], ...]
+    character_counts: tuple[tuple[str, int], ...]
+    duplicate_text_groups: tuple[tuple[Poem, ...], ...]
+    poem_catalog: tuple[tuple[str, str, int, int], ...]
+
+
 def poem_text(poem: Poem) -> str:
     return "".join(poem.paragraphs)
 
@@ -583,3 +599,32 @@ def duplicate_text_groups(poems: Sequence[Poem]) -> list[tuple[Poem, ...]]:
         for group in groups.values()
         if len(group) > 1 and group[0].paragraphs
     ]
+
+
+def derive_statistics(poems: Sequence[Poem]) -> DerivedStatistics:
+    return DerivedStatistics(
+        summary=summarize(poems),
+        author_counts=tuple(author_counts(poems)),
+        line_length_type_counts=tuple(line_length_type_counts(poems)),
+        sentence_count_distribution=tuple(sentence_count_distribution(poems)),
+        sentence_count_bucket_distribution=tuple(
+            sentence_count_bucket_distribution(poems)
+        ),
+        format_combination_counts=tuple(format_combination_counts(poems)),
+        format_bucket_combination_counts=tuple(
+            format_bucket_combination_counts(poems)
+        ),
+        structure_type_counts=tuple(structure_type_counts(poems)),
+        structure_breakdown_counts=tuple(structure_breakdown_counts(poems)),
+        character_counts=tuple(character_counts(poems)),
+        duplicate_text_groups=tuple(duplicate_text_groups(poems)),
+        poem_catalog=tuple(
+            (
+                poem.title,
+                poem.author,
+                poem_character_count(poem),
+                len(poem.paragraphs),
+            )
+            for poem in poems
+        ),
+    )
