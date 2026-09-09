@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import html
+import json
+import os
 from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
@@ -39,39 +41,72 @@ from poetry.analytics import (
 )
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
+from poetry.remote_repository import RemoteJsonPoemRepository
 
 
 @dataclass(frozen=True)
 class CorpusConfig:
     query_id: str
     path: Path
+    asset_key: str
+
+
+@dataclass(frozen=True)
+class CorpusSource:
+    location: str
+    version: object
+    checksum: str = ""
+    expected_count: int = 0
 
 
 DATA_DIRECTORY = Path(__file__).parent / "data"
+DATA_RELEASE_CONFIG_PATH = Path(__file__).parent / "data_release.json"
+DATA_RELEASE_CONFIG = json.loads(
+    DATA_RELEASE_CONFIG_PATH.read_text(encoding="utf-8")
+)
+DATA_RELEASE_REPOSITORY = str(DATA_RELEASE_CONFIG["repository"])
+DATA_RELEASE_VERSION = str(DATA_RELEASE_CONFIG["version"])
+DATA_RELEASE_SCHEMA_VERSION = int(DATA_RELEASE_CONFIG["schema_version"])
+SUPPORTED_DATA_RELEASE_SCHEMA_VERSION = 2
+if DATA_RELEASE_SCHEMA_VERSION != SUPPORTED_DATA_RELEASE_SCHEMA_VERSION:
+    raise ValueError(
+        "Unsupported data release schema version: "
+        f"{DATA_RELEASE_SCHEMA_VERSION}"
+    )
+DATA_SOURCE = os.environ.get("SHICI_DATA_SOURCE", "remote").strip().lower()
+if DATA_SOURCE not in {"local", "remote"}:
+    raise ValueError("SHICI_DATA_SOURCE must be either 'local' or 'remote'")
+
 CORPORA = {
     "诗经": CorpusConfig(
         query_id="shijing",
         path=DATA_DIRECTORY / "shijing" / "shijing.json",
+        asset_key="shijing",
     ),
     "秦汉诗": CorpusConfig(
         query_id="qinhan",
         path=DATA_DIRECTORY / "qinhan",
+        asset_key="qinhan",
     ),
     "魏晋南北朝诗": CorpusConfig(
         query_id="weijinnanbeichao",
         path=DATA_DIRECTORY / "weijinnanbeichao",
+        asset_key="weijinnanbeichao",
     ),
     "唐诗三百首": CorpusConfig(
         query_id="ts300",
         path=DATA_DIRECTORY / "ts300" / "ts300.json",
+        asset_key="ts300",
     ),
     "全唐诗": CorpusConfig(
         query_id="qts",
         path=DATA_DIRECTORY / "qts",
+        asset_key="qts",
     ),
     "全宋诗": CorpusConfig(
         query_id="quansongshi",
         path=DATA_DIRECTORY / "quansongshi",
+        asset_key="quansongshi",
     ),
 }
 DEFAULT_CORPUS = "唐诗三百首"
@@ -171,12 +206,20 @@ st.markdown(
 
 @st.cache_resource(show_spinner=False)
 def load_poems(
-    data_path: str,
-    modified_time_ns: int,
+    data_location: str,
+    source_version: object,
     schema_version: int,
+    checksum: str = "",
+    expected_count: int = 0,
 ) -> tuple[Poem, ...]:
-    _ = modified_time_ns, schema_version
-    return JsonPoemRepository(data_path).list_poems()
+    _ = source_version, schema_version
+    if data_location.startswith(("https://", "http://")):
+        return RemoteJsonPoemRepository(
+            data_location,
+            sha256=checksum,
+            expected_count=expected_count,
+        ).list_poems()
+    return JsonPoemRepository(data_location).list_poems()
 
 
 @st.cache_resource(show_spinner=False, max_entries=16)
@@ -245,6 +288,29 @@ def corpus_modified_time_ns(path: Path) -> int:
     return max(
         (file_path.stat().st_mtime_ns for file_path in path.glob("*.json")),
         default=path.stat().st_mtime_ns,
+    )
+
+
+def corpus_source(corpus_name: str) -> CorpusSource:
+    config = CORPORA[corpus_name]
+    if DATA_SOURCE == "local":
+        return CorpusSource(
+            location=str(config.path),
+            version=corpus_modified_time_ns(config.path),
+        )
+
+    metadata = DATA_RELEASE_CONFIG["corpora"][config.asset_key]
+    asset_name = str(metadata["asset"])
+    checksum = str(metadata["sha256"])
+    expected_count = int(metadata["poem_count"])
+    return CorpusSource(
+        location=(
+            f"https://github.com/{DATA_RELEASE_REPOSITORY}/releases/download/"
+            f"{DATA_RELEASE_VERSION}/{asset_name}"
+        ),
+        version=(DATA_RELEASE_VERSION, checksum),
+        checksum=checksum,
+        expected_count=expected_count,
     )
 
 
@@ -588,19 +654,29 @@ with content_placeholder.container():
     render_tab_skeleton(selected_tab or "总览")
 
 with st.sidebar:
-    selected_corpus_versions = {
-        corpus_name: corpus_modified_time_ns(CORPORA[corpus_name].path)
+    selected_corpus_sources = {
+        corpus_name: corpus_source(corpus_name)
         for corpus_name in selected_corpora
     }
-    loaded_poems = tuple(
-        poem
-        for corpus_name in selected_corpora
-        for poem in load_poems(
-            str(CORPORA[corpus_name].path),
-            selected_corpus_versions[corpus_name],
-            DATA_SCHEMA_VERSION,
+    selected_corpus_versions = {
+        corpus_name: source.version
+        for corpus_name, source in selected_corpus_sources.items()
+    }
+    try:
+        loaded_poems = tuple(
+            poem
+            for corpus_name in selected_corpora
+            for poem in load_poems(
+                selected_corpus_sources[corpus_name].location,
+                selected_corpus_sources[corpus_name].version,
+                DATA_SCHEMA_VERSION,
+                selected_corpus_sources[corpus_name].checksum,
+                selected_corpus_sources[corpus_name].expected_count,
+            )
         )
-    )
+    except (OSError, RuntimeError, ValueError) as error:
+        st.error(f"无法加载所选数据集：{error}")
+        st.stop()
     poems = loaded_poems
     if "诗经" in selected_corpora:
         classified_shijing_poems = [
@@ -1551,7 +1627,15 @@ def render_explorer_tab() -> None:
         st.markdown(f"**字数**  \n{poem_character_count(selected_poem)}")
 
 def render_quality_tab() -> None:
-    st.caption("数据质量指标基于当前数据集与筛选条件计算。")
+    data_source_description = (
+        f"shici-data {DATA_RELEASE_VERSION}"
+        if DATA_SOURCE == "remote"
+        else "本地数据副本"
+    )
+    st.caption(
+        "数据质量指标基于当前数据集与筛选条件计算。"
+        f"当前数据源：{data_source_description}。"
+    )
     duplicates = statistics.duplicate_text_groups
     st.metric("完全相同正文组", len(duplicates))
     st.subheader("完全相同正文")

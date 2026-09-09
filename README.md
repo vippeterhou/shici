@@ -28,6 +28,17 @@ streamlit run app.py
 
 Open <http://localhost:8501>.
 
+By default, the app downloads the selected corpus from the pinned
+[`vippeterhou/shici-data`](https://github.com/vippeterhou/shici-data) release
+defined in `data_release.json`. Release assets are checksum-verified and cached
+for the lifetime of the Streamlit server process.
+
+Use the retained local data copy for offline development:
+
+```bash
+SHICI_DATA_SOURCE=local streamlit run app.py
+```
+
 ## Test
 
 ```bash
@@ -36,10 +47,12 @@ pytest -q
 
 ## Architecture
 
-`JsonPoemRepository` loads normalized JSON poetry records, while
+`RemoteJsonPoemRepository` loads versioned, compressed release assets from the
+independent data repository. `JsonPoemRepository` remains available for local
+and offline development, while
 `poetry/analytics.py` contains framework-independent filtering and aggregation
-logic. A future Supabase repository can replace JSON storage without coupling
-the dashboard to a specific data source.
+logic. The local `data/` directory is temporarily retained while the remote
+release path is verified.
 
 The 全宋诗 corpus is derived from
 [`chinese-poetry/chinese-poetry`](https://github.com/chinese-poetry/chinese-poetry)
