@@ -119,6 +119,9 @@ st.markdown(
     [data-testid="stMainBlockContainer"] [data-stale="true"] {
       display: none !important;
     }
+    [data-testid="stMainBlockContainer"] {
+      padding-top: 2.75rem;
+    }
     .tab-loading {
       color: rgba(49, 51, 63, 0.62);
       margin-top: 0.5rem;
