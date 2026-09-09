@@ -707,12 +707,21 @@ with st.sidebar:
         poem_scope_cache_key,
         tuple(poems),
     )
-    selected_authors = st.multiselect("作者", all_authors)
+    selected_authors = st.multiselect(
+        "作者",
+        all_authors,
+        placeholder="请选择作者",
+    )
     with st.expander("格式", expanded=True):
-        selected_line_types = st.multiselect("言", all_line_types)
+        selected_line_types = st.multiselect(
+            "言",
+            all_line_types,
+            placeholder="请选择每句字数",
+        )
         selected_sentence_counts = st.multiselect(
             "句数",
             all_sentence_counts,
+            placeholder="请选择句数",
         )
     text_query = st.text_input("正文包含", placeholder="例如：明月")
     st.caption("所有图表和表格会随筛选条件同步更新。")
