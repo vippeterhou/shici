@@ -1,6 +1,6 @@
 {
   "repository": "vippeterhou/shici-data",
-  "version": "v1.1.0",
+  "version": "v1.0.0",
   "schema_version": 2,
   "corpora": {
     "qinhan": {
