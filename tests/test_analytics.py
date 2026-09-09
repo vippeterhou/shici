@@ -1,5 +1,6 @@
 from poetry.analytics import (
     author_counts,
+    batched_ngram_summary,
     bigram_counts,
     character_counts,
     duplicate_text_groups,
@@ -221,6 +222,26 @@ def test_trigram_counts_include_overlaps_without_crossing_punctuation() -> None:
         ("明月光", 1),
     ]
     assert poems_containing_trigram((poem,), "君不見") == [poem]
+
+
+def test_batched_ngram_summary_merges_batches() -> None:
+    completed_batches: list[tuple[int, int]] = []
+
+    summary = batched_ngram_summary(
+        POEMS,
+        2,
+        batch_size=1,
+        limit=2,
+        on_batch_complete=lambda completed, total: completed_batches.append(
+            (completed, total)
+        ),
+    )
+
+    assert summary.counts == tuple(bigram_counts(POEMS)[:2])
+    assert summary.occurrence_count == sum(
+        count for _, count in bigram_counts(POEMS)
+    )
+    assert completed_batches == [(1, 3), (2, 3), (3, 3)]
 
 
 def test_format_analytics_and_drilldowns() -> None:

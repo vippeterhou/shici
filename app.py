@@ -4,6 +4,8 @@ import html
 from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
+from threading import Lock
+from typing import Sequence
 
 import altair as alt
 import pandas as pd
@@ -11,7 +13,9 @@ import streamlit as st
 
 from poetry.analytics import (
     DerivedStatistics,
+    NgramSummary,
     author_counts,
+    batched_ngram_summary,
     bigram_counts,
     derive_statistics,
     filter_poems,
@@ -32,7 +36,6 @@ from poetry.analytics import (
     poem_text,
     shijing_classification,
     shijing_group_counts,
-    trigram_counts,
 )
 from poetry.json_repository import JsonPoemRepository
 from poetry.models import Poem
@@ -76,7 +79,7 @@ DATA_SCHEMA_VERSION = 3
 AUTHOR_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
 FREQUENCY_BAR_HEIGHT = 22
-TRIGRAM_POEM_LIMIT = 50_000
+TRIGRAM_BATCH_SIZE = 10_000
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
 TAB_LABELS = [
@@ -92,6 +95,16 @@ TAB_LOADING_MESSAGES = {
     "字词统计": "正在统计常用字词…",
     "诗作浏览": "正在准备诗作目录…",
     "数据说明": "正在检查数据质量…",
+}
+FREQUENCY_HEADINGS = {
+    "字频": "正文字频",
+    "二字组合": "正文常用二字组合",
+    "三字组合": "正文常用三字组合",
+}
+FREQUENCY_LOADING_MESSAGES = {
+    "字频": "正在统计正文字频…",
+    "二字组合": "正在统计二字组合…",
+    "三字组合": "正在分批统计三字组合…",
 }
 
 st.set_page_config(
@@ -215,13 +228,12 @@ def cached_bigram_counts(
     return bigram_counts(_selected_poems)
 
 
-@st.cache_data(show_spinner=False, max_entries=8)
-def cached_trigram_counts(
-    cache_key: tuple[object, ...],
-    _selected_poems: tuple[Poem, ...],
-) -> list[tuple[str, int]]:
-    _ = cache_key
-    return trigram_counts(_selected_poems)
+@st.cache_resource(show_spinner=False)
+def trigram_summary_cache() -> tuple[
+    dict[tuple[object, ...], NgramSummary],
+    Lock,
+]:
+    return {}, Lock()
 
 
 def corpus_modified_time_ns(path: Path) -> int:
@@ -336,14 +348,29 @@ def render_tab_skeleton(tab_name: str) -> None:
     )
 
 
+def render_frequency_skeleton(frequency_type: str) -> None:
+    st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
+    st.markdown(
+        f"""
+        <div class="tab-loading" role="status" aria-live="polite">
+          <div class="tab-skeleton tab-skeleton-chart"></div>
+          <div class="tab-skeleton tab-skeleton-line"></div>
+          <p>{FREQUENCY_LOADING_MESSAGES[frequency_type]}</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def render_frequency_chart(
-    frequency_counts: list[tuple[str, int]],
+    frequency_counts: Sequence[tuple[str, int]],
     *,
     category_field: str,
     selection_name: str,
     drilldown_kind: str,
     chart_base_key: str,
     caption: str,
+    total_count: int | None = None,
 ) -> None:
     frequency_data = with_percentage(
         pd.DataFrame(
@@ -351,7 +378,11 @@ def render_frequency_chart(
             columns=[category_field, "出现次数"],
         ),
         "出现次数",
-        sum(count for _, count in frequency_counts),
+        (
+            total_count
+            if total_count is not None
+            else sum(count for _, count in frequency_counts)
+        ),
     )
     selection = alt.selection_point(
         name=selection_name,
@@ -1365,20 +1396,24 @@ def render_characters_tab() -> None:
         ["字频", "二字组合", "三字组合"],
         horizontal=True,
     )
+    frequency_placeholder = st.empty()
+    with frequency_placeholder.container():
+        render_frequency_skeleton(frequency_type)
 
     if frequency_type == "字频":
-        st.markdown("#### 正文字频")
         frequency_counts = statistics.character_counts
-        render_frequency_chart(
-            frequency_counts,
-            category_field="字",
-            selection_name="character_selection",
-            drilldown_kind="character",
-            chart_base_key="character-chart",
-            caption="只统计汉字，排除标点、空格、数字及其他非汉字。",
-        )
+        frequency_placeholder.empty()
+        with frequency_placeholder.container():
+            st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
+            render_frequency_chart(
+                frequency_counts,
+                category_field="字",
+                selection_name="character_selection",
+                drilldown_kind="character",
+                chart_base_key="character-chart",
+                caption="只统计汉字，排除标点、空格、数字及其他非汉字。",
+            )
     elif frequency_type == "二字组合":
-        st.markdown("#### 正文常用二字组合")
         bigram_count_cache_key = (
             DATA_SCHEMA_VERSION,
             tuple(selected_corpus_versions.items()),
@@ -1388,37 +1423,75 @@ def render_characters_tab() -> None:
             bigram_count_cache_key,
             tuple(filtered_poems),
         )
-        render_frequency_chart(
-            frequency_counts,
-            category_field="组合",
-            selection_name="bigram_selection",
-            drilldown_kind="bigram",
-            chart_base_key="bigram-chart",
-            caption=(
-                "统计正文中相邻且均为汉字的二字组合；"
-                "标点和段落边界不会连接。"
-            ),
-        )
-    else:
-        st.markdown("#### 正文常用三字组合")
-        if len(filtered_poems) > TRIGRAM_POEM_LIMIT:
-            st.warning(
-                f"当前有 {len(filtered_poems):,} 首诗。三字组合会产生大量"
-                f"唯一结果，请先使用作者或格式筛选，将范围缩小到 "
-                f"{TRIGRAM_POEM_LIMIT:,} 首以内。"
-            )
-        else:
-            trigram_count_cache_key = (
-                DATA_SCHEMA_VERSION,
-                tuple(selected_corpus_versions.items()),
-                tuple(poem.id for poem in filtered_poems),
-            )
-            frequency_counts = cached_trigram_counts(
-                trigram_count_cache_key,
-                tuple(filtered_poems),
-            )
+        frequency_placeholder.empty()
+        with frequency_placeholder.container():
+            st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
             render_frequency_chart(
                 frequency_counts,
+                category_field="组合",
+                selection_name="bigram_selection",
+                drilldown_kind="bigram",
+                chart_base_key="bigram-chart",
+                caption=(
+                    "统计正文中相邻且均为汉字的二字组合；"
+                    "标点和段落边界不会连接。"
+                ),
+            )
+    else:
+        batch_count = max(
+            1,
+            (
+                len(filtered_poems)
+                + TRIGRAM_BATCH_SIZE
+                - 1
+            )
+            // TRIGRAM_BATCH_SIZE,
+        )
+        calculation_status = st.empty()
+        with calculation_status.container():
+            st.caption(
+                f"将 {len(filtered_poems):,} 首诗按每批最多 "
+                f"{TRIGRAM_BATCH_SIZE:,} 首分为 {batch_count} 批统计，"
+                "完成后自动合并各批结果。"
+            )
+            progress = st.progress(
+                0.0,
+                text=f"正在统计第 0 / {batch_count} 批…",
+            )
+
+        def update_trigram_progress(completed: int, total: int) -> None:
+            progress.progress(
+                completed / total,
+                text=f"正在统计第 {completed} / {total} 批…",
+            )
+
+        trigram_count_cache_key = (
+            filter_cache_key,
+            "trigram",
+            TRIGRAM_BATCH_SIZE,
+            FREQUENCY_DISPLAY_LIMIT,
+        )
+        summary_cache, summary_cache_lock = trigram_summary_cache()
+        with summary_cache_lock:
+            trigram_summary = summary_cache.get(trigram_count_cache_key)
+            if trigram_summary is None:
+                trigram_summary = batched_ngram_summary(
+                    tuple(filtered_poems),
+                    3,
+                    batch_size=TRIGRAM_BATCH_SIZE,
+                    limit=FREQUENCY_DISPLAY_LIMIT,
+                    on_batch_complete=update_trigram_progress,
+                )
+                summary_cache[trigram_count_cache_key] = trigram_summary
+        calculation_status.empty()
+        frequency_placeholder.empty()
+        with frequency_placeholder.container():
+            st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
+            st.caption(
+                f"已合并 {batch_count} 批结果；后续切换将直接使用缓存。"
+            )
+            render_frequency_chart(
+                trigram_summary.counts,
                 category_field="组合",
                 selection_name="trigram_selection",
                 drilldown_kind="trigram",
@@ -1427,6 +1500,7 @@ def render_characters_tab() -> None:
                     "统计正文中连续且均为汉字的三字组合；"
                     "标点和段落边界不会连接。"
                 ),
+                total_count=trigram_summary.occurrence_count,
             )
 
 def render_explorer_tab() -> None:

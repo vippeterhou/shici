@@ -4,7 +4,7 @@ import re
 import unicodedata
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from typing import Iterable, Sequence
+from typing import Callable, Iterable, Sequence
 
 from .models import Poem
 from .text import is_han_character
@@ -50,6 +50,12 @@ class DerivedStatistics:
     character_counts: tuple[tuple[str, int], ...]
     duplicate_text_groups: tuple[tuple[Poem, ...], ...]
     poem_catalog: tuple[tuple[str, str, int, int], ...]
+
+
+@dataclass(frozen=True)
+class NgramSummary:
+    counts: tuple[tuple[str, int], ...]
+    occurrence_count: int
 
 
 def poem_text(poem: Poem) -> str:
@@ -473,25 +479,55 @@ def character_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     return counter.most_common()
 
 
+def batched_ngram_summary(
+    poems: Sequence[Poem],
+    size: int,
+    *,
+    batch_size: int,
+    limit: int | None = None,
+    on_batch_complete: Callable[[int, int], None] | None = None,
+) -> NgramSummary:
+    if size < 1:
+        raise ValueError("ngram size must be positive")
+    if batch_size < 1:
+        raise ValueError("batch size must be positive")
+
+    counter: Counter[str] = Counter()
+    batch_count = (len(poems) + batch_size - 1) // batch_size
+    for batch_index, batch_start in enumerate(
+        range(0, len(poems), batch_size),
+        start=1,
+    ):
+        for poem in poems[batch_start : batch_start + batch_size]:
+            for paragraph in poem.paragraphs:
+                counter.update(
+                    paragraph[index : index + size]
+                    for index in range(len(paragraph) - size + 1)
+                    if all(
+                        is_han_character(character)
+                        for character in paragraph[index : index + size]
+                    )
+                )
+        if on_batch_complete:
+            on_batch_complete(batch_index, batch_count)
+
+    return NgramSummary(
+        counts=tuple(counter.most_common(limit)),
+        occurrence_count=sum(counter.values()),
+    )
+
+
 def ngram_counts(
     poems: Sequence[Poem],
     size: int,
 ) -> list[tuple[str, int]]:
-    if size < 1:
-        raise ValueError("ngram size must be positive")
-
-    counter: Counter[str] = Counter()
-    for poem in poems:
-        for paragraph in poem.paragraphs:
-            counter.update(
-                paragraph[index : index + size]
-                for index in range(len(paragraph) - size + 1)
-                if all(
-                    is_han_character(character)
-                    for character in paragraph[index : index + size]
-                )
-            )
-    return counter.most_common()
+    return list(
+        batched_ngram_summary(
+            poems,
+            size,
+            batch_size=max(1, len(poems)),
+        ).counts
+    )
 
 
 def bigram_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
