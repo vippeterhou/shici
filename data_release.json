@@ -1,6 +1,6 @@
 {
   "repository": "vippeterhou/shici-data",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "schema_version": 2,
   "corpora": {
     "qinhan": {
@@ -13,10 +13,20 @@
       "poem_count": 43103,
       "sha256": "d19f77dc084bfe2299971c329c0e5bf308972ead87df6c977d9aada5f123eea6"
     },
+    "quansongci": {
+      "asset": "quansongci.jsonl.gz",
+      "poem_count": 21053,
+      "sha256": "a6752f75ac10845a9b03443f0667b38667c5ab1dc303db474c75ca0ab1c71168"
+    },
     "quansongshi": {
       "asset": "quansongshi.jsonl.gz",
       "poem_count": 254223,
       "sha256": "a4d91afa47eb395016722d96deb52ea18e81c6b7283a900b906e7653242e67d9"
+    },
+    "sc300": {
+      "asset": "sc300.jsonl.gz",
+      "poem_count": 280,
+      "sha256": "b6bf1c879fb32602ecf984bcac035afe2a59d570450d6490673a27695531000f"
     },
     "shijing": {
       "asset": "shijing.jsonl.gz",

@@ -87,6 +87,10 @@ CORPUS_CATALOG = (
         CorpusConfig(query_id="sc300", asset_key="sc300"),
     ),
     (
+        "全宋词",
+        CorpusConfig(query_id="quansongci", asset_key="quansongci"),
+    ),
+    (
         "全宋诗",
         CorpusConfig(
             query_id="quansongshi",
