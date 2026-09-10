@@ -138,7 +138,7 @@ FREQUENCY_LOADING_MESSAGES = {
 }
 
 st.set_page_config(
-    page_title="中国古诗数据概览",
+    page_title="中国古诗词数据概览",
     page_icon="诗",
     layout="wide",
 )
@@ -600,7 +600,7 @@ with st.sidebar:
     st.header("筛选")
     default_corpus = corpus_from_query_parameters() or DEFAULT_CORPUS
     selected_corpus = st.pills(
-        "数据集",
+        f"数据集 · {DATA_RELEASE.display_version}",
         list(CORPORA),
         selection_mode="single",
         default=default_corpus,
@@ -612,7 +612,7 @@ with st.sidebar:
         st.stop()
     selected_corpora = [selected_corpus]
 
-st.markdown("## 中国古诗数据概览")
+st.markdown("## 中国古诗词数据概览")
 hero_placeholder = st.empty()
 if not preserve_content_on_rerun:
     with hero_placeholder.container():
@@ -1575,7 +1575,7 @@ def render_explorer_tab() -> None:
 def render_quality_tab() -> None:
     st.caption(
         "数据质量指标基于当前数据集与筛选条件计算。"
-        f"当前数据源：shici-data {DATA_RELEASE.display_version}。"
+        f"数据版本：{DATA_RELEASE.display_version}。"
     )
     duplicates = statistics.duplicate_text_groups
     st.metric("完全相同正文组", len(duplicates))

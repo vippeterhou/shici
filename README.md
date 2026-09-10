@@ -1,4 +1,4 @@
-# 中国古诗数据概览
+# 中国古诗词数据概览
 
 A Streamlit dashboard for exploring Chinese poetry from 诗经 through the
 秦汉, 魏晋南北朝, 唐, and 宋 corpora.
