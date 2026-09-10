@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import html
-import json
+import os
 from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
@@ -39,6 +39,11 @@ from poetry.analytics import (
     shijing_group_counts,
 )
 from poetry.models import Poem
+from poetry.data_release import (
+    CorpusSource,
+    corpus_source as release_corpus_source,
+    load_data_release,
+)
 from poetry.remote_repository import RemoteJsonPoemRepository
 
 
@@ -48,27 +53,11 @@ class CorpusConfig:
     asset_key: str
 
 
-@dataclass(frozen=True)
-class CorpusSource:
-    location: str
-    version: object
-    checksum: str = ""
-    expected_count: int = 0
-
-
 DATA_RELEASE_CONFIG_PATH = Path(__file__).parent / "data_release.json"
-DATA_RELEASE_CONFIG = json.loads(
-    DATA_RELEASE_CONFIG_PATH.read_text(encoding="utf-8")
+DATA_RELEASE = load_data_release(
+    DATA_RELEASE_CONFIG_PATH,
+    os.environ.get("SHICI_DATA_MANIFEST"),
 )
-DATA_RELEASE_REPOSITORY = str(DATA_RELEASE_CONFIG["repository"])
-DATA_RELEASE_VERSION = str(DATA_RELEASE_CONFIG["version"])
-DATA_RELEASE_SCHEMA_VERSION = int(DATA_RELEASE_CONFIG["schema_version"])
-SUPPORTED_DATA_RELEASE_SCHEMA_VERSION = 2
-if DATA_RELEASE_SCHEMA_VERSION != SUPPORTED_DATA_RELEASE_SCHEMA_VERSION:
-    raise ValueError(
-        "Unsupported data release schema version: "
-        f"{DATA_RELEASE_SCHEMA_VERSION}"
-    )
 CORPORA = {
     "诗经": CorpusConfig(
         query_id="shijing",
@@ -268,19 +257,7 @@ def trigram_summary_cache() -> tuple[
 
 def corpus_source(corpus_name: str) -> CorpusSource:
     config = CORPORA[corpus_name]
-    metadata = DATA_RELEASE_CONFIG["corpora"][config.asset_key]
-    asset_name = str(metadata["asset"])
-    checksum = str(metadata["sha256"])
-    expected_count = int(metadata["poem_count"])
-    return CorpusSource(
-        location=(
-            f"https://github.com/{DATA_RELEASE_REPOSITORY}/releases/download/"
-            f"{DATA_RELEASE_VERSION}/{asset_name}"
-        ),
-        version=(DATA_RELEASE_VERSION, checksum),
-        checksum=checksum,
-        expected_count=expected_count,
-    )
+    return release_corpus_source(DATA_RELEASE, config.asset_key)
 
 
 def corpus_from_query_parameters() -> str | None:
@@ -1598,7 +1575,7 @@ def render_explorer_tab() -> None:
 def render_quality_tab() -> None:
     st.caption(
         "数据质量指标基于当前数据集与筛选条件计算。"
-        f"当前数据源：shici-data {DATA_RELEASE_VERSION}。"
+        f"当前数据源：shici-data {DATA_RELEASE.display_version}。"
     )
     duplicates = statistics.duplicate_text_groups
     st.metric("完全相同正文组", len(duplicates))

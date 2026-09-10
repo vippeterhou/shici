@@ -33,6 +33,25 @@ The app downloads the selected corpus from the pinned
 defined in `data_release.json`. Release assets are checksum-verified and cached
 for the lifetime of the Streamlit server process.
 
+### Preview local data changes
+
+Build the same compressed artifacts used by production, then point the app at
+the generated manifest:
+
+```bash
+cd ~/Github/shici-data
+python3 scripts/build_release.py --version local
+
+cd ~/Github/shici
+SHICI_DATA_MANIFEST=../shici-data/dist/manifest.json \
+  streamlit run app.py
+```
+
+The override is environment-only: `data_release.json` remains the production
+source of truth. Local assets receive the same schema, checksum, and poem-count
+validation as published release assets. Rebuilding changes their checksums and
+invalidates the relevant Streamlit data caches.
+
 ## Test
 
 ```bash
@@ -41,7 +60,8 @@ pytest -q
 
 ## Architecture
 
-`RemoteJsonPoemRepository` loads versioned, compressed release assets from the
-independent data repository, while `poetry/analytics.py` contains
-framework-independent filtering and aggregation logic. Raw-data maintenance,
-validation, processing, and release publishing belong to `shici-data`.
+`RemoteJsonPoemRepository` loads versioned, compressed artifacts from either
+the pinned GitHub release or an explicitly selected local build, while
+`poetry/analytics.py` contains framework-independent filtering and aggregation
+logic. Raw-data maintenance, validation, processing, and release publishing
+belong to `shici-data`.
