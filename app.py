@@ -341,6 +341,12 @@ def activate_chart_drilldown(
     selection_name: str,
     kind: str,
 ) -> None:
+    reset_version = str(
+        st.session_state.get("chart_reset_version", 0)
+    )
+    if chart_key.rpartition("-")[2] != reset_version:
+        return
+
     selected_record = selected_chart_record(
         st.session_state.get(chart_key),
         selection_name,
