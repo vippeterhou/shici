@@ -465,11 +465,6 @@ def render_frequency_chart(
                 "出现次数:Q",
                 alt.Tooltip("占比:Q", format=".1%"),
             ],
-            opacity=alt.condition(
-                selection,
-                alt.value(1),
-                alt.value(0.55),
-            ),
         )
         .add_params(selection)
         .properties(
@@ -945,11 +940,6 @@ def render_format_tab() -> None:
                     "诗作数:Q",
                     alt.Tooltip("占比:Q", format=".1%"),
                 ],
-                opacity=alt.condition(
-                    sentence_selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
             )
             .add_params(sentence_selection)
             .properties(height=420)
@@ -1028,11 +1018,6 @@ def render_format_tab() -> None:
                     direction="horizontal",
                 ),
             ),
-            opacity=alt.condition(
-                combination_selection,
-                alt.value(1),
-                alt.value(0.65),
-            ),
             )
             .add_params(combination_selection)
             .properties(height=max(240, combination_type_count * 40))
@@ -1085,11 +1070,6 @@ def render_format_tab() -> None:
                 "诗作数:Q",
                 alt.Tooltip("占比:Q", format=".1%"),
             ],
-            opacity=alt.condition(
-                line_type_selection,
-                alt.value(1),
-                alt.value(0.55),
-            ),
         )
         .add_params(line_type_selection)
         .properties(height=330)
@@ -1157,11 +1137,6 @@ def render_format_tab() -> None:
                 "诗作数:Q",
                 alt.Tooltip("占比:Q", format=".1%"),
             ],
-            opacity=alt.condition(
-                structure_type_selection,
-                alt.value(1),
-                alt.value(0.55),
-            ),
         )
         .add_params(structure_type_selection)
         .properties(height=330)
@@ -1254,11 +1229,6 @@ def render_overview_tab() -> None:
                         "诗作数:Q",
                         alt.Tooltip("占比:Q", format=".1%"),
                     ],
-                    opacity=alt.condition(
-                        shijing_group_selection,
-                        alt.value(1),
-                        alt.value(0.55),
-                    ),
                 )
                 .add_params(shijing_group_selection)
                 .properties(
@@ -1366,11 +1336,6 @@ def render_overview_tab() -> None:
                 "诗作数:Q",
                 alt.Tooltip("占比:Q", format=".1%"),
             ],
-            opacity=alt.condition(
-                structure_selection,
-                alt.value(1),
-                alt.value(0.55),
-            ),
         )
         .add_params(structure_selection)
         .properties(height=max(280, len(line_type_order) * 38))
@@ -1437,11 +1402,6 @@ def render_overview_tab() -> None:
                     "诗作数:Q",
                     alt.Tooltip("占比:Q", format=".1%"),
                 ],
-                opacity=alt.condition(
-                    author_selection,
-                    alt.value(1),
-                    alt.value(0.55),
-                ),
             )
             .add_params(author_selection)
             .properties(height=max(430, len(author_data) * 22))
