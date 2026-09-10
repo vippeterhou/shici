@@ -111,6 +111,7 @@ FREQUENCY_BAR_HEIGHT = 22
 TRIGRAM_BATCH_SIZE = 10_000
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
+PRESERVE_CONTENT_ON_RERUN_KEY = "_preserve_content_on_rerun"
 TAB_LABELS = [
     "总览",
     "诗体结构",
@@ -142,11 +143,19 @@ st.set_page_config(
     layout="wide",
 )
 
+preserve_content_on_rerun = bool(
+    st.session_state.pop(PRESERVE_CONTENT_ON_RERUN_KEY, False)
+)
+
 st.markdown(
     """
     <style>
-    [data-testid="stMainBlockContainer"] [data-stale="true"] {
+    [data-testid="stMainBlockContainer"]:has(.tab-loading) [data-stale="true"] {
       display: none !important;
+    }
+    [data-testid="stMainBlockContainer"]:not(:has(.tab-loading))
+      [data-stale="true"] {
+      opacity: 1 !important;
     }
     [data-testid="stMainBlockContainer"] {
       padding-top: 2.75rem;
@@ -347,6 +356,7 @@ def activate_chart_drilldown(
     if chart_key.rpartition("-")[2] != reset_version:
         return
 
+    st.session_state[PRESERVE_CONTENT_ON_RERUN_KEY] = True
     selected_record = selected_chart_record(
         st.session_state.get(chart_key),
         selection_name,
@@ -356,8 +366,6 @@ def activate_chart_drilldown(
             "kind": kind,
             "selection": selected_record,
         }
-    elif st.session_state.get("active_drilldown", {}).get("kind") == kind:
-        st.session_state.pop("active_drilldown", None)
 
 
 def chart_widget_key(base_key: str) -> str:
@@ -491,6 +499,11 @@ def clear_active_drilldown() -> None:
     )
 
 
+def dismiss_active_drilldown() -> None:
+    st.session_state[PRESERVE_CONTENT_ON_RERUN_KEY] = True
+    st.session_state.pop("active_drilldown", None)
+
+
 def poem_text_html(poem: Poem, highlight_text: str | None = None) -> str:
     text = poem_text(poem)
     if not highlight_text:
@@ -506,7 +519,7 @@ def poem_text_html(poem: Poem, highlight_text: str | None = None) -> str:
     "诗作明细",
     width="large",
     dismissible=True,
-    on_dismiss=clear_active_drilldown,
+    on_dismiss=dismiss_active_drilldown,
 )
 def render_poem_collection(
     heading: str,
@@ -606,11 +619,12 @@ with st.sidebar:
 
 st.markdown("## 中国古诗数据概览")
 hero_placeholder = st.empty()
-with hero_placeholder.container():
-    st.markdown(
-        '<div class="tab-skeleton hero-skeleton"></div>',
-        unsafe_allow_html=True,
-    )
+if not preserve_content_on_rerun:
+    with hero_placeholder.container():
+        st.markdown(
+            '<div class="tab-skeleton hero-skeleton"></div>',
+            unsafe_allow_html=True,
+        )
 selected_tab = st.pills(
     "内容导航",
     TAB_LABELS,
@@ -621,8 +635,9 @@ selected_tab = st.pills(
     on_change=clear_active_drilldown,
 )
 content_placeholder = st.empty()
-with content_placeholder.container():
-    render_tab_skeleton(selected_tab or "总览")
+if not preserve_content_on_rerun:
+    with content_placeholder.container():
+        render_tab_skeleton(selected_tab or "总览")
 
 with st.sidebar:
     selected_corpus_sources = {
