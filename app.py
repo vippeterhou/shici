@@ -58,31 +58,46 @@ DATA_RELEASE = load_data_release(
     DATA_RELEASE_CONFIG_PATH,
     os.environ.get("SHICI_DATA_MANIFEST"),
 )
+CORPUS_CATALOG = (
+    (
+        "诗经",
+        CorpusConfig(query_id="shijing", asset_key="shijing"),
+    ),
+    (
+        "秦汉诗",
+        CorpusConfig(query_id="qinhan", asset_key="qinhan"),
+    ),
+    (
+        "魏晋南北朝诗",
+        CorpusConfig(
+            query_id="weijinnanbeichao",
+            asset_key="weijinnanbeichao",
+        ),
+    ),
+    (
+        "唐诗三百首",
+        CorpusConfig(query_id="ts300", asset_key="ts300"),
+    ),
+    (
+        "全唐诗",
+        CorpusConfig(query_id="qts", asset_key="qts"),
+    ),
+    (
+        "宋词三百首",
+        CorpusConfig(query_id="sc300", asset_key="sc300"),
+    ),
+    (
+        "全宋诗",
+        CorpusConfig(
+            query_id="quansongshi",
+            asset_key="quansongshi",
+        ),
+    ),
+)
 CORPORA = {
-    "诗经": CorpusConfig(
-        query_id="shijing",
-        asset_key="shijing",
-    ),
-    "秦汉诗": CorpusConfig(
-        query_id="qinhan",
-        asset_key="qinhan",
-    ),
-    "魏晋南北朝诗": CorpusConfig(
-        query_id="weijinnanbeichao",
-        asset_key="weijinnanbeichao",
-    ),
-    "唐诗三百首": CorpusConfig(
-        query_id="ts300",
-        asset_key="ts300",
-    ),
-    "全唐诗": CorpusConfig(
-        query_id="qts",
-        asset_key="qts",
-    ),
-    "全宋诗": CorpusConfig(
-        query_id="quansongshi",
-        asset_key="quansongshi",
-    ),
+    label: config
+    for label, config in CORPUS_CATALOG
+    if config.asset_key in DATA_RELEASE.corpora
 }
 DEFAULT_CORPUS = "唐诗三百首"
 DATA_SCHEMA_VERSION = 3
@@ -1558,7 +1573,7 @@ def render_explorer_tab() -> None:
     )
 
     poem_options = {
-        f"{poem.title} — {poem.author} [{poem.id[:8]}]": poem
+        f"{poem.title} — {poem.author} [{poem.id[-8:]}]": poem
         for poem in filtered_poems
     }
     selected_poem_label = st.selectbox("阅读诗作", poem_options)
