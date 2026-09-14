@@ -6,7 +6,7 @@ A Streamlit dashboard for exploring Chinese poetry from 诗经 through the
 ## Dashboard
 
 - Exclusive, chronological corpus selection from 诗经 through 全宋诗
-- Global filtering by author, format, and body text
+- Global filtering by author, format, and simplified/traditional body text
 - Hierarchical 诗经 filters and a flattened 风雅颂 classification chart
 - Corpus metrics for poems, authors, and Han-character count
 - Top-author poem-count chart with full-list expansion

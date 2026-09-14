@@ -88,16 +88,23 @@ def filter_poems(
     sentence_counts: Iterable[int] = (),
     length_range: tuple[int, int] | None = None,
     text_query: str = "",
+    normalized_texts: Sequence[str] = (),
+    normalized_query: str = "",
 ) -> list[Poem]:
     author_filter = set(authors)
     tag_filter = set(tags)
     tune_family_filter = set(tune_families)
     line_type_filter = set(line_types)
     sentence_count_filter = set(sentence_counts)
-    normalized_query = text_query.strip().casefold()
+    raw_normalized_query = text_query.strip().casefold()
+    script_normalized_query = normalized_query.strip().casefold()
+    if script_normalized_query and len(normalized_texts) != len(poems):
+        raise ValueError(
+            "Normalized search texts must align with the poems"
+        )
     filtered: list[Poem] = []
 
-    for poem in poems:
+    for poem_index, poem in enumerate(poems):
         if author_filter and poem.author not in author_filter:
             continue
         if tag_filter and not tag_filter.intersection(poem.tags):
@@ -122,7 +129,15 @@ def filter_poems(
         length = poem_character_count(poem)
         if length_range and not length_range[0] <= length <= length_range[1]:
             continue
-        if normalized_query and normalized_query not in poem_text(poem).casefold():
+        if (
+            raw_normalized_query
+            and raw_normalized_query not in poem_text(poem).casefold()
+        ):
+            continue
+        if (
+            script_normalized_query
+            and script_normalized_query not in normalized_texts[poem_index]
+        ):
             continue
 
         filtered.append(poem)

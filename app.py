@@ -51,6 +51,7 @@ from poetry.data_release import (
     load_data_release,
 )
 from poetry.remote_repository import RemoteJsonPoemRepository
+from poetry.search import normalize_search_text
 
 
 @dataclass(frozen=True)
@@ -113,6 +114,7 @@ DEFAULT_CORPUS = "唐诗三百首"
 DATA_SCHEMA_VERSION = 3
 DERIVED_STATISTICS_VERSION = 3
 TUNE_FAMILY_VERSION = 4
+SEARCH_NORMALIZATION_VERSION = 1
 AUTHOR_PREVIEW_LIMIT = 50
 TUNE_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
@@ -264,7 +266,8 @@ def cached_filter_poems(
     tune_families: tuple[str, ...] = (),
     line_types: tuple[str, ...] = (),
     sentence_counts: tuple[int, ...] = (),
-    text_query: str = "",
+    normalized_query: str = "",
+    _normalized_texts: tuple[str, ...] = (),
 ) -> tuple[Poem, ...]:
     _ = cache_key
     return tuple(
@@ -274,8 +277,20 @@ def cached_filter_poems(
             tune_families=tune_families,
             line_types=line_types,
             sentence_counts=sentence_counts,
-            text_query=text_query,
+            normalized_texts=_normalized_texts,
+            normalized_query=normalized_query,
         )
+    )
+
+
+@st.cache_resource(show_spinner=False, max_entries=2)
+def cached_normalized_search_texts(
+    cache_key: tuple[object, ...],
+    _poems: tuple[Poem, ...],
+) -> tuple[str, ...]:
+    _ = cache_key
+    return tuple(
+        normalize_search_text(poem_text(poem)) for poem in _poems
     )
 
 
@@ -969,16 +984,52 @@ with st.sidebar:
             all_sentence_counts,
             placeholder="请选择句数",
         )
-    text_query = st.text_input("正文包含", placeholder="例如：明月")
+    text_query = st.text_input(
+        "正文包含",
+        placeholder="例如：明月",
+        help="支持使用简体或繁体关键词搜索原始诗词正文。",
+    )
     st.caption("所有图表和表格会随筛选条件同步更新。")
 
+normalized_text_query = (
+    normalize_search_text(text_query.strip()) if text_query.strip() else ""
+)
+normalized_poem_texts = (
+    cached_normalized_search_texts(
+        (
+            SEARCH_NORMALIZATION_VERSION,
+            poem_scope_cache_key,
+        ),
+        tuple(poems),
+    )
+    if normalized_text_query
+    else ()
+)
+overview_normalized_texts = (
+    normalized_poem_texts
+    if selected_corpus != "诗经"
+    else (
+        cached_normalized_search_texts(
+            (
+                SEARCH_NORMALIZATION_VERSION,
+                tuple(selected_corpus_versions.items()),
+                "overview",
+            ),
+            tuple(loaded_poems),
+        )
+        if normalized_text_query
+        else ()
+    )
+)
+
 filter_cache_key = (
+    SEARCH_NORMALIZATION_VERSION,
     poem_scope_cache_key,
     tuple(selected_authors),
     tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
-    text_query.strip().casefold(),
+    normalized_text_query,
 )
 filtered_poems = cached_filter_poems(
     filter_cache_key,
@@ -987,17 +1038,19 @@ filtered_poems = cached_filter_poems(
     tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
-    text_query,
+    normalized_text_query,
+    normalized_poem_texts,
 )
 overview_filter_cache_key = (
     DATA_SCHEMA_VERSION,
+    SEARCH_NORMALIZATION_VERSION,
     tuple(selected_corpus_versions.items()),
     "overview",
     tuple(selected_authors),
     tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
-    text_query.strip().casefold(),
+    normalized_text_query,
 )
 overview_filtered_poems = cached_filter_poems(
     overview_filter_cache_key,
@@ -1006,7 +1059,8 @@ overview_filtered_poems = cached_filter_poems(
     tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
-    text_query,
+    normalized_text_query,
+    overview_normalized_texts,
 )
 statistics = cached_derived_statistics(
     (DERIVED_STATISTICS_VERSION, filter_cache_key),
