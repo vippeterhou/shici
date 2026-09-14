@@ -53,6 +53,7 @@ from poetry.data_release import (
 )
 from poetry.remote_repository import RemoteJsonPoemRepository
 from poetry.search import normalize_search_text
+from poetry.text import clean_display_text, compact_poem_title
 
 
 @dataclass(frozen=True)
@@ -906,7 +907,9 @@ def render_poem_collection(
     rows = "".join(
         (
             '<div class="poem-grid-row">'
-            f"<div>{html.escape(poem.title)}</div>"
+            '<div class="poem-grid-title" '
+            f'title="{html.escape(clean_display_text(poem.title))}">'
+            f"{html.escape(compact_poem_title(poem.title))}</div>"
             f"<div>{html.escape(poem.author)}</div>"
             f"<div>{poem.format.uniform_sentence_length or '杂'}</div>"
             f"<div>{poem.format.sentence_count}</div>"
@@ -944,6 +947,13 @@ def render_poem_collection(
           border-top: 1px solid rgba(127, 127, 127, 0.18);
           font-size: 0.78rem;
           line-height: 1.45;
+        }}
+        .poem-grid-title {{
+          display: -webkit-box;
+          overflow: hidden;
+          overflow-wrap: anywhere;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
         }}
         .poem-grid-row > div:nth-child(3),
         .poem-grid-row > div:nth-child(4),
