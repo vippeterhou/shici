@@ -40,6 +40,7 @@ class CorpusSummary:
 class DerivedStatistics:
     summary: CorpusSummary
     author_counts: tuple[tuple[str, int], ...]
+    tune_family_counts: tuple[tuple[str, int], ...]
     line_length_type_counts: tuple[tuple[str, int], ...]
     sentence_count_distribution: tuple[tuple[int, int], ...]
     sentence_count_bucket_distribution: tuple[tuple[str, int], ...]
@@ -82,6 +83,7 @@ def filter_poems(
     *,
     authors: Iterable[str] = (),
     tags: Iterable[str] = (),
+    tune_families: Iterable[str] = (),
     line_types: Iterable[str] = (),
     sentence_counts: Iterable[int] = (),
     length_range: tuple[int, int] | None = None,
@@ -89,6 +91,7 @@ def filter_poems(
 ) -> list[Poem]:
     author_filter = set(authors)
     tag_filter = set(tags)
+    tune_family_filter = set(tune_families)
     line_type_filter = set(line_types)
     sentence_count_filter = set(sentence_counts)
     normalized_query = text_query.strip().casefold()
@@ -98,6 +101,15 @@ def filter_poems(
         if author_filter and poem.author not in author_filter:
             continue
         if tag_filter and not tag_filter.intersection(poem.tags):
+            continue
+        if (
+            tune_family_filter
+            and tune_family_name(
+                poem.title,
+                poem.format.sentence_lengths,
+            )
+            not in tune_family_filter
+        ):
             continue
         if line_type_filter and line_length_type(poem) not in line_type_filter:
             continue
@@ -217,6 +229,93 @@ def tag_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
 
 def title_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
     return Counter(poem.title for poem in poems).most_common()
+
+
+TUNE_FAMILY_ALIASES = {
+    "一翦梅": "一剪梅",
+    "一箩金": "蝶恋花",
+    "丑奴儿": "采桑子",
+    "买坡塘": "摸鱼儿",
+    "买陂塘": "摸鱼儿",
+    "乳燕飞": "贺新郎",
+    "凤栖梧": "蝶恋花",
+    "南柯子": "南歌子",
+    "卷珠帘": "蝶恋花",
+    "台城路": "齐天乐",
+    "安阳好": "忆江南",
+    "忆仙姿": "如梦令",
+    "望江南": "忆江南",
+    "梦江南": "忆江南",
+    "江神子": "江城子",
+    "浣沙溪": "浣溪沙",
+    "浣溪纱": "浣溪沙",
+    "浪涛沙": "浪淘沙",
+    "湘月": "念奴娇",
+    "满庭霜": "满庭芳",
+    "甘州": "八声甘州",
+    "百字令": "念奴娇",
+    "百字谣": "念奴娇",
+    "秦楼月": "忆秦娥",
+    "罗敷媚": "采桑子",
+    "玉交枝": "相思引",
+    "玉胡蝶": "玉蝴蝶",
+    "珍珠帘": "真珠帘",
+    "贺新凉": "贺新郎",
+    "醉桃源": "阮郎归",
+    "醉落魄": "一斛珠",
+    "酹江月": "念奴娇",
+    "金缕曲": "贺新郎",
+    "金缕歌": "贺新郎",
+    "重叠金": "菩萨蛮",
+    "鹊踏枝": "蝶恋花",
+    "蹋莎行": "踏莎行",
+    "壶中天": "念奴娇",
+    "大江东去": "念奴娇",
+    "宴山亭": "燕山亭",
+    "扫花游": "扫地游",
+    "渔父": "渔歌子",
+    "渔父乐": "渔歌子",
+    "绿头鸭": "多丽",
+    "豆叶黄": "忆王孙",
+    "龙吟曲": "水龙吟",
+    "凤皇台上忆吹箫": "凤凰台上忆吹箫",
+}
+TUNE_CONTEXTUAL_ALIASES = {
+    ("木兰花", (7, 7, 7, 7, 7, 7, 7, 7)): "玉楼春",
+}
+TUNE_VARIANT_PREFIXES = ("减字", "摊破", "转调", "小")
+TUNE_VARIANT_SUFFIXES = ("慢", "引", "令", "近")
+
+
+def tune_family_name(
+    title: str,
+    sentence_lengths: Sequence[int] = (),
+) -> str:
+    alias_name, separator, _ = title.partition("・")
+    alias_name = alias_name.strip()
+    if separator and (
+        alias_name.startswith(TUNE_VARIANT_PREFIXES)
+        or alias_name.endswith(TUNE_VARIANT_SUFFIXES)
+    ):
+        return alias_name
+
+    contextual_name = TUNE_CONTEXTUAL_ALIASES.get(
+        (alias_name, tuple(sentence_lengths))
+    )
+    if contextual_name:
+        return contextual_name
+
+    mapped_name = TUNE_FAMILY_ALIASES.get(alias_name)
+    if mapped_name:
+        return mapped_name
+    return title.strip()
+
+
+def tune_family_counts(poems: Sequence[Poem]) -> list[tuple[str, int]]:
+    return Counter(
+        tune_family_name(poem.title, poem.format.sentence_lengths)
+        for poem in poems
+    ).most_common()
 
 
 def sentence_count_distribution(poems: Sequence[Poem]) -> list[tuple[int, int]]:
@@ -641,6 +740,7 @@ def derive_statistics(poems: Sequence[Poem]) -> DerivedStatistics:
     return DerivedStatistics(
         summary=summarize(poems),
         author_counts=tuple(author_counts(poems)),
+        tune_family_counts=tuple(tune_family_counts(poems)),
         line_length_type_counts=tuple(line_length_type_counts(poems)),
         sentence_count_distribution=tuple(sentence_count_distribution(poems)),
         sentence_count_bucket_distribution=tuple(

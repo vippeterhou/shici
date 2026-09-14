@@ -36,6 +36,8 @@ from poetry.analytics import (
     structure_type,
     structure_type_counts,
     summarize,
+    tune_family_counts,
+    tune_family_name,
     trigram_counts,
 )
 from poetry.models import Poem, PoemFormat
@@ -127,6 +129,16 @@ def test_filters_across_dashboard_dimensions() -> None:
         line_types=["五言"],
         sentence_counts=[2],
     ) == list(POEMS[1:])
+
+
+def test_filters_by_normalized_tune_family() -> None:
+    poems = (
+        POEMS[0]._replace(title="蝶恋花"),
+        POEMS[1]._replace(title="凤栖梧・蝶恋花"),
+        POEMS[2]._replace(title="念奴娇"),
+    )
+
+    assert filter_poems(poems, tune_families=["蝶恋花"]) == list(poems[:2])
 
 
 def test_classifies_and_filters_shijing_hierarchy() -> None:
@@ -380,6 +392,7 @@ def test_derives_reusable_statistics_together() -> None:
 
     assert statistics.summary == summarize(POEMS)
     assert statistics.author_counts == tuple(author_counts(POEMS))
+    assert statistics.tune_family_counts == tuple(tune_family_counts(POEMS))
     assert statistics.line_length_type_counts == tuple(
         line_length_type_counts(POEMS)
     )
@@ -392,3 +405,30 @@ def test_derives_reusable_statistics_together() -> None:
         ("登鸛雀樓", "王之渙", poem_character_count(POEMS[1]), 1),
         ("異題", "佚名", poem_character_count(POEMS[2]), 1),
     )
+
+
+def test_normalizes_tune_family_aliases() -> None:
+    assert tune_family_name("凤栖梧・蝶恋花") == "蝶恋花"
+    assert tune_family_name("蝶恋花") == "蝶恋花"
+    yulouchun_pattern = (7, 7, 7, 7, 7, 7, 7, 7)
+    assert tune_family_name("木兰花", yulouchun_pattern) == "玉楼春"
+    assert (
+        tune_family_name("木兰花・玉楼春", yulouchun_pattern)
+        == "玉楼春"
+    )
+    assert tune_family_name("木兰花") == "木兰花"
+    assert tune_family_name("酹江月・念奴娇") == "念奴娇"
+    assert tune_family_name("江神子・江城子") == "江城子"
+    assert tune_family_name("玉交枝・相思引") == "相思引"
+    assert tune_family_name("一翦梅・一剪梅") == "一剪梅"
+
+
+def test_preserves_tune_variants() -> None:
+    assert tune_family_name("小木兰花・木兰花") == "小木兰花"
+    assert tune_family_name("摊破木兰花・木兰花") == "摊破木兰花"
+    assert tune_family_name("减字浣溪沙・浣溪沙") == "减字浣溪沙"
+    assert tune_family_name("渔家傲引・渔家傲") == "渔家傲引"
+    assert tune_family_name("相思引・琴调") == "相思引"
+    assert tune_family_name("水调歌・水调") == "水调歌・水调"
+    assert tune_family_name("江南好・忆江南") == "江南好・忆江南"
+    assert tune_family_name("宴桃源・如梦令") == "宴桃源・如梦令"

@@ -37,6 +37,8 @@ from poetry.analytics import (
     poem_text,
     shijing_classification,
     shijing_group_counts,
+    tune_family_counts,
+    tune_family_name,
 )
 from poetry.models import Poem
 from poetry.data_release import (
@@ -105,7 +107,10 @@ CORPORA = {
 }
 DEFAULT_CORPUS = "唐诗三百首"
 DATA_SCHEMA_VERSION = 3
+DERIVED_STATISTICS_VERSION = 3
+TUNE_FAMILY_VERSION = 4
 AUTHOR_PREVIEW_LIMIT = 50
+TUNE_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
 FREQUENCY_BAR_HEIGHT = 22
 TRIGRAM_BATCH_SIZE = 10_000
@@ -228,6 +233,7 @@ def cached_filter_poems(
     cache_key: tuple[object, ...],
     _poems: tuple[Poem, ...],
     authors: tuple[str, ...] = (),
+    tune_families: tuple[str, ...] = (),
     line_types: tuple[str, ...] = (),
     sentence_counts: tuple[int, ...] = (),
     text_query: str = "",
@@ -237,6 +243,7 @@ def cached_filter_poems(
         filter_poems(
             _poems,
             authors=authors,
+            tune_families=tune_families,
             line_types=line_types,
             sentence_counts=sentence_counts,
             text_query=text_query,
@@ -248,10 +255,16 @@ def cached_filter_poems(
 def cached_filter_options(
     cache_key: tuple[object, ...],
     _poems: tuple[Poem, ...],
-) -> tuple[tuple[str, ...], tuple[str, ...], tuple[int, ...]]:
+) -> tuple[
+    tuple[str, ...],
+    tuple[str, ...],
+    tuple[str, ...],
+    tuple[int, ...],
+]:
     _ = cache_key
     return (
         tuple(author for author, _ in author_counts(_poems)),
+        tuple(name for name, _ in tune_family_counts(_poems)),
         tuple(name for name, _ in line_length_type_counts(_poems)),
         tuple(sorted({poem.format.sentence_count for poem in _poems})),
     )
@@ -303,6 +316,7 @@ def corpus_from_query_parameters() -> str | None:
 
 
 def update_corpus_query_parameters() -> None:
+    st.session_state.pop("selected_tune_families", None)
     selected_corpus = st.session_state.get("selected_corpus")
     if not selected_corpus or selected_corpus == DEFAULT_CORPUS:
         if CORPUS_QUERY_PARAMETER in st.query_params:
@@ -778,13 +792,19 @@ with st.sidebar:
         )
     poem_scope_cache_key = (
         DATA_SCHEMA_VERSION,
+        TUNE_FAMILY_VERSION,
         tuple(selected_corpus_versions.items()),
         st.session_state.get("shijing_category", "全部"),
         st.session_state.get("shijing_division", "全部"),
         st.session_state.get("shijing_section", "全部"),
         st.session_state.get("shijing_title", "全部"),
     )
-    all_authors, all_line_types, all_sentence_counts = cached_filter_options(
+    (
+        all_authors,
+        all_tune_families,
+        all_line_types,
+        all_sentence_counts,
+    ) = cached_filter_options(
         poem_scope_cache_key,
         tuple(poems),
     )
@@ -792,6 +812,16 @@ with st.sidebar:
         "作者",
         all_authors,
         placeholder="请选择作者",
+    )
+    selected_tune_families = (
+        st.multiselect(
+            "词牌",
+            all_tune_families,
+            placeholder="请选择词牌",
+            key="selected_tune_families",
+        )
+        if selected_corpus in {"宋词三百首", "全宋词"}
+        else []
     )
     with st.expander("格式", expanded=True):
         selected_line_types = st.multiselect(
@@ -810,6 +840,7 @@ with st.sidebar:
 filter_cache_key = (
     poem_scope_cache_key,
     tuple(selected_authors),
+    tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
     text_query.strip().casefold(),
@@ -818,6 +849,7 @@ filtered_poems = cached_filter_poems(
     filter_cache_key,
     tuple(poems),
     tuple(selected_authors),
+    tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
     text_query,
@@ -827,6 +859,7 @@ overview_filter_cache_key = (
     tuple(selected_corpus_versions.items()),
     "overview",
     tuple(selected_authors),
+    tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
     text_query.strip().casefold(),
@@ -835,12 +868,13 @@ overview_filtered_poems = cached_filter_poems(
     overview_filter_cache_key,
     tuple(loaded_poems),
     tuple(selected_authors),
+    tuple(selected_tune_families),
     tuple(selected_line_types),
     tuple(selected_sentence_counts),
     text_query,
 )
 statistics = cached_derived_statistics(
-    filter_cache_key,
+    (DERIVED_STATISTICS_VERSION, filter_cache_key),
     tuple(filtered_poems),
 )
 summary = statistics.summary
@@ -1259,6 +1293,80 @@ def render_overview_tab() -> None:
 
         st.divider()
 
+    if selected_corpus in {"宋词三百首", "全宋词"}:
+        st.markdown("#### 词牌名分布")
+        all_tune_counts = statistics.tune_family_counts
+        show_all_tunes = st.toggle(
+            f"显示全部词牌（{len(all_tune_counts)} 个）",
+            value=False,
+        )
+        visible_tune_counts = (
+            all_tune_counts
+            if show_all_tunes
+            else all_tune_counts[:TUNE_PREVIEW_LIMIT]
+        )
+        tune_data = with_percentage(
+            pd.DataFrame(
+                visible_tune_counts,
+                columns=["词牌名", "诗作数"],
+            ),
+            "诗作数",
+            len(filtered_poems),
+        )
+        tune_selection = alt.selection_point(
+            name="tune_selection",
+            fields=["词牌名"],
+            clear="dblclick",
+        )
+        tune_chart = (
+            alt.Chart(tune_data)
+            .mark_bar(color=BAR_COLOR)
+            .encode(
+                x=alt.X(
+                    "诗作数:Q",
+                    title="词作数",
+                    scale=alt.Scale(domainMin=0, nice=True),
+                ),
+                y=alt.Y(
+                    "词牌名:N",
+                    title=None,
+                    sort="-x",
+                    axis=alt.Axis(labelOverlap=False),
+                ),
+                tooltip=[
+                    "词牌名:N",
+                    alt.Tooltip("诗作数:Q", title="词作数"),
+                    alt.Tooltip("占比:Q", format=".1%"),
+                ],
+            )
+            .add_params(tune_selection)
+            .properties(height=max(430, len(tune_data) * 22))
+        )
+        tune_chart_key = chart_widget_key("tune-chart")
+        st.altair_chart(
+            tune_chart,
+            use_container_width=True,
+            key=tune_chart_key,
+            on_select=partial(
+                activate_chart_drilldown,
+                tune_chart_key,
+                "tune_selection",
+                "tune",
+            ),
+            selection_mode="tune_selection",
+        )
+        if (
+            not show_all_tunes
+            and len(all_tune_counts) > len(visible_tune_counts)
+        ):
+            st.caption(f"当前显示前 {len(visible_tune_counts)} 个词牌。")
+        st.caption(
+            "明确别名按标准词牌归类，减字、摊破、转调等变体保持独立；"
+            "诗作明细保留原始词牌名称。"
+        )
+
+        st.divider()
+
     st.markdown("#### 诗体结构")
     st.caption("每根柱形表示每句字数类型，颜色区分四句、八句和其他句数。")
     structure_data = with_percentage(
@@ -1627,6 +1735,18 @@ if active_drilldown:
         drilldown_heading = drilldown_value
         drilldown_poems = [
             poem for poem in filtered_poems if poem.author == drilldown_value
+        ]
+    elif drilldown_kind == "tune":
+        drilldown_value = str(drilldown_selection["词牌名"])
+        drilldown_heading = drilldown_value
+        drilldown_poems = [
+            poem
+            for poem in filtered_poems
+            if tune_family_name(
+                poem.title,
+                poem.format.sentence_lengths,
+            )
+            == drilldown_value
         ]
     elif drilldown_kind == "character":
         drilldown_value = str(drilldown_selection["字"])
