@@ -4,9 +4,14 @@ import re
 import unicodedata
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from typing import Callable, Iterable, Sequence
+from typing import Callable, Iterable, Mapping, Sequence
 
 from .models import Poem
+from .search import (
+    normalize_filter_value,
+    normalize_search_text,
+    normalized_filter_values,
+)
 from .text import is_han_character
 
 SENTENCE_COUNT_GROUP_ORDER = ["四句", "八句", "其他句数"]
@@ -87,38 +92,68 @@ def filter_poems(
     line_types: Iterable[str] = (),
     sentence_counts: Iterable[int] = (),
     length_range: tuple[int, int] | None = None,
+    author_query: str = "",
+    normalized_author_lookup: Mapping[str, str] | None = None,
+    normalized_author_query: str = "",
     text_query: str = "",
     normalized_texts: Sequence[str] = (),
     normalized_query: str = "",
 ) -> list[Poem]:
-    author_filter = set(authors)
-    tag_filter = set(tags)
-    tune_family_filter = set(tune_families)
-    line_type_filter = set(line_types)
+    author_filter = normalized_filter_values(authors)
+    tag_filter = normalized_filter_values(tags)
+    tune_family_filter = normalized_filter_values(tune_families)
+    line_type_filter = normalized_filter_values(line_types)
     sentence_count_filter = set(sentence_counts)
-    raw_normalized_query = text_query.strip().casefold()
-    script_normalized_query = normalized_query.strip().casefold()
-    if script_normalized_query and len(normalized_texts) != len(poems):
+    script_normalized_author_query = normalize_search_text(
+        normalized_author_query or author_query.strip()
+    )
+    script_normalized_query = normalize_search_text(
+        normalized_query or text_query.strip()
+    )
+    if (
+        script_normalized_query
+        and normalized_texts
+        and len(normalized_texts) != len(poems)
+    ):
         raise ValueError(
             "Normalized search texts must align with the poems"
         )
     filtered: list[Poem] = []
 
     for poem_index, poem in enumerate(poems):
-        if author_filter and poem.author not in author_filter:
+        if script_normalized_author_query:
+            normalized_author = (
+                normalized_author_lookup[poem.author]
+                if normalized_author_lookup
+                else normalize_filter_value(poem.author)
+            )
+            if script_normalized_author_query not in normalized_author:
+                continue
+        if (
+            author_filter
+            and normalize_filter_value(poem.author) not in author_filter
+        ):
             continue
-        if tag_filter and not tag_filter.intersection(poem.tags):
+        if tag_filter and not tag_filter.intersection(
+            normalize_filter_value(tag) for tag in poem.tags
+        ):
             continue
         if (
             tune_family_filter
-            and tune_family_name(
-                poem.title,
-                poem.format.sentence_lengths,
+            and normalize_filter_value(
+                tune_family_name(
+                    poem.title,
+                    poem.format.sentence_lengths,
+                )
             )
             not in tune_family_filter
         ):
             continue
-        if line_type_filter and line_length_type(poem) not in line_type_filter:
+        if (
+            line_type_filter
+            and normalize_filter_value(line_length_type(poem))
+            not in line_type_filter
+        ):
             continue
         if (
             sentence_count_filter
@@ -129,16 +164,14 @@ def filter_poems(
         length = poem_character_count(poem)
         if length_range and not length_range[0] <= length <= length_range[1]:
             continue
-        if (
-            raw_normalized_query
-            and raw_normalized_query not in poem_text(poem).casefold()
-        ):
-            continue
-        if (
-            script_normalized_query
-            and script_normalized_query not in normalized_texts[poem_index]
-        ):
-            continue
+        if script_normalized_query:
+            normalized_poem_text = (
+                normalized_texts[poem_index]
+                if normalized_texts
+                else normalize_search_text(poem_text(poem))
+            )
+            if script_normalized_query not in normalized_poem_text:
+                continue
 
         filtered.append(poem)
 
@@ -168,10 +201,10 @@ def filter_shijing_poems(
     sections: Iterable[str] = (),
     titles: Iterable[str] = (),
 ) -> list[Poem]:
-    category_filter = set(categories)
-    division_filter = set(divisions)
-    section_filter = set(sections)
-    title_filter = set(titles)
+    category_filter = normalized_filter_values(categories)
+    division_filter = normalized_filter_values(divisions)
+    section_filter = normalized_filter_values(sections)
+    title_filter = normalized_filter_values(titles)
     filtered: list[Poem] = []
 
     for poem in poems:
@@ -181,13 +214,25 @@ def filter_shijing_poems(
             continue
 
         category, division, section = classification
-        if category_filter and category not in category_filter:
+        if (
+            category_filter
+            and normalize_filter_value(category) not in category_filter
+        ):
             continue
-        if division_filter and division not in division_filter:
+        if (
+            division_filter
+            and normalize_filter_value(division) not in division_filter
+        ):
             continue
-        if section_filter and section not in section_filter:
+        if (
+            section_filter
+            and normalize_filter_value(section) not in section_filter
+        ):
             continue
-        if title_filter and poem.title not in title_filter:
+        if (
+            title_filter
+            and normalize_filter_value(poem.title) not in title_filter
+        ):
             continue
         filtered.append(poem)
 
@@ -226,11 +271,12 @@ def poems_with_shijing_group(
     poems: Sequence[Poem],
     label: str,
 ) -> list[Poem]:
+    normalized_label = normalize_filter_value(label)
     return [
         poem
         for poem in poems
         if (group := shijing_group(poem)) is not None
-        and group[1] == label
+        and normalize_filter_value(group[1]) == normalized_label
     ]
 
 
