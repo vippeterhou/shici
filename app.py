@@ -623,7 +623,7 @@ def render_frequency_chart(
     chart_key = chart_widget_key(chart_base_key)
     st.altair_chart(
         frequency_chart,
-        use_container_width=True,
+        width="stretch",
         key=chart_key,
         on_select=partial(
             activate_chart_drilldown,
@@ -773,7 +773,7 @@ def render_memory_chart() -> None:
         stroke=MEMORY_CHART_COLOR,
         strokeOpacity=0.28,
     )
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, width="stretch")
 
 
 @st.fragment(run_every="1s")
@@ -1399,7 +1399,7 @@ def render_format_tab() -> None:
         sentence_chart_key = chart_widget_key("sentence-chart")
         st.altair_chart(
             sentence_chart,
-            use_container_width=True,
+            width="stretch",
             key=sentence_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
@@ -1477,7 +1477,7 @@ def render_format_tab() -> None:
         combination_chart_key = chart_widget_key("combination-chart")
         st.altair_chart(
             combination_chart,
-            use_container_width=True,
+            width="stretch",
             key=combination_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
@@ -1531,7 +1531,7 @@ def render_format_tab() -> None:
     with line_type_chart_column:
         st.altair_chart(
             line_type_chart,
-            use_container_width=True,
+            width="stretch",
             key=line_type_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
@@ -1598,7 +1598,7 @@ def render_format_tab() -> None:
     with structure_chart_column:
         st.altair_chart(
             structure_type_chart,
-            use_container_width=True,
+            width="stretch",
             key=structure_type_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
@@ -1692,7 +1692,7 @@ def render_overview_tab() -> None:
             )
             st.altair_chart(
                 shijing_group_chart,
-                use_container_width=True,
+                width="stretch",
                 key=shijing_group_chart_key,
                 on_select=partial(
                     activate_chart_drilldown,
@@ -1763,7 +1763,7 @@ def render_overview_tab() -> None:
         tune_chart_key = chart_widget_key("tune-chart")
         st.altair_chart(
             tune_chart,
-            use_container_width=True,
+            width="stretch",
             key=tune_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
@@ -1869,7 +1869,7 @@ def render_overview_tab() -> None:
     structure_chart_key = chart_widget_key("structure-chart")
     st.altair_chart(
         structure_chart,
-        use_container_width=True,
+        width="stretch",
         key=structure_chart_key,
         on_select=partial(
             activate_chart_drilldown,
@@ -1935,7 +1935,7 @@ def render_overview_tab() -> None:
         author_chart_key = chart_widget_key("author-chart")
         st.altair_chart(
             author_chart,
-            use_container_width=True,
+            width="stretch",
             key=author_chart_key,
             on_select=partial(
                 activate_chart_drilldown,
