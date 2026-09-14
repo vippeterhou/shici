@@ -4,7 +4,7 @@ import re
 import unicodedata
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from typing import Callable, Iterable, Mapping, Sequence
+from typing import Callable, Iterable, Sequence
 
 from .models import Poem
 from .search import (
@@ -92,9 +92,6 @@ def filter_poems(
     line_types: Iterable[str] = (),
     sentence_counts: Iterable[int] = (),
     length_range: tuple[int, int] | None = None,
-    author_query: str = "",
-    normalized_author_lookup: Mapping[str, str] | None = None,
-    normalized_author_query: str = "",
     text_query: str = "",
     normalized_texts: Sequence[str] = (),
     normalized_query: str = "",
@@ -104,9 +101,6 @@ def filter_poems(
     tune_family_filter = normalized_filter_values(tune_families)
     line_type_filter = normalized_filter_values(line_types)
     sentence_count_filter = set(sentence_counts)
-    script_normalized_author_query = normalize_search_text(
-        normalized_author_query or author_query.strip()
-    )
     script_normalized_query = normalize_search_text(
         normalized_query or text_query.strip()
     )
@@ -121,14 +115,6 @@ def filter_poems(
     filtered: list[Poem] = []
 
     for poem_index, poem in enumerate(poems):
-        if script_normalized_author_query:
-            normalized_author = (
-                normalized_author_lookup[poem.author]
-                if normalized_author_lookup
-                else normalize_filter_value(poem.author)
-            )
-            if script_normalized_author_query not in normalized_author:
-                continue
         if (
             author_filter
             and normalize_filter_value(poem.author) not in author_filter

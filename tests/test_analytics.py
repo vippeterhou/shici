@@ -143,27 +143,6 @@ def test_filters_equivalent_simplified_and_traditional_categories() -> None:
     assert filter_poems(poems, tags=["簡體"]) == list(poems)
 
 
-def test_live_author_query_matches_substrings_across_scripts() -> None:
-    poems = (
-        POEMS[0]._replace(author="后世"),
-        POEMS[1]._replace(author="後世"),
-        POEMS[2]._replace(author="李白"),
-    )
-
-    assert filter_poems(poems, author_query="后") == list(poems[:2])
-    assert filter_poems(poems, author_query="後世") == list(poems[:2])
-    assert filter_poems(poems, author_query="李") == [poems[2]]
-    assert filter_poems(
-        poems,
-        normalized_author_query="后",
-        normalized_author_lookup={
-            "后世": "后世",
-            "後世": "后世",
-            "李白": "李白",
-        },
-    ) == list(poems[:2])
-
-
 def test_filters_by_normalized_tune_family() -> None:
     poems = (
         POEMS[0]._replace(title="蝶恋花"),

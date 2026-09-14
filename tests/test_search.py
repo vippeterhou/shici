@@ -2,7 +2,6 @@ from poetry.analytics import filter_poems, poem_text
 from poetry.models import Poem, PoemFormat
 from poetry.search import (
     normalize_search_text,
-    normalized_value_lookup,
     resolve_equivalent_option,
     resolve_equivalent_options,
 )
@@ -31,13 +30,6 @@ def test_resolves_multiple_selections_without_duplicates() -> None:
         ("李紳", "李白"),
         ("李绅", "李紳", "李白"),
     ) == ("李紳", "李白")
-
-
-def test_normalized_lookup_stores_each_original_value_once() -> None:
-    assert normalized_value_lookup(("後世", "後世", "后世")) == {
-        "後世": "后世",
-        "后世": "后世",
-    }
 
 
 def test_filters_traditional_text_with_simplified_query() -> None:

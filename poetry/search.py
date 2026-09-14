@@ -26,13 +26,6 @@ def normalized_filter_values(values: Iterable[str]) -> set[str]:
     return {normalize_filter_value(value) for value in values}
 
 
-def normalized_value_lookup(values: Iterable[str]) -> dict[str, str]:
-    return {
-        value: normalize_filter_value(value)
-        for value in dict.fromkeys(values)
-    }
-
-
 def resolve_equivalent_option(
     options: Iterable[str],
     selected_value: str,
