@@ -4,7 +4,9 @@ import html
 import os
 import re
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from concurrent.futures import Future, ThreadPoolExecutor
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta
 from functools import partial
 from pathlib import Path
 from threading import Lock
@@ -20,7 +22,6 @@ from poetry.analytics import (
     NgramSummary,
     author_counts,
     batched_ngram_summary,
-    bigram_counts,
     derive_statistics,
     filter_poems,
     filter_shijing_poems,
@@ -58,6 +59,23 @@ from poetry.search import normalize_search_text
 class CorpusConfig:
     query_id: str
     asset_key: str
+
+
+@dataclass
+class NgramJob:
+    batch_count: int
+    completed_batches: int = 0
+    future: Future[NgramSummary] | None = None
+    lock: Lock = field(default_factory=Lock, repr=False)
+
+    def update_progress(self, completed: int, total: int) -> None:
+        with self.lock:
+            self.completed_batches = completed
+            self.batch_count = total
+
+    def progress(self) -> tuple[int, int]:
+        with self.lock:
+            return self.completed_batches, self.batch_count
 
 
 DATA_RELEASE_CONFIG_PATH = Path(__file__).parent / "data_release.json"
@@ -119,8 +137,12 @@ AUTHOR_PREVIEW_LIMIT = 50
 TUNE_PREVIEW_LIMIT = 50
 FREQUENCY_DISPLAY_LIMIT = 100
 FREQUENCY_BAR_HEIGHT = 22
-TRIGRAM_BATCH_SIZE = 10_000
+NGRAM_BATCH_SIZE = 10_000
 BAR_COLOR = "#3F7C73"
+MEMORY_CHART_COLOR = "#27A88A"
+MEMORY_HISTORY_KEY = "_memory_history"
+MEMORY_HISTORY_SECONDS = 60
+MEMORY_HISTORY_LIMIT = 180
 CORPUS_QUERY_PARAMETER = "corpus"
 PRESERVE_CONTENT_ON_RERUN_KEY = "_preserve_content_on_rerun"
 VERSE_SEPARATOR = re.compile(r"[，。！？；：、,.!?;:]+")
@@ -172,26 +194,25 @@ st.markdown(
     [data-testid="stMainBlockContainer"] {
       padding-top: 2.75rem;
     }
-    .memory-status {
+    .memory-chart-header {
       color: rgba(127, 127, 127, 0.92);
       font-size: 0.78rem;
-      padding-top: 0.72rem;
-      text-align: right;
+      line-height: 1.25;
+      padding-top: 0.15rem;
       white-space: nowrap;
     }
-    .memory-status strong {
+    .memory-chart-header strong {
       color: inherit;
-      font-size: 0.88rem;
+      font-size: 0.9rem;
       font-weight: 650;
     }
-    .memory-status-peak {
+    .memory-chart-peak {
       margin-left: 0.25rem;
       white-space: nowrap;
     }
     @media (max-width: 700px) {
-      .memory-status {
+      .memory-chart-header {
         padding-top: 0;
-        text-align: left;
         white-space: normal;
       }
     }
@@ -322,21 +343,91 @@ def cached_derived_statistics(
     return derive_statistics(_poems)
 
 
-@st.cache_data(show_spinner=False, max_entries=8)
-def cached_bigram_counts(
-    cache_key: tuple[object, ...],
-    _selected_poems: tuple[Poem, ...],
-) -> list[tuple[str, int]]:
-    _ = cache_key
-    return bigram_counts(_selected_poems)
-
-
 @st.cache_resource(show_spinner=False)
-def trigram_summary_cache() -> tuple[
+def ngram_summary_cache() -> tuple[
     dict[tuple[object, ...], NgramSummary],
     Lock,
 ]:
     return {}, Lock()
+
+
+@st.cache_resource(show_spinner=False)
+def ngram_job_manager() -> tuple[
+    ThreadPoolExecutor,
+    dict[tuple[object, ...], NgramJob],
+    Lock,
+]:
+    return (
+        ThreadPoolExecutor(
+            max_workers=2,
+            thread_name_prefix="ngram-analysis",
+        ),
+        {},
+        Lock(),
+    )
+
+
+def get_ngram_summary(
+    cache_key: tuple[object, ...],
+) -> NgramSummary | None:
+    summary_cache, summary_cache_lock = ngram_summary_cache()
+    with summary_cache_lock:
+        return summary_cache.get(cache_key)
+
+
+def store_ngram_summary(
+    cache_key: tuple[object, ...],
+    summary: NgramSummary,
+) -> None:
+    summary_cache, summary_cache_lock = ngram_summary_cache()
+    with summary_cache_lock:
+        summary_cache[cache_key] = summary
+
+
+def calculate_ngram_summary(
+    job: NgramJob,
+    poems: tuple[Poem, ...],
+    size: int,
+) -> NgramSummary:
+    return batched_ngram_summary(
+        poems,
+        size,
+        batch_size=NGRAM_BATCH_SIZE,
+        limit=FREQUENCY_DISPLAY_LIMIT,
+        on_batch_complete=job.update_progress,
+    )
+
+
+def get_or_start_ngram_job(
+    cache_key: tuple[object, ...],
+    poems: tuple[Poem, ...],
+    batch_count: int,
+    size: int,
+) -> NgramJob:
+    executor, jobs, jobs_lock = ngram_job_manager()
+    with jobs_lock:
+        existing_job = jobs.get(cache_key)
+        if existing_job is not None:
+            return existing_job
+        job = NgramJob(batch_count=batch_count)
+        jobs[cache_key] = job
+        job.future = executor.submit(
+            calculate_ngram_summary,
+            job,
+            poems,
+            size,
+        )
+        return job
+
+
+def discard_ngram_job(
+    cache_key: tuple[object, ...],
+    job: NgramJob,
+) -> None:
+    _, jobs, jobs_lock = ngram_job_manager()
+    with jobs_lock:
+        if jobs.get(cache_key) is job:
+            del jobs[cache_key]
 
 
 def corpus_source(corpus_name: str) -> CorpusSource:
@@ -569,38 +660,169 @@ def process_memory_mib() -> float:
     return app_process().memory_info().rss / 1024 / 1024
 
 
-def render_memory_status(
-    placeholder,
-    *,
+def record_memory_sample(
     current_memory_mib: float | None = None,
-    sampled_peak_memory_mib: float | None = None,
-) -> float:
+) -> list[dict[str, object]]:
     if current_memory_mib is None:
         current_memory_mib = process_memory_mib()
-    if sampled_peak_memory_mib is not None:
-        sampled_peak_memory_mib = max(
-            sampled_peak_memory_mib,
-            current_memory_mib,
-        )
-    detail = (
-        (
-            '<span class="memory-status-peak">'
-            f"&nbsp;· 采样峰值 {sampled_peak_memory_mib:.0f} MiB"
-            "</span>"
-        )
-        if sampled_peak_memory_mib is not None
-        else ""
+    sampled_at = datetime.now()
+    history_cutoff = sampled_at - timedelta(seconds=MEMORY_HISTORY_SECONDS)
+    history = list(st.session_state.get(MEMORY_HISTORY_KEY, ()))
+    history.append(
+        {
+            "time": sampled_at,
+            "memory_mib": current_memory_mib,
+        }
     )
-    placeholder.markdown(
+    history = [
+        sample
+        for sample in history[-MEMORY_HISTORY_LIMIT:]
+        if sample["time"] >= history_cutoff
+    ]
+    st.session_state[MEMORY_HISTORY_KEY] = history
+    return history
+
+
+def render_memory_chart() -> None:
+    history = record_memory_sample()
+    current_memory_mib = float(history[-1]["memory_mib"])
+    peak_memory_mib = max(float(sample["memory_mib"]) for sample in history)
+    st.markdown(
         (
-            '<div class="memory-status" '
-            'title="整个 Streamlit Python 进程的当前 RSS 内存">'
+            '<div class="memory-chart-header" '
+            'title="整个 Streamlit Python 进程最近 60 秒的 RSS 内存">'
             f"进程内存 <strong>{current_memory_mib:.0f} MiB</strong>"
-            f"{detail}</div>"
+            '<span class="memory-chart-peak">'
+            f"&nbsp;· 峰值 {peak_memory_mib:.0f} MiB"
+            "</span></div>"
         ),
         unsafe_allow_html=True,
     )
-    return current_memory_mib
+    history_frame = pd.DataFrame(history)
+    memory_min = float(history_frame["memory_mib"].min())
+    memory_max = float(history_frame["memory_mib"].max())
+    padding = max((memory_max - memory_min) * 0.25, memory_max * 0.04, 8)
+    y_min = max(0, memory_min - padding)
+    y_max = memory_max + padding
+    history_frame["baseline_mib"] = y_min
+    sampled_at = history[-1]["time"]
+    window_start = sampled_at - timedelta(seconds=MEMORY_HISTORY_SECONDS)
+    x_axis = alt.Axis(
+        domain=False,
+        grid=True,
+        gridColor=MEMORY_CHART_COLOR,
+        gridOpacity=0.12,
+        labels=False,
+        ticks=False,
+        tickCount=6,
+        title=None,
+    )
+    y_axis = alt.Axis(
+        domain=False,
+        grid=True,
+        gridColor=MEMORY_CHART_COLOR,
+        gridOpacity=0.12,
+        labels=False,
+        ticks=False,
+        tickCount=3,
+        title=None,
+    )
+    base = (
+        alt.Chart(history_frame)
+        .encode(
+            x=alt.X(
+                "time:T",
+                scale=alt.Scale(domain=[window_start, sampled_at]),
+                axis=x_axis,
+            ),
+            tooltip=[
+                alt.Tooltip("time:T", title="时间", format="%H:%M:%S"),
+                alt.Tooltip(
+                    "memory_mib:Q",
+                    title="进程内存",
+                    format=".0f",
+                ),
+            ],
+        )
+    )
+    area = base.mark_area(
+        color=MEMORY_CHART_COLOR,
+        opacity=0.3,
+        interpolate="linear",
+    ).encode(
+        y=alt.Y(
+            "memory_mib:Q",
+            scale=alt.Scale(domain=[y_min, y_max], zero=False),
+            axis=y_axis,
+        ),
+        y2=alt.Y2("baseline_mib:Q"),
+    )
+    line = base.mark_line(
+        color=MEMORY_CHART_COLOR,
+        strokeWidth=2,
+        interpolate="linear",
+    ).encode(
+        y=alt.Y(
+            "memory_mib:Q",
+            scale=alt.Scale(domain=[y_min, y_max], zero=False),
+            axis=y_axis,
+        ),
+    )
+    chart = (area + line).properties(height=72).configure_view(
+        stroke=MEMORY_CHART_COLOR,
+        strokeOpacity=0.28,
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+@st.fragment(run_every="1s")
+def render_live_memory_chart() -> None:
+    render_memory_chart()
+
+
+@st.fragment(run_every="1s")
+def render_ngram_job_status(
+    cache_key: tuple[object, ...],
+    poem_count: int,
+    frequency_type: str,
+) -> None:
+    if get_ngram_summary(cache_key) is not None:
+        st.rerun()
+
+    _, jobs, jobs_lock = ngram_job_manager()
+    with jobs_lock:
+        job = jobs.get(cache_key)
+    if job is None or job.future is None:
+        st.error(f"{frequency_type}统计任务状态丢失，请重新选择该统计类型。")
+        return
+
+    completed, total = job.progress()
+    st.caption(
+        f"正在后台分析 {poem_count:,} 首诗；"
+        "页面和内存图表可继续实时更新。"
+    )
+    st.progress(
+        completed / total if total else 0.0,
+        text=f"正在统计第 {completed} / {total} 批…",
+    )
+    if not job.future.done():
+        return
+
+    try:
+        summary = job.future.result()
+    except Exception as error:
+        st.error(f"{frequency_type}统计失败：{error}")
+        if st.button(
+            f"重试{frequency_type}统计",
+            key=f"retry-ngram-{abs(hash(cache_key))}",
+        ):
+            discard_ngram_job(cache_key, job)
+            st.rerun()
+        return
+
+    store_ngram_summary(cache_key, summary)
+    discard_ngram_job(cache_key, job)
+    st.rerun()
 
 
 def poem_text_html(poem: Poem, highlight_text: str | None = None) -> str:
@@ -772,11 +994,7 @@ title_column, memory_column = st.columns([4, 2])
 with title_column:
     st.markdown("## 中国古诗词数据概览")
 with memory_column:
-    memory_placeholder = st.empty()
-    render_memory_status(memory_placeholder)
-memory_status_state: dict[str, float | None] = {
-    "sampled_peak_memory_mib": None,
-}
+    render_live_memory_chart()
 hero_placeholder = st.empty()
 if not preserve_content_on_rerun:
     with hero_placeholder.container():
@@ -1067,7 +1285,7 @@ statistics = cached_derived_statistics(
     tuple(filtered_poems),
 )
 summary = statistics.summary
-render_memory_status(memory_placeholder)
+record_memory_sample()
 
 hero_placeholder.empty()
 with hero_placeholder.container():
@@ -1723,6 +1941,66 @@ def render_overview_tab() -> None:
         ):
             st.caption(f"当前显示前 {len(visible_author_counts)} 位作者。")
 
+
+def render_ngram_frequency(
+    frequency_placeholder,
+    *,
+    frequency_type: str,
+    size: int,
+    selection_name: str,
+    drilldown_kind: str,
+    chart_base_key: str,
+    caption: str,
+) -> None:
+    batch_count = max(
+        1,
+        (
+            len(filtered_poems)
+            + NGRAM_BATCH_SIZE
+            - 1
+        )
+        // NGRAM_BATCH_SIZE,
+    )
+    cache_key = (
+        filter_cache_key,
+        f"{size}-gram",
+        NGRAM_BATCH_SIZE,
+        FREQUENCY_DISPLAY_LIMIT,
+    )
+    summary = get_ngram_summary(cache_key)
+    frequency_placeholder.empty()
+    with frequency_placeholder.container():
+        st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
+        if summary is None:
+            get_or_start_ngram_job(
+                cache_key,
+                tuple(filtered_poems),
+                batch_count,
+                size,
+            )
+            st.caption(
+                f"每批最多分析 {NGRAM_BATCH_SIZE:,} 首诗，"
+                "完成后自动合并并缓存结果。"
+            )
+            render_ngram_job_status(
+                cache_key,
+                len(filtered_poems),
+                frequency_type,
+            )
+            return
+
+        st.caption(f"已合并 {batch_count} 批结果；后续切换将直接使用缓存。")
+        render_frequency_chart(
+            summary.counts,
+            category_field="组合",
+            selection_name=selection_name,
+            drilldown_kind=drilldown_kind,
+            chart_base_key=chart_base_key,
+            caption=caption,
+            total_count=summary.occurrence_count,
+        )
+
+
 def render_characters_tab() -> None:
     frequency_type = st.radio(
         "统计类型",
@@ -1747,118 +2025,31 @@ def render_characters_tab() -> None:
                 caption="只统计汉字，排除标点、空格、数字及其他非汉字。",
             )
     elif frequency_type == "二字组合":
-        bigram_count_cache_key = (
-            DATA_SCHEMA_VERSION,
-            tuple(selected_corpus_versions.items()),
-            tuple(poem.id for poem in filtered_poems),
+        render_ngram_frequency(
+            frequency_placeholder,
+            frequency_type=frequency_type,
+            size=2,
+            selection_name="bigram_selection",
+            drilldown_kind="bigram",
+            chart_base_key="bigram-chart",
+            caption=(
+                "统计正文中相邻且均为汉字的二字组合；"
+                "标点和段落边界不会连接。"
+            ),
         )
-        frequency_counts = cached_bigram_counts(
-            bigram_count_cache_key,
-            tuple(filtered_poems),
-        )
-        render_memory_status(memory_placeholder)
-        frequency_placeholder.empty()
-        with frequency_placeholder.container():
-            st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
-            render_frequency_chart(
-                frequency_counts,
-                category_field="组合",
-                selection_name="bigram_selection",
-                drilldown_kind="bigram",
-                chart_base_key="bigram-chart",
-                caption=(
-                    "统计正文中相邻且均为汉字的二字组合；"
-                    "标点和段落边界不会连接。"
-                ),
-            )
     else:
-        batch_count = max(
-            1,
-            (
-                len(filtered_poems)
-                + TRIGRAM_BATCH_SIZE
-                - 1
-            )
-            // TRIGRAM_BATCH_SIZE,
+        render_ngram_frequency(
+            frequency_placeholder,
+            frequency_type=frequency_type,
+            size=3,
+            selection_name="trigram_selection",
+            drilldown_kind="trigram",
+            chart_base_key="trigram-chart",
+            caption=(
+                "统计正文中连续且均为汉字的三字组合；"
+                "标点和段落边界不会连接。"
+            ),
         )
-        calculation_status = st.empty()
-        calculation_peak_memory_mib: float | None = None
-        with calculation_status.container():
-            st.caption(
-                f"将 {len(filtered_poems):,} 首诗按每批最多 "
-                f"{TRIGRAM_BATCH_SIZE:,} 首分为 {batch_count} 批统计，"
-                "完成后自动合并各批结果。"
-            )
-            progress = st.progress(
-                0.0,
-                text=f"正在统计第 0 / {batch_count} 批…",
-            )
-
-        def update_trigram_progress(completed: int, total: int) -> None:
-            nonlocal calculation_peak_memory_mib
-            current_memory_mib = process_memory_mib()
-            calculation_peak_memory_mib = max(
-                calculation_peak_memory_mib or current_memory_mib,
-                current_memory_mib,
-            )
-            memory_status_state["sampled_peak_memory_mib"] = (
-                calculation_peak_memory_mib
-            )
-            render_memory_status(
-                memory_placeholder,
-                current_memory_mib=current_memory_mib,
-                sampled_peak_memory_mib=calculation_peak_memory_mib,
-            )
-            progress.progress(
-                completed / total,
-                text=f"正在统计第 {completed} / {total} 批…",
-            )
-
-        trigram_count_cache_key = (
-            filter_cache_key,
-            "trigram",
-            TRIGRAM_BATCH_SIZE,
-            FREQUENCY_DISPLAY_LIMIT,
-        )
-        summary_cache, summary_cache_lock = trigram_summary_cache()
-        with summary_cache_lock:
-            trigram_summary = summary_cache.get(trigram_count_cache_key)
-            if trigram_summary is None:
-                calculation_peak_memory_mib = process_memory_mib()
-                memory_status_state["sampled_peak_memory_mib"] = (
-                    calculation_peak_memory_mib
-                )
-                trigram_summary = batched_ngram_summary(
-                    tuple(filtered_poems),
-                    3,
-                    batch_size=TRIGRAM_BATCH_SIZE,
-                    limit=FREQUENCY_DISPLAY_LIMIT,
-                    on_batch_complete=update_trigram_progress,
-                )
-                summary_cache[trigram_count_cache_key] = trigram_summary
-        render_memory_status(
-            memory_placeholder,
-            sampled_peak_memory_mib=calculation_peak_memory_mib,
-        )
-        calculation_status.empty()
-        frequency_placeholder.empty()
-        with frequency_placeholder.container():
-            st.markdown(f"#### {FREQUENCY_HEADINGS[frequency_type]}")
-            st.caption(
-                f"已合并 {batch_count} 批结果；后续切换将直接使用缓存。"
-            )
-            render_frequency_chart(
-                trigram_summary.counts,
-                category_field="组合",
-                selection_name="trigram_selection",
-                drilldown_kind="trigram",
-                chart_base_key="trigram-chart",
-                caption=(
-                    "统计正文中连续且均为汉字的三字组合；"
-                    "标点和段落边界不会连接。"
-                ),
-                total_count=trigram_summary.occurrence_count,
-            )
 
 def render_explorer_tab() -> None:
     st.markdown("#### 作品目录")
@@ -2081,9 +2272,4 @@ if active_drilldown:
     else:
         clear_active_drilldown()
 
-render_memory_status(
-    memory_placeholder,
-    sampled_peak_memory_mib=memory_status_state[
-        "sampled_peak_memory_mib"
-    ],
-)
+record_memory_sample()
