@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import html
 import os
+import re
+from collections import Counter, defaultdict
 from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
@@ -21,6 +23,7 @@ from poetry.analytics import (
     derive_statistics,
     filter_poems,
     filter_shijing_poems,
+    line_length_type,
     line_length_type_counts,
     poem_character_count,
     poems_containing_bigram,
@@ -117,18 +120,19 @@ TRIGRAM_BATCH_SIZE = 10_000
 BAR_COLOR = "#3F7C73"
 CORPUS_QUERY_PARAMETER = "corpus"
 PRESERVE_CONTENT_ON_RERUN_KEY = "_preserve_content_on_rerun"
+VERSE_SEPARATOR = re.compile(r"[，。！？；：、,.!?;:]+")
 TAB_LABELS = [
     "总览",
     "诗体结构",
     "字词统计",
-    "诗作浏览",
+    "作品浏览",
     "数据说明",
 ]
 TAB_LOADING_MESSAGES = {
     "总览": "正在整理总览数据…",
     "诗体结构": "正在分析诗体结构…",
     "字词统计": "正在统计常用字词…",
-    "诗作浏览": "正在准备诗作目录…",
+    "作品浏览": "正在准备作品目录…",
     "数据说明": "正在检查数据质量…",
 }
 FREQUENCY_HEADINGS = {
@@ -513,6 +517,10 @@ def dismiss_active_drilldown() -> None:
     st.session_state.pop("active_drilldown", None)
 
 
+def preserve_content_on_widget_rerun() -> None:
+    st.session_state[PRESERVE_CONTENT_ON_RERUN_KEY] = True
+
+
 def poem_text_html(poem: Poem, highlight_text: str | None = None) -> str:
     text = poem_text(poem)
     if not highlight_text:
@@ -522,6 +530,58 @@ def poem_text_html(poem: Poem, highlight_text: str | None = None) -> str:
         f'<span class="poem-grid-highlight">{html.escape(highlight_text)}</span>'
     )
     return highlighted.join(html.escape(part) for part in text.split(highlight_text))
+
+
+def verse_segments(poem: Poem) -> tuple[str, ...]:
+    segments = tuple(
+        stripped_segment
+        for paragraph in poem.paragraphs
+        for segment in VERSE_SEPARATOR.split(paragraph)
+        if (stripped_segment := segment.strip())
+    )
+    return segments or (poem.title,)
+
+
+def poem_display_titles(poems: Sequence[Poem]) -> dict[str, str]:
+    grouped_poems: dict[tuple[str, str], list[Poem]] = defaultdict(list)
+    for poem in poems:
+        grouped_poems[(poem.title, poem.author)].append(poem)
+
+    display_titles: dict[str, str] = {}
+    for (title, _), group in grouped_poems.items():
+        if len(group) == 1:
+            display_titles[group[0].id] = title
+            continue
+
+        segments_by_id = {
+            poem.id: verse_segments(poem) for poem in group
+        }
+        max_depth = max(len(segments) for segments in segments_by_id.values())
+        prefix_counts = {
+            depth: Counter(
+                segments[:depth] for segments in segments_by_id.values()
+            )
+            for depth in range(1, max_depth + 1)
+        }
+        for poem in group:
+            segments = segments_by_id[poem.id]
+            unique_depth = next(
+                (
+                    depth
+                    for depth in range(1, max_depth + 1)
+                    if prefix_counts[depth][segments[:depth]] == 1
+                ),
+                None,
+            )
+            distinguishing_text = "，".join(
+                segments[: unique_depth or len(segments)]
+            )
+            display_title = f"{title}（{distinguishing_text}）"
+            if unique_depth is None:
+                display_title = f"{display_title} [{poem.id[-8:]}]"
+            display_titles[poem.id] = display_title
+
+    return display_titles
 
 
 @st.dialog(
@@ -1647,38 +1707,65 @@ def render_characters_tab() -> None:
             )
 
 def render_explorer_tab() -> None:
-    st.markdown("#### 诗作目录")
+    st.markdown("#### 作品目录")
+    display_titles = poem_display_titles(filtered_poems)
+    browser_column, reading_column = st.columns([1.35, 1], gap="large")
+
     poem_rows = [
         {
-            "题目": title,
-            "作者": author,
+            "作品 ID": poem.id,
+            "题目": display_titles[poem.id],
+            "作者": poem.author,
             "字数": character_count,
-            "段落": paragraph_count,
+            "句数": poem.format.sentence_count,
         }
-        for title, author, character_count, paragraph_count
-        in statistics.poem_catalog
+        for poem, (
+            _,
+            _,
+            character_count,
+            _,
+        ) in zip(filtered_poems, statistics.poem_catalog)
     ]
-    st.dataframe(
-        pd.DataFrame(poem_rows),
-        hide_index=True,
-        width="stretch",
-        height=360,
-    )
+    poem_table = pd.DataFrame(poem_rows)
+    poems_by_id = {poem.id: poem for poem in filtered_poems}
 
-    poem_options = {
-        f"{poem.title} — {poem.author} [{poem.id[-8:]}]": poem
-        for poem in filtered_poems
-    }
-    selected_poem_label = st.selectbox("阅读诗作", poem_options)
-    selected_poem = poem_options[selected_poem_label]
-    detail_column, metadata_column = st.columns([3, 1])
-    with detail_column:
-        st.markdown(f"### {selected_poem.title}")
-        for paragraph in selected_poem.paragraphs:
-            st.write(paragraph)
-    with metadata_column:
-        st.markdown(f"**作者**  \n{selected_poem.author}")
-        st.markdown(f"**字数**  \n{poem_character_count(selected_poem)}")
+    with browser_column:
+        table_event = st.dataframe(
+            poem_table,
+            hide_index=True,
+            width="stretch",
+            height=560,
+            column_config={"作品 ID": None},
+            key=f"work-browser-table-{hash(filter_cache_key)}",
+            on_select=preserve_content_on_widget_rerun,
+            selection_mode="single-cell",
+        )
+
+    with reading_column:
+        selected_cells = table_event.selection.cells
+        if selected_cells:
+            selected_id = str(
+                poem_table.iloc[selected_cells[0][0]]["作品 ID"]
+            )
+            selected_poem = poems_by_id[selected_id]
+            st.markdown(f"### {selected_poem.title}")
+            st.caption(
+                f"{selected_poem.author} · "
+                f"{line_length_type(selected_poem)} · "
+                f"{selected_poem.format.sentence_count} 句 · "
+                f"{poem_character_count(selected_poem)} 字"
+            )
+            if selected_poem.format.uniform_sentence_length is None:
+                sentence_pattern = "–".join(
+                    str(length)
+                    for length in selected_poem.format.sentence_lengths
+                )
+                st.caption(f"句式：{sentence_pattern}")
+            st.divider()
+            for paragraph in selected_poem.paragraphs:
+                st.write(paragraph)
+        else:
+            st.info("点击左侧作品查看正文。")
 
 def render_quality_tab() -> None:
     st.caption(
@@ -1713,7 +1800,7 @@ with content_placeholder.container():
         "总览": render_overview_tab,
         "诗体结构": render_format_tab,
         "字词统计": render_characters_tab,
-        "诗作浏览": render_explorer_tab,
+        "作品浏览": render_explorer_tab,
         "数据说明": render_quality_tab,
     }[selected_tab or "总览"]()
 
