@@ -6,7 +6,12 @@ from pathlib import Path
 from typing import Any
 
 
-SUPPORTED_SCHEMA_VERSION = 2
+SUPPORTED_SCHEMA_VERSIONS = frozenset({2, 3})
+CORPUS_ALIASES = {
+    "weijinnanbeichao": "wjnbc",
+    "quansongci": "qsc",
+    "quansongshi": "qss",
+}
 
 
 @dataclass(frozen=True)
@@ -109,7 +114,7 @@ def _parse_config(
 ) -> DataRelease:
     version = _required_string(config, "version")
     schema_version = config.get("schema_version")
-    if schema_version != SUPPORTED_SCHEMA_VERSION:
+    if schema_version not in SUPPORTED_SCHEMA_VERSIONS:
         raise ValueError(
             "Unsupported data release schema version: "
             f"{schema_version}"
@@ -123,6 +128,9 @@ def _parse_config(
         str(key): _parse_corpus_asset(str(key), value)
         for key, value in raw_corpora.items()
     }
+    for alias, canonical_key in CORPUS_ALIASES.items():
+        if alias not in corpora and canonical_key in corpora:
+            corpora[alias] = corpora[canonical_key]
     repository = None
     if asset_directory is None:
         repository = _required_string(config, "repository")

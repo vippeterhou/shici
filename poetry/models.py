@@ -64,7 +64,23 @@ class Poem(NamedTuple):
             raise ValueError(f"Poem record is missing fields: {', '.join(missing)}")
 
         paragraphs = value["paragraphs"]
-        tags = value.get("tags", [])
+        tags = value.get("tags")
+        if tags is None:
+            chapter = value.get("chapter")
+            section = value.get("section")
+            if chapter is None and section is None:
+                tags = []
+            elif (
+                isinstance(chapter, str)
+                and chapter
+                and isinstance(section, str)
+                and section
+            ):
+                tags = [chapter, section]
+            else:
+                raise ValueError(
+                    "Poem chapter and section must be non-empty strings"
+                )
         if not isinstance(paragraphs, list) or not all(
             isinstance(item, str) for item in paragraphs
         ):

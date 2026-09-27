@@ -79,10 +79,45 @@ def test_rejects_missing_local_asset(tmp_path: Path) -> None:
 
 def test_rejects_unsupported_schema(tmp_path: Path) -> None:
     manifest_path = tmp_path / "manifest.json"
-    write_manifest(manifest_path, schema_version=3)
+    write_manifest(manifest_path, schema_version=4)
 
     with pytest.raises(
         ValueError,
         match="Unsupported data release schema version",
     ):
         load_data_release(tmp_path / "unused.json", str(manifest_path))
+
+
+def test_supports_schema_three_corpus_names(tmp_path: Path) -> None:
+    manifest_path = tmp_path / "manifest.json"
+    manifest = {
+        "version": "local",
+        "schema_version": 3,
+        "corpora": {
+            "wjnbc": {
+                "asset": "wjnbc.jsonl.gz",
+                "poem_count": 1,
+                "sha256": CHECKSUM,
+            },
+            "qsc": {
+                "asset": "qsc.jsonl.gz",
+                "poem_count": 2,
+                "sha256": CHECKSUM,
+            },
+            "qss": {
+                "asset": "qss.jsonl.gz",
+                "poem_count": 3,
+                "sha256": CHECKSUM,
+            },
+        },
+    }
+    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+
+    release = load_data_release(
+        tmp_path / "unused.json",
+        str(manifest_path),
+    )
+
+    assert release.corpora["weijinnanbeichao"].name == "wjnbc.jsonl.gz"
+    assert release.corpora["quansongci"].name == "qsc.jsonl.gz"
+    assert release.corpora["quansongshi"].name == "qss.jsonl.gz"

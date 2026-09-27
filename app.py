@@ -1861,6 +1861,7 @@ def render_overview_tab() -> None:
                 "类型标签:N",
                 title=None,
                 sort=line_type_order,
+                axis=alt.Axis(labelOverlap=False),
             ),
             color=alt.Color(
                 "句数类别:N",
