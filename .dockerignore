@@ -1,0 +1,10 @@
+.git
+.next
+node_modules
+data
+.data-downloads
+.venv
+__pycache__
+.pytest_cache
+.DS_Store
+npm-debug.log

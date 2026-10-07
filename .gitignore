@@ -5,3 +5,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+node_modules/
+.next/
+data/*.sqlite
+data/*.sqlite-*
+.data-downloads/
+npm-debug.log*
+*.tsbuildinfo
