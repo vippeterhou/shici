@@ -169,7 +169,13 @@ a {
   font-size: 1.4rem;
   height: 2.65rem;
   justify-content: center;
+  line-height: 1;
   width: 2.65rem;
+}
+
+.wordmark-character {
+  display: inline-block;
+  transform: translateY(-0.08em);
 }
 
 .wordmark strong,
@@ -336,15 +342,29 @@ html[data-theme="dark"] .theme-icon-dark {
 }
 
 .hero::after {
-  color: var(--cp-accent-soft);
-  content: "诗";
-  font-family: var(--cp-poem-font);
-  font-size: min(42vw, 32rem);
-  line-height: 0.7;
+  background:
+    radial-gradient(circle at 72% 30%, var(--cp-accent-soft), transparent 42%),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 4.75rem,
+      color-mix(in srgb, var(--cp-accent) 12%, transparent) 4.75rem
+        calc(4.75rem + 1px)
+    );
+  bottom: 0;
+  content: "";
+  -webkit-mask-image: linear-gradient(
+    to left,
+    #000 0%,
+    #000 58%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(to left, #000 0%, #000 58%, transparent 100%);
+  opacity: 0.65;
   pointer-events: none;
   position: absolute;
-  right: -3rem;
-  top: 3rem;
+  right: 0;
+  top: 0;
+  width: 58%;
   z-index: 0;
 }
 
@@ -1254,8 +1274,8 @@ html[data-theme="dark"] .theme-icon-dark {
   }
 
   .hero::after {
-    font-size: 19rem;
-    right: -5rem;
+    opacity: 0.45;
+    width: 100%;
   }
 
   .section {

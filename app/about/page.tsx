@@ -14,7 +14,7 @@ export default function AboutPage() {
         <p className="eyebrow">关于诗笺</p>
         <h1>数据有出处，统计有边界</h1>
         <p>
-          诗笺是一种面向阅读与探索的古诗词界面。内容与产品代码分离维护，让每次数据更新都可以验证和追溯。
+          诗笺是一种面向检索、阅读与探索的中国古典诗词界面。内容与产品代码分离维护，让每次数据更新都可以验证和追溯。
         </p>
       </header>
       <article className="page-shell prose">

@@ -25,11 +25,10 @@ const persistedThemeScript = `
 
 export const metadata: Metadata = {
   title: {
-    default: "诗笺 · 中国古诗词",
+    default: "诗笺 · 中国古典诗词检索、阅读与探索",
     template: "%s · 诗笺",
   },
-  description:
-    "搜索、阅读并探索从《诗经》到唐宋的中国古典诗词。",
+  description: "中国古典诗词检索、阅读与探索。",
   metadataBase: new URL(siteUrl),
   openGraph: {
     type: "website",

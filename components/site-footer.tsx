@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="page-shell footer-inner">
         <div>
           <strong>诗笺</strong>
-          <p>让古诗词更容易被找到、读懂与重新发现。</p>
+          <p>中国古典诗词检索、阅读与探索</p>
         </div>
         <div className="footer-links">
           <Link href="/about">数据与方法</Link>

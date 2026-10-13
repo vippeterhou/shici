@@ -16,8 +16,8 @@ export default function HomePage() {
       <section className="hero">
         <div className="page-shell hero-grid">
           <div>
-            <p className="eyebrow">从《诗经》到唐宋</p>
-            <h1>循字句，重逢三千年诗意</h1>
+            <p className="eyebrow">中国古典诗词</p>
+            <h1>循字句，与古人重逢</h1>
             <p className="hero-lede">
               在三十二万余首作品中搜索一句诗、一个名字或一种意象；
               也可以沿时代与文集漫游，安静地读一首诗。

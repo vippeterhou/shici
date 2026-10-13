@@ -16,11 +16,11 @@ export function SiteHeader() {
       <div className="site-header-inner">
         <Link className="wordmark" href="/" aria-label="诗笺首页">
           <span aria-hidden className="wordmark-seal">
-            诗
+            <span className="wordmark-character">诗</span>
           </span>
           <span>
             <strong>诗笺</strong>
-            <small>中国古诗词</small>
+            <small>检索 · 阅读 · 探索</small>
           </span>
         </Link>
         <nav className="primary-nav" aria-label="主要导航">
