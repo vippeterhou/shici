@@ -1,6 +1,6 @@
 {
   "repository": "vippeterhou/shici-data",
-  "version": "v2.0.0",
+  "version": "v2.1.0",
   "schema_version": 3,
   "corpora": {
     "qinhan": {
@@ -21,7 +21,7 @@
     "qts": {
       "asset": "qts.jsonl.gz",
       "poem_count": 47605,
-      "sha256": "9f544f4bd70b1b01a10e934fb2d9e874baf778f8f58f83dc57e5b1dca3e52eb0"
+      "sha256": "608c76e8a657d84d559818c5728bf9d3bf0c1f5e9cae9d93c5a48e9a9c1e1607"
     },
     "sc300": {
       "asset": "sc300.jsonl.gz",
