@@ -7,6 +7,7 @@ RUN apt-get update \
     && apt-get install --yes --no-install-recommends build-essential python3 \
     && rm -rf /var/lib/apt/lists/*
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY patches ./patches
 RUN pnpm install --frozen-lockfile --trust-lockfile
 
 FROM dependencies AS data-builder

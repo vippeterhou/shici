@@ -10,11 +10,11 @@ import OpenCC from "opencc-js";
 import {
   collectNgrams,
   countCandidateNgrams,
+  NGRAM_CANDIDATE_LIMIT,
   SpaceSaving,
 } from "./ngrams.mjs";
 
 const INDEX_SCHEMA_VERSION = 4;
-const TRIGRAM_CANDIDATE_LIMIT = 20_000;
 const FREQUENCY_DISPLAY_LIMIT = 100;
 
 const root = resolve(import.meta.dirname, "..");
@@ -138,8 +138,8 @@ for (const [sortOrder, corpus] of corpusCatalog.entries()) {
     poemCount: asset.poem_count,
   });
   const characterCounts = new Map();
-  const bigramCandidates = new SpaceSaving(TRIGRAM_CANDIDATE_LIMIT);
-  const trigramCandidates = new SpaceSaving(TRIGRAM_CANDIDATE_LIMIT);
+  const bigramCandidates = new SpaceSaving(NGRAM_CANDIDATE_LIMIT);
+  const trigramCandidates = new SpaceSaving(NGRAM_CANDIDATE_LIMIT);
   let importedCount = 0;
 
   const transaction = database.transaction((records) => {

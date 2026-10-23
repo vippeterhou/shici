@@ -56,7 +56,7 @@ export default async function CorpusPage({
     <>
       <header className="page-shell page-hero">
         <nav className="breadcrumbs" aria-label="面包屑">
-          <Link href="/corpora">文库</Link>
+          <Link href={`/corpora?corpus=${corpusKey}`}>高级搜索</Link>
           <span>/</span>
           <span>{corpus.name}</span>
         </nav>
@@ -78,7 +78,6 @@ export default async function CorpusPage({
           </div>
         </div>
         <SearchForm
-          compact={false}
           corpus={corpusKey}
           label={`在${corpus.name}中搜索`}
         />
@@ -87,8 +86,8 @@ export default async function CorpusPage({
       <section className="page-shell section">
         <div className="results-summary">
           <p>按原始文集顺序浏览</p>
-          <Link className="text-link" href={`/insights/${corpusKey}`}>
-            查看数据洞察 →
+          <Link className="text-link" href={`/insights?corpus=${corpusKey}`}>
+            查看统计分析 →
           </Link>
         </div>
         <div className="poem-grid">

@@ -4,6 +4,14 @@ import { cache } from "react";
 import type { Database } from "better-sqlite3";
 import { getDatabase } from "@/lib/db";
 import { compactExcerpt } from "@/lib/format";
+import { compareLineTypes } from "@/lib/format-combinations";
+import {
+  collectNgrams,
+  countCandidateNgrams,
+  isHanCharacter,
+  NGRAM_CANDIDATE_LIMIT,
+  SpaceSaving,
+} from "@/scripts/ngrams.mjs";
 import {
   findFirstSearchMatch,
   normalizeSearchText,
@@ -19,6 +27,7 @@ import type {
   PaginatedPoems,
   Poem,
   PoemSummary,
+  PoemSearchOptions,
   SearchResponse,
 } from "@/lib/types";
 
@@ -39,6 +48,7 @@ interface StatsRow {
   poem_count: number;
   author_count: number;
   character_count: number;
+  sentence_count: number;
   average_characters: number;
 }
 
@@ -94,13 +104,81 @@ export const getCorpusStats = cache((key: string): CorpusStats | null => {
   const row = getDatabase()
     .prepare(
       `SELECT corpus, poem_count, author_count, character_count,
-              average_characters
+              average_characters,
+              COALESCE((
+                SELECT SUM(s.sentence_count * s.count)
+                FROM sentence_stats s
+                WHERE s.corpus = corpus_stats.corpus
+              ), 0) AS sentence_count
        FROM corpus_stats
        WHERE corpus = ?`,
     )
     .get(key) as StatsRow | undefined;
   return row ? mapStats(row) : null;
 });
+
+export const getCorpusSearchOptions = cache((key: string) => {
+  const database = getDatabase();
+  return {
+    authors: readInsightRows(
+      database,
+      `SELECT author AS label, count AS value
+       FROM author_stats WHERE corpus = ?
+       ORDER BY count DESC, author`,
+      key,
+    ),
+    lineTypes: readInsightRows(
+      database,
+      `SELECT line_type AS label, count AS value
+       FROM line_stats WHERE corpus = ?
+       ORDER BY
+         CASE WHEN line_type = '杂言' THEN 1 ELSE 0 END,
+         CAST(REPLACE(line_type, '言', '') AS INTEGER)`,
+      key,
+    ),
+    sentenceCounts: readInsightRows(
+      database,
+      `SELECT sentence_count AS label, count AS value
+       FROM sentence_stats WHERE corpus = ?
+       ORDER BY sentence_count`,
+      key,
+    ),
+  };
+});
+
+export function getFilteredAuthorOptions(
+  query: string,
+  options: PoemSearchOptions & { corpus: string },
+): InsightDatum[] {
+  const authors = getCorpusSearchOptions(options.corpus).authors.map((author) => ({
+    ...author,
+    normalized: normalizeSearchText(author.label),
+  }));
+  // Author selections are ORed; counts describe each option under the other filters.
+  const criteria = {
+    corpus: options.corpus,
+    lineType: options.lineType,
+    sentenceCount: options.sentenceCount,
+  };
+  const trimmedQuery = query.trim();
+  const counts = new Map<string, number>();
+  if (hasAdditionalFilters(trimmedQuery, criteria)) {
+    const { from, condition, baseParameters } = selectPoems(trimmedQuery, criteria);
+    const rows = readInsightRows(
+      getDatabase(),
+      `SELECT p.author_normalized AS label, COUNT(*) AS value
+       ${from} WHERE ${condition}
+       GROUP BY p.author_normalized`,
+      ...baseParameters,
+    );
+    for (const row of rows) counts.set(row.label, row.value);
+  } else {
+    for (const author of authors) {
+      counts.set(author.normalized, (counts.get(author.normalized) ?? 0) + author.value);
+    }
+  }
+  return authors.map(({ label, normalized }) => ({ label, value: counts.get(normalized) ?? 0 }));
+}
 
 export const getPoem = cache((corpus: string, id: string): Poem | null => {
   const row = getDatabase()
@@ -182,14 +260,10 @@ export function listCorpusPoems(
 
 export function searchPoems(
   query: string,
-  options: {
-    corpus?: string;
-    page?: number;
-    pageSize?: number;
-  } = {},
+  options: PoemSearchOptions = {},
 ): SearchResponse {
   const trimmedQuery = query.trim();
-  if (!trimmedQuery) {
+  if (!trimmedQuery && !options.corpus) {
     return {
       query: "",
       items: [],
@@ -199,38 +273,27 @@ export function searchPoems(
       pageCount: 1,
     };
   }
-  if ([...trimmedQuery].length > 80) {
-    throw new Error("搜索内容不能超过 80 个字符");
-  }
   const requestedPage = positiveInteger(options.page, 1);
   const pageSize = Math.min(
     positiveInteger(options.pageSize, DEFAULT_PAGE_SIZE),
     MAX_PAGE_SIZE,
   );
-  const ftsQuery = toFtsQuery(trimmedQuery);
   const normalizedQuery = normalizeSearchText(trimmedQuery);
-  const corpusWhere = options.corpus ? "AND p.corpus = ?" : "";
-  const baseParameters: Array<string | number> = [ftsQuery];
-  if (options.corpus) {
-    baseParameters.push(options.corpus);
-  }
+  const { from, condition, baseParameters } = selectPoems(trimmedQuery, options);
   const database = getDatabase();
   const total = (
     database
       .prepare(
         `SELECT COUNT(*) AS count
-         FROM poems_fts
-         JOIN poems p ON p.rowid = poems_fts.rowid
-         WHERE poems_fts MATCH ? ${corpusWhere}`,
+         ${from}
+         WHERE ${condition}`,
       )
       .get(...baseParameters) as CountRow
   ).count;
   const pageCount = Math.max(1, Math.ceil(total / pageSize));
   const page = Math.min(requestedPage, pageCount);
-  const rows = database
-    .prepare(
-      `SELECT p.id, p.corpus, c.name AS corpus_name, p.title, p.author,
-              p.body, p.tags_json, p.sentence_count, p.character_count,
+  const ranking = trimmedQuery
+    ? `,
               CASE
                 WHEN p.title_normalized = ? THEN 0
                 WHEN p.author_normalized = ? THEN 1
@@ -238,19 +301,24 @@ export function searchPoems(
                 WHEN instr(p.author_normalized, ?) > 0 THEN 3
                 ELSE 4
               END AS exact_rank,
-              bm25(poems_fts, 12.0, 8.0, 6.0, 4.0, 1.0) AS text_rank
-       FROM poems_fts
-       JOIN poems p ON p.rowid = poems_fts.rowid
+              bm25(poems_fts, 12.0, 8.0, 6.0, 4.0, 1.0) AS text_rank`
+    : "";
+  const rankingParameters = trimmedQuery
+    ? [normalizedQuery, normalizedQuery, normalizedQuery, normalizedQuery]
+    : [];
+  const rows = database
+    .prepare(
+      `SELECT p.id, p.corpus, c.name AS corpus_name, p.title, p.author,
+              p.body, p.tags_json, p.sentence_count, p.character_count
+              ${ranking}
+       ${from}
        JOIN corpora c ON c.key = p.corpus
-       WHERE poems_fts MATCH ? ${corpusWhere}
-       ORDER BY exact_rank, text_rank, p.character_count, p.rowid
+       WHERE ${condition}
+       ORDER BY ${trimmedQuery ? "exact_rank, text_rank, p.character_count," : ""} p.rowid
        LIMIT ? OFFSET ?`,
     )
     .all(
-      normalizedQuery,
-      normalizedQuery,
-      normalizedQuery,
-      normalizedQuery,
+      ...rankingParameters,
       ...baseParameters,
       pageSize,
       (page - 1) * pageSize,
@@ -264,30 +332,6 @@ export function searchPoems(
     pageCount,
   };
 }
-
-export const getDailyPoem = cache((): PoemSummary => {
-  const database = getDatabase();
-  const dayNumber = Math.floor(Date.now() / 86_400_000);
-  const featuredCorpora = ["shijing", "ts300", "sc300"];
-  const corpus = featuredCorpora[dayNumber % featuredCorpora.length];
-  const count = (
-    database
-      .prepare("SELECT COUNT(*) AS count FROM poems WHERE corpus = ?")
-      .get(corpus) as CountRow
-  ).count;
-  const row = database
-    .prepare(
-      `SELECT p.id, p.corpus, c.name AS corpus_name, p.title, p.author,
-              p.body, p.tags_json, p.sentence_count, p.character_count
-       FROM poems p
-       JOIN corpora c ON c.key = p.corpus
-       WHERE p.corpus = ?
-       ORDER BY p.rowid
-       LIMIT 1 OFFSET ?`,
-    )
-    .get(corpus, dayNumber % count) as PoemRow;
-  return mapSummary(row, 140);
-});
 
 export const getCorpusInsights = cache(
   (corpusKey: string): CorpusInsights | null => {
@@ -384,6 +428,126 @@ export const getCorpusInsights = cache(
   },
 );
 
+export function getFilteredCorpusStats(
+  query: string,
+  options: PoemSearchOptions & { corpus: string },
+): CorpusStats | null {
+  const trimmedQuery = query.trim();
+  if (!hasAdditionalFilters(trimmedQuery, options)) return getCorpusStats(options.corpus);
+  if (!getCorpus(options.corpus)) return null;
+  const { from, condition, baseParameters } = selectPoems(trimmedQuery, options);
+  const row = getDatabase().prepare(
+    `SELECT COUNT(*) AS poem_count,
+            COUNT(DISTINCT p.author_normalized) AS author_count,
+            COALESCE(SUM(p.character_count), 0) AS character_count,
+            COALESCE(SUM(p.sentence_count), 0) AS sentence_count,
+            COALESCE(AVG(p.character_count), 0) AS average_characters
+     ${from} WHERE ${condition}`,
+  ).get(...baseParameters) as Omit<StatsRow, "corpus">;
+  return mapStats({ ...row, corpus: options.corpus });
+}
+
+export function getFilteredCorpusInsights(
+  query: string,
+  options: PoemSearchOptions & { corpus: string },
+): CorpusInsights | null {
+  const trimmedQuery = query.trim();
+  if (!hasAdditionalFilters(trimmedQuery, options)) {
+    return getCorpusInsights(options.corpus);
+  }
+  const corpus = getCorpus(options.corpus);
+  if (!corpus) return null;
+  const selection = selectPoems(trimmedQuery, options);
+  const database = getDatabase();
+  const { from, condition, baseParameters } = selection;
+  const rows = database.prepare(
+    `SELECT p.author, p.author_normalized, p.body, p.sentence_count,
+            p.character_count, p.line_type
+     ${from} WHERE ${condition} ORDER BY p.rowid`,
+  );
+  const authors = new Map<string, number>();
+  const normalizedAuthors = new Set<string>();
+  const sentences = new Map<number, number>();
+  const lines = new Map<string, number>();
+  const characters = new Map<string, number>();
+  const combinations = new Map<string, FormatCombinationDatum>();
+  const bigramCandidates = new SpaceSaving(NGRAM_CANDIDATE_LIMIT);
+  const trigramCandidates = new SpaceSaving(NGRAM_CANDIDATE_LIMIT);
+  let poemCount = 0;
+  let characterCount = 0;
+  let sentenceCount = 0;
+
+  for (const value of rows.iterate(...baseParameters)) {
+    const row = value as {
+      author: string;
+      author_normalized: string;
+      body: string;
+      sentence_count: number;
+      character_count: number;
+      line_type: string;
+    };
+    poemCount += 1;
+    characterCount += row.character_count;
+    sentenceCount += row.sentence_count;
+    normalizedAuthors.add(row.author_normalized);
+    incrementCount(authors, row.author);
+    incrementCount(sentences, row.sentence_count);
+    incrementCount(lines, row.line_type);
+    const combinationKey = `${row.sentence_count}:${row.line_type}`;
+    const combination = combinations.get(combinationKey);
+    if (combination) {
+      combination.value += 1;
+    } else {
+      combinations.set(combinationKey, {
+        sentenceCount: row.sentence_count,
+        lineType: row.line_type,
+        value: 1,
+      });
+    }
+    for (const character of row.body) {
+      if (isHanCharacter(character)) incrementCount(characters, character);
+    }
+    collectNgrams(row.body, bigramCandidates, trigramCandidates);
+  }
+
+  // Use the same bounded candidates and exact second pass as the data build.
+  const bigrams = new Map([...bigramCandidates.tokens()].map((term) => [term, 0]));
+  const trigrams = new Map([...trigramCandidates.tokens()].map((term) => [term, 0]));
+  const bodies = database.prepare(`SELECT p.body ${from} WHERE ${condition}`);
+  for (const value of bodies.iterate(...baseParameters)) {
+    const { body } = value as { body: string };
+    countCandidateNgrams(body, bigrams, trigrams);
+  }
+
+  return {
+    corpus,
+    stats: {
+      corpus: corpus.key,
+      poemCount,
+      authorCount: normalizedAuthors.size,
+      characterCount,
+      sentenceCount,
+      averageCharacters: poemCount ? characterCount / poemCount : 0,
+    },
+    authors: rankedCounts(authors, 20),
+    sentenceCounts: [...sentences]
+      .sort((left, right) => right[1] - left[1] || left[0] - right[0])
+      .slice(0, 16)
+      .sort((left, right) => left[0] - right[0])
+      .map(([label, value]) => ({ label: String(label), value })),
+    lineTypes: rankedCounts(lines, lines.size)
+      .sort((left, right) => compareLineTypes(left.label, right.label)),
+    characters: rankedCounts(characters, 100),
+    bigrams: rankedCounts(bigrams, 100),
+    trigrams: rankedCounts(trigrams, 100),
+    formatCombinations: [...combinations.values()].sort(
+      (left, right) => left.sentenceCount - right.sentenceCount ||
+        compareLineTypes(left.lineType, right.lineType),
+    ),
+    structure: readCorpusStructure(database, corpus.key, selection),
+  };
+}
+
 export function getAdjacentPoems(
   corpus: string,
   id: string,
@@ -426,9 +590,9 @@ export function getReleaseVersion(): string {
 function readInsightRows(
   database: Database,
   query: string,
-  corpus: string,
+  ...parameters: Array<string | number>
 ): InsightDatum[] {
-  return (database.prepare(query).all(corpus) as DatumRow[]).map((row) => ({
+  return (database.prepare(query).all(...parameters) as DatumRow[]).map((row) => ({
     label: String(row.label),
     value: row.value,
   }));
@@ -437,7 +601,9 @@ function readInsightRows(
 function readCorpusStructure(
   database: Database,
   corpus: string,
+  selection = selectPoems("", { corpus }),
 ): CorpusStructure | null {
+  const { from, condition, baseParameters } = selection;
   if (corpus === "sc300" || corpus === "qsc") {
     return {
       kind: "tunes",
@@ -446,19 +612,19 @@ function readCorpusStructure(
         `SELECT tune AS label, COUNT(*) AS value
          FROM (
            SELECT CASE
-             WHEN instr(title, '·') > 0
-               THEN substr(title, 1, instr(title, '·') - 1)
-             WHEN instr(title, '・') > 0
-               THEN substr(title, 1, instr(title, '・') - 1)
-             ELSE title
+             WHEN instr(p.title, '·') > 0
+               THEN substr(p.title, 1, instr(p.title, '·') - 1)
+             WHEN instr(p.title, '・') > 0
+               THEN substr(p.title, 1, instr(p.title, '・') - 1)
+             ELSE p.title
            END AS tune
-           FROM poems
-           WHERE corpus = ?
+           ${from}
+           WHERE ${condition}
          )
          GROUP BY tune
          ORDER BY value DESC, tune
          LIMIT 20`,
-        corpus,
+        ...baseParameters,
       ),
     };
   }
@@ -467,14 +633,14 @@ function readCorpusStructure(
       .prepare(
         `SELECT chapter, section, count
          FROM (
-           SELECT chapter, section, COUNT(*) AS count, MIN(rowid) AS first_row
-           FROM poems
-           WHERE corpus = ? AND chapter IS NOT NULL AND section IS NOT NULL
-           GROUP BY chapter, section
+           SELECT p.chapter, p.section, COUNT(*) AS count, MIN(p.rowid) AS first_row
+           ${from}
+           WHERE ${condition} AND p.chapter IS NOT NULL AND p.section IS NOT NULL
+           GROUP BY p.chapter, p.section
          )
          ORDER BY first_row`,
       )
-      .all(corpus) as Array<{
+      .all(...baseParameters) as Array<{
       chapter: string;
       section: string;
       count: number;
@@ -489,6 +655,55 @@ function readCorpusStructure(
     };
   }
   return null;
+}
+
+function hasAdditionalFilters(query: string, options: PoemSearchOptions): boolean {
+  return Boolean(query || options.authors?.length || options.lineType || options.sentenceCount !== undefined);
+}
+
+function selectPoems(query: string, options: PoemSearchOptions) {
+  if ([...query].length > 80) {
+    throw new Error("搜索内容不能超过 80 个字符");
+  }
+  const where: string[] = [];
+  const baseParameters: Array<string | number> = [];
+  if (query) {
+    where.push("poems_fts MATCH ?");
+    baseParameters.push(toFtsQuery(query));
+  }
+  if (options.corpus) {
+    where.push("p.corpus = ?");
+    baseParameters.push(options.corpus);
+  }
+  if (options.authors?.length) {
+    const authors = [...new Set(options.authors.map(normalizeSearchText))];
+    where.push(`p.author_normalized IN (${authors.map(() => "?").join(", ")})`);
+    baseParameters.push(...authors);
+  }
+  if (options.lineType) {
+    where.push("p.line_type = ?");
+    baseParameters.push(options.lineType);
+  }
+  if (options.sentenceCount !== undefined) {
+    where.push("p.sentence_count = ?");
+    baseParameters.push(options.sentenceCount);
+  }
+  return {
+    from: `FROM poems p ${query ? "JOIN poems_fts ON poems_fts.rowid = p.rowid" : ""}`,
+    condition: where.join(" AND "),
+    baseParameters,
+  };
+}
+
+function incrementCount<T>(counts: Map<T, number>, key: T) {
+  counts.set(key, (counts.get(key) ?? 0) + 1);
+}
+
+function rankedCounts(counts: Map<string, number>, limit: number): InsightDatum[] {
+  return [...counts].map(([label, value]) => ({ label, value }))
+    .sort((left, right) => right.value - left.value ||
+      (left.label < right.label ? -1 : left.label > right.label ? 1 : 0))
+    .slice(0, limit);
 }
 
 function mapCorpus(row: CorpusRow): Corpus {
@@ -508,6 +723,7 @@ function mapStats(row: StatsRow): CorpusStats {
     poemCount: row.poem_count,
     authorCount: row.author_count,
     characterCount: row.character_count,
+    sentenceCount: row.sentence_count,
     averageCharacters: row.average_characters,
   };
 }

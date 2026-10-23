@@ -162,6 +162,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  next@16.2.1: 7d2af5aebba9b6e4308e99c944dde73c9544a4c54d7bdca7ef75d32d463021d0
+
 importers:
 
   .:
@@ -174,7 +177,7 @@ importers:
         version: 0.468.0(react@19.2.0)
       next:
         specifier: 16.2.1
-        version: 16.2.1(@babel/core@7.29.7(supports-color@7.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        version: 16.2.1(patch_hash=7d2af5aebba9b6e4308e99c944dde73c9544a4c54d7bdca7ef75d32d463021d0)(@babel/core@7.29.7(supports-color@7.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       opencc-js:
         specifier: 1.4.2
         version: 1.4.2
@@ -4572,7 +4575,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@16.2.1(@babel/core@7.29.7(supports-color@7.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0):
+  next@16.2.1(patch_hash=7d2af5aebba9b6e4308e99c944dde73c9544a4c54d7bdca7ef75d32d463021d0)(@babel/core@7.29.7(supports-color@7.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0):
     dependencies:
       '@next/env': 16.2.1
       '@swc/helpers': 0.5.15

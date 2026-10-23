@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "@/app/globals.css";
-import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { FilterNavigationProvider } from "@/components/filter-navigation";
+import { getReleaseVersion } from "@/lib/data";
 import { siteUrl } from "@/lib/site";
 
 const themeScript = `
@@ -25,21 +26,22 @@ const persistedThemeScript = `
 
 export const metadata: Metadata = {
   title: {
-    default: "诗笺 · 中国古典诗词检索、阅读与探索",
-    template: "%s · 诗笺",
+    default: "中国古典诗词 · 检索、阅读与探索",
+    template: "%s · 中国古典诗词",
   },
   description: "中国古典诗词检索、阅读与探索。",
   metadataBase: new URL(siteUrl),
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    siteName: "诗笺",
+    siteName: "中国古典诗词",
   },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  interactiveWidget: "resizes-content",
   colorScheme: "light dark",
 };
 
@@ -62,11 +64,12 @@ export default function RootLayout({
         <a className="skip-link" href="#main-content">
           跳到主要内容
         </a>
-        <div className="site-frame">
-          <SiteHeader />
-          <main id="main-content">{children}</main>
-          <SiteFooter />
-        </div>
+        <FilterNavigationProvider>
+          <div className="site-frame">
+            <SiteHeader release={getReleaseVersion()} />
+            <main id="main-content">{children}</main>
+          </div>
+        </FilterNavigationProvider>
       </body>
     </html>
   );

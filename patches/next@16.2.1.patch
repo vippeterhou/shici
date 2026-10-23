@@ -1,0 +1,67 @@
+diff --git a/dist/client/components/router-reducer/ppr-navigations.js b/dist/client/components/router-reducer/ppr-navigations.js
+index a9c5ed84fb85aa7ee1b3d85f568cbfb4bd60a048..6452f0d0a15158d0d375d3bc4da69437934662e6 100644
+--- a/dist/client/components/router-reducer/ppr-navigations.js
++++ b/dist/client/components/router-reducer/ppr-navigations.js
+@@ -34,6 +34,7 @@ _export(exports, {
+ });
+ const _approutertypes = require("../../../shared/lib/app-router-types");
+ const _segment = require("../../../shared/lib/segment");
++const _routeparams = require("../../route-params");
+ const _matchsegments = require("../match-segments");
+ const _createhreffromurl = require("./create-href-from-url");
+ const _fetchserverresponse = require("./fetch-server-response");
+@@ -413,7 +414,7 @@ function createSegmentFromRouteTree(newRouteTree) {
+         }
+         // This is based on equivalent logic in addSearchParamsIfPageSegment, used
+         // on the server.
+-        const stringifiedQuery = JSON.stringify(Object.fromEntries(new URLSearchParams(renderedSearch)));
++        const stringifiedQuery = JSON.stringify((0, _routeparams.urlSearchParamsToParsedUrlQuery)(new URLSearchParams(renderedSearch)));
+         return stringifiedQuery !== '{}' ? _segment.PAGE_SEGMENT_KEY + '?' + stringifiedQuery : _segment.PAGE_SEGMENT_KEY;
+     }
+     return newRouteTree.segment;
+diff --git a/dist/client/route-params.js b/dist/client/route-params.js
+index 3afeefe9c575e4ac1d5f59b3bde6a6960324f8aa..90a1516c9c1e11619c97108d0454409da542e158 100644
+--- a/dist/client/route-params.js
++++ b/dist/client/route-params.js
+@@ -165,7 +165,7 @@ function getCacheKeyForDynamicParam(paramValue, renderedSearch) {
+         // TODO: Refactor or remove this helper function to accept a string rather
+         // than the whole segment type. Also we can probably just append the
+         // search string instead of turning it into JSON.
+-        const pageSegmentWithSearchParams = (0, _segment.addSearchParamsIfPageSegment)(paramValue, Object.fromEntries(new URLSearchParams(renderedSearch)));
++        const pageSegmentWithSearchParams = (0, _segment.addSearchParamsIfPageSegment)(paramValue, urlSearchParamsToParsedUrlQuery(new URLSearchParams(renderedSearch)));
+         return pageSegmentWithSearchParams;
+     } else if (paramValue === null) {
+         return '';
+diff --git a/dist/esm/client/components/router-reducer/ppr-navigations.js b/dist/esm/client/components/router-reducer/ppr-navigations.js
+index 508f8a1999298c1771c7ebf5f4715ec542d23d83..9c13733bfac3b9e06b678090b4c69ef8970f6f5e 100644
+--- a/dist/esm/client/components/router-reducer/ppr-navigations.js
++++ b/dist/esm/client/components/router-reducer/ppr-navigations.js
+@@ -1,5 +1,6 @@
+ import { PrefetchHint } from '../../../shared/lib/app-router-types';
+ import { PAGE_SEGMENT_KEY, DEFAULT_SEGMENT_KEY, NOT_FOUND_SEGMENT_KEY } from '../../../shared/lib/segment';
++import { urlSearchParamsToParsedUrlQuery } from '../../route-params';
+ import { matchSegment } from '../match-segments';
+ import { createHrefFromUrl } from './create-href-from-url';
+ import { fetchServerResponse } from './fetch-server-response';
+@@ -408,7 +409,7 @@ function createSegmentFromRouteTree(newRouteTree) {
+         }
+         // This is based on equivalent logic in addSearchParamsIfPageSegment, used
+         // on the server.
+-        const stringifiedQuery = JSON.stringify(Object.fromEntries(new URLSearchParams(renderedSearch)));
++        const stringifiedQuery = JSON.stringify(urlSearchParamsToParsedUrlQuery(new URLSearchParams(renderedSearch)));
+         return stringifiedQuery !== '{}' ? PAGE_SEGMENT_KEY + '?' + stringifiedQuery : PAGE_SEGMENT_KEY;
+     }
+     return newRouteTree.segment;
+diff --git a/dist/esm/client/route-params.js b/dist/esm/client/route-params.js
+index 462dfbdbb148cd0b4a42dbda0a86e89eaf466782..d279c51e7a9932c561576df936679c352a58c982 100644
+--- a/dist/esm/client/route-params.js
++++ b/dist/esm/client/route-params.js
+@@ -119,7 +119,7 @@ export function getCacheKeyForDynamicParam(paramValue, renderedSearch) {
+         // TODO: Refactor or remove this helper function to accept a string rather
+         // than the whole segment type. Also we can probably just append the
+         // search string instead of turning it into JSON.
+-        const pageSegmentWithSearchParams = addSearchParamsIfPageSegment(paramValue, Object.fromEntries(new URLSearchParams(renderedSearch)));
++        const pageSegmentWithSearchParams = addSearchParamsIfPageSegment(paramValue, urlSearchParamsToParsedUrlQuery(new URLSearchParams(renderedSearch)));
+         return pageSegmentWithSearchParams;
+     } else if (paramValue === null) {
+         return '';

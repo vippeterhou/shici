@@ -1,3 +1,5 @@
+export const NGRAM_CANDIDATE_LIMIT = 20_000;
+
 export class SpaceSaving {
   constructor(capacity) {
     this.capacity = capacity;
@@ -120,6 +122,6 @@ function incrementCandidate(counts, term) {
   }
 }
 
-function isHanCharacter(value) {
+export function isHanCharacter(value) {
   return /\p{Script=Han}/u.test(value) || value === "〇";
 }

@@ -9,6 +9,7 @@ node_modules/
 .next/
 data/*.sqlite
 data/*.sqlite-*
+data/*.sqlite.building*
 .data-downloads/
 npm-debug.log*
 *.tsbuildinfo

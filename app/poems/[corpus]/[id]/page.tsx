@@ -69,7 +69,7 @@ export default async function PoemPage({ params }: PoemPageProps) {
       />
       <header className="page-hero">
         <nav className="breadcrumbs" aria-label="面包屑">
-          <Link href="/corpora">文库</Link>
+          <Link href={`/corpora?corpus=${corpus.key}`}>高级搜索</Link>
           <span>/</span>
           <Link href={corpusHref(corpus.key)}>{corpus.name}</Link>
           <span>/</span>

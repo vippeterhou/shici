@@ -1,42 +1,66 @@
-import { Search } from "lucide-react";
+"use client";
+
+import Form from "next/form";
+import { ArrowRight, Search } from "lucide-react";
+import { useFormStatus } from "react-dom";
 
 interface SearchFormProps {
   defaultValue?: string;
-  compact?: boolean;
   corpus?: string;
   label?: string;
-  autoFocus?: boolean;
+  placeholder?: string;
 }
 
 export function SearchForm({
   defaultValue = "",
-  compact = false,
   corpus,
-  label = "搜索题目、作者、词牌、分类或正文",
-  autoFocus = false,
+  label = "搜索题目、作者、词牌或正文关键词",
+  placeholder = label,
 }: SearchFormProps) {
   return (
-    <form
-      className={`search-form${compact ? " search-form-compact" : ""}`}
-      action="/search"
+    <Form
+      className="search-form"
+      action="/"
+      scroll={false}
       role="search"
+      onSubmit={(event) => {
+        if (window.matchMedia("(pointer: coarse)").matches) {
+          event.currentTarget.querySelector<HTMLInputElement>('input[name="q"]')?.blur();
+        }
+      }}
     >
       <Search aria-hidden className="search-form-icon" />
-      <label className="sr-only" htmlFor={compact ? "header-search" : "search"}>
+      <label className="sr-only" htmlFor="search">
         {label}
       </label>
       <input
-        id={compact ? "header-search" : "search"}
+        key={defaultValue}
+        id="search"
         name="q"
         type="search"
+        enterKeyHint="search"
         defaultValue={defaultValue}
-        placeholder={label}
+        placeholder={placeholder}
         autoComplete="off"
-        autoFocus={autoFocus}
         maxLength={80}
       />
       {corpus ? <input type="hidden" name="corpus" value={corpus} /> : null}
-      <button type="submit">{compact ? "搜索" : "开始搜索"}</button>
-    </form>
+      <SearchSubmit />
+    </Form>
+  );
+}
+
+function SearchSubmit() {
+  const { pending } = useFormStatus();
+  return (
+    <button
+      className="button-primary"
+      type="submit"
+      disabled={pending}
+      aria-busy={pending}
+    >
+      {pending ? "搜索中…" : "搜索"}
+      <ArrowRight aria-hidden className="search-submit-icon" />
+    </button>
   );
 }

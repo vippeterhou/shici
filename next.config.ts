@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   output: "standalone",
   poweredByHeader: false,
   serverExternalPackages: ["better-sqlite3"],
+  async redirects() {
+    return [
+      { source: "/search", destination: "/", permanent: true },
+      { source: "/insights/:corpus", destination: "/insights?corpus=:corpus", permanent: true },
+    ];
+  },
   outputFileTracingExcludes: {
     "/*": [
       "./data/**/*",

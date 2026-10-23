@@ -1,5 +1,5 @@
 {
-  "name": "诗笺 · Next.js",
+  "name": "中国古典诗词 · Next.js",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   "customizations": {
     "codespaces": {
@@ -20,7 +20,7 @@
   },
   "portsAttributes": {
     "3000": {
-      "label": "诗笺",
+      "label": "中国古典诗词",
       "onAutoForward": "openPreview"
     }
   },

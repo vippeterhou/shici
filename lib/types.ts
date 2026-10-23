@@ -12,6 +12,7 @@ export interface CorpusStats {
   poemCount: number;
   authorCount: number;
   characterCount: number;
+  sentenceCount: number;
   averageCharacters: number;
 }
 
@@ -53,6 +54,15 @@ export interface PaginatedPoems {
 
 export interface SearchResponse extends PaginatedPoems {
   query: string;
+}
+
+export interface PoemSearchOptions {
+  corpus?: string;
+  authors?: string[];
+  lineType?: string;
+  sentenceCount?: number;
+  page?: number;
+  pageSize?: number;
 }
 
 export interface InsightDatum {

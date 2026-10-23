@@ -35,6 +35,7 @@ export function InsightChart({
               tick={{ fill: "var(--cp-text-muted)", fontSize: 11 }}
               axisLine={{ stroke: "var(--cp-border)" }}
               tickLine={false}
+              minTickGap={12}
             />
             <YAxis
               dataKey="label"
@@ -77,7 +78,8 @@ export function InsightChart({
             tick={{ fill: "var(--cp-text-muted)", fontSize: 11 }}
             axisLine={{ stroke: "var(--cp-border)" }}
             tickLine={false}
-            interval={0}
+            interval="preserveStartEnd"
+            minTickGap={12}
           />
           <YAxis
             tick={{ fill: "var(--cp-text-muted)", fontSize: 11 }}

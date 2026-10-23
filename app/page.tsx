@@ -1,95 +1,117 @@
 import Link from "next/link";
-import { BarChart3, BookOpenText, Search } from "lucide-react";
-import { CorpusCard } from "@/components/corpus-card";
+import { Pagination } from "@/components/pagination";
+import { PoemCard } from "@/components/poem-card";
 import { SearchForm } from "@/components/search-form";
-import { getCorpora, getDailyPoem } from "@/lib/data";
-import { poemHref } from "@/lib/format";
+import { getCorpora, searchPoems } from "@/lib/data";
+import { formatNumber } from "@/lib/format";
 
-export const revalidate = 86_400;
+interface HomePageProps {
+  searchParams: Promise<{
+    q?: string;
+    corpus?: string;
+    page?: string;
+  }>;
+}
 
-export default function HomePage() {
+export default async function HomePage({ searchParams }: HomePageProps) {
+  const parameters = await searchParams;
+  const query = parameters.q?.trim() ?? "";
+  const selectedCorpus = parameters.corpus ?? "";
   const corpora = getCorpora();
-  const dailyPoem = getDailyPoem();
+  const response = query
+    ? searchPoems(query, {
+        corpus: selectedCorpus || undefined,
+        page: Number.parseInt(parameters.page ?? "1", 10),
+      })
+    : null;
+  const selectedCorpusName = corpora.find(
+    (corpus) => corpus.key === selectedCorpus,
+  )?.name;
+
+  function resultHref(corpus: string, page = 1) {
+    const values = new URLSearchParams({ q: query });
+    if (corpus) {
+      values.set("corpus", corpus);
+    }
+    if (page > 1) {
+      values.set("page", String(page));
+    }
+    return `/?${values.toString()}`;
+  }
 
   return (
-    <>
-      <section className="hero">
-        <div className="page-shell hero-grid">
-          <div>
-            <p className="eyebrow">中国古典诗词</p>
-            <h1>循字句，与古人重逢</h1>
-            <p className="hero-lede">
-              在三十二万余首作品中搜索一句诗、一个名字或一种意象；
-              也可以沿时代与文集漫游，安静地读一首诗。
-            </p>
-            <div className="hero-search">
-              <SearchForm />
-              <p className="search-hint">
-                支持简繁体互搜 · 可搜索题目、作者、词牌、分类与正文
-              </p>
-            </div>
+    <div className={`search-page${response ? " search-page-results" : ""}`}>
+      <section className="hero" aria-labelledby="home-title">
+        <div className="page-shell hero-content">
+          <h1 id="home-title">中国古典诗词</h1>
+          <div className="hero-search">
+            <SearchForm
+              label="搜索诗词"
+              placeholder="字、词、句、题、名"
+              defaultValue={query}
+              corpus={selectedCorpus || undefined}
+            />
           </div>
-          <article className="daily-card">
-            <span className="daily-card-label">今日一首</span>
-            <h2>{dailyPoem.title}</h2>
-            <p className="daily-author">
-              {dailyPoem.author} · {dailyPoem.corpusName}
-            </p>
-            <p className="daily-excerpt">{dailyPoem.excerpt}</p>
+        </div>
+      </section>
+
+      {response ? (
+        <section className="page-shell search-results" aria-label="搜索结果">
+          <nav className="search-filters" aria-label="按文库筛选">
             <Link
-              className="text-link"
-              href={poemHref(dailyPoem.corpus, dailyPoem.id)}
+              className={`filter-link${!selectedCorpus ? " filter-link-active" : ""}`}
+              href={resultHref("")}
+              scroll={false}
+              aria-current={!selectedCorpus ? "page" : undefined}
             >
-              展开阅读 →
+              全部文库
             </Link>
-          </article>
-        </div>
-      </section>
-
-      <section className="section section-toned">
-        <div className="page-shell">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">按文库探索</p>
-              <h2>从时代与选本出发</h2>
-            </div>
-            <p>
-              每个文库拥有独立的浏览、筛选与数据概览；全库搜索则始终覆盖全部作品。
+            {corpora.map((corpus) => (
+              <Link
+                className={`filter-link${
+                  corpus.key === selectedCorpus ? " filter-link-active" : ""
+                }`}
+                href={resultHref(corpus.key)}
+                scroll={false}
+                aria-current={corpus.key === selectedCorpus ? "page" : undefined}
+                key={corpus.key}
+              >
+                {corpus.name}
+              </Link>
+            ))}
+          </nav>
+          <div className="results-summary">
+            <p role="status">
+              {selectedCorpusName ? `${selectedCorpusName}中` : ""}
+              找到 {formatNumber(response.total)} 首作品
             </p>
           </div>
-          <div className="corpus-grid">
-            {corpora.map((corpus) => (
-              <CorpusCard corpus={corpus} key={corpus.key} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-spaced page-shell">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">一种更自然的路径</p>
-            <h2>找得到，也读得进去</h2>
-          </div>
-        </div>
-        <div className="principle-grid">
-          <article className="surface-card">
-            <Search aria-hidden />
-            <h3>先搜索，再缩小范围</h3>
-            <p>简繁体自动匹配，用文库筛选结果，不必先猜作品属于哪里。</p>
-          </article>
-          <article className="surface-card">
-            <BookOpenText aria-hidden />
-            <h3>让正文成为主角</h3>
-            <p>专注阅读页弱化工具与图表，保留出处、篇章和结构信息。</p>
-          </article>
-          <article className="surface-card">
-            <BarChart3 aria-hidden />
-            <h3>需要时再看数据</h3>
-            <p>作者、句式与字频进入独立洞察空间，不打断日常浏览。</p>
-          </article>
-        </div>
-      </section>
-    </>
+          {response.items.length ? (
+            <>
+              <div className="poem-grid">
+                {response.items.map((poem) => (
+                  <PoemCard
+                    poem={poem}
+                    showCorpus
+                    query={query}
+                    key={poem.id}
+                  />
+                ))}
+              </div>
+              <Pagination
+                page={response.page}
+                pageCount={response.pageCount}
+                hrefForPage={(page) => resultHref(selectedCorpus, page)}
+              />
+            </>
+          ) : (
+            <div className="empty-state">
+              <h2>没有找到相符的作品</h2>
+              <p>试试更短的字句、作者姓名，或选择全部文库。</p>
+            </div>
+          )}
+        </section>
+      ) : null}
+    </div>
   );
 }
