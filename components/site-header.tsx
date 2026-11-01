@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link, { useLinkStatus } from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -79,10 +79,23 @@ function PrimaryNavigation({
             aria-current={isActive ? "page" : undefined}
             onNavigate={activeDraft?.cancelPending}
           >
-            {item.label}
+            <NavigationLabel label={item.label} />
           </Link>
         );
       })}
     </nav>
+  );
+}
+
+function NavigationLabel({ label }: { label: string }) {
+  const { pending } = useLinkStatus();
+  return (
+    <span className="primary-nav-label" aria-busy={pending}>
+      {label}
+      {pending && <span className="navigation-progress" aria-hidden="true" />}
+      <span className="sr-only" role="status">
+        {pending ? `正在打开${label}…` : ""}
+      </span>
+    </span>
   );
 }
