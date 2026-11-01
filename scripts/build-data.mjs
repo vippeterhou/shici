@@ -36,16 +36,10 @@ const corpusCatalog = [
     description: "中国最早的诗歌总集，循风、雅、颂进入先民的声音。",
   },
   {
-    key: "qinhan",
-    name: "秦汉诗",
-    era: "秦汉",
-    description: "从楚声余韵到汉乐府，见证古诗体式的生长。",
-  },
-  {
-    key: "wjnbc",
-    name: "魏晋南北朝诗",
-    era: "魏晋南北朝",
-    description: "山水、田园与玄言交汇，五言诗逐渐成熟。",
+    key: "hwlcs",
+    name: "汉魏六朝诗",
+    era: "汉魏六朝",
+    description: "从汉乐府到魏晋南北朝，循时代次序探索古诗体式与山水、田园的生长。",
   },
   {
     key: "ts300",

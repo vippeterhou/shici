@@ -1,12 +1,12 @@
 {
   "repository": "vippeterhou/shici-data",
-  "version": "v2.2.0",
+  "version": "v3.0.0",
   "schema_version": 3,
   "corpora": {
-    "qinhan": {
-      "asset": "qinhan.jsonl.gz",
-      "poem_count": 379,
-      "sha256": "ae5b25bd4df03aac1197a34af1d643e84aaa1c60b02f3354a9c0e5693ed031d9"
+    "hwlcs": {
+      "asset": "hwlcs.jsonl.gz",
+      "poem_count": 1554,
+      "sha256": "b9da59c158d6d8f4b413345e6831669549ac825e7df57271d8e47a7306fea3de"
     },
     "qsc": {
       "asset": "qsc.jsonl.gz",
@@ -37,11 +37,6 @@
       "asset": "ts300.jsonl.gz",
       "poem_count": 320,
       "sha256": "5839cab36110730ea5fc1796be5a63e0effcd6debd438301e08554cf6686694d"
-    },
-    "wjnbc": {
-      "asset": "wjnbc.jsonl.gz",
-      "poem_count": 1196,
-      "sha256": "7fdb5ce92f585b91e8cc99ddfc00536c71fd9f3f28337cb8448541c877ab6e46"
     }
   }
 }
