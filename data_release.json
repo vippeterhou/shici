@@ -1,6 +1,6 @@
 {
   "repository": "vippeterhou/shici-data",
-  "version": "v2.1.0",
+  "version": "v2.2.0",
   "schema_version": 3,
   "corpora": {
     "qinhan": {
@@ -10,13 +10,13 @@
     },
     "qsc": {
       "asset": "qsc.jsonl.gz",
-      "poem_count": 21032,
-      "sha256": "21438c287a3926ed7eb13e659a88b2869bb2be483a511469640950560f0f3fb3"
+      "poem_count": 21016,
+      "sha256": "d558bfe88568835ae9a04c3747134dea9a8a3fa942bfd21d0d225e3ccbb7eece"
     },
     "qss": {
       "asset": "qss.jsonl.gz",
-      "poem_count": 254223,
-      "sha256": "780a5f6e5e7baefe74ed90ff28f166e69ea74e66788f65bf4e4be40fe7388d34"
+      "poem_count": 254099,
+      "sha256": "46b2cb4efd7de901e6d12dc85a824c1f2f5584ce604e149c2e1e5ac5643039d4"
     },
     "qts": {
       "asset": "qts.jsonl.gz",
@@ -26,7 +26,7 @@
     "sc300": {
       "asset": "sc300.jsonl.gz",
       "poem_count": 283,
-      "sha256": "66cf9ea5a570ed511c954463ea0ba3a5b8c4163235c9cb2be0af3ae9929fddde"
+      "sha256": "78342d167e9b76e88cdbecd7630b11403b0fe1d5276529d2fa03a33f1df4f910"
     },
     "shijing": {
       "asset": "shijing.jsonl.gz",
