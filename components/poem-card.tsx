@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { poemHref } from "@/lib/format";
-import { findFirstSearchMatch } from "@/lib/search-normalization";
+import {
+  findFirstSearchMatch,
+  findSearchMatches,
+} from "@/lib/search-normalization";
 import type { PoemSummary } from "@/lib/types";
 
 export function PoemCard({
@@ -12,22 +15,31 @@ export function PoemCard({
   showCorpus?: boolean;
   query?: string;
 }) {
+  const matchingTags = query
+    ? poem.tags.filter((tag) => findFirstSearchMatch(tag, query))
+    : [];
+  const displayedTags = [
+    ...matchingTags,
+    ...poem.tags.filter((tag) => !matchingTags.includes(tag)),
+  ].slice(0, 2);
   return (
     <Link className="poem-card" href={poemHref(poem.corpus, poem.id)}>
       {showCorpus ? <span className="corpus-era">{poem.corpusName}</span> : null}
-      <h2>{poem.title}</h2>
-      <span className="poem-card-author">{poem.author}</span>
-      {poem.tags.length ? (
+      <h2><HighlightedText text={poem.title} query={query} /></h2>
+      <span className="poem-card-author">
+        <HighlightedText text={poem.author} query={query} />
+      </span>
+      {displayedTags.length ? (
         <span className="tag-list">
-          {poem.tags.slice(0, 2).map((tag) => (
+          {displayedTags.map((tag) => (
             <span className="tag" key={tag}>
-              {tag}
+              <HighlightedText text={tag} query={query} />
             </span>
           ))}
         </span>
       ) : null}
       <p className="poem-card-excerpt">
-        <HighlightedExcerpt text={poem.excerpt} query={query} />
+        <HighlightedText text={poem.excerpt} query={query} />
       </p>
       <span className="poem-card-meta">
         <span>{poem.sentenceCount} 句</span>
@@ -37,7 +49,7 @@ export function PoemCard({
   );
 }
 
-function HighlightedExcerpt({
+function HighlightedText({
   text,
   query,
 }: {
@@ -47,15 +59,21 @@ function HighlightedExcerpt({
   if (!query) {
     return text;
   }
-  const match = findFirstSearchMatch(text, query);
-  if (!match) {
+  const matches = findSearchMatches(text, query);
+  if (!matches.length) {
     return text;
   }
-  return (
-    <>
-      {text.slice(0, match.index)}
-      <mark>{text.slice(match.index, match.index + match.length)}</mark>
-      {text.slice(match.index + match.length)}
-    </>
-  );
+  const parts: React.ReactNode[] = [];
+  let offset = 0;
+  for (const match of matches) {
+    parts.push(text.slice(offset, match.index));
+    parts.push(
+      <mark key={`${match.index}-${match.length}`}>
+        {text.slice(match.index, match.index + match.length)}
+      </mark>,
+    );
+    offset = match.index + match.length;
+  }
+  parts.push(text.slice(offset));
+  return parts;
 }

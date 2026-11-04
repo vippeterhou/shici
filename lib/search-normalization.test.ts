@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   findFirstSearchMatch,
+  findSearchMatches,
   normalizeSearchText,
   toFtsQuery,
   tokenizeSearchText,
@@ -26,5 +27,23 @@ describe("search normalization", () => {
       index: 0,
       length: 2,
     });
+  });
+
+  it("maps supplementary simplified characters back to the original text", () => {
+    expect(findFirstSearchMatch("为絺为绤，服之无斁", "服之")).toEqual({
+      index: 5,
+      length: 2,
+    });
+    expect(findFirstSearchMatch("絺兮绤兮", "𫄨")).toEqual({
+      index: 0,
+      length: 1,
+    });
+  });
+
+  it("finds and merges all visible query matches", () => {
+    expect(findSearchMatches("明月照明月", "明 明月")).toEqual([
+      { index: 0, length: 2 },
+      { index: 3, length: 2 },
+    ]);
   });
 });

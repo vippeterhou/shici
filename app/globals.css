@@ -980,12 +980,16 @@ html[data-theme="dark"] .theme-icon-dark {
   margin: 1.35rem 0;
 }
 
-.poem-card-excerpt mark {
+.poem-card mark {
   background: var(--cp-highlight);
   border-radius: 0.2rem;
   color: var(--cp-text);
   font-weight: 700;
   padding: 0.05rem 0.12rem;
+}
+
+.tag mark {
+  color: inherit;
 }
 
 .poem-card-meta {
