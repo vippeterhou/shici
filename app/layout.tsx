@@ -26,7 +26,7 @@ const persistedThemeScript = `
 
 export const metadata: Metadata = {
   title: {
-    default: "中国古典诗词 · 检索、阅读与探索",
+    default: "中国古典诗词",
     template: "%s · 中国古典诗词",
   },
   description: "中国古典诗词检索、阅读与探索。",
