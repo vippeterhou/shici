@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAdjacentPoems, getCorpus, getPoem } from "@/lib/data";
-import { corpusHref, decodeRouteSegment, poemHref } from "@/lib/format";
+import {
+  corpusHref,
+  decodeRouteSegment,
+  formatNumber,
+  poemHref,
+} from "@/lib/format";
 import { displayLineType } from "@/lib/format-combinations";
 
 interface PoemPageProps {
@@ -127,6 +132,69 @@ export default async function PoemPage({ params }: PoemPageProps) {
               <dt>正文</dt>
               <dd>{poem.characterCount} 个汉字</dd>
             </div>
+            {corpus.recordCount !== corpus.poemCount ? (
+              <div>
+                <dt>全唐诗位置</dt>
+                <dd>
+                  {poem.volume && poem.volumeCount
+                    ? `第 ${formatNumber(poem.volume)} / ${formatNumber(poem.volumeCount)} 卷 · `
+                    : ""}
+                  第 {formatNumber(poem.recordPosition)} /{" "}
+                  {formatNumber(corpus.recordCount)} 条
+                </dd>
+              </div>
+            ) : null}
+            {poem.entries.length > 1 ? (
+              <div>
+                <dt>收录题名</dt>
+                <dd>
+                  {poem.entries.map((entry, index) => (
+                    <span key={entry.id}>
+                      {index ? " · " : ""}
+                      {entry.id === poem.id ? (
+                        <>
+                          {entry.title}
+                          {entry.volume
+                            ? `（第 ${formatNumber(entry.volume)} 卷）`
+                            : ""}
+                        </>
+                      ) : (
+                        <Link
+                          className="text-link"
+                          href={poemHref(poem.corpus, entry.id)}
+                        >
+                          {entry.title}
+                          {entry.volume
+                            ? `（第 ${formatNumber(entry.volume)} 卷）`
+                            : ""}
+                        </Link>
+                      )}
+                    </span>
+                  ))}
+                </dd>
+              </div>
+            ) : null}
+            {poem.alternateAttributions.length ? (
+              <div>
+                <dt>另有异署</dt>
+                <dd>
+                  {poem.alternateAttributions.map((entry, index) => (
+                    <span key={entry.id}>
+                      {index ? " · " : ""}
+                      <Link
+                        className="text-link"
+                        href={poemHref(poem.corpus, entry.id)}
+                      >
+                        {entry.author}《{entry.title}》
+                        {entry.volume
+                          ? `（第 ${formatNumber(entry.volume)} 卷）`
+                          : ""}
+                      </Link>
+                    </span>
+                  ))}
+                </dd>
+              </div>
+            ) : null}
             {poem.chapter ? (
               <div>
                 <dt>篇章</dt>

@@ -5,6 +5,7 @@ export interface Corpus {
   description: string;
   sortOrder: number;
   poemCount: number;
+  recordCount: number;
 }
 
 export interface CorpusStats {
@@ -18,6 +19,11 @@ export interface CorpusStats {
 
 export interface Poem {
   id: string;
+  workId: string;
+  textId: string;
+  recordPosition: number;
+  volume: number | null;
+  volumeCount: number | null;
   corpus: string;
   title: string;
   author: string;
@@ -30,6 +36,17 @@ export interface Poem {
   uniformSentenceLength: number | null;
   characterCount: number;
   lineType: string;
+  entries: Array<{
+    id: string;
+    title: string;
+    volume: number | null;
+  }>;
+  alternateAttributions: Array<{
+    id: string;
+    title: string;
+    author: string;
+    volume: number | null;
+  }>;
 }
 
 export interface PoemSummary {

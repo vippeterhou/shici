@@ -41,6 +41,7 @@ interface CorpusRow {
   description: string;
   sort_order: number;
   poem_count: number;
+  record_count: number;
 }
 
 interface StatsRow {
@@ -54,6 +55,11 @@ interface StatsRow {
 
 interface PoemRow {
   id: string;
+  work_id: string;
+  text_id: string;
+  record_position?: number;
+  volume?: number | null;
+  volume_count?: number | null;
   corpus: string;
   corpus_name?: string;
   title: string;
@@ -81,7 +87,7 @@ interface DatumRow {
 export const getCorpora = cache((): Corpus[] => {
   const rows = getDatabase()
     .prepare(
-      `SELECT key, name, era, description, sort_order, poem_count
+      `SELECT key, name, era, description, sort_order, poem_count, record_count
        FROM corpora
        ORDER BY sort_order`,
     )
@@ -92,7 +98,7 @@ export const getCorpora = cache((): Corpus[] => {
 export const getCorpus = cache((key: string): Corpus | null => {
   const row = getDatabase()
     .prepare(
-      `SELECT key, name, era, description, sort_order, poem_count
+      `SELECT key, name, era, description, sort_order, poem_count, record_count
        FROM corpora
        WHERE key = ?`,
     )
@@ -163,10 +169,14 @@ export function getFilteredAuthorOptions(
   const trimmedQuery = query.trim();
   const counts = new Map<string, number>();
   if (hasAdditionalFilters(trimmedQuery, criteria)) {
-    const { from, condition, baseParameters } = selectPoems(trimmedQuery, criteria);
+    const { withClause, from, condition, baseParameters } = selectPoems(
+      trimmedQuery,
+      criteria,
+    );
     const rows = readInsightRows(
       getDatabase(),
-      `SELECT p.author_normalized AS label, COUNT(*) AS value
+      `${withClause}
+       SELECT p.author_normalized AS label, COUNT(*) AS value
        ${from} WHERE ${condition}
        GROUP BY p.author_normalized`,
       ...baseParameters,
@@ -183,18 +193,61 @@ export function getFilteredAuthorOptions(
 export const getPoem = cache((corpus: string, id: string): Poem | null => {
   const row = getDatabase()
     .prepare(
-      `SELECT id, corpus, title, author, body, tags_json,
-              chapter, section, sentence_count, sentence_lengths_json,
-              uniform_sentence_length, character_count, line_type
-       FROM poems
-       WHERE corpus = ? AND id = ?`,
+      `SELECT p.id, p.work_id, p.text_id, p.volume, p.corpus, p.title,
+              p.author, p.body,
+              p.tags_json, p.chapter, p.section, p.sentence_count,
+              p.sentence_lengths_json, p.uniform_sentence_length,
+              p.character_count, p.line_type,
+              (
+                SELECT COUNT(*)
+                FROM poems position
+                WHERE position.corpus = p.corpus
+                  AND position.rowid <= p.rowid
+              ) AS record_position,
+              (
+                SELECT MAX(volume)
+                FROM poems volumes
+                WHERE volumes.corpus = p.corpus
+              ) AS volume_count
+       FROM poems p
+       WHERE p.corpus = ? AND p.id = ?`,
     )
     .get(corpus, id) as PoemRow | undefined;
   if (!row?.sentence_lengths_json || !row.line_type) {
     return null;
   }
+  const entries = getDatabase()
+    .prepare(
+      `SELECT id, title, volume
+       FROM poems
+       WHERE corpus = ? AND work_id = ?
+       ORDER BY rowid`,
+    )
+    .all(row.corpus, row.work_id) as Array<{
+      id: string;
+      title: string;
+      volume: number | null;
+    }>;
+  const alternateAttributions = getDatabase()
+    .prepare(
+      `SELECT id, title, author, volume
+       FROM works
+       WHERE corpus = ? AND text_id = ? AND work_id <> ?
+       ORDER BY rowid`,
+    )
+    .all(row.corpus, row.text_id, row.work_id) as Array<{
+      id: string;
+      title: string;
+      author: string;
+      volume: number | null;
+    }>;
   return {
     id: row.id,
+    workId: row.work_id,
+    textId: row.text_id,
+    recordPosition: row.record_position ?? 0,
+    volume: row.volume ?? null,
+    volumeCount: row.volume_count ?? null,
     corpus: row.corpus,
     title: row.title,
     author: row.author,
@@ -207,6 +260,8 @@ export const getPoem = cache((corpus: string, id: string): Poem | null => {
     uniformSentenceLength: row.uniform_sentence_length ?? null,
     characterCount: row.character_count,
     lineType: row.line_type,
+    entries,
+    alternateAttributions,
   };
 });
 
@@ -224,31 +279,31 @@ export function listCorpusPoems(
     MAX_PAGE_SIZE,
   );
   const author = options.author?.trim();
-  const where = ["p.corpus = ?"];
-  const parameters: Array<string | number> = [corpus];
-  if (author) {
-    where.push("p.author_normalized = ?");
-    parameters.push(normalizeSearchText(author));
-  }
+  const selection = selectPoems("", {
+    corpus,
+    authors: author ? [author] : undefined,
+  });
+  const { withClause, from, condition, baseParameters } = selection;
   const database = getDatabase();
   const total = (
     database
-      .prepare(`SELECT COUNT(*) AS count FROM poems p WHERE ${where.join(" AND ")}`)
-      .get(...parameters) as CountRow
+      .prepare(`${withClause} SELECT COUNT(*) AS count ${from} WHERE ${condition}`)
+      .get(...baseParameters) as CountRow
   ).count;
   const pageCount = Math.max(1, Math.ceil(total / pageSize));
   const page = Math.min(requestedPage, pageCount);
   const rows = database
     .prepare(
-      `SELECT p.id, p.corpus, c.name AS corpus_name, p.title, p.author,
+      `${withClause}
+       SELECT p.id, p.work_id, p.corpus, c.name AS corpus_name, p.title, p.author,
               p.body, p.tags_json, p.sentence_count, p.character_count
-       FROM poems p
+       ${from}
        JOIN corpora c ON c.key = p.corpus
-       WHERE ${where.join(" AND ")}
+       WHERE ${condition}
        ORDER BY p.rowid
        LIMIT ? OFFSET ?`,
     )
-    .all(...parameters, pageSize, (page - 1) * pageSize) as PoemRow[];
+    .all(...baseParameters, pageSize, (page - 1) * pageSize) as PoemRow[];
   return {
     items: rows.map((row) => mapSummary(row)),
     page,
@@ -278,13 +333,14 @@ export function searchPoems(
     positiveInteger(options.pageSize, DEFAULT_PAGE_SIZE),
     MAX_PAGE_SIZE,
   );
-  const normalizedQuery = normalizeSearchText(trimmedQuery);
-  const { from, condition, baseParameters } = selectPoems(trimmedQuery, options);
+  const selection = selectPoems(trimmedQuery, options);
+  const { withClause, from, condition, baseParameters } = selection;
   const database = getDatabase();
   const total = (
     database
       .prepare(
-        `SELECT COUNT(*) AS count
+        `${withClause}
+         SELECT COUNT(*) AS count
          ${from}
          WHERE ${condition}`,
       )
@@ -292,33 +348,18 @@ export function searchPoems(
   ).count;
   const pageCount = Math.max(1, Math.ceil(total / pageSize));
   const page = Math.min(requestedPage, pageCount);
-  const ranking = trimmedQuery
-    ? `,
-              CASE
-                WHEN p.title_normalized = ? THEN 0
-                WHEN p.author_normalized = ? THEN 1
-                WHEN instr(p.title_normalized, ?) > 0 THEN 2
-                WHEN instr(p.author_normalized, ?) > 0 THEN 3
-                ELSE 4
-              END AS exact_rank,
-              bm25(poems_fts, 12.0, 8.0, 6.0, 4.0, 1.0) AS text_rank`
-    : "";
-  const rankingParameters = trimmedQuery
-    ? [normalizedQuery, normalizedQuery, normalizedQuery, normalizedQuery]
-    : [];
   const rows = database
     .prepare(
-      `SELECT p.id, p.corpus, c.name AS corpus_name, p.title, p.author,
+      `${withClause}
+       SELECT p.id, p.work_id, p.corpus, c.name AS corpus_name, p.title, p.author,
               p.body, p.tags_json, p.sentence_count, p.character_count
-              ${ranking}
        ${from}
        JOIN corpora c ON c.key = p.corpus
        WHERE ${condition}
-       ORDER BY ${trimmedQuery ? "exact_rank, text_rank, p.character_count," : ""} p.rowid
+       ORDER BY ${selection.orderBy}
        LIMIT ? OFFSET ?`,
     )
     .all(
-      ...rankingParameters,
       ...baseParameters,
       pageSize,
       (page - 1) * pageSize,
@@ -435,9 +476,13 @@ export function getFilteredCorpusStats(
   const trimmedQuery = query.trim();
   if (!hasAdditionalFilters(trimmedQuery, options)) return getCorpusStats(options.corpus);
   if (!getCorpus(options.corpus)) return null;
-  const { from, condition, baseParameters } = selectPoems(trimmedQuery, options);
+  const { withClause, from, condition, baseParameters } = selectPoems(
+    trimmedQuery,
+    options,
+  );
   const row = getDatabase().prepare(
-    `SELECT COUNT(*) AS poem_count,
+    `${withClause}
+     SELECT COUNT(*) AS poem_count,
             COUNT(DISTINCT p.author_normalized) AS author_count,
             COALESCE(SUM(p.character_count), 0) AS character_count,
             COALESCE(SUM(p.sentence_count), 0) AS sentence_count,
@@ -459,9 +504,10 @@ export function getFilteredCorpusInsights(
   if (!corpus) return null;
   const selection = selectPoems(trimmedQuery, options);
   const database = getDatabase();
-  const { from, condition, baseParameters } = selection;
+  const { withClause, from, condition, baseParameters } = selection;
   const rows = database.prepare(
-    `SELECT p.author, p.author_normalized, p.body, p.sentence_count,
+    `${withClause}
+     SELECT p.author, p.author_normalized, p.body, p.sentence_count,
             p.character_count, p.line_type
      ${from} WHERE ${condition} ORDER BY p.rowid`,
   );
@@ -513,7 +559,9 @@ export function getFilteredCorpusInsights(
   // Use the same bounded candidates and exact second pass as the data build.
   const bigrams = new Map([...bigramCandidates.tokens()].map((term) => [term, 0]));
   const trigrams = new Map([...trigramCandidates.tokens()].map((term) => [term, 0]));
-  const bodies = database.prepare(`SELECT p.body ${from} WHERE ${condition}`);
+  const bodies = database.prepare(
+    `${withClause} SELECT p.body ${from} WHERE ${condition}`,
+  );
   for (const value of bodies.iterate(...baseParameters)) {
     const { body } = value as { body: string };
     countCandidateNgrams(body, bigrams, trigrams);
@@ -560,7 +608,7 @@ export function getAdjacentPoems(
     return { previous: null, next: null };
   }
   const selection = `
-    SELECT p.id, p.corpus, c.name AS corpus_name, p.title, p.author,
+    SELECT p.id, p.work_id, p.corpus, c.name AS corpus_name, p.title, p.author,
            p.body, p.tags_json, p.sentence_count, p.character_count
     FROM poems p
     JOIN corpora c ON c.key = p.corpus
@@ -603,13 +651,14 @@ function readCorpusStructure(
   corpus: string,
   selection = selectPoems("", { corpus }),
 ): CorpusStructure | null {
-  const { from, condition, baseParameters } = selection;
+  const { withClause, from, condition, baseParameters } = selection;
   if (corpus === "sc300" || corpus === "qsc") {
     return {
       kind: "tunes",
       data: readInsightRows(
         database,
-        `SELECT tune AS label, COUNT(*) AS value
+        `${withClause}
+         SELECT tune AS label, COUNT(*) AS value
          FROM (
            SELECT CASE
              WHEN instr(p.title, '·') > 0
@@ -631,7 +680,8 @@ function readCorpusStructure(
   if (corpus === "shijing") {
     const data = database
       .prepare(
-        `SELECT chapter, section, count
+        `${withClause}
+         SELECT chapter, section, count
          FROM (
            SELECT p.chapter, p.section, COUNT(*) AS count, MIN(p.rowid) AS first_row
            ${from}
@@ -666,32 +716,66 @@ function selectPoems(query: string, options: PoemSearchOptions) {
     throw new Error("搜索内容不能超过 80 个字符");
   }
   const where: string[] = [];
-  const baseParameters: Array<string | number> = [];
+  const filterParameters: Array<string | number> = [];
   if (query) {
     where.push("poems_fts MATCH ?");
-    baseParameters.push(toFtsQuery(query));
+    filterParameters.push(toFtsQuery(query));
   }
   if (options.corpus) {
     where.push("p.corpus = ?");
-    baseParameters.push(options.corpus);
+    filterParameters.push(options.corpus);
   }
   if (options.authors?.length) {
     const authors = [...new Set(options.authors.map(normalizeSearchText))];
     where.push(`p.author_normalized IN (${authors.map(() => "?").join(", ")})`);
-    baseParameters.push(...authors);
+    filterParameters.push(...authors);
   }
   if (options.lineType) {
     where.push("p.line_type = ?");
-    baseParameters.push(options.lineType);
+    filterParameters.push(options.lineType);
   }
   if (options.sentenceCount !== undefined) {
     where.push("p.sentence_count = ?");
-    baseParameters.push(options.sentenceCount);
+    filterParameters.push(options.sentenceCount);
   }
+  const normalizedQuery = normalizeSearchText(query);
+  const ranking = query
+    ? `CASE
+         WHEN p.title_normalized = ? THEN 0
+         WHEN p.author_normalized = ? THEN 1
+         WHEN instr(p.title_normalized, ?) > 0 THEN 2
+         WHEN instr(p.author_normalized, ?) > 0 THEN 3
+         ELSE 4
+       END AS exact_rank,
+       bm25(poems_fts, 12.0, 8.0, 6.0, 4.0, 1.0) AS text_rank`
+    : "0 AS exact_rank, 0 AS text_rank";
+  const rankingParameters = query
+    ? [normalizedQuery, normalizedQuery, normalizedQuery, normalizedQuery]
+    : [];
+  const matchSource = `FROM poems p ${
+    query ? "JOIN poems_fts ON poems_fts.rowid = p.rowid" : ""
+  }`;
+  const matchCondition = where.length ? where.join(" AND ") : "1 = 1";
   return {
-    from: `FROM poems p ${query ? "JOIN poems_fts ON poems_fts.rowid = p.rowid" : ""}`,
-    condition: where.join(" AND "),
-    baseParameters,
+    withClause: `WITH matching_poems AS (
+      SELECT p.rowid AS rowid, p.*, ${ranking}
+      ${matchSource}
+      WHERE ${matchCondition}
+    ),
+    selected_poems AS (
+      SELECT matching_poems.*,
+             ROW_NUMBER() OVER (
+               PARTITION BY work_id
+               ORDER BY exact_rank, text_rank, character_count, rowid
+             ) AS work_rank
+      FROM matching_poems
+    )`,
+    from: "FROM selected_poems p",
+    condition: "p.work_rank = 1",
+    baseParameters: [...rankingParameters, ...filterParameters],
+    orderBy: query
+      ? "p.exact_rank, p.text_rank, p.character_count, p.rowid"
+      : "p.rowid",
   };
 }
 
@@ -714,6 +798,7 @@ function mapCorpus(row: CorpusRow): Corpus {
     description: row.description,
     sortOrder: row.sort_order,
     poemCount: row.poem_count,
+    recordCount: row.record_count,
   };
 }
 

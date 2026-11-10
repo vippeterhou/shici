@@ -68,6 +68,12 @@ export default async function CorpusPage({
             <span>作品</span>
             <strong>{formatNumber(stats.poemCount)}</strong>
           </div>
+          {corpus.recordCount !== corpus.poemCount ? (
+            <div className="stat-card">
+              <span>收录记录</span>
+              <strong>{formatNumber(corpus.recordCount)}</strong>
+            </div>
+          ) : null}
           <div className="stat-card">
             <span>作者</span>
             <strong>{formatNumber(stats.authorCount)}</strong>

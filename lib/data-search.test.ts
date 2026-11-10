@@ -1,6 +1,16 @@
 import Database from "better-sqlite3";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { getCorpusInsights, getCorpusSearchOptions, getFilteredAuthorOptions, getFilteredCorpusInsights, getFilteredCorpusStats, searchPoems } from "@/lib/data";
+import {
+  getCorpusInsights,
+  getCorpusSearchOptions,
+  getFilteredAuthorOptions,
+  getFilteredCorpusInsights,
+  getFilteredCorpusStats,
+  getAdjacentPoems,
+  getPoem,
+  listCorpusPoems,
+  searchPoems,
+} from "@/lib/data";
 import { normalizeSearchText, tokenizeSearchText } from "@/lib/search-normalization";
 import type { PoemSearchOptions } from "@/lib/types";
 import { isHanCharacter } from "@/scripts/ngrams.mjs";
@@ -18,18 +28,25 @@ function addPoem(record: {
   lineType: string;
   sentences: number;
   title?: string;
+  workId?: string;
+  textId?: string;
+  volume?: number;
   chapter?: string;
   section?: string;
 }) {
   const title = record.title ?? `作品${record.id}`;
   const result = database.prepare(`
     INSERT INTO poems (
-      id, corpus, title, author, body, tags_json, sentence_count,
+      id, work_id, text_id, volume, corpus, title, author, body, tags_json,
+      sentence_count,
       character_count, line_type, title_normalized, author_normalized,
       chapter, section
-    ) VALUES (?, ?, ?, ?, ?, '[]', ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, '[]', ?, ?, ?, ?, ?, ?, ?)
   `).run(
-    record.id, record.corpus, title, record.author, record.body,
+    record.id, record.workId ?? record.id,
+    record.textId ?? record.workId ?? record.id, record.volume ?? null,
+    record.corpus, title,
+    record.author, record.body,
     record.sentences, [...record.body].filter(isHanCharacter).length,
     record.lineType, normalizeSearchText(title), normalizeSearchText(record.author),
     record.chapter ?? null, record.section ?? null,
@@ -49,14 +66,22 @@ beforeEach(() => {
     CREATE TABLE corpora (
       key TEXT PRIMARY KEY, name TEXT, era TEXT DEFAULT '',
       description TEXT DEFAULT '', sort_order INTEGER DEFAULT 0,
-      poem_count INTEGER DEFAULT 0
+      poem_count INTEGER DEFAULT 0, record_count INTEGER DEFAULT 0
     );
     CREATE TABLE poems (
-      id TEXT, corpus TEXT, title TEXT, author TEXT, body TEXT,
+      id TEXT, work_id TEXT, text_id TEXT, volume INTEGER, corpus TEXT, title TEXT,
+      author TEXT, body TEXT,
       tags_json TEXT, sentence_count INTEGER, character_count INTEGER,
       line_type TEXT, title_normalized TEXT, author_normalized TEXT,
-      chapter TEXT, section TEXT
+      chapter TEXT, section TEXT, sentence_lengths_json TEXT DEFAULT '[]',
+      uniform_sentence_length INTEGER
     );
+    CREATE VIEW works AS
+      SELECT p.rowid AS rowid, p.* FROM poems p
+      JOIN (
+        SELECT corpus, work_id, MIN(rowid) AS rowid
+        FROM poems GROUP BY corpus, work_id
+      ) representative ON representative.rowid = p.rowid;
     CREATE VIRTUAL TABLE poems_fts USING fts5(title, author, tune, tags, body);
     INSERT INTO corpora (key, name) VALUES ('qts', '全唐诗'), ('qss', '全宋诗'),
       ('shijing', '诗经'), ('sc300', '宋词三百首'), ('qsc', '全宋词');
@@ -86,7 +111,9 @@ beforeEach(() => {
       FROM poems GROUP BY corpus, sentence_count, line_type;
     CREATE TABLE character_stats (corpus TEXT, character TEXT, count INTEGER);
     CREATE TABLE text_frequency_stats (corpus TEXT, size INTEGER, term TEXT, count INTEGER);
-    UPDATE corpora SET poem_count = (SELECT COUNT(*) FROM poems WHERE corpus = corpora.key);
+    UPDATE corpora SET
+      poem_count = (SELECT COUNT(DISTINCT work_id) FROM poems WHERE corpus = corpora.key),
+      record_count = (SELECT COUNT(*) FROM poems WHERE corpus = corpora.key);
   `);
 });
 
@@ -271,6 +298,75 @@ describe("live author facet counts", () => {
 });
 
 describe("advanced poem search", () => {
+  it("groups QTS entries by work while preserving every title", () => {
+    addPoem({
+      id: "7",
+      workId: "qts-work:shared",
+      textId: "qts-text:shared",
+      volume: 19,
+      corpus: "qts",
+      title: "相和歌辞：王昭君",
+      author: "上官儀",
+      body: "玉關春色晚",
+      lineType: "5言",
+      sentences: 8,
+    });
+    addPoem({
+      id: "8",
+      workId: "qts-work:shared",
+      textId: "qts-text:shared",
+      volume: 40,
+      corpus: "qts",
+      title: "王昭君",
+      author: "上官儀",
+      body: "玉關春色晚",
+      lineType: "5言",
+      sentences: 8,
+    });
+    addPoem({
+      id: "9",
+      workId: "qts-work:other-author",
+      textId: "qts-text:shared",
+      volume: 95,
+      corpus: "qts",
+      title: "王昭君",
+      author: "另一作者",
+      body: "玉關春色晚",
+      lineType: "5言",
+      sentences: 8,
+    });
+
+    expect(searchPoems("", { corpus: "qts" }).total).toBe(6);
+    expect(listCorpusPoems("qts").total).toBe(6);
+    expect(searchPoems("王昭君", { corpus: "qts" }).total).toBe(2);
+    expect(searchPoems("王昭君", { corpus: "qts" }).items[0]?.id).toBe("8");
+    expect(getPoem("qts", "7")?.entries).toEqual([
+      { id: "7", title: "相和歌辞：王昭君", volume: 19 },
+      { id: "8", title: "王昭君", volume: 40 },
+    ]);
+    expect(getPoem("qts", "7")?.volume).toBe(19);
+    expect(getPoem("qts", "8")?.volume).toBe(40);
+    expect(getPoem("qts", "7")?.volumeCount).toBe(95);
+    expect(getPoem("qts", "7")?.alternateAttributions).toEqual([
+      {
+        id: "9",
+        title: "王昭君",
+        author: "另一作者",
+        volume: 95,
+      },
+    ]);
+    expect(getPoem("qts", "7")?.recordPosition).toBe(5);
+    expect(getPoem("qts", "8")?.recordPosition).toBe(6);
+    expect(getAdjacentPoems("qts", "7")).toMatchObject({
+      previous: { id: "4" },
+      next: { id: "8" },
+    });
+    expect(getAdjacentPoems("qts", "8")).toMatchObject({
+      previous: { id: "7" },
+      next: { id: "9" },
+    });
+  });
+
   it("browses one corpus without requiring keywords", () => {
     expect(searchPoems("", { corpus: "qts" }).total).toBe(4);
     expect(searchPoems("").items).toEqual([]);

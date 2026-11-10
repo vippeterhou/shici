@@ -14,7 +14,7 @@ import {
   SpaceSaving,
 } from "./ngrams.mjs";
 
-const INDEX_SCHEMA_VERSION = 4;
+const INDEX_SCHEMA_VERSION = 8;
 const FREQUENCY_DISPLAY_LIMIT = 100;
 
 const root = resolve(import.meta.dirname, "..");
@@ -96,17 +96,21 @@ database.pragma("cache_size = -131072");
 createSchema(database);
 
 const insertCorpus = database.prepare(`
-  INSERT INTO corpora (key, name, era, description, sort_order, poem_count)
-  VALUES (@key, @name, @era, @description, @sortOrder, @poemCount)
+  INSERT INTO corpora (
+    key, name, era, description, sort_order, poem_count, record_count
+  )
+  VALUES (
+    @key, @name, @era, @description, @sortOrder, @poemCount, @recordCount
+  )
 `);
 const insertPoem = database.prepare(`
   INSERT INTO poems (
-    id, corpus, title, author, body, tags_json,
+    id, work_id, text_id, volume, corpus, title, author, body, tags_json,
     chapter, section, sentence_count, sentence_lengths_json,
     uniform_sentence_length, character_count, line_type,
     title_normalized, author_normalized
   ) VALUES (
-    @id, @corpus, @title, @author, @body, @tagsJson,
+    @id, @workId, @textId, @volume, @corpus, @title, @author, @body, @tagsJson,
     @chapter, @section, @sentenceCount, @sentenceLengthsJson,
     @uniformSentenceLength, @characterCount, @lineType,
     @titleNormalized, @authorNormalized
@@ -130,10 +134,12 @@ for (const [sortOrder, corpus] of corpusCatalog.entries()) {
     ...corpus,
     sortOrder,
     poemCount: asset.poem_count,
+    recordCount: asset.poem_count,
   });
   const characterCounts = new Map();
   const bigramCandidates = new SpaceSaving(NGRAM_CANDIDATE_LIMIT);
   const trigramCandidates = new SpaceSaving(NGRAM_CANDIDATE_LIMIT);
+  const seenWorkIds = new Set();
   let importedCount = 0;
 
   const transaction = database.transaction((records) => {
@@ -153,8 +159,15 @@ for (const [sortOrder, corpus] of corpusCatalog.entries()) {
         : "杂言";
       const titleNormalized = normalizeText(record.title);
       const authorNormalized = normalizeText(record.author);
+      const workId = record.work_id ?? record.id;
+      const textId = record.text_id ?? workId;
+      const isNewWork = !seenWorkIds.has(workId);
+      seenWorkIds.add(workId);
       const result = insertPoem.run({
         id: record.id,
+        workId,
+        textId,
+        volume: record.volume ?? null,
         corpus: corpus.key,
         title: record.title,
         author: record.author,
@@ -181,16 +194,18 @@ for (const [sortOrder, corpus] of corpusCatalog.entries()) {
         tags: tokenizeSearch(normalizeText(tags.join(" "))),
         body: tokenizeSearch(normalizeText(body)),
       });
-      for (const character of body) {
-        if (isHanCharacter(character)) {
-          characterCounts.set(
-            character,
-            (characterCounts.get(character) ?? 0) + 1,
-          );
+      if (isNewWork) {
+        for (const character of body) {
+          if (isHanCharacter(character)) {
+            characterCounts.set(
+              character,
+              (characterCounts.get(character) ?? 0) + 1,
+            );
+          }
         }
-      }
-      for (const paragraph of paragraphs) {
-        collectNgrams(paragraph, bigramCandidates, trigramCandidates);
+        for (const paragraph of paragraphs) {
+          collectNgrams(paragraph, bigramCandidates, trigramCandidates);
+        }
       }
       importedCount += 1;
     }
@@ -217,6 +232,10 @@ for (const [sortOrder, corpus] of corpusCatalog.entries()) {
       `${corpus.key} count mismatch: expected ${asset.poem_count}, got ${importedCount}`,
     );
   }
+  database.prepare("UPDATE corpora SET poem_count = ? WHERE key = ?").run(
+    seenWorkIds.size,
+    corpus.key,
+  );
 
   const insertCharacter = database.prepare(`
     INSERT INTO character_stats (corpus, character, count)
@@ -236,7 +255,12 @@ for (const [sortOrder, corpus] of corpusCatalog.entries()) {
     bigramCandidates.tokens(),
     trigramCandidates.tokens(),
   );
-  console.log(`Imported ${corpus.name}: ${importedCount.toLocaleString()} works`);
+  const recordDetail = importedCount === seenWorkIds.size
+    ? ""
+    : ` from ${importedCount.toLocaleString()} records`;
+  console.log(
+    `Imported ${corpus.name}: ${seenWorkIds.size.toLocaleString()} works${recordDetail}`,
+  );
 }
 
 buildStatistics(database);
@@ -270,11 +294,15 @@ function createSchema(db) {
       era TEXT NOT NULL,
       description TEXT NOT NULL,
       sort_order INTEGER NOT NULL,
-      poem_count INTEGER NOT NULL
+      poem_count INTEGER NOT NULL,
+      record_count INTEGER NOT NULL
     );
     CREATE TABLE poems (
       rowid INTEGER PRIMARY KEY,
       id TEXT NOT NULL UNIQUE,
+      work_id TEXT NOT NULL,
+      text_id TEXT NOT NULL,
+      volume INTEGER,
       corpus TEXT NOT NULL REFERENCES corpora(key),
       title TEXT NOT NULL,
       author TEXT NOT NULL,
@@ -290,6 +318,14 @@ function createSchema(db) {
       title_normalized TEXT NOT NULL,
       author_normalized TEXT NOT NULL
     );
+    CREATE VIEW works AS
+    SELECT p.rowid AS rowid, p.*
+    FROM poems p
+    JOIN (
+      SELECT corpus, work_id, MIN(rowid) AS rowid
+      FROM poems
+      GROUP BY corpus, work_id
+    ) representative ON representative.rowid = p.rowid;
     CREATE VIRTUAL TABLE poems_fts USING fts5(
       title,
       author,
@@ -345,6 +381,8 @@ function createSchema(db) {
       PRIMARY KEY (corpus, size, term)
     );
     CREATE INDEX poems_corpus_rowid ON poems(corpus, rowid);
+    CREATE INDEX poems_corpus_work_id ON poems(corpus, work_id);
+    CREATE INDEX poems_corpus_text_id ON poems(corpus, text_id);
     CREATE INDEX poems_corpus_author ON poems(corpus, author_normalized);
     CREATE INDEX poems_title_normalized ON poems(title_normalized);
     CREATE INDEX poems_author_normalized ON poems(author_normalized);
@@ -360,27 +398,27 @@ function buildStatistics(db) {
       COUNT(DISTINCT author_normalized),
       SUM(character_count),
       AVG(character_count)
-    FROM poems
+    FROM works
     GROUP BY corpus;
 
     INSERT INTO author_stats
     SELECT corpus, author, COUNT(*)
-    FROM poems
+    FROM works
     GROUP BY corpus, author;
 
     INSERT INTO sentence_stats
     SELECT corpus, sentence_count, COUNT(*)
-    FROM poems
+    FROM works
     GROUP BY corpus, sentence_count;
 
     INSERT INTO line_stats
     SELECT corpus, line_type, COUNT(*)
-    FROM poems
+    FROM works
     GROUP BY corpus, line_type;
 
     INSERT INTO format_combination_stats
     SELECT corpus, sentence_count, line_type, COUNT(*)
-    FROM poems
+    FROM works
     GROUP BY corpus, sentence_count, line_type;
   `);
 }
@@ -498,7 +536,7 @@ function storeTextFrequencies(
     [...trigramCandidateTerms].map((term) => [term, 0]),
   );
   const rows = database
-    .prepare("SELECT body FROM poems WHERE corpus = ?")
+    .prepare("SELECT body FROM works WHERE corpus = ?")
     .iterate(corpus);
   for (const { body } of rows) {
     countCandidateNgrams(body, bigramCounts, trigramCounts);
@@ -520,11 +558,22 @@ function storeTextFrequencies(
 }
 
 function validateRecord(record, corpus) {
+  const validWorkId = typeof record?.work_id === "string" &&
+    record.work_id.startsWith(`${corpus}-work:`);
+  const validTextId = typeof record?.text_id === "string" &&
+    record.text_id.startsWith(`${corpus}-text:`);
+  const validVolume = Number.isInteger(record?.volume) && record.volume > 0;
   if (
     !record ||
     typeof record !== "object" ||
     typeof record.id !== "string" ||
     !record.id.startsWith(`${corpus}:`) ||
+    (record.work_id !== undefined && !validWorkId) ||
+    (manifest.schema_version >= 4 && corpus === "qts" && !validWorkId) ||
+    (record.text_id !== undefined && !validTextId) ||
+    (manifest.schema_version >= 4 && corpus === "qts" && !validTextId) ||
+    (record.volume !== undefined && !validVolume) ||
+    (manifest.schema_version >= 4 && corpus === "qts" && !validVolume) ||
     typeof record.title !== "string" ||
     typeof record.author !== "string" ||
     !Array.isArray(record.paragraphs) ||
