@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAdjacentPoems, getCorpus, getPoem } from "@/lib/data";
 import { corpusHref, decodeRouteSegment, poemHref } from "@/lib/format";
+import { displayLineType } from "@/lib/format-combinations";
 
 interface PoemPageProps {
   params: Promise<{ corpus: string; id: string }>;
@@ -42,10 +43,6 @@ export default async function PoemPage({ params }: PoemPageProps) {
     notFound();
   }
   const adjacent = getAdjacentPoems(corpusKey, id);
-  const sentencePattern =
-    poem.uniformSentenceLength === null
-      ? poem.sentenceLengths.join("–")
-      : `${poem.uniformSentenceLength} 字`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CreativeWork",
@@ -123,12 +120,8 @@ export default async function PoemPage({ params }: PoemPageProps) {
             <div>
               <dt>结构</dt>
               <dd>
-                {poem.sentenceCount} 句 · {poem.lineType}
+                {poem.sentenceCount} 句 · {displayLineType(poem.lineType)}
               </dd>
-            </div>
-            <div>
-              <dt>句式</dt>
-              <dd>{sentencePattern}</dd>
             </div>
             <div>
               <dt>正文</dt>
