@@ -134,7 +134,7 @@ export default async function PoemPage({ params }: PoemPageProps) {
             </div>
             {corpus.recordCount !== corpus.poemCount ? (
               <div>
-                <dt>全唐诗位置</dt>
+                <dt>{corpus.name}位置</dt>
                 <dd>
                   {poem.volume && poem.volumeCount
                     ? `第 ${formatNumber(poem.volume)} / ${formatNumber(poem.volumeCount)} 卷 · `

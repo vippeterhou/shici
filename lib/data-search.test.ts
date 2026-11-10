@@ -367,6 +367,57 @@ describe("advanced poem search", () => {
     });
   });
 
+  it("groups QSS entries by work and links alternate attributions", () => {
+    addPoem({
+      id: "qss-1",
+      workId: "qss-work:shared",
+      textId: "qss-text:shared",
+      corpus: "qss",
+      title: "题名之一",
+      author: "作者甲",
+      body: "天地玄黄",
+      lineType: "4言",
+      sentences: 1,
+    });
+    addPoem({
+      id: "qss-2",
+      workId: "qss-work:shared",
+      textId: "qss-text:shared",
+      corpus: "qss",
+      title: "题名之二",
+      author: "作者甲",
+      body: "天地玄黄",
+      lineType: "4言",
+      sentences: 1,
+    });
+    addPoem({
+      id: "qss-3",
+      workId: "qss-work:other-author",
+      textId: "qss-text:shared",
+      corpus: "qss",
+      title: "另一题名",
+      author: "作者乙",
+      body: "天地玄黄",
+      lineType: "4言",
+      sentences: 1,
+    });
+
+    expect(searchPoems("天地玄黄", { corpus: "qss" }).total).toBe(2);
+    expect(listCorpusPoems("qss").total).toBe(4);
+    expect(getPoem("qss", "qss-1")?.entries).toEqual([
+      { id: "qss-1", title: "题名之一", volume: null },
+      { id: "qss-2", title: "题名之二", volume: null },
+    ]);
+    expect(getPoem("qss", "qss-1")?.alternateAttributions).toEqual([
+      {
+        id: "qss-3",
+        title: "另一题名",
+        author: "作者乙",
+        volume: null,
+      },
+    ]);
+  });
+
   it("browses one corpus without requiring keywords", () => {
     expect(searchPoems("", { corpus: "qts" }).total).toBe(4);
     expect(searchPoems("").items).toEqual([]);

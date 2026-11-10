@@ -14,7 +14,7 @@ import {
   SpaceSaving,
 } from "./ngrams.mjs";
 
-const INDEX_SCHEMA_VERSION = 8;
+const INDEX_SCHEMA_VERSION = 9;
 const FREQUENCY_DISPLAY_LIMIT = 100;
 
 const root = resolve(import.meta.dirname, "..");
@@ -563,15 +563,17 @@ function validateRecord(record, corpus) {
   const validTextId = typeof record?.text_id === "string" &&
     record.text_id.startsWith(`${corpus}-text:`);
   const validVolume = Number.isInteger(record?.volume) && record.volume > 0;
+  const requiresIdentity = (manifest.schema_version >= 4 && corpus === "qts") ||
+    (manifest.schema_version >= 5 && corpus === "qss");
   if (
     !record ||
     typeof record !== "object" ||
     typeof record.id !== "string" ||
     !record.id.startsWith(`${corpus}:`) ||
     (record.work_id !== undefined && !validWorkId) ||
-    (manifest.schema_version >= 4 && corpus === "qts" && !validWorkId) ||
+    (requiresIdentity && !validWorkId) ||
     (record.text_id !== undefined && !validTextId) ||
-    (manifest.schema_version >= 4 && corpus === "qts" && !validTextId) ||
+    (requiresIdentity && !validTextId) ||
     (record.volume !== undefined && !validVolume) ||
     (manifest.schema_version >= 4 && corpus === "qts" && !validVolume) ||
     typeof record.title !== "string" ||
