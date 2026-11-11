@@ -8,6 +8,10 @@ import { createInterface } from "node:readline";
 import Database from "better-sqlite3";
 import OpenCC from "opencc-js";
 import {
+  installGuangyunDictionary,
+  installPingshuiyunDictionary,
+} from "./guangyun-data.mjs";
+import {
   collectNgrams,
   countCandidateNgrams,
   NGRAM_CANDIDATE_LIMIT,
@@ -18,6 +22,9 @@ const INDEX_SCHEMA_VERSION = 9;
 const FREQUENCY_DISPLAY_LIMIT = 100;
 
 const root = resolve(import.meta.dirname, "..");
+if (existsSync(join(root, ".env.local"))) {
+  process.loadEnvFile(join(root, ".env.local"));
+}
 const configuredManifest = process.env.SHICI_DATA_MANIFEST;
 const manifestPath = configuredManifest
   ? resolve(root, configuredManifest)
@@ -75,6 +82,26 @@ const corpusCatalog = [
 
 mkdirSync(dirname(outputPath), { recursive: true });
 mkdirSync(downloadsPath, { recursive: true });
+
+if (manifest.dictionaries?.guangyun) {
+  const assetPath = await obtainAsset(manifest.dictionaries.guangyun);
+  installGuangyunDictionary(assetPath, join(root, "data", "guangyun_lookup.sqlite"));
+  console.log("Installed Guangyun lookup dictionary");
+} else {
+  rmSync(join(root, "data", "guangyun_lookup.sqlite"), { force: true });
+  console.log("No Guangyun dictionary in this release; sound analysis is unavailable.");
+}
+if (manifest.dictionaries?.pingshuiyun) {
+  const assetPath = await obtainAsset(manifest.dictionaries.pingshuiyun);
+  installPingshuiyunDictionary(
+    assetPath,
+    join(root, "data", "pingshuiyun_lookup.sqlite"),
+  );
+  console.log("Installed Pingshuiyun lookup dictionary");
+} else {
+  rmSync(join(root, "data", "pingshuiyun_lookup.sqlite"), { force: true });
+  console.log("No Pingshuiyun dictionary in this release.");
+}
 
 const fingerprint = createHash("sha256")
   .update(String(INDEX_SCHEMA_VERSION))

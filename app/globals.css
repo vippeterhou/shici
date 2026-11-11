@@ -1146,6 +1146,296 @@ html[data-theme="dark"] .theme-icon-dark {
   margin: 0.25rem 0 0;
 }
 
+.prosody-controls {
+  background: var(--cp-bg-elevated);
+  border: 1px solid var(--cp-border);
+  border-radius: 0.625rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.prosody-controls-mobile {
+  display: none;
+}
+
+.prosody-switch {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 650;
+  justify-content: space-between;
+  min-height: 44px;
+  gap: 1rem;
+}
+
+.prosody-switch input,
+.prosody-book-toggle input {
+  appearance: none;
+  background: var(--cp-surface-soft);
+  border: 1px solid var(--cp-border-strong);
+  border-radius: 999px;
+  cursor: pointer;
+  flex-shrink: 0;
+  height: 1.5rem;
+  margin: 0;
+  position: relative;
+  width: 2.5rem;
+}
+
+.prosody-switch input::before,
+.prosody-book-toggle input::before {
+  background: var(--cp-text-muted);
+  border-radius: 50%;
+  content: "";
+  height: 1rem;
+  left: 0.1875rem;
+  position: absolute;
+  top: 0.1875rem;
+  width: 1rem;
+}
+
+.prosody-switch input:checked {
+  background: var(--cp-accent);
+  border-color: var(--cp-accent);
+}
+
+.prosody-switch input:checked::before {
+  background: var(--cp-accent-fg);
+}
+
+.prosody-switch input:checked::before,
+.prosody-book-toggle input:checked::before {
+  transform: translateX(1rem);
+}
+
+.prosody-switch input:disabled,
+.prosody-book-toggle input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.prosody-controls p {
+  color: var(--cp-text-muted);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  margin: 0.5rem 0 0;
+}
+
+.prosody-book-picker {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin-top: 0.35rem;
+}
+
+.prosody-book-label {
+  color: var(--cp-text-muted);
+  font-size: 0.72rem;
+}
+
+.prosody-book-picker[data-disabled="true"] {
+  opacity: 0.55;
+}
+
+.prosody-book-toggle {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  min-height: 36px;
+}
+
+.prosody-book-toggle span {
+  color: var(--cp-text-muted);
+  font-size: 0.72rem;
+}
+
+.prosody-book-toggle span[data-active="true"] {
+  color: var(--cp-text);
+  font-weight: 650;
+}
+
+.prosody-book-toggle:has(input:disabled) {
+  cursor: not-allowed;
+}
+
+.prosody-controls-desktop {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--cp-border);
+  border-radius: 0;
+  margin: 0;
+  padding: 0.9rem 0;
+}
+
+.prosody-controls-desktop .prosody-switch {
+  color: var(--cp-text-muted);
+  font-size: 0.72rem;
+  font-weight: 400;
+}
+
+.prosody-lines {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.prosody-couplet {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prosody-line {
+  align-items: end;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: max-content minmax(0, max-content);
+  justify-content: center;
+  min-width: 0;
+}
+
+.prosody-line-text {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 0;
+}
+
+.prosody-character {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 0.375rem;
+  color: var(--cp-text);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font: inherit;
+  gap: 0.25rem;
+  line-height: 1.5;
+  min-height: 44px;
+  min-width: 1.5em;
+  padding: 0.25rem 0.05rem;
+}
+
+.prosody-character:hover {
+  background: var(--cp-accent-soft);
+}
+
+.prosody-tone,
+.prosody-rhyme {
+  color: var(--cp-text-muted);
+  font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.625rem;
+  letter-spacing: 0;
+}
+
+.prosody-tone[data-tone="平"] {
+  color: var(--cp-accent);
+}
+
+.prosody-uncertain .prosody-tone {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.25em;
+}
+
+.prosody-punctuation {
+  line-height: 1.5;
+  padding-bottom: 0.25rem;
+}
+
+.prosody-rhyme {
+  align-items: flex-start;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 1.5;
+  min-height: 44px;
+  overflow-wrap: anywhere;
+  padding: 0.25rem 0;
+  text-align: left;
+  transform: translateY(-0.125rem);
+}
+
+.prosody-rhyme:hover {
+  color: var(--cp-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 760px) {
+  .prosody-couplet {
+    gap: 0.75rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.prosody-dialog {
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  border-radius: 16px;
+  box-shadow: var(--cp-shadow);
+  color: var(--cp-text);
+  max-height: 85dvh;
+  max-width: 30rem;
+  overflow-y: auto;
+  padding: 1.25rem;
+  width: calc(100% - 2rem);
+}
+
+.prosody-dialog::backdrop {
+  background: var(--cp-overlay);
+}
+
+.prosody-dialog-header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.prosody-dialog-header h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.prosody-close {
+  background: var(--cp-bg-elevated);
+  border: 1px solid var(--cp-border);
+  border-radius: 0.625rem;
+  color: var(--cp-text);
+  cursor: pointer;
+  flex-shrink: 0;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+}
+
+.prosody-reading-group h3 {
+  font-size: 0.9rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.prosody-reading-group ul {
+  line-height: 1.9;
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.prosody-reading-group p,
+.prosody-detail-note {
+  color: var(--cp-text-muted);
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
 .adjacent-nav {
   display: grid;
   gap: 1rem;
@@ -1595,6 +1885,16 @@ html[data-theme="dark"] .theme-icon-dark {
 
   .reader-meta {
     position: static;
+  }
+
+  .prosody-controls-desktop {
+    display: none;
+  }
+
+  .prosody-controls-mobile {
+    display: block;
+    margin: -1.5rem auto 2rem;
+    max-width: 28rem;
   }
 
   .reader-panel {

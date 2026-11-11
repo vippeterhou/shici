@@ -9,7 +9,14 @@
 - **首页与搜索**：统一的搜索入口与结果页，按关键词匹配题目、作者、词牌与正文；另索引《诗经》篇章信息，不支持意象、主题分类或风格的语义检索
 - **高级搜索**：选择文库后，筛选按作者、句式、句数、检索排列；作者支持下拉搜索和滚动多选，句数按文库实际数据单选；展示当前筛选结果的作品、作者、正文汉字与句数总数
 - **阅读**：拥有稳定 URL、结构信息与相邻作品导航的专注阅读页
+- **声韵分析**：《唐诗三百首》中五言、七言的四句与八句作品可切换逐字平仄和句末归韵，并在《广韵》与平水韵之间切换
 - **统计分析**：与高级搜索共用筛选条件，展示匹配作品的作者、句数、句式与正文语言频率分布
+
+声韵分析默认关闭，开关状态保存在浏览器中。平声标为平，上、去、入标为仄；
+兼有平仄候选时显示“平/仄”，未匹配显示“?”。句末字同样显示平仄，并单独列出归韵；
+归韵不同不直接判为不押韵。字形映射保留实际匹配字头，不把所有候选当作原字的确定读音，
+不使用普通话声调补缺，不自动判断合律。韵书选择同样保存在浏览器中；某套韵书缺失时仍可使用
+另一套，两套均缺失时开关禁用并说明原因。
 
 搜索使用 `/?q=关键词`，文库范围与页码分别保存在 `corpus`、`page` 参数中，
 支持分享链接与浏览器前进、后退。旧 `/search` 链接保留参数并重定向至首页。
@@ -85,7 +92,11 @@ pnpm run dev
 
 ```bash
 cd ../shici-data
-python3 scripts/build_release.py --version local
+python3 scripts/build_guangyun_lookup.py
+python3 scripts/build_pingshuiyun_lookup.py
+python3 scripts/build_release.py --version local \
+  --guangyun-lookup build/guangyun_lookup.sqlite \
+  --pingshuiyun-lookup build/pingshuiyun_lookup.sqlite
 
 cd ../shici
 SHICI_DATA_MANIFEST=../shici-data/dist/manifest.json \
@@ -94,6 +105,14 @@ SHICI_DATA_ASSET_DIRECTORY=../shici-data/dist \
 ```
 
 环境变量只影响本地构建，不会修改生产固定的 `data_release.json`。
+也可以将这两个变量写入本仓库的 `.env.local`（不提交），供后续 `dev`、`build:data`
+和 `build` 自动复用。命令行已设置的环境变量优先。
+
+两套韵书由清单的 `dictionaries.guangyun` 和 `dictionaries.pingshuiyun` 独立指定，
+沿用资源下载和 SHA-256 校验流程，分别复制为 `data/guangyun_lookup.sqlite` 和
+`data/pingshuiyun_lookup.sqlite`，不导入诗词索引。更新字典时即使诗词索引命中缓存，
+仍会安装清单指定的资源；清单缺少某套韵书时会移除其旧副本，避免混用数据版本。
+运行时只读查询当前诗涉及的字及其映射字头，前端仅接收该诗在可用韵书中的候选数据。
 
 ## 验证
 
