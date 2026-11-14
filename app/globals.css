@@ -1284,8 +1284,9 @@ html[data-theme="dark"] .theme-icon-dark {
 
 .prosody-couplet {
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
 }
 
 .prosody-line {
@@ -1300,6 +1301,10 @@ html[data-theme="dark"] .theme-icon-dark {
   flex-wrap: wrap;
   justify-content: center;
   min-width: 0;
+}
+
+.reader-body .prosody-plain-line {
+  margin: 0;
 }
 
 .prosody-character {

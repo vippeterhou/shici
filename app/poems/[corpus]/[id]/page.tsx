@@ -10,6 +10,7 @@ import {
 } from "@/lib/format";
 import { displayLineType } from "@/lib/format-combinations";
 import { getPoemProsody } from "@/lib/prosody-data";
+import { getPoemDisplayLines } from "@/lib/poem-lines";
 import { PoemBody, ProsodyControls } from "@/components/poem-prosody";
 
 interface PoemPageProps {
@@ -50,7 +51,8 @@ export default async function PoemPage({ params }: PoemPageProps) {
     notFound();
   }
   const adjacent = getAdjacentPoems(corpusKey, id);
-  const prosody = getPoemProsody(poem);
+  const displayLines = getPoemDisplayLines(poem);
+  const prosody = getPoemProsody(poem, displayLines);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CreativeWork",
@@ -86,7 +88,12 @@ export default async function PoemPage({ params }: PoemPageProps) {
           <h1 className="reader-title">{poem.title}</h1>
           <p className="reader-author">{poem.author}</p>
           {prosody ? <ProsodyControls analysis={prosody} placement="mobile" /> : null}
-          <PoemBody key={poem.id} paragraphs={poem.paragraphs} analysis={prosody} />
+          <PoemBody
+            key={poem.id}
+            paragraphs={poem.paragraphs}
+            lines={displayLines}
+            analysis={prosody}
+          />
           <nav className="adjacent-nav" aria-label="相邻作品">
             {adjacent.previous ? (
               <Link

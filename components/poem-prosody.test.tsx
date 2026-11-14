@@ -18,10 +18,26 @@ const pingshuiyun: ProsodyBook = {
 describe("prosody reader", () => {
   it("preserves ordinary reading before the switch is enabled", () => {
     const html = renderToStaticMarkup(
-      <PoemBody paragraphs={["牀前明月光，", "疑是地上霜。"]} analysis={null} />,
+      <PoemBody
+        paragraphs={["牀前明月光，", "疑是地上霜。"]}
+        lines={null}
+        analysis={null}
+      />,
     );
     expect(html).toContain("<p>牀前明月光，</p><p>疑是地上霜。</p>");
     expect(html).not.toContain("prosody-character");
+  });
+
+  it("uses structural lines for the default couplet layout", () => {
+    const html = renderToStaticMarkup(
+      <PoemBody
+        paragraphs={["一一一一一，二二二二二。三三三三三，四四四四四。"]}
+        lines={["一一一一一，", "二二二二二。", "三三三三三，", "四四四四四。"]}
+        analysis={null}
+      />,
+    );
+    expect(html.match(/class="prosody-couplet"/g)).toHaveLength(2);
+    expect(html).toContain('<p class="prosody-line-text prosody-plain-line">一一一一一，</p>');
   });
 
   it("distinguishes original polyphony from variant-search candidates", () => {

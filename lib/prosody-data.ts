@@ -6,12 +6,12 @@ import {
 } from "@/lib/db";
 import {
   formatPingshuiRhyme,
-  splitProsodyLines,
   supportsProsody,
   type CharacterReading,
   type ProsodyBook,
   type PoemProsody,
 } from "@/lib/prosody";
+import { getPoemDisplayLines } from "@/lib/poem-lines";
 import type { Poem } from "@/lib/types";
 import { isHanCharacter } from "@/scripts/ngrams.mjs";
 
@@ -30,21 +30,22 @@ interface PingshuiReadingRow {
   supplementKind: string;
 }
 
-export function getPoemProsody(poem: Poem): PoemProsody | null {
+export function getPoemProsody(
+  poem: Poem,
+  displayLines: string[] | null = getPoemDisplayLines(poem),
+): PoemProsody | null {
   if (!supportsProsody(poem)) {
     return null;
   }
-  const lines = splitProsodyLines(poem.paragraphs);
-  if (
-    lines.length !== poem.sentenceCount ||
-    lines.some((line) => [...line].filter(isHanCharacter).length !== poem.uniformSentenceLength)
-  ) {
+  if (!displayLines) {
     throw new Error(`Poem structure does not match prosody lines: ${poem.id}`);
   }
-  const characters = [...new Set(lines.flatMap((line) => [...line].filter(isHanCharacter)))];
+  const characters = [
+    ...new Set(displayLines.flatMap((line) => [...line].filter(isHanCharacter))),
+  ];
   const books = [
-    readGuangyunBook(characters, lines),
-    readPingshuiyunBook(characters, lines),
+    readGuangyunBook(characters, displayLines),
+    readPingshuiyunBook(characters, displayLines),
   ].filter((book): book is ProsodyBook => book !== null);
   if (!books.length) {
     return {

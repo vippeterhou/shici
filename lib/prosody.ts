@@ -1,5 +1,4 @@
 import type { Poem } from "@/lib/types";
-import { isHanCharacter } from "@/scripts/ngrams.mjs";
 
 export type HistoricalTone = "平" | "上" | "去" | "入";
 export type RhymeBookKey = "guangyun" | "pingshuiyun";
@@ -42,14 +41,6 @@ export function supportsProsody(
   return (poem.corpus === "ts300" || poem.corpus === "qts" || poem.corpus === "qss") &&
     (poem.uniformSentenceLength === 5 || poem.uniformSentenceLength === 7) &&
     (poem.sentenceCount === 4 || poem.sentenceCount === 8);
-}
-
-export function splitProsodyLines(paragraphs: string[]): string[] {
-  return paragraphs.flatMap((paragraph) =>
-    (paragraph.match(/[^，。！？!?；：:;\n]+[，。！？!?；：:;]*/gu) ?? [])
-      .map((line) => line.trim())
-      .filter((line) => [...line].some(isHanCharacter)),
-  );
 }
 
 export function toneLabel(readings: CharacterReading[]): "平" | "仄" | "平/仄" | "?" {

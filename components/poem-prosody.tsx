@@ -28,6 +28,13 @@ function createStorageSubscription(changeEventName: string) {
 const subscribe = createStorageSubscription(changeEvent);
 const subscribeBook = createStorageSubscription(bookChangeEvent);
 
+function groupCouplets<T>(lines: T[]): T[][] {
+  return Array.from(
+    { length: Math.ceil(lines.length / 2) },
+    (_, index) => lines.slice(index * 2, index * 2 + 2),
+  );
+}
+
 function useProsodyEnabled() {
   return useSyncExternalStore(
     subscribe,
@@ -110,9 +117,11 @@ export function ProsodyControls({
 
 export function PoemBody({
   paragraphs,
+  lines,
   analysis,
 }: {
   paragraphs: string[];
+  lines: string[] | null;
   analysis: PoemProsody | null;
 }) {
   const enabled = useProsodyEnabled();
@@ -133,6 +142,23 @@ export function PoemBody({
   }, [selected, annotated]);
 
   if (!annotated) {
+    if (lines) {
+      return (
+        <div className="reader-body reader-body-prosody">
+          <div className="prosody-lines">
+            {groupCouplets(lines).map((couplet, coupletIndex) => (
+              <div className="prosody-couplet" key={coupletIndex}>
+                {couplet.map((line, lineIndex) => (
+                  <div className="prosody-line" key={coupletIndex * 2 + lineIndex}>
+                    <p className="prosody-line-text prosody-plain-line">{line}</p>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    }
     return (
       <div className="reader-body">
         {paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
@@ -140,10 +166,7 @@ export function PoemBody({
     );
   }
 
-  const couplets = Array.from(
-    { length: Math.ceil(activeBook.lines.length / 2) },
-    (_, index) => activeBook.lines.slice(index * 2, index * 2 + 2),
-  );
+  const couplets = groupCouplets(activeBook.lines);
 
   return (
     <>

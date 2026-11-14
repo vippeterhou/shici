@@ -1,7 +1,8 @@
 import Database from "better-sqlite3";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { getPoemProsody } from "@/lib/prosody-data";
-import { rhymeLabels, splitProsodyLines, supportsProsody, toneLabel } from "@/lib/prosody";
+import { rhymeLabels, supportsProsody, toneLabel } from "@/lib/prosody";
+import { getPoemDisplayLines, splitPoemLines } from "@/lib/poem-lines";
 import type { Poem } from "@/lib/types";
 
 vi.mock("server-only", () => ({}));
@@ -89,8 +90,21 @@ describe("poem prosody", () => {
   });
 
   it("splits paired sentences and retains punctuation and supplementary characters", () => {
-    expect(splitProsodyLines(["𠋫清，明月。\n", "上山！下海？"])).toEqual([
+    expect(splitPoemLines(["𠋫清，明月。\n", "上山！下海？"])).toEqual([
       "𠋫清，", "明月。", "上山！", "下海？",
+    ]);
+  });
+
+  it("derives reliable display lines without changing source paragraphs", () => {
+    const value = poem({
+      corpus: "qts",
+      paragraphs: ["清清清清瀟，清清清清思。清清清清霜，清清清清蝴。"],
+    });
+    expect(getPoemDisplayLines(value)).toEqual([
+      "清清清清瀟，", "清清清清思。", "清清清清霜，", "清清清清蝴。",
+    ]);
+    expect(value.paragraphs).toEqual([
+      "清清清清瀟，清清清清思。清清清清霜，清清清清蝴。",
     ]);
   });
 
