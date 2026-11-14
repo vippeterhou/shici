@@ -39,7 +39,7 @@ export type PoemProsody =
 export function supportsProsody(
   poem: Pick<Poem, "corpus" | "uniformSentenceLength" | "sentenceCount">,
 ): boolean {
-  return poem.corpus === "ts300" &&
+  return (poem.corpus === "ts300" || poem.corpus === "qts" || poem.corpus === "qss") &&
     (poem.uniformSentenceLength === 5 || poem.uniformSentenceLength === 7) &&
     (poem.sentenceCount === 4 || poem.sentenceCount === 8);
 }

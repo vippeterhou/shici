@@ -66,14 +66,24 @@ afterEach(() => {
 
 describe("poem prosody", () => {
   it.each([[5, 4], [5, 8], [7, 4], [7, 8]])(
-    "supports only the requested Tang 300 structures: %i by %i",
+    "supports the requested regulated-verse structures: %i by %i",
     (uniformSentenceLength, sentenceCount) => {
       expect(supportsProsody(poem({ uniformSentenceLength, sentenceCount }))).toBe(true);
+      expect(supportsProsody(poem({
+        corpus: "qts",
+        uniformSentenceLength,
+        sentenceCount,
+      }))).toBe(true);
+      expect(supportsProsody(poem({
+        corpus: "qss",
+        uniformSentenceLength,
+        sentenceCount,
+      }))).toBe(true);
     },
   );
 
   it("leaves other corpora and structures untouched", () => {
-    expect(getPoemProsody(poem({ corpus: "qts" }))).toBeNull();
+    expect(getPoemProsody(poem({ corpus: "qsc" }))).toBeNull();
     expect(getPoemProsody(poem({ sentenceCount: 12 }))).toBeNull();
     expect(getPoemProsody(poem({ uniformSentenceLength: null }))).toBeNull();
   });

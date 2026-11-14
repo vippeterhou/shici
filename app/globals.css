@@ -1289,10 +1289,7 @@ html[data-theme="dark"] .theme-icon-dark {
 }
 
 .prosody-line {
-  align-items: end;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: max-content minmax(0, max-content);
+  display: flex;
   justify-content: center;
   min-width: 0;
 }
@@ -1348,6 +1345,12 @@ html[data-theme="dark"] .theme-icon-dark {
   padding-bottom: 0.25rem;
 }
 
+.prosody-ending {
+  align-items: flex-end;
+  border-radius: 0.375rem;
+  display: inline-flex;
+}
+
 .prosody-rhyme {
   align-items: flex-start;
   background: transparent;
@@ -1360,15 +1363,19 @@ html[data-theme="dark"] .theme-icon-dark {
   line-height: 1.5;
   min-height: 44px;
   overflow-wrap: anywhere;
-  padding: 0.25rem 0;
+  padding: 0.25rem 0.1rem;
   text-align: left;
   transform: translateY(-0.125rem);
 }
 
-.prosody-rhyme:hover {
-  color: var(--cp-accent);
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
+.prosody-ending:hover,
+.prosody-ending:focus-within {
+  background: var(--cp-accent-soft);
+}
+
+.prosody-ending:hover .prosody-character,
+.prosody-ending:focus-within .prosody-character {
+  background: transparent;
 }
 
 @media (max-width: 760px) {

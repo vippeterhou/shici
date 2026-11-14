@@ -152,7 +152,8 @@ export function PoemBody({
           {couplets.map((couplet, coupletIndex) => (
             <div className="prosody-couplet" key={coupletIndex}>
               {couplet.map((line, lineIndex) => {
-                const ending = line.tokens.findLast((token) => token.readings !== null)!;
+                const endingIndex = line.tokens.findLastIndex((token) => token.readings !== null);
+                const ending = line.tokens[endingIndex];
                 const rhymes = rhymeLabels(ending.readings!);
                 return (
                   <div className="prosody-line" key={coupletIndex * 2 + lineIndex}>
@@ -166,7 +167,7 @@ export function PoemBody({
                           );
                         }
                         const tone = toneLabel(token.readings);
-                        return (
+                        const character = (
                           <button
                             type="button"
                             className={`prosody-character${tone === "平/仄" || tone === "?" ? " prosody-uncertain" : ""}`}
@@ -179,17 +180,25 @@ export function PoemBody({
                             <span className="prosody-glyph">{token.character}</span>
                           </button>
                         );
+                        if (tokenIndex !== endingIndex) {
+                          return character;
+                        }
+                        return (
+                          <span className="prosody-ending" key={tokenIndex}>
+                            {character}
+                            <button
+                              type="button"
+                              className="prosody-rhyme"
+                              aria-label={`句末字${ending.character}：${rhymes.join("、")}，查看声韵候选`}
+                              aria-haspopup="dialog"
+                              onClick={() => setSelected({ token: ending, book: activeBook })}
+                            >
+                              {rhymes.map((rhyme) => <span key={rhyme}>{rhyme}</span>)}
+                            </button>
+                          </span>
+                        );
                       })}
                     </div>
-                    <button
-                      type="button"
-                      className="prosody-rhyme"
-                      aria-label={`句末字${ending.character}：${rhymes.join("、")}，查看声韵候选`}
-                      aria-haspopup="dialog"
-                      onClick={() => setSelected({ token: ending, book: activeBook })}
-                    >
-                      {rhymes.map((rhyme) => <span key={rhyme}>{rhyme}</span>)}
-                    </button>
                   </div>
                 );
               })}
