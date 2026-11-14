@@ -147,13 +147,12 @@ export function PoemBody({
         <div className="reader-body reader-body-prosody">
           <div className="prosody-lines">
             {groupCouplets(lines).map((couplet, coupletIndex) => (
-              <div className="prosody-couplet" key={coupletIndex}>
-                {couplet.map((line, lineIndex) => (
-                  <div className="prosody-line" key={coupletIndex * 2 + lineIndex}>
-                    <p className="prosody-line-text prosody-plain-line">{line}</p>
-                  </div>
-                ))}
-              </div>
+              <p
+                className="prosody-couplet prosody-plain-couplet"
+                key={coupletIndex}
+              >
+                {couplet.join("")}
+              </p>
             ))}
           </div>
         </div>

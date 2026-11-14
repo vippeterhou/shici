@@ -36,8 +36,8 @@ describe("prosody reader", () => {
         analysis={null}
       />,
     );
-    expect(html.match(/class="prosody-couplet"/g)).toHaveLength(2);
-    expect(html).toContain('<p class="prosody-line-text prosody-plain-line">一一一一一，</p>');
+    expect(html.match(/prosody-plain-couplet/g)).toHaveLength(2);
+    expect(html).toContain("一一一一一，二二二二二。");
   });
 
   it("distinguishes original polyphony from variant-search candidates", () => {

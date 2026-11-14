@@ -1303,8 +1303,10 @@ html[data-theme="dark"] .theme-icon-dark {
   min-width: 0;
 }
 
-.reader-body .prosody-plain-line {
+.reader-body .prosody-plain-couplet {
+  display: block;
   margin: 0;
+  text-align: center;
 }
 
 .prosody-character {
@@ -1317,11 +1319,11 @@ html[data-theme="dark"] .theme-icon-dark {
   display: inline-flex;
   flex-direction: column;
   font: inherit;
-  gap: 0.25rem;
-  line-height: 1.5;
-  min-height: 44px;
+  gap: 0.1rem;
+  line-height: 1.35;
+  min-height: 2.25em;
   min-width: 1.5em;
-  padding: 0.25rem 0.05rem;
+  padding: 0;
 }
 
 .prosody-character:hover {
@@ -1368,7 +1370,7 @@ html[data-theme="dark"] .theme-icon-dark {
   line-height: 1.5;
   min-height: 44px;
   overflow-wrap: anywhere;
-  padding: 0.25rem 0.1rem;
+  padding: 0.125rem 0.05rem;
   text-align: left;
   transform: translateY(-0.125rem);
 }
