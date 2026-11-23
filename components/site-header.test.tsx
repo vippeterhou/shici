@@ -3,7 +3,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { SiteHeader } from "./site-header";
 
-const navigation = vi.hoisted(() => ({ pendingHref: "" }));
+const navigation = vi.hoisted(() => ({ pendingHref: "", pathname: "/", searchParams: "" }));
 
 vi.mock("next/link", async () => {
   const { createContext, createElement, useContext } = await import("react");
@@ -30,8 +30,8 @@ vi.mock("next/link", async () => {
 });
 
 vi.mock("next/navigation", () => ({
-  usePathname: () => "/",
-  useSearchParams: () => new URLSearchParams(),
+  usePathname: () => navigation.pathname,
+  useSearchParams: () => new URLSearchParams(navigation.searchParams),
 }));
 
 vi.mock("@/components/filter-navigation", () => ({
@@ -44,9 +44,23 @@ vi.mock("@/components/theme-toggle", () => ({
 
 afterEach(() => {
   navigation.pendingHref = "";
+  navigation.pathname = "/";
+  navigation.searchParams = "";
 });
 
 describe("navigation feedback", () => {
+  it("links to poetry rhymes without carrying corpus filters and marks it active", () => {
+    navigation.pathname = "/rhymes";
+    navigation.searchParams = "q=风";
+    const html = renderToStaticMarkup(<SiteHeader release="v3.2.0" />);
+    expect(html).toContain('href="/rhymes" aria-current="page"');
+    expect(html).toContain("诗韵");
+    expect(html).not.toContain('href="/rhymes?');
+    expect(html).toContain('href="/corpora"');
+    expect(html).toContain('href="/insights"');
+    expect(html).not.toContain("?q=");
+  });
+
   it("keeps idle navigation free of loading indicators", () => {
     const html = renderToStaticMarkup(<SiteHeader release="v2.2.0" />);
     expect(html).not.toContain('aria-busy="true"');

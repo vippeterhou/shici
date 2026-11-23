@@ -3,7 +3,7 @@ import { getCorpora } from "@/lib/data";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/corpora", "/insights"];
+  const staticRoutes = ["", "/corpora", "/insights", "/rhymes"];
   return [
     ...staticRoutes.map((route) => ({
       url: `${siteUrl}${route}`,

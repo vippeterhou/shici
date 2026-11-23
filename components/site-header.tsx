@@ -11,6 +11,7 @@ const navigation = [
   { href: "/", label: "首页" },
   { href: "/corpora", label: "高级搜索" },
   { href: "/insights", label: "统计分析" },
+  { href: "/rhymes", label: "诗韵" },
 ];
 
 export function SiteHeader({ release }: { release: string }) {
@@ -57,6 +58,7 @@ function PrimaryNavigation({
   const pathname = usePathname();
   const { draft } = useFilterNavigation();
   const activeDraft = draft?.path === pathname ? draft : null;
+  const isRhymePage = pathname === "/rhymes" || pathname.startsWith("/rhymes/");
   return (
     <nav className="primary-nav" aria-label="主要导航">
       {navigation.map((item) => {
@@ -67,7 +69,7 @@ function PrimaryNavigation({
         const href = item.href === "/corpora" || item.href === "/insights"
           ? activeDraft
             ? filterHref(item.href, activeDraft.corpus, activeDraft.values)
-            : parameters
+            : parameters && !isRhymePage
               ? filterNavigationHref(item.href, pathname, parameters)
               : item.href
           : item.href;

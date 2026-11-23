@@ -1,10 +1,14 @@
 "use client";
 
 import Form from "next/form";
-import { ArrowRight, Search } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ArrowRight, Search, X } from "lucide-react";
+import { useRef, useState } from "react";
 import { useFormStatus } from "react-dom";
 
 interface SearchFormProps {
+  action?: string;
+  clearHref?: string;
   defaultValue?: string;
   corpus?: string;
   label?: string;
@@ -12,6 +16,8 @@ interface SearchFormProps {
 }
 
 export function SearchForm({
+  action = "/",
+  clearHref,
   defaultValue = "",
   corpus,
   label = "搜索题目、作者、词牌或正文关键词",
@@ -20,7 +26,7 @@ export function SearchForm({
   return (
     <Form
       className="search-form"
-      action="/"
+      action={action}
       scroll={false}
       role="search"
       onSubmit={(event) => {
@@ -33,20 +39,86 @@ export function SearchForm({
       <label className="sr-only" htmlFor="search">
         {label}
       </label>
+      {clearHref ? (
+        <ClearableSearchInput
+          defaultValue={defaultValue}
+          placeholder={placeholder}
+          clearHref={clearHref}
+        />
+      ) : (
+        <input
+          key={defaultValue}
+          id="search"
+          name="q"
+          type="search"
+          enterKeyHint="search"
+          defaultValue={defaultValue}
+          placeholder={placeholder}
+          autoComplete="off"
+          maxLength={80}
+        />
+      )}
+      {corpus ? <input type="hidden" name="corpus" value={corpus} /> : null}
+      <SearchSubmit />
+    </Form>
+  );
+}
+
+function ClearableSearchInput({
+  defaultValue,
+  placeholder,
+  clearHref,
+}: {
+  defaultValue: string;
+  placeholder: string;
+  clearHref: string;
+}) {
+  const [query, setQuery] = useState(defaultValue);
+  const [previousDefaultValue, setPreviousDefaultValue] = useState(defaultValue);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const router = useRouter();
+
+  if (previousDefaultValue !== defaultValue) {
+    setPreviousDefaultValue(defaultValue);
+    setQuery(defaultValue);
+  }
+
+  function clearSearch() {
+    setQuery("");
+    inputRef.current?.focus();
+    router.replace(clearHref, { scroll: false });
+  }
+
+  return (
+    <div className="search-input-field">
       <input
-        key={defaultValue}
         id="search"
         name="q"
         type="search"
         enterKeyHint="search"
-        defaultValue={defaultValue}
+        value={query}
+        onChange={(event) => {
+          setQuery(event.target.value);
+          if (!event.target.value && defaultValue) {
+            router.replace(clearHref, { scroll: false });
+          }
+        }}
+        ref={inputRef}
         placeholder={placeholder}
         autoComplete="off"
         maxLength={80}
       />
-      {corpus ? <input type="hidden" name="corpus" value={corpus} /> : null}
-      <SearchSubmit />
-    </Form>
+      <button
+        className="search-clear"
+        type="button"
+        hidden={!query}
+        aria-label="清除搜索"
+        title="清除搜索"
+        onClick={clearSearch}
+      >
+        <X aria-hidden />
+      </button>
+    </div>
   );
 }
 
