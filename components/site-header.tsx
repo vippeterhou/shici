@@ -94,10 +94,6 @@ function NavigationLabel({ label }: { label: string }) {
   return (
     <span className="primary-nav-label" aria-busy={pending}>
       {label}
-      {pending && <span className="navigation-progress" aria-hidden="true" />}
-      <span className="sr-only" role="status">
-        {pending ? `正在打开${label}…` : ""}
-      </span>
     </span>
   );
 }

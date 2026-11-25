@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "@/app/globals.css";
+import { PageLoading } from "@/components/page-loading";
 import { SiteHeader } from "@/components/site-header";
 import { FilterNavigationProvider } from "@/components/filter-navigation";
 import { getReleaseVersion } from "@/lib/data";
@@ -67,7 +68,12 @@ export default function RootLayout({
         <FilterNavigationProvider>
           <div className="site-frame">
             <SiteHeader release={getReleaseVersion()} />
-            <main id="main-content">{children}</main>
+            <main id="main-content">
+              <div className="navigation-placeholder">
+                <PageLoading />
+              </div>
+              {children}
+            </main>
           </div>
         </FilterNavigationProvider>
       </body>

@@ -275,7 +275,6 @@ a {
   color: var(--cp-text-muted);
   font-size: 0.93rem;
   padding: 0.6rem 0.85rem;
-  position: relative;
 }
 
 .primary-nav a:hover,
@@ -285,20 +284,118 @@ a {
   color: var(--cp-accent);
 }
 
-.navigation-progress {
-  animation: navigation-pulse 1s ease-in-out infinite;
-  background: var(--cp-accent);
-  border-radius: 2px;
-  bottom: 0.2rem;
-  height: 2px;
-  left: 0.6rem;
+.navigation-placeholder {
+  --loading-animation-state: paused;
+  height: 0;
+  overflow: hidden;
   position: absolute;
-  right: 0.6rem;
+  visibility: hidden;
+  width: 100%;
 }
 
-@keyframes navigation-pulse {
+.site-frame:has(.primary-nav-label[aria-busy="true"], main > .route-loading) main {
+  align-items: center;
+  display: grid;
+}
+
+.site-frame:has(.primary-nav-label[aria-busy="true"], main > .route-loading) main > .navigation-placeholder {
+  --loading-animation-state: running;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  visibility: visible;
+}
+
+.site-frame:has(.primary-nav-label[aria-busy="true"], main > .route-loading) main > :not(.navigation-placeholder) {
+  display: none;
+}
+
+.page-loading {
+  padding-block: 2rem;
+  width: 100%;
+}
+
+.poetry-loader {
+  display: grid;
+  gap: 1.75rem;
+  justify-items: center;
+}
+
+.poetry-loader-art {
+  display: grid;
+  height: 7rem;
+  place-items: center;
+  position: relative;
+  width: 7rem;
+}
+
+.poetry-loader-character {
+  animation: ink-breathe 3s ease-in-out infinite;
+  animation-play-state: var(--loading-animation-state, paused);
+  color: var(--cp-accent);
+  font-family: var(--cp-poem-font);
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.poetry-loader-orbit {
+  animation: ink-orbit 6s linear infinite;
+  animation-play-state: var(--loading-animation-state, paused);
+  border: 1px solid var(--cp-accent-soft);
+  border-radius: 50%;
+  border-top-color: var(--cp-accent);
+  inset: 0;
+  position: absolute;
+}
+
+.poetry-loader-orbit span {
+  background: var(--cp-accent);
+  border-radius: 60% 40% 55% 45%;
+  height: 0.4rem;
+  left: 50%;
+  position: absolute;
+  top: -0.2rem;
+  width: 0.4rem;
+}
+
+.poetry-loader-orbit span:nth-child(2) {
+  height: 0.3rem;
+  left: 7%;
+  opacity: 0.5;
+  top: 72%;
+  width: 0.3rem;
+}
+
+.poetry-loader-orbit span:nth-child(3) {
+  height: 0.2rem;
+  left: 91%;
+  opacity: 0.3;
+  top: 75%;
+  width: 0.2rem;
+}
+
+.poetry-loader-caption {
+  color: var(--cp-text-muted);
+  font-family: var(--cp-poem-font);
+  font-size: 0.875rem;
+  letter-spacing: 0.35em;
+  text-indent: 0.35em;
+}
+
+@keyframes ink-orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ink-breathe {
+  0%, 100% {
+    opacity: 0.55;
+    transform: scale(0.96);
+  }
   50% {
-    opacity: 0.3;
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
@@ -2377,7 +2474,8 @@ html[data-theme="dark"] .theme-icon-dark {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .navigation-progress {
+  .poetry-loader-orbit,
+  .poetry-loader-character {
     animation: none;
   }
 
