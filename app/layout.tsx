@@ -76,6 +76,12 @@ export default function RootLayout({
             </main>
           </div>
         </FilterNavigationProvider>
+        <Script
+          async
+          src="https://beacon.houbitan.com/t.js"
+          data-site="c7e8b882-928e-4e12-bf42-d937e28797af"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
